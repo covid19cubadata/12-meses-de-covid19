@@ -1,2 +1,3 @@
 data/countries.geojson
 utils/owid-covid-data.csv
+utils/timeseries.json

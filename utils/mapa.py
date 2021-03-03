@@ -3,57 +3,71 @@ import io
 import json
 import os
 from collections import defaultdict
-from datetime import datetime
 
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 
 
 def get_countries_incidence():
-    #data2 = requests.get('https://covid.ourworldindata.org/data/owid-covid-data.csv').content
-    data2 = requests.get(
-        'http://localhost:8000/utils/owid-covid-data.csv').content
-    data2 = io.StringIO(data2.decode('utf8'))
-    reader = csv.reader(data2)
-    data = defaultdict(lambda: defaultdict(list))
-    headers = next(reader)
-    headers = {j: i for i, j in enumerate(headers)}
-    for i in reader:
-        iso_code = i[headers['iso_code']]
-        if 'OWID' in iso_code:
-            continue
-        total_cases = i[headers['total_cases']]
-        population = i[headers['population']]
-        date = i[headers['date']]
-        if len(data[iso_code]['population']) == 0:
-            try:
-                data[iso_code]['population'].append(int(float(population)))
-            except Exception:
-                print(i)
-                raise
-        data[iso_code]['date'].append(date)
-        if total_cases:
-            data[iso_code]['total_cases'].append(int(float(total_cases)))
-        elif len(data[iso_code]['total_cases']) > 0:
-            data[iso_code]['total_cases'].append(
-                data[iso_code]['total_cases'][-1])
-        else:
-            data[iso_code]['total_cases'].append(0)
+    if not os.path.exists('data/counties-codes.json'):
+        data2 = requests.get(
+            'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
+        # data2 = requests.get('http://localhost:8000/utils/owid-covid-data.csv').content
+        data2 = io.StringIO(data2.decode('utf8'))
+        reader = csv.reader(data2)
+        data = defaultdict(lambda: dict())
+        headers = next(reader)
+        headers = {j: i for i, j in enumerate(headers)}
+        for i in reader:
+            iso_code = i[headers['iso_code']]
+            population = i[headers['population']]
+            if not population and population != 0:
+                continue
+            name = i[headers['location']]
+            if 'population' not in data[name]:
+                data[name] = {
+                    'population': int(float(population)),
+                    'code': iso_code
+                }
+        data['Burma'] = data['Myanmar']
+        data['Cabo Verde'] = data['Cape Verde']
+        data['Congo (Kinshasa)'] = data['Congo']
+        data['Holy See'] = data['Vatican']
+        data['Korea, South'] = data['South Korea']
+        data['Micronesia'] = data['Micronesia (country)']
+        data['Taiwan*'] = data['Taiwan']
+        data['Timor-Leste'] = data['Timor']
+        data['US'] = data['United States']
+        countries = data
 
-    incidences = defaultdict(list)
-    for iso_code, country in data.items():
-        date = datetime.fromisoformat(country['date'][0])
-        cases = country['total_cases'][0]
-        for currentCases, currentDate in zip(country['total_cases'][1:], country['date'][1:]):
-            currentDate = datetime.fromisoformat(currentDate)
-            if (currentDate-date).days >= 7:
-                incidence = (currentCases - cases) * \
-                    10**5/country['population'][0]
-                incidences[iso_code].append(incidence)
-                date = currentDate
-                cases = currentCases
+        with open('data/counties-codes.json', 'w') as f:
+            json.dump(data, f, indent=1)
+    else:
+        countries = json.load(open('data/counties-codes.json'))
+
+    data = requests.get(
+        'https://pomber.github.io/covid19/timeseries.json').json()
+    # data = json.load(open('utils/timeseries.json'))
+
+    incidences = defaultdict(lambda: list())
+
+    for country, confirmeds in data.items():
+        if country == "Congo (Brazzaville)" or country == "Diamond Princess" or country == 'MS Zaandam' or country == 'West Bank and Gaza':
+            continue
+        confirmed = confirmeds[0]['confirmed']
+        try:
+            population = countries[country]['population']
+        except KeyError:
+            print(country)
+            raise
+        code = countries[country]['code']
+        for n, i in enumerate(map(lambda x: x['confirmed'], confirmeds)):
+            if n % 7 == 0:
+                incidence = (i-confirmed)*10**5/population
+                confirmed = i
+                incidences[code].append(incidence)
 
     with open('data/incidences.json', 'w') as f:
-        json.dump(incidences, f, indent=2)
+        json.dump(incidences, f, indent=1)
 
 
 if __name__ == "__main__":
