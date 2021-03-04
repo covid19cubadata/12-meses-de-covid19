@@ -9,9 +9,10 @@ import requests  # noqa We are just importing this to prove the dependency insta
 
 def get_countries_incidence():
     if not os.path.exists('data/counties-codes.json'):
+        # data2 = requests.get(
+        #    'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
         data2 = requests.get(
-            'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
-        # data2 = requests.get('http://localhost:8000/utils/owid-covid-data.csv').content
+            'http://localhost:8000/utils/owid-covid-data.csv').content
         data2 = io.StringIO(data2.decode('utf8'))
         reader = csv.reader(data2)
         data = defaultdict(lambda: dict())
@@ -41,12 +42,20 @@ def get_countries_incidence():
 
         with open('data/counties-codes.json', 'w') as f:
             json.dump(data, f, indent=1)
+
+        code_countries = {j['code']: {
+            'population': int(float(population)),
+            'name': i
+        } for i, j in countries.items()}
+
+        with open('data/codes-countries.json', 'w') as f:
+            json.dump(code_countries, f, indent=1)
     else:
         countries = json.load(open('data/counties-codes.json'))
 
-    data = requests.get(
-        'https://pomber.github.io/covid19/timeseries.json').json()
-    # data = json.load(open('utils/timeseries.json'))
+    # data = requests.get(
+    #    'https://pomber.github.io/covid19/timeseries.json').json()
+    data = json.load(open('utils/timeseries.json'))
 
     incidences = defaultdict(lambda: list())
 
@@ -66,8 +75,12 @@ def get_countries_incidence():
                 confirmed = i
                 incidences[code].append(incidence)
 
-    with open('data/incidences.json', 'w') as f:
-        json.dump(incidences, f, indent=1)
+    countries = list(incidences.keys())
+    incidences_per_day = map(lambda v: {j: i for i, j in zip(
+        v, countries)}, zip(*(incidences.values())))
+
+    with open('data/incidences-per-day.json', 'w') as f:
+        json.dump(list(incidences_per_day), f, indent=1)
 
 
 if __name__ == "__main__":
