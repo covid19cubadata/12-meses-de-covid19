@@ -1,43 +1,69 @@
-$.getJSON('https://covid.ourworldindata.org/data/latest/owid-covid-latest.json', function(data){
+$.getJSON('https://covid.ourworldindata.org/data/latest/owid-covid-latest.json', function (data) {
     'use-strict';
 
-    function filter(region, values, x, y){
+    function filter(region, values, acc) {
         let population = values["population"];
-        let cases      = values["total_cases"];
-        let deaths     = values["total_deaths"];
-        let morthality = deaths !== 0 ? deaths/population : 0;
-        let fatality   = (deaths !== 0) || (cases !== 0) ? deaths/cases : 0;
+        let cases = values["total_cases"];
+        let deaths = values["total_deaths"];
+        let morthality = deaths !== 0 ? deaths / population : 0;
+        let fatality = (deaths !== 0) || (cases !== 0) ? deaths / cases : 0;
 
-        if(!region.includes("OWID") && deaths != null && cases != null){
-            x.push(morthality);
-            y.push(fatality);
+        if (!region.includes("OWID") && deaths != null && cases != null) {
+            acc.push({ 'name': region, 'x': morthality, 'y': fatality })
         }
 
     }
 
-    let xLabel = ['xLabel']
-    let yLabel = ['yLabel']
+    let acc = [];
 
-    Object.keys(data).forEach(key => filter(key, data[key], xLabel, yLabel));
+    Object.keys(data).forEach(key => filter(key, data[key], acc));
 
-    console.log(xLabel);
-    console.log(yLabel);
+    var ctx = document.getElementById('deceasesComparison');
 
-    var chart = c3.generate({
-        bindto: '#deceasesComparisonDiv',
+    pointBackgroundColors = [];
+
+    var scatterChart = new Chart(ctx, {
+        type: 'scatter',
         data: {
-            xs: {
-                yLabel: 'xLabel'
+            datasets: [{
+                label: 'Scatter Dataset',
+                data: acc,
+                pointBackgroundColor: pointBackgroundColors
+            }]
+        },
+        options: {
+            scales: {
+                xAxes: [{
+                    type: 'linear',
+                    position: 'bottom'
+                }]
             },
-        columns: [
-            xLabel,
-            yLabel
-        ],
-        type: 'scatter'
+            tooltips: {
+                callbacks: {
+                    title: function (tooltipItem, all) {
+                        return [
+                            all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].name,
+                        ]
+                    },
+                    label: function (tooltipItem, all) {
+                        return [
+                            tooltipItem.value,
+                            tooltipItem.label
+                        ]
+                    }
+                }
+            }
         }
     });
 
+    for (i = 0; i < scatterChart.data.datasets[0].data.length; i++) {
+        if (scatterChart.data.datasets[0].data[i].name !== 'CUB') {
+            pointBackgroundColors.push("#0062ff");
+        } else {
+            pointBackgroundColors.push("#c40000");
+        }
+    }
+
+    scatterChart.update();
+
 });
-
-
-
