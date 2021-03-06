@@ -14,6 +14,7 @@ var world_map = L.map('world-map', {
   zoomSnap: 0.05,
 });
 world_map.zoomControl.setPosition('topright');
+
 var geojsonData = null;
 var geojson = null;
 var incidences = null;
@@ -27,9 +28,17 @@ $.slides = {
   data: {},
   timer: 500,
   isPaused: false,
+  begin_date: '',
+  end_date: '',
   _load: () => {
     $.slides.data = incidences[$.slides.slide];
+    $.slides.begin_date = incidences[$.slides.slide].begin_date.replace(
+      '-',
+      '/'
+    );
+    $.slides.end_date = incidences[$.slides.slide].end_date.replace('-', '/');
     updateMap();
+    updateWeek();
   },
   init: () => {
     $.slides.slide = 0;
@@ -84,8 +93,6 @@ function getColorMap(code) {
     const incidence = $.slides.data[code];
     if (incidence) {
       var opac = logx(factor, (incidence * factor) / tenpow);
-      //console.log(`${opac}\t${incidence}`);
-      //console.log(`${(factor * incidence) / tenpow}`);
       if (opac < 0.07) {
         opac = 0.07;
       }
@@ -113,6 +120,10 @@ function updateMap() {
     const style = styleMap(featureInstance.feature);
     featureInstance.setStyle(style);
   });
+}
+
+function updateWeek() {
+  $('#week').text(`${$.slides.begin_date} - ${$.slides.end_date}`);
 }
 
 $.when(

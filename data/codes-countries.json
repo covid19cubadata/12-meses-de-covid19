@@ -1,846 +1,846 @@
 {
  "AFG": {
-  "population": 14862927,
+  "population": 38928341,
   "name": "Afghanistan"
  },
  "OWID_AFR": {
-  "population": 14862927,
+  "population": 1340598113,
   "name": "Africa"
  },
  "ALB": {
-  "population": 14862927,
+  "population": 2877800,
   "name": "Albania"
  },
  "DZA": {
-  "population": 14862927,
+  "population": 43851043,
   "name": "Algeria"
  },
  "AND": {
-  "population": 14862927,
+  "population": 77265,
   "name": "Andorra"
  },
  "AGO": {
-  "population": 14862927,
+  "population": 32866268,
   "name": "Angola"
  },
  "AIA": {
-  "population": 14862927,
+  "population": 15002,
   "name": "Anguilla"
  },
  "ATG": {
-  "population": 14862927,
+  "population": 97928,
   "name": "Antigua and Barbuda"
  },
  "ARG": {
-  "population": 14862927,
+  "population": 45195777,
   "name": "Argentina"
  },
  "ARM": {
-  "population": 14862927,
+  "population": 2963234,
   "name": "Armenia"
  },
  "OWID_ASI": {
-  "population": 14862927,
+  "population": 4639847425,
   "name": "Asia"
  },
  "AUS": {
-  "population": 14862927,
+  "population": 25499881,
   "name": "Australia"
  },
  "AUT": {
-  "population": 14862927,
+  "population": 9006400,
   "name": "Austria"
  },
  "AZE": {
-  "population": 14862927,
+  "population": 10139175,
   "name": "Azerbaijan"
  },
  "BHS": {
-  "population": 14862927,
+  "population": 393248,
   "name": "Bahamas"
  },
  "BHR": {
-  "population": 14862927,
+  "population": 1701583,
   "name": "Bahrain"
  },
  "BGD": {
-  "population": 14862927,
+  "population": 164689383,
   "name": "Bangladesh"
  },
  "BRB": {
-  "population": 14862927,
+  "population": 287371,
   "name": "Barbados"
  },
  "BLR": {
-  "population": 14862927,
+  "population": 9449321,
   "name": "Belarus"
  },
  "BEL": {
-  "population": 14862927,
+  "population": 11589616,
   "name": "Belgium"
  },
  "BLZ": {
-  "population": 14862927,
+  "population": 397621,
   "name": "Belize"
  },
  "BEN": {
-  "population": 14862927,
+  "population": 12123198,
   "name": "Benin"
  },
  "BMU": {
-  "population": 14862927,
+  "population": 62273,
   "name": "Bermuda"
  },
  "BTN": {
-  "population": 14862927,
+  "population": 771612,
   "name": "Bhutan"
  },
  "BOL": {
-  "population": 14862927,
+  "population": 11673029,
   "name": "Bolivia"
  },
  "BIH": {
-  "population": 14862927,
+  "population": 3280815,
   "name": "Bosnia and Herzegovina"
  },
  "BWA": {
-  "population": 14862927,
+  "population": 2351625,
   "name": "Botswana"
  },
  "BRA": {
-  "population": 14862927,
+  "population": 212559409,
   "name": "Brazil"
  },
  "BRN": {
-  "population": 14862927,
+  "population": 437483,
   "name": "Brunei"
  },
  "BGR": {
-  "population": 14862927,
+  "population": 6948445,
   "name": "Bulgaria"
  },
  "BFA": {
-  "population": 14862927,
+  "population": 20903278,
   "name": "Burkina Faso"
  },
  "BDI": {
-  "population": 14862927,
+  "population": 11890781,
   "name": "Burundi"
  },
  "KHM": {
-  "population": 14862927,
+  "population": 16718971,
   "name": "Cambodia"
  },
  "CMR": {
-  "population": 14862927,
+  "population": 26545864,
   "name": "Cameroon"
  },
  "CAN": {
-  "population": 14862927,
+  "population": 37742157,
   "name": "Canada"
  },
  "CPV": {
-  "population": 14862927,
+  "population": 555988,
   "name": "Cabo Verde"
  },
  "CYM": {
-  "population": 14862927,
+  "population": 65720,
   "name": "Cayman Islands"
  },
  "CAF": {
-  "population": 14862927,
+  "population": 4829764,
   "name": "Central African Republic"
  },
  "TCD": {
-  "population": 14862927,
+  "population": 16425859,
   "name": "Chad"
  },
  "CHL": {
-  "population": 14862927,
+  "population": 19116209,
   "name": "Chile"
  },
  "CHN": {
-  "population": 14862927,
+  "population": 1439323774,
   "name": "China"
  },
  "COL": {
-  "population": 14862927,
+  "population": 50882884,
   "name": "Colombia"
  },
  "COM": {
-  "population": 14862927,
+  "population": 869595,
   "name": "Comoros"
  },
  "COG": {
-  "population": 14862927,
+  "population": 5518092,
   "name": "Congo (Kinshasa)"
  },
  "CRI": {
-  "population": 14862927,
+  "population": 5094114,
   "name": "Costa Rica"
  },
  "CIV": {
-  "population": 14862927,
+  "population": 26378275,
   "name": "Cote d'Ivoire"
  },
  "HRV": {
-  "population": 14862927,
+  "population": 4105268,
   "name": "Croatia"
  },
  "CUB": {
-  "population": 14862927,
+  "population": 11209628,
   "name": "Cuba"
  },
  "CYP": {
-  "population": 14862927,
+  "population": 875899,
   "name": "Cyprus"
  },
  "CZE": {
-  "population": 14862927,
+  "population": 10708982,
   "name": "Czechia"
  },
  "COD": {
-  "population": 14862927,
+  "population": 89561404,
   "name": "Democratic Republic of Congo"
  },
  "DNK": {
-  "population": 14862927,
+  "population": 5792203,
   "name": "Denmark"
  },
  "DJI": {
-  "population": 14862927,
+  "population": 988002,
   "name": "Djibouti"
  },
  "DMA": {
-  "population": 14862927,
+  "population": 71991,
   "name": "Dominica"
  },
  "DOM": {
-  "population": 14862927,
+  "population": 10847904,
   "name": "Dominican Republic"
  },
  "ECU": {
-  "population": 14862927,
+  "population": 17643060,
   "name": "Ecuador"
  },
  "EGY": {
-  "population": 14862927,
+  "population": 102334403,
   "name": "Egypt"
  },
  "SLV": {
-  "population": 14862927,
+  "population": 6486201,
   "name": "El Salvador"
  },
  "GNQ": {
-  "population": 14862927,
+  "population": 1402985,
   "name": "Equatorial Guinea"
  },
  "ERI": {
-  "population": 14862927,
+  "population": 3546427,
   "name": "Eritrea"
  },
  "EST": {
-  "population": 14862927,
+  "population": 1326539,
   "name": "Estonia"
  },
  "SWZ": {
-  "population": 14862927,
+  "population": 1160164,
   "name": "Eswatini"
  },
  "ETH": {
-  "population": 14862927,
+  "population": 114963583,
   "name": "Ethiopia"
  },
  "OWID_EUR": {
-  "population": 14862927,
+  "population": 748680069,
   "name": "Europe"
  },
  "OWID_EUN": {
-  "population": 14862927,
+  "population": 444919060,
   "name": "European Union"
  },
  "FRO": {
-  "population": 14862927,
+  "population": 48865,
   "name": "Faeroe Islands"
  },
  "FLK": {
-  "population": 14862927,
+  "population": 3483,
   "name": "Falkland Islands"
  },
  "FJI": {
-  "population": 14862927,
+  "population": 896444,
   "name": "Fiji"
  },
  "FIN": {
-  "population": 14862927,
+  "population": 5540718,
   "name": "Finland"
  },
  "FRA": {
-  "population": 14862927,
+  "population": 65273512,
   "name": "France"
  },
  "GAB": {
-  "population": 14862927,
+  "population": 2225728,
   "name": "Gabon"
  },
  "GMB": {
-  "population": 14862927,
+  "population": 2416664,
   "name": "Gambia"
  },
  "GEO": {
-  "population": 14862927,
+  "population": 3989175,
   "name": "Georgia"
  },
  "DEU": {
-  "population": 14862927,
+  "population": 83783945,
   "name": "Germany"
  },
  "GHA": {
-  "population": 14862927,
+  "population": 31072945,
   "name": "Ghana"
  },
  "GIB": {
-  "population": 14862927,
+  "population": 33691,
   "name": "Gibraltar"
  },
  "GRC": {
-  "population": 14862927,
+  "population": 10423056,
   "name": "Greece"
  },
  "GRL": {
-  "population": 14862927,
+  "population": 56772,
   "name": "Greenland"
  },
  "GRD": {
-  "population": 14862927,
+  "population": 112519,
   "name": "Grenada"
  },
  "GTM": {
-  "population": 14862927,
+  "population": 17915567,
   "name": "Guatemala"
  },
  "GGY": {
-  "population": 14862927,
+  "population": 67052,
   "name": "Guernsey"
  },
  "GIN": {
-  "population": 14862927,
+  "population": 13132792,
   "name": "Guinea"
  },
  "GNB": {
-  "population": 14862927,
+  "population": 1967998,
   "name": "Guinea-Bissau"
  },
  "GUY": {
-  "population": 14862927,
+  "population": 786559,
   "name": "Guyana"
  },
  "HTI": {
-  "population": 14862927,
+  "population": 11402533,
   "name": "Haiti"
  },
  "HND": {
-  "population": 14862927,
+  "population": 9904608,
   "name": "Honduras"
  },
  "HKG": {
-  "population": 14862927,
+  "population": 7496988,
   "name": "Hong Kong"
  },
  "HUN": {
-  "population": 14862927,
+  "population": 9660350,
   "name": "Hungary"
  },
  "ISL": {
-  "population": 14862927,
+  "population": 341250,
   "name": "Iceland"
  },
  "IND": {
-  "population": 14862927,
+  "population": 1380004385,
   "name": "India"
  },
  "IDN": {
-  "population": 14862927,
+  "population": 273523621,
   "name": "Indonesia"
  },
  "IRN": {
-  "population": 14862927,
+  "population": 83992953,
   "name": "Iran"
  },
  "IRQ": {
-  "population": 14862927,
+  "population": 40222503,
   "name": "Iraq"
  },
  "IRL": {
-  "population": 14862927,
+  "population": 4937796,
   "name": "Ireland"
  },
  "IMN": {
-  "population": 14862927,
+  "population": 85032,
   "name": "Isle of Man"
  },
  "ISR": {
-  "population": 14862927,
+  "population": 8655541,
   "name": "Israel"
  },
  "ITA": {
-  "population": 14862927,
+  "population": 60461828,
   "name": "Italy"
  },
  "JAM": {
-  "population": 14862927,
+  "population": 2961161,
   "name": "Jamaica"
  },
  "JPN": {
-  "population": 14862927,
+  "population": 126476458,
   "name": "Japan"
  },
  "JEY": {
-  "population": 14862927,
+  "population": 101073,
   "name": "Jersey"
  },
  "JOR": {
-  "population": 14862927,
+  "population": 10203140,
   "name": "Jordan"
  },
  "KAZ": {
-  "population": 14862927,
+  "population": 18776707,
   "name": "Kazakhstan"
  },
  "KEN": {
-  "population": 14862927,
+  "population": 53771300,
   "name": "Kenya"
  },
  "OWID_KOS": {
-  "population": 14862927,
+  "population": 1932774,
   "name": "Kosovo"
  },
  "KWT": {
-  "population": 14862927,
+  "population": 4270563,
   "name": "Kuwait"
  },
  "KGZ": {
-  "population": 14862927,
+  "population": 6524191,
   "name": "Kyrgyzstan"
  },
  "LAO": {
-  "population": 14862927,
+  "population": 7275556,
   "name": "Laos"
  },
  "LVA": {
-  "population": 14862927,
+  "population": 1886202,
   "name": "Latvia"
  },
  "LBN": {
-  "population": 14862927,
+  "population": 6825442,
   "name": "Lebanon"
  },
  "LSO": {
-  "population": 14862927,
+  "population": 2142252,
   "name": "Lesotho"
  },
  "LBR": {
-  "population": 14862927,
+  "population": 5057677,
   "name": "Liberia"
  },
  "LBY": {
-  "population": 14862927,
+  "population": 6871287,
   "name": "Libya"
  },
  "LIE": {
-  "population": 14862927,
+  "population": 38137,
   "name": "Liechtenstein"
  },
  "LTU": {
-  "population": 14862927,
+  "population": 2722291,
   "name": "Lithuania"
  },
  "LUX": {
-  "population": 14862927,
+  "population": 625976,
   "name": "Luxembourg"
  },
  "MAC": {
-  "population": 14862927,
+  "population": 649342,
   "name": "Macao"
  },
  "MDG": {
-  "population": 14862927,
+  "population": 27691019,
   "name": "Madagascar"
  },
  "MWI": {
-  "population": 14862927,
+  "population": 19129955,
   "name": "Malawi"
  },
  "MYS": {
-  "population": 14862927,
+  "population": 32365998,
   "name": "Malaysia"
  },
  "MDV": {
-  "population": 14862927,
+  "population": 540542,
   "name": "Maldives"
  },
  "MLI": {
-  "population": 14862927,
+  "population": 20250834,
   "name": "Mali"
  },
  "MLT": {
-  "population": 14862927,
+  "population": 441539,
   "name": "Malta"
  },
  "MHL": {
-  "population": 14862927,
+  "population": 59194,
   "name": "Marshall Islands"
  },
  "MRT": {
-  "population": 14862927,
+  "population": 4649660,
   "name": "Mauritania"
  },
  "MUS": {
-  "population": 14862927,
+  "population": 1271767,
   "name": "Mauritius"
  },
  "MEX": {
-  "population": 14862927,
+  "population": 128932753,
   "name": "Mexico"
  },
  "FSM": {
-  "population": 14862927,
+  "population": 115021,
   "name": "Micronesia"
  },
  "MDA": {
-  "population": 14862927,
+  "population": 4033963,
   "name": "Moldova"
  },
  "MCO": {
-  "population": 14862927,
+  "population": 39244,
   "name": "Monaco"
  },
  "MNG": {
-  "population": 14862927,
+  "population": 3278292,
   "name": "Mongolia"
  },
  "MNE": {
-  "population": 14862927,
+  "population": 628062,
   "name": "Montenegro"
  },
  "MAR": {
-  "population": 14862927,
+  "population": 36910558,
   "name": "Morocco"
  },
  "MOZ": {
-  "population": 14862927,
+  "population": 31255435,
   "name": "Mozambique"
  },
  "MMR": {
-  "population": 14862927,
+  "population": 54409794,
   "name": "Burma"
  },
  "NAM": {
-  "population": 14862927,
+  "population": 2540916,
   "name": "Namibia"
  },
  "NPL": {
-  "population": 14862927,
+  "population": 29136808,
   "name": "Nepal"
  },
  "NLD": {
-  "population": 14862927,
+  "population": 17134873,
   "name": "Netherlands"
  },
  "NZL": {
-  "population": 14862927,
+  "population": 4822233,
   "name": "New Zealand"
  },
  "NIC": {
-  "population": 14862927,
+  "population": 6624554,
   "name": "Nicaragua"
  },
  "NER": {
-  "population": 14862927,
+  "population": 24206636,
   "name": "Niger"
  },
  "NGA": {
-  "population": 14862927,
+  "population": 206139587,
   "name": "Nigeria"
  },
  "OWID_NAM": {
-  "population": 14862927,
+  "population": 592072204,
   "name": "North America"
  },
  "MKD": {
-  "population": 14862927,
+  "population": 2083380,
   "name": "North Macedonia"
  },
  "NOR": {
-  "population": 14862927,
+  "population": 5421242,
   "name": "Norway"
  },
  "OWID_OCE": {
-  "population": 14862927,
+  "population": 42677809,
   "name": "Oceania"
  },
  "OMN": {
-  "population": 14862927,
+  "population": 5106622,
   "name": "Oman"
  },
  "PAK": {
-  "population": 14862927,
+  "population": 220892331,
   "name": "Pakistan"
  },
  "PSE": {
-  "population": 14862927,
+  "population": 5101416,
   "name": "Palestine"
  },
  "PAN": {
-  "population": 14862927,
+  "population": 4314768,
   "name": "Panama"
  },
  "PNG": {
-  "population": 14862927,
+  "population": 8947027,
   "name": "Papua New Guinea"
  },
  "PRY": {
-  "population": 14862927,
+  "population": 7132530,
   "name": "Paraguay"
  },
  "PER": {
-  "population": 14862927,
+  "population": 32971846,
   "name": "Peru"
  },
  "PHL": {
-  "population": 14862927,
+  "population": 109581085,
   "name": "Philippines"
  },
  "POL": {
-  "population": 14862927,
+  "population": 37846605,
   "name": "Poland"
  },
  "PRT": {
-  "population": 14862927,
+  "population": 10196707,
   "name": "Portugal"
  },
  "QAT": {
-  "population": 14862927,
+  "population": 2881060,
   "name": "Qatar"
  },
  "ROU": {
-  "population": 14862927,
+  "population": 19237682,
   "name": "Romania"
  },
  "RUS": {
-  "population": 14862927,
+  "population": 145934460,
   "name": "Russia"
  },
  "RWA": {
-  "population": 14862927,
+  "population": 12952209,
   "name": "Rwanda"
  },
  "SHN": {
-  "population": 14862927,
+  "population": 6071,
   "name": "Saint Helena"
  },
  "KNA": {
-  "population": 14862927,
+  "population": 53192,
   "name": "Saint Kitts and Nevis"
  },
  "LCA": {
-  "population": 14862927,
+  "population": 183629,
   "name": "Saint Lucia"
  },
  "VCT": {
-  "population": 14862927,
+  "population": 110947,
   "name": "Saint Vincent and the Grenadines"
  },
  "WSM": {
-  "population": 14862927,
+  "population": 198410,
   "name": "Samoa"
  },
  "SMR": {
-  "population": 14862927,
+  "population": 33938,
   "name": "San Marino"
  },
  "STP": {
-  "population": 14862927,
+  "population": 219161,
   "name": "Sao Tome and Principe"
  },
  "SAU": {
-  "population": 14862927,
+  "population": 34813867,
   "name": "Saudi Arabia"
  },
  "SEN": {
-  "population": 14862927,
+  "population": 16743930,
   "name": "Senegal"
  },
  "SRB": {
-  "population": 14862927,
+  "population": 6804596,
   "name": "Serbia"
  },
  "SYC": {
-  "population": 14862927,
+  "population": 98340,
   "name": "Seychelles"
  },
  "SLE": {
-  "population": 14862927,
+  "population": 7976985,
   "name": "Sierra Leone"
  },
  "SGP": {
-  "population": 14862927,
+  "population": 5850343,
   "name": "Singapore"
  },
  "SVK": {
-  "population": 14862927,
+  "population": 5459643,
   "name": "Slovakia"
  },
  "SVN": {
-  "population": 14862927,
+  "population": 2078932,
   "name": "Slovenia"
  },
  "SLB": {
-  "population": 14862927,
+  "population": 686878,
   "name": "Solomon Islands"
  },
  "SOM": {
-  "population": 14862927,
+  "population": 15893219,
   "name": "Somalia"
  },
  "ZAF": {
-  "population": 14862927,
+  "population": 59308690,
   "name": "South Africa"
  },
  "OWID_SAM": {
-  "population": 14862927,
+  "population": 430759772,
   "name": "South America"
  },
  "KOR": {
-  "population": 14862927,
+  "population": 51269183,
   "name": "Korea, South"
  },
  "SSD": {
-  "population": 14862927,
+  "population": 11193729,
   "name": "South Sudan"
  },
  "ESP": {
-  "population": 14862927,
+  "population": 46754783,
   "name": "Spain"
  },
  "LKA": {
-  "population": 14862927,
+  "population": 21413250,
   "name": "Sri Lanka"
  },
  "SDN": {
-  "population": 14862927,
+  "population": 43849269,
   "name": "Sudan"
  },
  "SUR": {
-  "population": 14862927,
+  "population": 586634,
   "name": "Suriname"
  },
  "SWE": {
-  "population": 14862927,
+  "population": 10099270,
   "name": "Sweden"
  },
  "CHE": {
-  "population": 14862927,
+  "population": 8654618,
   "name": "Switzerland"
  },
  "SYR": {
-  "population": 14862927,
+  "population": 17500657,
   "name": "Syria"
  },
  "TWN": {
-  "population": 14862927,
+  "population": 23816775,
   "name": "Taiwan*"
  },
  "TJK": {
-  "population": 14862927,
+  "population": 9537642,
   "name": "Tajikistan"
  },
  "TZA": {
-  "population": 14862927,
+  "population": 59734213,
   "name": "Tanzania"
  },
  "THA": {
-  "population": 14862927,
+  "population": 69799978,
   "name": "Thailand"
  },
  "TLS": {
-  "population": 14862927,
+  "population": 1318442,
   "name": "Timor-Leste"
  },
  "TGO": {
-  "population": 14862927,
+  "population": 8278737,
   "name": "Togo"
  },
  "TTO": {
-  "population": 14862927,
+  "population": 1399491,
   "name": "Trinidad and Tobago"
  },
  "TUN": {
-  "population": 14862927,
+  "population": 11818618,
   "name": "Tunisia"
  },
  "TUR": {
-  "population": 14862927,
+  "population": 84339067,
   "name": "Turkey"
  },
  "TCA": {
-  "population": 14862927,
+  "population": 38718,
   "name": "Turks and Caicos Islands"
  },
  "UGA": {
-  "population": 14862927,
+  "population": 45741000,
   "name": "Uganda"
  },
  "UKR": {
-  "population": 14862927,
+  "population": 43733759,
   "name": "Ukraine"
  },
  "ARE": {
-  "population": 14862927,
+  "population": 9890400,
   "name": "United Arab Emirates"
  },
  "GBR": {
-  "population": 14862927,
+  "population": 67886004,
   "name": "United Kingdom"
  },
  "USA": {
-  "population": 14862927,
+  "population": 331002647,
   "name": "US"
  },
  "URY": {
-  "population": 14862927,
+  "population": 3473727,
   "name": "Uruguay"
  },
  "UZB": {
-  "population": 14862927,
+  "population": 33469199,
   "name": "Uzbekistan"
  },
  "VUT": {
-  "population": 14862927,
+  "population": 307150,
   "name": "Vanuatu"
  },
  "VAT": {
-  "population": 14862927,
+  "population": 809,
   "name": "Holy See"
  },
  "VEN": {
-  "population": 14862927,
+  "population": 28435943,
   "name": "Venezuela"
  },
  "VNM": {
-  "population": 14862927,
+  "population": 97338583,
   "name": "Vietnam"
  },
  "OWID_WRL": {
-  "population": 14862927,
+  "population": 7794798729,
   "name": "World"
  },
  "YEM": {
-  "population": 14862927,
+  "population": 29825968,
   "name": "Yemen"
  },
  "ZMB": {
-  "population": 14862927,
+  "population": 18383956,
   "name": "Zambia"
  },
  "ZWE": {

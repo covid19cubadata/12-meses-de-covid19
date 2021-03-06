@@ -3,16 +3,17 @@ import io
 import json
 import os
 from collections import defaultdict
+from datetime import datetime, timedelta
 
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 
 
 def get_countries_incidence():
     if not os.path.exists('data/counties-codes.json'):
-        # data2 = requests.get(
-        #    'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
         data2 = requests.get(
-            'http://localhost:8000/utils/owid-covid-data.csv').content
+            'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
+        # data2 = requests.get(
+        #     'http://localhost:8000/utils/owid-covid-data.csv').content
         data2 = io.StringIO(data2.decode('utf8'))
         reader = csv.reader(data2)
         data = defaultdict(lambda: dict())
@@ -38,13 +39,14 @@ def get_countries_incidence():
         data['Taiwan*'] = data['Taiwan']
         data['Timor-Leste'] = data['Timor']
         data['US'] = data['United States']
+        data['Cuba']['population'] = 11209628
         countries = data
 
         with open('data/counties-codes.json', 'w') as f:
             json.dump(data, f, indent=1)
 
         code_countries = {j['code']: {
-            'population': int(float(population)),
+            'population': int(float(j['population'])),
             'name': i
         } for i, j in countries.items()}
 
@@ -53,9 +55,28 @@ def get_countries_incidence():
     else:
         countries = json.load(open('data/counties-codes.json'))
 
-    # data = requests.get(
-    #    'https://pomber.github.io/covid19/timeseries.json').json()
-    data = json.load(open('utils/timeseries.json'))
+    cubadata = requests.get(
+        'https://covid19cubadata.github.io/data/covid19-cuba.json')
+    # cubadata = requests.get(
+    #    'http://localhost:8000/utils/covid19-cuba.json').json()
+
+    counter = 0
+    cuba = {}
+    for i in cubadata['casos']['dias'].values():
+        count = len(i.get('diagnosticados', []))+counter
+        counter = count
+        cuba["-".join(map(lambda x: str(int(x)), i['fecha'].split('/')))] = count
+
+    data = requests.get(
+        'https://pomber.github.io/covid19/timeseries.json').json()
+    # data = json.load(open('utils/timeseries.json'))
+
+    cubaupdated = []
+    for i in data['Cuba']:
+        if i['date'] in cuba:
+            i['confirmed'] = cuba[i['date']]
+        cubaupdated.append(i)
+    data['Cuba'] = cubaupdated
 
     incidences = defaultdict(lambda: list())
 
@@ -76,8 +97,16 @@ def get_countries_incidence():
                 incidences[code].append(incidence)
 
     countries = list(incidences.keys())
-    incidences_per_day = map(lambda v: {j: i for i, j in zip(
-        v, countries)}, zip(*(incidences.values())))
+    incidences_per_day = list(map(lambda v: {j: i for i, j in zip(
+        v, countries)}, zip(*(incidences.values()))))
+
+    delta = timedelta(days=7)
+    currDate = datetime.fromisoformat('2020-01-22')
+    for i in range(len(incidences_per_day)):
+        incidences_per_day[i]['begin_date'] = currDate.isoformat().split('T')[
+            0]
+        currDate = currDate+delta
+        incidences_per_day[i]['end_date'] = currDate.isoformat().split('T')[0]
 
     with open('data/incidences-per-day.json', 'w') as f:
         json.dump(list(incidences_per_day), f, indent=1)

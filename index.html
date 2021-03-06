@@ -14,17 +14,20 @@
     <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
+    <div class="buttons-container mb-2"><span id="week"></span></div>
     <div id="world-map"></div>
 
-    <button onclick="$.slides.prev()">prev</button>
-
-    <button onclick="$.slides.next()">next</button>
-
-    <button onclick="$.slides.start()">start</button>
-
-    <button onclick="$.slides.play()">play</button>
-    <button onclick="$.slides.pause()">pause</button>
-
+    <div class="buttons-container mt-2">
+      <button onclick="$.slides.prev()" class="control-button">anterior</button>
+      <button onclick="$.slides.start()" class="control-button">Iniciar</button>
+      <button onclick="$.slides.play()" class="control-button">
+        reproducir
+      </button>
+      <button onclick="$.slides.pause()" class="control-button">pausar</button>
+      <button onclick="$.slides.next()" class="control-button">
+        siguiente
+      </button>
+    </div>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/leaflet.js"></script>
     <script type="text/javascript" src="js/mapa.js"></script>

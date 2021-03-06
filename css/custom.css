@@ -2,3 +2,21 @@
   background-color: #ffffff;
   min-height: 500px;
 }
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.control-button {
+  margin-left: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}

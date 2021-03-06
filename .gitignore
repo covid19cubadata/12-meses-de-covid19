@@ -1,3 +1,3 @@
-data/countries.geojson
 utils/owid-covid-data.csv
 utils/timeseries.json
+utils/covid19-cuba.json
