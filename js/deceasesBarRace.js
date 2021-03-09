@@ -20,7 +20,7 @@ regionColors = {
 startDate = '03/11/2020',
 endDate = '03/06/2021';
 
-JSC.fetch('data/province_confirmed.csv')
+JSC.fetch('data/province_deceases.csv')
   .then(function(response) {
       return response.text();
   }) 
@@ -38,7 +38,7 @@ function renderChart_d(data) {
       frameDelay = 5, 
       currentDate = startDate; 
 return JSC.chart( 
-    'deceased_bar_race',
+    'deceases_bar_race',
     { 
     type: 'horizontal column solid', 
     // Controls the speed of the animation and the chart. 
