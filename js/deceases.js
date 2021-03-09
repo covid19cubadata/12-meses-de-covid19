@@ -6,7 +6,7 @@ var minY = 0.020
 function pointColor(points) {
     pointBackgroundColors = [];
     for (i = 0; i < points.length; i++) {
-        if (points[i].name !== 'CUB') {
+        if (points[i].name !== 'Cuba') {
             pointBackgroundColors.push("#4789cc");
         } else {
             pointBackgroundColors.push("#cf9494");
@@ -18,10 +18,12 @@ function pointColor(points) {
 function getDeceasesData() {
 
 
-    $.getJSON('https://covid.ourworldindata.org/data/latest/owid-covid-latest.json', function (data) {
+    $.getJSON('data/codes-countries.json', function (data) {
         'use-strict';
 
         function filter(region, values, acc) {
+            var code = values["alpha2"];
+            var name = values["name"];
             var population = values["population"];
             var cases = values["total_cases"];
             var deaths = values["total_deaths"];
@@ -29,7 +31,7 @@ function getDeceasesData() {
             var fatality = (deaths !== 0) || (cases !== 0) ? deaths / cases : 0;
 
             if (!region.includes("OWID") && deaths != null && cases != null) {
-                acc.push({ 'name': region, 'x': morthality, 'y': fatality })
+                acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality })
             }
 
         }
@@ -40,19 +42,39 @@ function getDeceasesData() {
 
         var scatterChart = new Chart(ctx, {
             type: 'scatter',
+
             data: {
                 datasets: [{
-                    label: 'Scatter Dataset',
+                    label: 'Letalidad vs mortalidad por países',
                     data: allDeceasesData,
                     pointBackgroundColor: pointColor(allDeceasesData)
                 }]
             },
             options: {
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Letalidad vs mortalidad por países'
+                    }
+                },
+                legend: {
+                    display: true
+                },        
                 scales: {
                     xAxes: [{
-                        type: 'linear',
-                        position: 'bottom'
-                    }]
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Mortalidad',
+                            type: 'linear',
+                            position: 'bottom'
+                          }
+                    }],
+                    yAxes: [{
+                        scaleLabel: {
+                          display: true,
+                          labelString: 'Letalidad'
+                        }
+                      }]
                 },
                 tooltips: {
                     // Disable the on-canvas tooltip
@@ -95,12 +117,24 @@ function getDeceasesData() {
 
                             var innerHtml = '<thead>';
 
-                            titleLines.forEach(function (title) {
-                                innerHtml += "<tr><th><img src='/utils/flags/at.png' class='icon' /> " + title + '</th></tr>';
-                            });
-                            innerHtml += '</thead><tbody>';
+                            try {
+                                var code = titleLines[0];
+                                var title = titleLines[1];
 
-                            innerHtml += "<tr><td><img src='/utils/flags/at.png' class='icon' /></td></tr>";
+                                if(code !== undefined && code != "")
+                                {
+                                    innerHtml += `<tr><th><img src='/utils/flags/${code}.png' class='icon' /> ` + title + '</th></tr>';
+                                }
+                                else{
+                                    innerHtml += '<tr><th>' + title + '</th></tr>';
+                                }
+                            }
+                            catch (error) 
+                            {
+                                innerHtml += '<tr><th>' + title + '</th></tr>';
+                            }
+
+                            innerHtml += '</thead><tbody>';
 
                             bodyLines.forEach(function (body, i) {
                                 var colors = tooltipModel.labelColors[i];
@@ -108,11 +142,10 @@ function getDeceasesData() {
                                 style += '; border-color:' + colors.borderColor;
                                 style += '; border-width: 2px';
                                 var span = '<span style="' + style + '"></span>';
-                                innerHtml += '<tr><td>' + span + body + '</td></tr>';
+                                innerHtml += '<tr><td>' + span + 'Letalidad: ' + body[0] + '</td></tr>';
+                                innerHtml += '<tr><td>' + span + 'Mortalidad: ' + body[1] + '</td></tr>';
                             });
                             innerHtml += '</tbody>';
-
-                            console.log(innerHtml);
 
                             var tableRoot = tooltipEl.querySelector('table');
                             tableRoot.innerHTML = innerHtml;
@@ -135,7 +168,8 @@ function getDeceasesData() {
                     callbacks: {
                         title: function (tooltipItem, all) {
                             return [
-                                all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].name,
+                                all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].code,
+                                all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].name
                             ]
                         },
                         label: function (tooltipItem, all) {
@@ -159,7 +193,7 @@ function getDeceasesData() {
 
                 scatterChart.data = {
                     datasets: [{
-                        label: 'Scatter Dataset',
+                        label: 'Letalidad vs mortalidad por países',
                         data: newPoints,
                         pointBackgroundColor: colors
                     }]
@@ -168,7 +202,6 @@ function getDeceasesData() {
                 scatterChart.update();
             }
         );
-
     });
 };
 
