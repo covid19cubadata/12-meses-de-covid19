@@ -1,15 +1,43 @@
 var allDeceasesDataEnabled = false;
 var allDeceasesData = [];
-var minX = 1
-var minY = 1
+var minX = 1;
+var minY = 1;
+var cubaColour = "#eb3323";
+var americaColour = "#f7c88a";
+var africaColour = "#9be48b";
+var oceaniaColour = "#fffd92";
+var europeColour = "#d387e7";
+var asiaColour = "#8783e3";
+var neutralColour = "D1D2D4";
 
 function pointColor(points) {
     pointBackgroundColors = [];
     for (i = 0; i < points.length; i++) {
-        if (points[i].name !== 'Cuba') {
-            pointBackgroundColors.push("#4789cc");
+        if (points[i].name === 'Cuba') {
+            pointBackgroundColors.push(cubaColour);
         } else {
-            pointBackgroundColors.push("#cf9494");
+            switch(points[i].continent){
+                case "Africa":
+                    pointBackgroundColors.push(africaColour);
+                    break;
+                case "Asia":
+                    pointBackgroundColors.push(asiaColour);
+                    break;
+                case "Europe":
+                    pointBackgroundColors.push(europeColour);
+                    break;
+                case "Oceania":
+                    pointBackgroundColors.push(oceaniaColour);
+                    break;
+                case "North America":
+                    pointBackgroundColors.push(americaColour);
+                    break;
+                case "South America":
+                    pointBackgroundColors.push(americaColour);
+                    break;
+                default:
+                    pointBackgroundColors.push(neutralColour);
+            }
         }
     }
     return pointBackgroundColors;
@@ -25,13 +53,14 @@ function getDeceasesData() {
             var code = values["alpha2"];
             var name = values["name"];
             var population = values["population"];
+            var continent = values['continent'];
             var cases = values["total_cases"];
             var deaths = values["total_deaths"];
             var morthality = deaths !== 0 ? (deaths / population ) * 10000 : 0;
             var fatality = (deaths !== 0) || (cases !== 0) ? (deaths / cases) * 100 : 0;
 
-            if (!region.includes("OWID") && deaths != null && cases != null) {
-                acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality })
+            if (!region.includes("OWID") && deaths != null && cases != null && deaths != 0) {
+                acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality, 'continent': continent })
             }
 
         }
@@ -72,7 +101,7 @@ function getDeceasesData() {
                     yAxes: [{
                         scaleLabel: {
                           display: true,
-                          labelString: 'Letalidad (%)'
+                          labelString: 'Letalidad ( % )'
                         }
                       }]
                 },
