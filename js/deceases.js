@@ -1,5 +1,5 @@
 var allDeceasesDataEnabled = false;
-var allDeceasesData = [];
+var allDeceasesData = {};
 var minX = 1;
 var minY = 1;
 var cubaColour = "#eb3323";
@@ -10,38 +10,31 @@ var europeColour = "#d387e7";
 var asiaColour = "#8783e3";
 var neutralColour = "D1D2D4";
 
-function pointColor(points) {
-    pointBackgroundColors = [];
-    for (i = 0; i < points.length; i++) {
-        if (points[i].name === 'Cuba') {
-            pointBackgroundColors.push(cubaColour);
-        } else {
-            switch(points[i].continent){
-                case "Africa":
-                    pointBackgroundColors.push(africaColour);
-                    break;
-                case "Asia":
-                    pointBackgroundColors.push(asiaColour);
-                    break;
-                case "Europe":
-                    pointBackgroundColors.push(europeColour);
-                    break;
-                case "Oceania":
-                    pointBackgroundColors.push(oceaniaColour);
-                    break;
-                case "North America":
-                    pointBackgroundColors.push(americaColour);
-                    break;
-                case "South America":
-                    pointBackgroundColors.push(americaColour);
-                    break;
-                default:
-                    pointBackgroundColors.push(neutralColour);
-            }
-        }
-    }
-    return pointBackgroundColors;
+var continentColours = {
+    "Africa" : africaColour,
+    "Asia": asiaColour,
+    "Europe": europeColour,
+    "Oceania": oceaniaColour,
+    "America": americaColour,
+    "Cuba": cubaColour
 }
+
+// function pointColor(points) {
+//     pointBackgroundColors = [];
+//     for (i = 0; i < points.length; i++) {
+//         if (points[i].name === 'Cuba') {
+//             pointBackgroundColors.push(cubaColour);
+//         } else {
+//             if (points[i].continent in Object.keys(continentColours)){
+
+//             }
+//                 default:
+//                     pointBackgroundColors.push(neutralColour);
+//             }
+//         }
+//     }
+//     return pointBackgroundColors;
+// }
 
 function getDeceasesData() {
 
@@ -61,8 +54,22 @@ function getDeceasesData() {
             morthality = Math.round(morthality * 100)/100;
             fatality = Math.round(fatality * 100)/100;
 
+            if(continent === 'North America' || continent === 'South America'){
+                continent = 'America';
+            }
+
+            if(name === "Cuba"){
+                continent = "Cuba"
+            }
+
             if (!region.includes("OWID") && deaths != null && cases != null && deaths != 0) {
-                acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality, 'continent': continent })
+                var newData = { 'name': name, 'code': code, 'x': morthality, 'y': fatality, 'continent': continent };
+                if(!(continent in allDeceasesData)){
+                    allDeceasesData[continent] = [newData];
+                }
+                else{
+                    allDeceasesData[continent].push(newData);
+                }
             }
 
         }
@@ -75,10 +82,17 @@ function getDeceasesData() {
             type: 'scatter',
 
             data: {
-                datasets: [{
-                    data: allDeceasesData,
-                    pointBackgroundColor: pointColor(allDeceasesData)
-                }]
+                datasets: Object.keys(allDeceasesData).map(function( key, index){
+                    var values = allDeceasesData[key];
+                    return {
+                        data: allDeceasesData[key],
+                        backgroundColor: continentColours[values[0].continent],
+                        //borderColor: pointColor(allDeceasesData[key]),
+                        //pointBackgroundColor: pointColor(value)
+                        //labelColors: [asiaColour],
+                        label: key
+                    };
+                })
             },
             options: {
                 title: {
@@ -211,24 +225,32 @@ function getDeceasesData() {
             }
         });
 
-        $("#deceasesComparison").click(
-            function (evt) {
-                allDeceasesDataEnabled = !allDeceasesDataEnabled;
+        // $("#deceasesComparison").click(
+        //     function (evt) {
+        //         allDeceasesDataEnabled = !allDeceasesDataEnabled;
 
-                var newPoints = allDeceasesDataEnabled ? allDeceasesData.filter((x) => x.x < minX && x.y < minY) : allDeceasesData;
+        //         var newPoints = allDeceasesData;
 
-                var colors = pointColor(newPoints);
+        //         if (allDeceasesDataEnabled) {
+        //             for (key in newPoints) {
+        //                 newPoints[key] = newPoints[key].filter((x) => x.x < minX && x.y < minY);
+        //             }
+        //         }
 
-                scatterChart.data = {
-                    datasets: [{
-                        data: newPoints,
-                        pointBackgroundColor: colors
-                    }]
-                };
+        //         scatterChart.data = {
+        //             datasets: Object.keys(newPoints).map(function (key, index) {
+        //                 return {
+        //                     data: newPoints[key],
+        //                     labelColors: pointColor(newPoints[key]),
+        //                     //pointBackgroundColor: pointColor(value),
+        //                     label: key
+        //                 };
+        //             })
+        //         };
 
-                scatterChart.update();
-            }
-        );
+        //         scatterChart.update();
+        //     }
+        // );
     });
 };
 
