@@ -1,850 +1,1493 @@
 {
  "AFG": {
   "population": 38928341,
-  "name": "Afghanistan"
+  "name": "Afghanistan",
+  "total_cases": "55876.0",
+  "total_deaths": "2451.0",
+  "alpha2": "af"
  },
  "OWID_AFR": {
   "population": 1340598113,
-  "name": "Africa"
+  "name": "Africa",
+  "total_cases": "3973332.0",
+  "total_deaths": "106092.0",
+  "alpha2": ""
  },
  "ALB": {
   "population": 2877800,
-  "name": "Albania"
+  "name": "Albania",
+  "total_cases": "113580.0",
+  "total_deaths": "1956.0",
+  "alpha2": "al"
  },
  "DZA": {
   "population": 43851043,
-  "name": "Algeria"
+  "name": "Algeria",
+  "total_cases": "114382.0",
+  "total_deaths": "3018.0",
+  "alpha2": "dz"
  },
  "AND": {
   "population": 77265,
-  "name": "Andorra"
+  "name": "Andorra",
+  "total_cases": "11069.0",
+  "total_deaths": "112.0",
+  "alpha2": "ad"
  },
  "AGO": {
   "population": 32866268,
-  "name": "Angola"
+  "name": "Angola",
+  "total_cases": "21108.0",
+  "total_deaths": "515.0",
+  "alpha2": "ao"
  },
  "AIA": {
   "population": 15002,
-  "name": "Anguilla"
+  "name": "Anguilla",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "ATG": {
   "population": 97928,
-  "name": "Antigua and Barbuda"
+  "name": "Antigua and Barbuda",
+  "total_cases": "848.0",
+  "total_deaths": "21.0",
+  "alpha2": "ag"
  },
  "ARG": {
   "population": 45195777,
-  "name": "Argentina"
+  "name": "Argentina",
+  "total_cases": "2154694.0",
+  "total_deaths": "53121.0",
+  "alpha2": "ar"
  },
  "ARM": {
   "population": 2963234,
-  "name": "Armenia"
+  "name": "Armenia",
+  "total_cases": "175016.0",
+  "total_deaths": "3225.0",
+  "alpha2": "am"
  },
  "OWID_ASI": {
   "population": 4639847425,
-  "name": "Asia"
+  "name": "Asia",
+  "total_cases": "25644808.0",
+  "total_deaths": "405228.0",
+  "alpha2": ""
  },
  "AUS": {
   "population": 25499881,
-  "name": "Australia"
+  "name": "Australia",
+  "total_cases": "29061.0",
+  "total_deaths": "909.0",
+  "alpha2": "au"
  },
  "AUT": {
   "population": 9006400,
-  "name": "Austria"
+  "name": "Austria",
+  "total_cases": "476980.0",
+  "total_deaths": "8732.0",
+  "alpha2": "at"
  },
  "AZE": {
   "population": 10139175,
-  "name": "Azerbaijan"
+  "name": "Azerbaijan",
+  "total_cases": "236963.0",
+  "total_deaths": "3247.0",
+  "alpha2": "az"
  },
  "BHS": {
   "population": 393248,
-  "name": "Bahamas"
+  "name": "Bahamas",
+  "total_cases": "8600.0",
+  "total_deaths": "181.0",
+  "alpha2": "bs"
  },
  "BHR": {
   "population": 1701583,
-  "name": "Bahrain"
+  "name": "Bahrain",
+  "total_cases": "127255.0",
+  "total_deaths": "473.0",
+  "alpha2": "bh"
  },
  "BGD": {
   "population": 164689383,
-  "name": "Bangladesh"
+  "name": "Bangladesh",
+  "total_cases": "551175.0",
+  "total_deaths": "8476.0",
+  "alpha2": "bd"
  },
  "BRB": {
   "population": 287371,
-  "name": "Barbados"
+  "name": "Barbados",
+  "total_cases": "3303.0",
+  "total_deaths": "37.0",
+  "alpha2": "bb"
  },
  "BLR": {
   "population": 9449321,
-  "name": "Belarus"
+  "name": "Belarus",
+  "total_cases": "296441.0",
+  "total_deaths": "2047.0",
+  "alpha2": "by"
  },
  "BEL": {
   "population": 11589616,
-  "name": "Belgium"
+  "name": "Belgium",
+  "total_cases": "789008.0",
+  "total_deaths": "22292.0",
+  "alpha2": "be"
  },
  "BLZ": {
   "population": 397621,
-  "name": "Belize"
+  "name": "Belize",
+  "total_cases": "12335.0",
+  "total_deaths": "315.0",
+  "alpha2": "bz"
  },
  "BEN": {
   "population": 12123198,
-  "name": "Benin"
+  "name": "Benin",
+  "total_cases": "6338.0",
+  "total_deaths": "81.0",
+  "alpha2": "bj"
  },
  "BMU": {
   "population": 62273,
-  "name": "Bermuda"
+  "name": "Bermuda",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "BTN": {
   "population": 771612,
-  "name": "Bhutan"
+  "name": "Bhutan",
+  "total_cases": "868.0",
+  "total_deaths": "1.0",
+  "alpha2": "bt"
  },
  "BOL": {
   "population": 11673029,
-  "name": "Bolivia"
+  "name": "Bolivia",
+  "total_cases": "254736.0",
+  "total_deaths": "11845.0",
+  "alpha2": "bo"
  },
  "BIH": {
   "population": 3280815,
-  "name": "Bosnia and Herzegovina"
+  "name": "Bosnia and Herzegovina",
+  "total_cases": "137291.0",
+  "total_deaths": "5297.0",
+  "alpha2": "ba"
  },
  "BWA": {
   "population": 2351625,
-  "name": "Botswana"
+  "name": "Botswana",
+  "total_cases": "32912.0",
+  "total_deaths": "413.0",
+  "alpha2": "bw"
  },
  "BRA": {
   "population": 212559409,
-  "name": "Brazil"
+  "name": "Brazil",
+  "total_cases": "11051665.0",
+  "total_deaths": "266398.0",
+  "alpha2": "br"
  },
  "BRN": {
   "population": 437483,
-  "name": "Brunei"
+  "name": "Brunei",
+  "total_cases": "190.0",
+  "total_deaths": "3.0",
+  "alpha2": "bn"
  },
  "BGR": {
   "population": 6948445,
-  "name": "Bulgaria"
+  "name": "Bulgaria",
+  "total_cases": "263303.0",
+  "total_deaths": "10764.0",
+  "alpha2": "bg"
  },
  "BFA": {
   "population": 20903278,
-  "name": "Burkina Faso"
+  "name": "Burkina Faso",
+  "total_cases": "12181.0",
+  "total_deaths": "143.0",
+  "alpha2": "bf"
  },
  "BDI": {
   "population": 11890781,
-  "name": "Burundi"
+  "name": "Burundi",
+  "total_cases": "2334.0",
+  "total_deaths": "3.0",
+  "alpha2": "bi"
  },
  "KHM": {
   "population": 16718971,
-  "name": "Cambodia"
+  "name": "Cambodia",
+  "total_cases": "1011.0",
+  "total_deaths": "",
+  "alpha2": "kh"
  },
  "CMR": {
   "population": 26545864,
-  "name": "Cameroon"
+  "name": "Cameroon",
+  "total_cases": "36794.0",
+  "total_deaths": "566.0",
+  "alpha2": "cm"
  },
  "CAN": {
   "population": 37742157,
-  "name": "Canada"
+  "name": "Canada",
+  "total_cases": "896247.0",
+  "total_deaths": "22271.0",
+  "alpha2": "ca"
  },
  "CPV": {
   "population": 555988,
-  "name": "Cabo Verde"
+  "name": "Cabo Verde",
+  "total_cases": "15806.0",
+  "total_deaths": "154.0",
+  "alpha2": "cv"
  },
  "CYM": {
   "population": 65720,
-  "name": "Cayman Islands"
+  "name": "Cayman Islands",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "CAF": {
   "population": 4829764,
-  "name": "Central African Republic"
+  "name": "Central African Republic",
+  "total_cases": "5021.0",
+  "total_deaths": "63.0",
+  "alpha2": "cf"
  },
  "TCD": {
   "population": 16425859,
-  "name": "Chad"
+  "name": "Chad",
+  "total_cases": "4193.0",
+  "total_deaths": "146.0",
+  "alpha2": "td"
  },
  "CHL": {
   "population": 19116209,
-  "name": "Chile"
+  "name": "Chile",
+  "total_cases": "860533.0",
+  "total_deaths": "21163.0",
+  "alpha2": "cl"
  },
  "CHN": {
   "population": 1439323774,
-  "name": "China"
+  "name": "China",
+  "total_cases": "101149.0",
+  "total_deaths": "4838.0",
+  "alpha2": "cn"
  },
  "COL": {
   "population": 50882884,
-  "name": "Colombia"
+  "name": "Colombia",
+  "total_cases": "2278861.0",
+  "total_deaths": "60598.0",
+  "alpha2": "co"
  },
  "COM": {
   "population": 869595,
-  "name": "Comoros"
+  "name": "Comoros",
+  "total_cases": "3606.0",
+  "total_deaths": "146.0",
+  "alpha2": "km"
  },
  "COG": {
   "population": 5518092,
-  "name": "Congo (Kinshasa)"
+  "name": "Congo (Kinshasa)",
+  "total_cases": "9179.0",
+  "total_deaths": "131.0",
+  "alpha2": "cg"
  },
  "CRI": {
   "population": 5094114,
-  "name": "Costa Rica"
+  "name": "Costa Rica",
+  "total_cases": "206640.0",
+  "total_deaths": "2833.0",
+  "alpha2": "cr"
  },
  "CIV": {
   "population": 26378275,
-  "name": "Cote d'Ivoire"
+  "name": "Cote d'Ivoire",
+  "total_cases": "35331.0",
+  "total_deaths": "204.0",
+  "alpha2": "ci"
  },
  "HRV": {
   "population": 4105268,
-  "name": "Croatia"
+  "name": "Croatia",
+  "total_cases": "246608.0",
+  "total_deaths": "5609.0",
+  "alpha2": "hr"
  },
  "CUB": {
   "population": 11209628,
-  "name": "Cuba"
+  "name": "Cuba",
+  "total_cases": "56566.0",
+  "total_deaths": "350.0",
+  "alpha2": "cu"
  },
  "CYP": {
   "population": 875899,
-  "name": "Cyprus"
+  "name": "Cyprus",
+  "total_cases": "37230.0",
+  "total_deaths": "233.0",
+  "alpha2": "cy"
  },
  "CZE": {
   "population": 10708982,
-  "name": "Czechia"
+  "name": "Czechia",
+  "total_cases": "1325291.0",
+  "total_deaths": "21882.0",
+  "alpha2": "cz"
  },
  "COD": {
   "population": 89561404,
-  "name": "Democratic Republic of Congo"
+  "name": "Democratic Republic of Congo",
+  "total_cases": "26627.0",
+  "total_deaths": "712.0",
+  "alpha2": "cd"
  },
  "DNK": {
   "population": 5792203,
-  "name": "Denmark"
+  "name": "Denmark",
+  "total_cases": "215955.0",
+  "total_deaths": "2382.0",
+  "alpha2": "dk"
  },
  "DJI": {
   "population": 988002,
-  "name": "Djibouti"
+  "name": "Djibouti",
+  "total_cases": "6157.0",
+  "total_deaths": "63.0",
+  "alpha2": "dj"
  },
  "DMA": {
   "population": 71991,
-  "name": "Dominica"
+  "name": "Dominica",
+  "total_cases": "144.0",
+  "total_deaths": "",
+  "alpha2": "dm"
  },
  "DOM": {
   "population": 10847904,
-  "name": "Dominican Republic"
+  "name": "Dominican Republic",
+  "total_cases": "243526.0",
+  "total_deaths": "3179.0",
+  "alpha2": "do"
  },
  "ECU": {
   "population": 17643060,
-  "name": "Ecuador"
+  "name": "Ecuador",
+  "total_cases": "294618.0",
+  "total_deaths": "16043.0",
+  "alpha2": "ec"
  },
  "EGY": {
   "population": 102334403,
-  "name": "Egypt"
+  "name": "Egypt",
+  "total_cases": "187094.0",
+  "total_deaths": "11038.0",
+  "alpha2": "eg"
  },
  "SLV": {
   "population": 6486201,
-  "name": "El Salvador"
+  "name": "El Salvador",
+  "total_cases": "60800.0",
+  "total_deaths": "1915.0",
+  "alpha2": "sv"
  },
  "GNQ": {
   "population": 1402985,
-  "name": "Equatorial Guinea"
+  "name": "Equatorial Guinea",
+  "total_cases": "6371.0",
+  "total_deaths": "96.0",
+  "alpha2": "gq"
  },
  "ERI": {
   "population": 3546427,
-  "name": "Eritrea"
+  "name": "Eritrea",
+  "total_cases": "2944.0",
+  "total_deaths": "7.0",
+  "alpha2": "er"
  },
  "EST": {
   "population": 1326539,
-  "name": "Estonia"
+  "name": "Estonia",
+  "total_cases": "76183.0",
+  "total_deaths": "667.0",
+  "alpha2": "ee"
  },
  "SWZ": {
   "population": 1160164,
-  "name": "Eswatini"
+  "name": "Eswatini",
+  "total_cases": "17188.0",
+  "total_deaths": "658.0",
+  "alpha2": "sz"
  },
  "ETH": {
   "population": 114963583,
-  "name": "Ethiopia"
+  "name": "Ethiopia",
+  "total_cases": "167133.0",
+  "total_deaths": "2442.0",
+  "alpha2": "et"
  },
  "OWID_EUR": {
   "population": 748680069,
-  "name": "Europe"
+  "name": "Europe",
+  "total_cases": "35413508.0",
+  "total_deaths": "839436.0",
+  "alpha2": ""
  },
  "OWID_EUN": {
   "population": 444919060,
-  "name": "European Union"
+  "name": "European Union",
+  "total_cases": "23277322.0",
+  "total_deaths": "563095.0",
+  "alpha2": ""
  },
  "FRO": {
   "population": 48865,
-  "name": "Faeroe Islands"
+  "name": "Faeroe Islands",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "FLK": {
   "population": 3483,
-  "name": "Falkland Islands"
+  "name": "Falkland Islands",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "FJI": {
   "population": 896444,
-  "name": "Fiji"
+  "name": "Fiji",
+  "total_cases": "66.0",
+  "total_deaths": "2.0",
+  "alpha2": "fj"
  },
  "FIN": {
   "population": 5540718,
-  "name": "Finland"
+  "name": "Finland",
+  "total_cases": "62522.0",
+  "total_deaths": "774.0",
+  "alpha2": "fi"
  },
  "FRA": {
   "population": 65273512,
-  "name": "France"
+  "name": "France",
+  "total_cases": "3969612.0",
+  "total_deaths": "89090.0",
+  "alpha2": "fr"
  },
  "GAB": {
   "population": 2225728,
-  "name": "Gabon"
+  "name": "Gabon",
+  "total_cases": "16015.0",
+  "total_deaths": "91.0",
+  "alpha2": "ga"
  },
  "GMB": {
   "population": 2416664,
-  "name": "Gambia"
+  "name": "Gambia",
+  "total_cases": "4792.0",
+  "total_deaths": "153.0",
+  "alpha2": "gm"
  },
  "GEO": {
   "population": 3989175,
-  "name": "Georgia"
+  "name": "Georgia",
+  "total_cases": "272998.0",
+  "total_deaths": "3591.0",
+  "alpha2": "ge"
  },
  "DEU": {
   "population": 83783945,
-  "name": "Germany"
+  "name": "Germany",
+  "total_cases": "2513784.0",
+  "total_deaths": "72236.0",
+  "alpha2": "de"
  },
  "GHA": {
   "population": 31072945,
-  "name": "Ghana"
+  "name": "Ghana",
+  "total_cases": "86465.0",
+  "total_deaths": "647.0",
+  "alpha2": "gh"
  },
  "GIB": {
   "population": 33691,
-  "name": "Gibraltar"
+  "name": "Gibraltar",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "GRC": {
   "population": 10423056,
-  "name": "Greece"
+  "name": "Greece",
+  "total_cases": "206281.0",
+  "total_deaths": "6797.0",
+  "alpha2": "gr"
  },
  "GRL": {
   "population": 56772,
-  "name": "Greenland"
+  "name": "Greenland",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "GRD": {
   "population": 112519,
-  "name": "Grenada"
+  "name": "Grenada",
+  "total_cases": "148.0",
+  "total_deaths": "1.0",
+  "alpha2": "gd"
  },
  "GTM": {
   "population": 17915567,
-  "name": "Guatemala"
+  "name": "Guatemala",
+  "total_cases": "178770.0",
+  "total_deaths": "6479.0",
+  "alpha2": "gt"
  },
  "GGY": {
   "population": 67052,
-  "name": "Guernsey"
+  "name": "Guernsey",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "GIN": {
   "population": 13132792,
-  "name": "Guinea"
+  "name": "Guinea",
+  "total_cases": "16912.0",
+  "total_deaths": "97.0",
+  "alpha2": "gn"
  },
  "GNB": {
   "population": 1967998,
-  "name": "Guinea-Bissau"
+  "name": "Guinea-Bissau",
+  "total_cases": "3312.0",
+  "total_deaths": "49.0",
+  "alpha2": "gw"
  },
  "GUY": {
   "population": 786559,
-  "name": "Guyana"
+  "name": "Guyana",
+  "total_cases": "8814.0",
+  "total_deaths": "203.0",
+  "alpha2": "gy"
  },
  "HTI": {
   "population": 11402533,
-  "name": "Haiti"
+  "name": "Haiti",
+  "total_cases": "12536.0",
+  "total_deaths": "251.0",
+  "alpha2": "ht"
  },
  "HND": {
   "population": 9904608,
-  "name": "Honduras"
+  "name": "Honduras",
+  "total_cases": "174243.0",
+  "total_deaths": "4283.0",
+  "alpha2": "hn"
  },
  "HKG": {
   "population": 7496988,
-  "name": "Hong Kong"
+  "name": "Hong Kong",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "HUN": {
   "population": 9660350,
-  "name": "Hungary"
+  "name": "Hungary",
+  "total_cases": "468713.0",
+  "total_deaths": "15988.0",
+  "alpha2": "hu"
  },
  "ISL": {
   "population": 341250,
-  "name": "Iceland"
+  "name": "Iceland",
+  "total_cases": "6064.0",
+  "total_deaths": "29.0",
+  "alpha2": "is"
  },
  "IND": {
   "population": 1380004385,
-  "name": "India"
+  "name": "India",
+  "total_cases": "11244786.0",
+  "total_deaths": "157930.0",
+  "alpha2": "in"
  },
  "IDN": {
   "population": 273523621,
-  "name": "Indonesia"
+  "name": "Indonesia",
+  "total_cases": "1386556.0",
+  "total_deaths": "37547.0",
+  "alpha2": "id"
  },
  "IRN": {
   "population": 83992953,
-  "name": "Iran"
+  "name": "Iran",
+  "total_cases": "1698005.0",
+  "total_deaths": "60786.0",
+  "alpha2": "ir"
  },
  "IRQ": {
   "population": 40222503,
-  "name": "Iraq"
+  "name": "Iraq",
+  "total_cases": "731016.0",
+  "total_deaths": "13596.0",
+  "alpha2": "iq"
  },
  "IRL": {
   "population": 4937796,
-  "name": "Ireland"
+  "name": "Ireland",
+  "total_cases": "223651.0",
+  "total_deaths": "4422.0",
+  "alpha2": "ie"
  },
  "IMN": {
   "population": 85032,
-  "name": "Isle of Man"
+  "name": "Isle of Man",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "ISR": {
   "population": 8655541,
-  "name": "Israel"
+  "name": "Israel",
+  "total_cases": "805116.0",
+  "total_deaths": "5917.0",
+  "alpha2": "il"
  },
  "ITA": {
   "population": 60461828,
-  "name": "Italy"
+  "name": "Italy",
+  "total_cases": "3081368.0",
+  "total_deaths": "100103.0",
+  "alpha2": "it"
  },
  "JAM": {
   "population": 2961161,
-  "name": "Jamaica"
+  "name": "Jamaica",
+  "total_cases": "26904.0",
+  "total_deaths": "454.0",
+  "alpha2": "jm"
  },
  "JPN": {
   "population": 126476458,
-  "name": "Japan"
+  "name": "Japan",
+  "total_cases": "439977.0",
+  "total_deaths": "8301.0",
+  "alpha2": "jp"
  },
  "JEY": {
   "population": 101073,
-  "name": "Jersey"
+  "name": "Jersey",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "JOR": {
   "population": 10203140,
-  "name": "Jordan"
+  "name": "Jordan",
+  "total_cases": "435130.0",
+  "total_deaths": "4987.0",
+  "alpha2": "jo"
  },
  "KAZ": {
   "population": 18776707,
-  "name": "Kazakhstan"
+  "name": "Kazakhstan",
+  "total_cases": "268902.0",
+  "total_deaths": "3186.0",
+  "alpha2": "kz"
  },
  "KEN": {
   "population": 53771300,
-  "name": "Kenya"
+  "name": "Kenya",
+  "total_cases": "109164.0",
+  "total_deaths": "1879.0",
+  "alpha2": "ke"
  },
  "OWID_KOS": {
   "population": 1932774,
-  "name": "Kosovo"
+  "name": "Kosovo",
+  "total_cases": "73735.0",
+  "total_deaths": "1655.0",
+  "alpha2": ""
  },
  "KWT": {
   "population": 4270563,
-  "name": "Kuwait"
+  "name": "Kuwait",
+  "total_cases": "201898.0",
+  "total_deaths": "1133.0",
+  "alpha2": "kw"
  },
  "KGZ": {
   "population": 6524191,
-  "name": "Kyrgyzstan"
+  "name": "Kyrgyzstan",
+  "total_cases": "86583.0",
+  "total_deaths": "1473.0",
+  "alpha2": "kg"
  },
  "LAO": {
   "population": 7275556,
-  "name": "Laos"
+  "name": "Laos",
+  "total_cases": "47.0",
+  "total_deaths": "",
+  "alpha2": "la"
  },
  "LVA": {
   "population": 1886202,
-  "name": "Latvia"
+  "name": "Latvia",
+  "total_cases": "90525.0",
+  "total_deaths": "1699.0",
+  "alpha2": "lv"
  },
  "LBN": {
   "population": 6825442,
-  "name": "Lebanon"
+  "name": "Lebanon",
+  "total_cases": "397887.0",
+  "total_deaths": "5089.0",
+  "alpha2": "lb"
  },
  "LSO": {
   "population": 2142252,
-  "name": "Lesotho"
+  "name": "Lesotho",
+  "total_cases": "10523.0",
+  "total_deaths": "308.0",
+  "alpha2": "ls"
  },
  "LBR": {
   "population": 5057677,
-  "name": "Liberia"
+  "name": "Liberia",
+  "total_cases": "2024.0",
+  "total_deaths": "85.0",
+  "alpha2": "lr"
  },
  "LBY": {
   "population": 6871287,
-  "name": "Libya"
+  "name": "Libya",
+  "total_cases": "139658.0",
+  "total_deaths": "2288.0",
+  "alpha2": "ly"
  },
  "LIE": {
   "population": 38137,
-  "name": "Liechtenstein"
+  "name": "Liechtenstein",
+  "total_cases": "2592.0",
+  "total_deaths": "54.0",
+  "alpha2": "li"
  },
  "LTU": {
   "population": 2722291,
-  "name": "Lithuania"
+  "name": "Lithuania",
+  "total_cases": "202430.0",
+  "total_deaths": "3336.0",
+  "alpha2": "lt"
  },
  "LUX": {
   "population": 625976,
-  "name": "Luxembourg"
+  "name": "Luxembourg",
+  "total_cases": "56677.0",
+  "total_deaths": "663.0",
+  "alpha2": "lu"
  },
  "MAC": {
   "population": 649342,
-  "name": "Macao"
+  "name": "Macao",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "MDG": {
   "population": 27691019,
-  "name": "Madagascar"
+  "name": "Madagascar",
+  "total_cases": "20155.0",
+  "total_deaths": "300.0",
+  "alpha2": "mg"
  },
  "MWI": {
   "population": 19129955,
-  "name": "Malawi"
+  "name": "Malawi",
+  "total_cases": "32469.0",
+  "total_deaths": "1070.0",
+  "alpha2": "mw"
  },
  "MYS": {
   "population": 32365998,
-  "name": "Malaysia"
+  "name": "Malaysia",
+  "total_cases": "314989.0",
+  "total_deaths": "1177.0",
+  "alpha2": "my"
  },
  "MDV": {
   "population": 540542,
-  "name": "Maldives"
+  "name": "Maldives",
+  "total_cases": "20919.0",
+  "total_deaths": "64.0",
+  "alpha2": "mv"
  },
  "MLI": {
   "population": 20250834,
-  "name": "Mali"
+  "name": "Mali",
+  "total_cases": "8613.0",
+  "total_deaths": "358.0",
+  "alpha2": "ml"
  },
  "MLT": {
   "population": 441539,
-  "name": "Malta"
+  "name": "Malta",
+  "total_cases": "24599.0",
+  "total_deaths": "334.0",
+  "alpha2": "mt"
  },
  "MHL": {
   "population": 59194,
-  "name": "Marshall Islands"
+  "name": "Marshall Islands",
+  "total_cases": "4.0",
+  "total_deaths": "",
+  "alpha2": "mh"
  },
  "MRT": {
   "population": 4649660,
-  "name": "Mauritania"
+  "name": "Mauritania",
+  "total_cases": "17340.0",
+  "total_deaths": "442.0",
+  "alpha2": "mr"
  },
  "MUS": {
   "population": 1271767,
-  "name": "Mauritius"
+  "name": "Mauritius",
+  "total_cases": "641.0",
+  "total_deaths": "10.0",
+  "alpha2": "mu"
  },
  "MEX": {
   "population": 128932753,
-  "name": "Mexico"
+  "name": "Mexico",
+  "total_cases": "2130477.0",
+  "total_deaths": "190923.0",
+  "alpha2": "mx"
  },
  "FSM": {
   "population": 115021,
-  "name": "Micronesia"
+  "name": "Micronesia",
+  "total_cases": "1.0",
+  "total_deaths": "",
+  "alpha2": "fm"
  },
  "MDA": {
   "population": 4033963,
-  "name": "Moldova"
+  "name": "Moldova",
+  "total_cases": "195602.0",
+  "total_deaths": "4129.0",
+  "alpha2": "md"
  },
  "MCO": {
   "population": 39244,
-  "name": "Monaco"
+  "name": "Monaco",
+  "total_cases": "2028.0",
+  "total_deaths": "26.0",
+  "alpha2": "mc"
  },
  "MNG": {
   "population": 3278292,
-  "name": "Mongolia"
+  "name": "Mongolia",
+  "total_cases": "3372.0",
+  "total_deaths": "3.0",
+  "alpha2": "mn"
  },
  "MNE": {
   "population": 628062,
-  "name": "Montenegro"
+  "name": "Montenegro",
+  "total_cases": "80191.0",
+  "total_deaths": "1085.0",
+  "alpha2": "me"
+ },
+ "MSR": {
+  "population": 4999,
+  "name": "Montserrat",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "MAR": {
   "population": 36910558,
-  "name": "Morocco"
+  "name": "Morocco",
+  "total_cases": "486325.0",
+  "total_deaths": "8683.0",
+  "alpha2": "ma"
  },
  "MOZ": {
   "population": 31255435,
-  "name": "Mozambique"
+  "name": "Mozambique",
+  "total_cases": "62703.0",
+  "total_deaths": "698.0",
+  "alpha2": "mz"
  },
  "MMR": {
   "population": 54409794,
-  "name": "Burma"
+  "name": "Burma",
+  "total_cases": "142045.0",
+  "total_deaths": "3200.0",
+  "alpha2": "mm"
  },
  "NAM": {
   "population": 2540916,
-  "name": "Namibia"
+  "name": "Namibia",
+  "total_cases": "40187.0",
+  "total_deaths": "439.0",
+  "alpha2": "na"
  },
  "NPL": {
   "population": 29136808,
-  "name": "Nepal"
+  "name": "Nepal",
+  "total_cases": "274810.0",
+  "total_deaths": "3011.0",
+  "alpha2": "np"
  },
  "NLD": {
   "population": 17134873,
-  "name": "Netherlands"
+  "name": "Netherlands",
+  "total_cases": "1139102.0",
+  "total_deaths": "15990.0",
+  "alpha2": "nl"
  },
  "NZL": {
   "population": 4822233,
-  "name": "New Zealand"
+  "name": "New Zealand",
+  "total_cases": "2409.0",
+  "total_deaths": "26.0",
+  "alpha2": "nz"
  },
  "NIC": {
   "population": 6624554,
-  "name": "Nicaragua"
+  "name": "Nicaragua",
+  "total_cases": "6489.0",
+  "total_deaths": "174.0",
+  "alpha2": "ni"
  },
  "NER": {
   "population": 24206636,
-  "name": "Niger"
+  "name": "Niger",
+  "total_cases": "4828.0",
+  "total_deaths": "177.0",
+  "alpha2": "ne"
  },
  "NGA": {
   "population": 206139587,
-  "name": "Nigeria"
+  "name": "Nigeria",
+  "total_cases": "158906.0",
+  "total_deaths": "1982.0",
+  "alpha2": "ng"
  },
  "OWID_NAM": {
   "population": 592072204,
-  "name": "North America"
+  "name": "North America",
+  "total_cases": "33421233.0",
+  "total_deaths": "765547.0",
+  "alpha2": ""
  },
  "MKD": {
   "population": 2083380,
-  "name": "North Macedonia"
+  "name": "North Macedonia",
+  "total_cases": "107479.0",
+  "total_deaths": "3206.0",
+  "alpha2": "mk"
  },
  "NOR": {
   "population": 5421242,
-  "name": "Norway"
+  "name": "Norway",
+  "total_cases": "75770.0",
+  "total_deaths": "632.0",
+  "alpha2": "no"
  },
  "OWID_OCE": {
   "population": 42677809,
-  "name": "Oceania"
+  "name": "Oceania",
+  "total_cases": "33235.0",
+  "total_deaths": "953.0",
+  "alpha2": ""
  },
  "OMN": {
   "population": 5106622,
-  "name": "Oman"
+  "name": "Oman",
+  "total_cases": "144404.0",
+  "total_deaths": "1594.0",
+  "alpha2": "om"
  },
  "PAK": {
   "population": 220892331,
-  "name": "Pakistan"
+  "name": "Pakistan",
+  "total_cases": "593453.0",
+  "total_deaths": "13281.0",
+  "alpha2": "pk"
  },
  "PSE": {
   "population": 5101416,
-  "name": "Palestine"
+  "name": "Palestine",
+  "total_cases": "198554.0",
+  "total_deaths": "2157.0",
+  "alpha2": ""
  },
  "PAN": {
   "population": 4314768,
-  "name": "Panama"
+  "name": "Panama",
+  "total_cases": "345236.0",
+  "total_deaths": "5934.0",
+  "alpha2": "pa"
  },
  "PNG": {
   "population": 8947027,
-  "name": "Papua New Guinea"
+  "name": "Papua New Guinea",
+  "total_cases": "1670.0",
+  "total_deaths": "16.0",
+  "alpha2": "pg"
  },
  "PRY": {
   "population": 7132530,
-  "name": "Paraguay"
+  "name": "Paraguay",
+  "total_cases": "169860.0",
+  "total_deaths": "3343.0",
+  "alpha2": "py"
  },
  "PER": {
   "population": 32971846,
-  "name": "Peru"
+  "name": "Peru",
+  "total_cases": "1371176.0",
+  "total_deaths": "47854.0",
+  "alpha2": "pe"
  },
  "PHL": {
   "population": 109581085,
-  "name": "Philippines"
+  "name": "Philippines",
+  "total_cases": "597763.0",
+  "total_deaths": "12521.0",
+  "alpha2": "ph"
  },
  "POL": {
   "population": 37846605,
-  "name": "Poland"
+  "name": "Poland",
+  "total_cases": "1801083.0",
+  "total_deaths": "45317.0",
+  "alpha2": "pl"
  },
  "PRT": {
   "population": 10196707,
-  "name": "Portugal"
+  "name": "Portugal",
+  "total_cases": "810459.0",
+  "total_deaths": "16565.0",
+  "alpha2": "pt"
  },
  "QAT": {
   "population": 2881060,
-  "name": "Qatar"
+  "name": "Qatar",
+  "total_cases": "167417.0",
+  "total_deaths": "263.0",
+  "alpha2": "qa"
  },
  "ROU": {
   "population": 19237682,
-  "name": "Romania"
+  "name": "Romania",
+  "total_cases": "830563.0",
+  "total_deaths": "20963.0",
+  "alpha2": "ro"
  },
  "RUS": {
   "population": 145934460,
-  "name": "Russia"
+  "name": "Russia",
+  "total_cases": "4284408.0",
+  "total_deaths": "87985.0",
+  "alpha2": "ru"
  },
  "RWA": {
   "population": 12952209,
-  "name": "Rwanda"
+  "name": "Rwanda",
+  "total_cases": "19659.0",
+  "total_deaths": "268.0",
+  "alpha2": "rw"
  },
  "SHN": {
   "population": 6071,
-  "name": "Saint Helena"
+  "name": "Saint Helena",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "KNA": {
   "population": 53192,
-  "name": "Saint Kitts and Nevis"
+  "name": "Saint Kitts and Nevis",
+  "total_cases": "41.0",
+  "total_deaths": "",
+  "alpha2": "kn"
  },
  "LCA": {
   "population": 183629,
-  "name": "Saint Lucia"
+  "name": "Saint Lucia",
+  "total_cases": "3871.0",
+  "total_deaths": "46.0",
+  "alpha2": "lc"
  },
  "VCT": {
   "population": 110947,
-  "name": "Saint Vincent and the Grenadines"
+  "name": "Saint Vincent and the Grenadines",
+  "total_cases": "1663.0",
+  "total_deaths": "8.0",
+  "alpha2": "vc"
  },
  "WSM": {
   "population": 198410,
-  "name": "Samoa"
+  "name": "Samoa",
+  "total_cases": "3.0",
+  "total_deaths": "",
+  "alpha2": "ws"
  },
  "SMR": {
   "population": 33938,
-  "name": "San Marino"
+  "name": "San Marino",
+  "total_cases": "3935.0",
+  "total_deaths": "76.0",
+  "alpha2": "sm"
  },
  "STP": {
   "population": 219161,
-  "name": "Sao Tome and Principe"
+  "name": "Sao Tome and Principe",
+  "total_cases": "1961.0",
+  "total_deaths": "32.0",
+  "alpha2": "st"
  },
  "SAU": {
   "population": 34813867,
-  "name": "Saudi Arabia"
+  "name": "Saudi Arabia",
+  "total_cases": "380182.0",
+  "total_deaths": "6534.0",
+  "alpha2": "sa"
  },
  "SEN": {
   "population": 16743930,
-  "name": "Senegal"
+  "name": "Senegal",
+  "total_cases": "35959.0",
+  "total_deaths": "925.0",
+  "alpha2": "sn"
  },
  "SRB": {
   "population": 6804596,
-  "name": "Serbia"
+  "name": "Serbia",
+  "total_cases": "489530.0",
+  "total_deaths": "4579.0",
+  "alpha2": "rs"
  },
  "SYC": {
   "population": 98340,
-  "name": "Seychelles"
+  "name": "Seychelles",
+  "total_cases": "3000.0",
+  "total_deaths": "15.0",
+  "alpha2": "sc"
  },
  "SLE": {
   "population": 7976985,
-  "name": "Sierra Leone"
+  "name": "Sierra Leone",
+  "total_cases": "3921.0",
+  "total_deaths": "79.0",
+  "alpha2": "sl"
  },
  "SGP": {
   "population": 5850343,
-  "name": "Singapore"
+  "name": "Singapore",
+  "total_cases": "60046.0",
+  "total_deaths": "29.0",
+  "alpha2": "sg"
  },
  "SVK": {
   "population": 5459643,
-  "name": "Slovakia"
+  "name": "Slovakia",
+  "total_cases": "323786.0",
+  "total_deaths": "7921.0",
+  "alpha2": "sk"
  },
  "SVN": {
   "population": 2078932,
-  "name": "Slovenia"
+  "name": "Slovenia",
+  "total_cases": "195678.0",
+  "total_deaths": "3897.0",
+  "alpha2": "si"
  },
  "SLB": {
   "population": 686878,
-  "name": "Solomon Islands"
+  "name": "Solomon Islands",
+  "total_cases": "18.0",
+  "total_deaths": "",
+  "alpha2": "sb"
  },
  "SOM": {
   "population": 15893219,
-  "name": "Somalia"
+  "name": "Somalia",
+  "total_cases": "8438.0",
+  "total_deaths": "307.0",
+  "alpha2": "so"
  },
  "ZAF": {
   "population": 59308690,
-  "name": "South Africa"
+  "name": "South Africa",
+  "total_cases": "1521706.0",
+  "total_deaths": "50803.0",
+  "alpha2": "za"
  },
  "OWID_SAM": {
   "population": 430759772,
-  "name": "South America"
+  "name": "South America",
+  "total_cases": "18661411.0",
+  "total_deaths": "482792.0",
+  "alpha2": ""
  },
  "KOR": {
   "population": 51269183,
-  "name": "Korea, South"
+  "name": "Korea, South",
+  "total_cases": "93263.0",
+  "total_deaths": "1645.0",
+  "alpha2": "kr"
  },
  "SSD": {
   "population": 11193729,
-  "name": "South Sudan"
+  "name": "South Sudan",
+  "total_cases": "8870.0",
+  "total_deaths": "102.0",
+  "alpha2": "ss"
  },
  "ESP": {
   "population": 46754783,
-  "name": "Spain"
+  "name": "Spain",
+  "total_cases": "3160970.0",
+  "total_deaths": "71436.0",
+  "alpha2": "es"
  },
  "LKA": {
   "population": 21413250,
-  "name": "Sri Lanka"
+  "name": "Sri Lanka",
+  "total_cases": "86039.0",
+  "total_deaths": "507.0",
+  "alpha2": "lk"
  },
  "SDN": {
   "population": 43849269,
-  "name": "Sudan"
+  "name": "Sudan",
+  "total_cases": "30540.0",
+  "total_deaths": "1915.0",
+  "alpha2": "sd"
  },
  "SUR": {
   "population": 586634,
-  "name": "Suriname"
+  "name": "Suriname",
+  "total_cases": "8980.0",
+  "total_deaths": "175.0",
+  "alpha2": "sr"
  },
  "SWE": {
   "population": 10099270,
-  "name": "Sweden"
+  "name": "Sweden",
+  "total_cases": "684961.0",
+  "total_deaths": "13003.0",
+  "alpha2": "se"
  },
  "CHE": {
   "population": 8654618,
-  "name": "Switzerland"
+  "name": "Switzerland",
+  "total_cases": "565034.0",
+  "total_deaths": "10056.0",
+  "alpha2": "ch"
  },
  "SYR": {
   "population": 17500657,
-  "name": "Syria"
+  "name": "Syria",
+  "total_cases": "16042.0",
+  "total_deaths": "1068.0",
+  "alpha2": "sy"
  },
  "TWN": {
   "population": 23816775,
-  "name": "Taiwan*"
+  "name": "Taiwan*",
+  "total_cases": "976.0",
+  "total_deaths": "10.0",
+  "alpha2": ""
  },
  "TJK": {
   "population": 9537642,
-  "name": "Tajikistan"
+  "name": "Tajikistan",
+  "total_cases": "13308.0",
+  "total_deaths": "90.0",
+  "alpha2": "tj"
  },
  "TZA": {
   "population": 59734213,
-  "name": "Tanzania"
+  "name": "Tanzania",
+  "total_cases": "509.0",
+  "total_deaths": "21.0",
+  "alpha2": "tz"
  },
  "THA": {
   "population": 69799978,
-  "name": "Thailand"
+  "name": "Thailand",
+  "total_cases": "26441.0",
+  "total_deaths": "85.0",
+  "alpha2": "th"
  },
  "TLS": {
   "population": 1318442,
-  "name": "Timor-Leste"
+  "name": "Timor-Leste",
+  "total_cases": "129.0",
+  "total_deaths": "",
+  "alpha2": "tl"
  },
  "TGO": {
   "population": 8278737,
-  "name": "Togo"
+  "name": "Togo",
+  "total_cases": "7598.0",
+  "total_deaths": "92.0",
+  "alpha2": "tg"
  },
  "TTO": {
   "population": 1399491,
-  "name": "Trinidad and Tobago"
+  "name": "Trinidad and Tobago",
+  "total_cases": "7736.0",
+  "total_deaths": "140.0",
+  "alpha2": "tt"
  },
  "TUN": {
   "population": 11818618,
-  "name": "Tunisia"
+  "name": "Tunisia",
+  "total_cases": "238017.0",
+  "total_deaths": "8225.0",
+  "alpha2": "tn"
  },
  "TUR": {
   "population": 84339067,
-  "name": "Turkey"
+  "name": "Turkey",
+  "total_cases": "2793632.0",
+  "total_deaths": "29094.0",
+  "alpha2": "tr"
  },
  "TCA": {
   "population": 38718,
-  "name": "Turks and Caicos Islands"
+  "name": "Turks and Caicos Islands",
+  "total_cases": "",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "UGA": {
   "population": 45741000,
-  "name": "Uganda"
+  "name": "Uganda",
+  "total_cases": "40479.0",
+  "total_deaths": "334.0",
+  "alpha2": "ug"
  },
  "UKR": {
   "population": 43733759,
-  "name": "Ukraine"
+  "name": "Ukraine",
+  "total_cases": "1455421.0",
+  "total_deaths": "28616.0",
+  "alpha2": "ua"
  },
  "ARE": {
   "population": 9890400,
-  "name": "United Arab Emirates"
+  "name": "United Arab Emirates",
+  "total_cases": "413332.0",
+  "total_deaths": "1335.0",
+  "alpha2": "ae"
  },
  "GBR": {
   "population": 67886004,
-  "name": "United Kingdom"
+  "name": "United Kingdom",
+  "total_cases": "4235989.0",
+  "total_deaths": "124801.0",
+  "alpha2": "gb"
  },
  "USA": {
   "population": 331002647,
-  "name": "US"
+  "name": "US",
+  "total_cases": "29044110.0",
+  "total_deaths": "525752.0",
+  "alpha2": "us"
  },
  "URY": {
   "population": 3473727,
-  "name": "Uruguay"
+  "name": "Uruguay",
+  "total_cases": "64700.0",
+  "total_deaths": "658.0",
+  "alpha2": "uy"
  },
  "UZB": {
   "population": 33469199,
-  "name": "Uzbekistan"
+  "name": "Uzbekistan",
+  "total_cases": "80219.0",
+  "total_deaths": "622.0",
+  "alpha2": "uz"
  },
  "VUT": {
   "population": 307150,
-  "name": "Vanuatu"
+  "name": "Vanuatu",
+  "total_cases": "3.0",
+  "total_deaths": "",
+  "alpha2": "vu"
  },
  "VAT": {
   "population": 809,
-  "name": "Holy See"
+  "name": "Holy See",
+  "total_cases": "27.0",
+  "total_deaths": "",
+  "alpha2": ""
  },
  "VEN": {
   "population": 28435943,
-  "name": "Venezuela"
+  "name": "Venezuela",
+  "total_cases": "142774.0",
+  "total_deaths": "1391.0",
+  "alpha2": "ve"
  },
  "VNM": {
   "population": 97338583,
-  "name": "Vietnam"
+  "name": "Vietnam",
+  "total_cases": "2524.0",
+  "total_deaths": "35.0",
+  "alpha2": "vn"
  },
  "OWID_WRL": {
   "population": 7794798729,
-  "name": "World"
+  "name": "World",
+  "total_cases": "117148248.0",
+  "total_deaths": "2600063.0",
+  "alpha2": ""
  },
  "YEM": {
   "population": 29825968,
-  "name": "Yemen"
+  "name": "Yemen",
+  "total_cases": "2545.0",
+  "total_deaths": "653.0",
+  "alpha2": "ye"
  },
  "ZMB": {
   "population": 18383956,
-  "name": "Zambia"
+  "name": "Zambia",
+  "total_cases": "82655.0",
+  "total_deaths": "1132.0",
+  "alpha2": "zm"
  },
  "ZWE": {
   "population": 14862927,
-  "name": "Zimbabwe"
+  "name": "Zimbabwe",
+  "total_cases": "36289.0",
+  "total_deaths": "1487.0",
+  "alpha2": "zw"
  }
 }
