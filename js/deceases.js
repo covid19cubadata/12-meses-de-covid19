@@ -1,7 +1,7 @@
 var allDeceasesDataEnabled = false;
 var allDeceasesData = [];
-var minX = 0.00020
-var minY = 0.020
+var minX = 1
+var minY = 1
 
 function pointColor(points) {
     pointBackgroundColors = [];
@@ -27,8 +27,8 @@ function getDeceasesData() {
             var population = values["population"];
             var cases = values["total_cases"];
             var deaths = values["total_deaths"];
-            var morthality = deaths !== 0 ? deaths / population : 0;
-            var fatality = (deaths !== 0) || (cases !== 0) ? deaths / cases : 0;
+            var morthality = deaths !== 0 ? (deaths / population ) * 10000 : 0;
+            var fatality = (deaths !== 0) || (cases !== 0) ? (deaths / cases) * 100 : 0;
 
             if (!region.includes("OWID") && deaths != null && cases != null) {
                 acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality })
@@ -64,7 +64,7 @@ function getDeceasesData() {
                     xAxes: [{
                         scaleLabel: {
                             display: true,
-                            labelString: 'Mortalidad',
+                            labelString: 'Mortalidad ( % por millón de habitantes )',
                             type: 'linear',
                             position: 'bottom'
                           }
@@ -72,7 +72,7 @@ function getDeceasesData() {
                     yAxes: [{
                         scaleLabel: {
                           display: true,
-                          labelString: 'Letalidad'
+                          labelString: 'Letalidad (%)'
                         }
                       }]
                 },
