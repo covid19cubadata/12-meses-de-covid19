@@ -1,4 +1,4 @@
-var chart,
+var chart_d,
 regionColors = {
     'Pinar del Río': "#00553d",
     'Artemisa': "#fe0002",
@@ -26,19 +26,19 @@ JSC.fetch('data/province_confirmed.csv')
   }) 
   .then(function(text) { 
       var data = JSC.csv2Json(text); 
-      chart = renderChart(data); 
+      chart_d = renderChart_d(data); 
   }) 
   .catch(function(error) { 
       console.error(error); 
   }); 
 
-function renderChart(data) { 
+function renderChart_d(data) { 
   var stopped = true, 
       timer, 
       frameDelay = 5, 
       currentDate = startDate; 
 return JSC.chart( 
-    'confirmed_bar_race',
+    'deceased_bar_race',
     { 
     type: 'horizontal column solid', 
     // Controls the speed of the animation and the chart. 
@@ -63,14 +63,14 @@ return JSC.chart(
         label: { 
         margin_bottom: 40, 
         text: 
-            'Covid 19: Casos confirmados'
+            'Covid 19: Fallecidos'
         } 
     }, 
     annotations: [ 
         { 
         id: 'year',
         label: { 
-            text: formatAnnotation(new Date(startDate))
+            text: formatAnnotation_d(new Date(startDate))
         }, 
         position: 'inside right'
         } 
@@ -83,7 +83,7 @@ return JSC.chart(
         legendEntry_visible: false, 
         mouseTracking_enabled: false
     }, 
-    series: makeSeries(data), 
+    series: makeSeries_d(data), 
     toolbar: { 
         defaultItem: { 
         position: 'inside top', 
@@ -106,9 +106,9 @@ return JSC.chart(
             max: new Date(endDate).getTime(), 
             events_change: function(val) { 
             // Update chart 
-            moveSlider(val); 
+            moveSlider_d(val); 
             // Stop playback if manually handling the slider. 
-            playPause(true); 
+            playPause_d(true); 
             } 
         },
         endLabel: { 
@@ -124,7 +124,7 @@ return JSC.chart(
             icon_name: 'system/default/pause', 
             label_text: 'Pause', 
             events_change: function(val) { 
-            playPause(!stopped); 
+            playPause_d(!stopped); 
             } 
         } 
         } 
@@ -132,11 +132,11 @@ return JSC.chart(
     }, 
     function(c) { 
     // Start the animation once the chart is rendered. 
-    playPause(false, c); 
+    playPause_d(false, c); 
     } 
 ); 
 
-function makeSeries(data) { 
+function makeSeries_d(data) { 
     var dateStr = currentDate + '_date'; 
     data.sort(function(a, b) { 
     return b[dateStr] - a[dateStr]; 
@@ -155,7 +155,7 @@ function makeSeries(data) {
     .series(data); 
 } 
         
-function moveSlider(date, cb) { 
+function moveSlider_d(date, cb) { 
     var dt = new Date(date); 
     currentDate = JSC.formatDate( 
     new Date( 
@@ -167,26 +167,26 @@ function moveSlider(date, cb) {
     ); 
 
     // Update chart label and slider 
-    chart 
+    chart_d 
     .annotations('year')
     .options( 
-        { label_text: formatAnnotation(dt) }, 
+        { label_text: formatAnnotation_d(dt) }, 
         { animation_duration: 0 } 
     ); 
-    chart 
+    chart_d 
     .uiItems('slider') 
     .options({ value: dt.getTime() }); 
 
     // Update points. The then: cb update option will execute the callback once the animation is finished. 
-    chart 
+    chart_d 
     .series(0)
     .options(
-        { points: makeSeries(data)[0].points },
+        { points: makeSeries_d(data)[0].points },
         { then: cb }
     ); 
 } 
 
-function animateChart() { 
+function animateChart_d() { 
     if (!stopped) { 
     timer = setTimeout(function() { 
         var dt = new Date(currentDate); 
@@ -194,22 +194,22 @@ function animateChart() {
         if (currentDate >= new Date(endDate).getTime()) { 
             clearInterval(timer); 
         currentDate = endDate; 
-        chart 
+        chart_d 
             .uiItems('slider') 
             .options({ 
             value: new Date( 
                 currentDate 
             ).getTime() 
             }); 
-        playPause(true); 
+        playPause_d(true); 
         } 
-        moveSlider(currentDate, animateChart); 
+        moveSlider_d(currentDate, animateChart_d); 
     }, frameDelay); 
     } 
 } 
 
-function playPause(val, chrt) { 
-    var c = chrt || chart; 
+function playPause_d(val, chrt) { 
+    var c = chrt || chart_d; 
     if (val) { 
     if (!stopped) { 
         // Stop 
@@ -228,19 +228,19 @@ function playPause(val, chrt) {
             icon_name: 'system/default/pause'
         }); 
         stopped = false; 
-        animateChart(); 
+        animateChart_d(); 
     } 
     } 
 } 
 
-function formatAnnotation(dt) { 
+function formatAnnotation_d(dt) { 
     var year = dt.getFullYear();
     var options = {year: "numeric", month: "short", day: "numeric"};
     var day = dt.toLocaleDateString("es-ES", options); 
     return ( 
     '<span style="font-size:20px; font-weight:bold; width:160px">' + day +
     '</span><br>' +
-    '<br>Casos confirmados:<br><span align="center" style="font-size:24px; font-weight:bold; width:180px">{%sum:n0}</span>'
+    '<br>Fallecidos:<br><span align="center" style="font-size:24px; font-weight:bold; width:180px">{%sum:n0}</span>'
     ); 
 } 
 }
