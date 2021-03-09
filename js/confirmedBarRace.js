@@ -18,7 +18,7 @@ regionColors = {
     'Isla de la Juventud': "#38b396"
 },
 startDate = '03/11/2020',
-endDate = '03/09/2021';
+endDate = '03/06/2021';
 
 JSC.fetch('data/province_confirmed.csv')
   .then(function(response) {
@@ -98,7 +98,7 @@ return JSC.chart(
         }, 
         slider: { 
             type: 'range', 
-            width: 400, 
+            width: 300, 
             // Reduce chart update frequency to smooth slider action. 
             debounce: 20, 
             value: new Date(startDate).getTime(), 
@@ -179,13 +179,13 @@ function moveSlider(date, cb) {
 
     // Update points. The then: cb update option will execute the callback once the animation is finished. 
     chart 
-    .series(0) 
-    .options( 
-        { points: makeSeries(data)[0].points }, 
-        { then: cb } 
+    .series(0)
+    .options(
+        { points: makeSeries(data)[0].points },
+        { then: cb }
     ); 
 } 
-        
+
 function animateChart() { 
     if (!stopped) { 
     timer = setTimeout(function() { 
@@ -238,7 +238,7 @@ function formatAnnotation(dt) {
     var options = {year: "numeric", month: "short", day: "numeric"};
     var day = dt.toLocaleDateString("es-ES", options); 
     return ( 
-    '<span style="font-size:20px; font-weight:bold; width:150px">' + day +
+    '<span style="font-size:20px; font-weight:bold; width:160px">' + day +
     '</span><br>' +
     '<br>Casos confirmados:<br><span align="center" style="font-size:24px; font-weight:bold; width:180px">{%sum:n0}</span>'
     ); 

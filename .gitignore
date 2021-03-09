@@ -1,3 +1,10 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 utils/owid-covid-data.csv
 utils/timeseries.json
 utils/covid19-cuba.json
+
+utils/barRace/data/covid19-cuba.json
