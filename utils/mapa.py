@@ -22,14 +22,18 @@ def get_countries_incidence():
         for i in reader:
             iso_code = i[headers['iso_code']]
             population = i[headers['population']]
+            total_cases = i[headers['total_cases']]
+            total_deaths = i[headers['total_deaths']]
             if not population and population != 0:
                 continue
             name = i[headers['location']]
             if 'population' not in data[name]:
                 data[name] = {
                     'population': int(float(population)),
-                    'code': iso_code
+                    'code': iso_code,
                 }
+            data[name]['total_deaths'] = total_deaths
+            data[name]['total_cases'] = total_cases
         data['Burma'] = data['Myanmar']
         data['Cabo Verde'] = data['Cape Verde']
         data['Congo (Kinshasa)'] = data['Congo']
@@ -45,10 +49,26 @@ def get_countries_incidence():
         with open('data/counties-codes.json', 'w') as f:
             json.dump(data, f, indent=1)
 
-        code_countries = {j['code']: {
-            'population': int(float(j['population'])),
-            'name': i
-        } for i, j in countries.items()}
+        code_countries = {}
+
+        with open('data/alpha3_to_alpha2.json', 'r') as r:
+            dicc = json.load(r)
+        
+            for i,j in countries.items():
+                alpha2 = ""
+                try:
+                    alpha2 = dicc[j['code'].lower()]
+                except:
+                    pass
+                finally:
+                    code_countries[
+                        j['code']] = {
+                            'population': int(float(j['population'])),
+                            'name': i,
+                            'total_cases': j['total_cases'],
+                            'total_deaths': j['total_deaths'],
+                            'alpha2': alpha2
+                        }
 
         with open('data/codes-countries.json', 'w') as f:
             json.dump(code_countries, f, indent=1)
@@ -56,9 +76,10 @@ def get_countries_incidence():
         countries = json.load(open('data/counties-codes.json'))
 
     cubadata = requests.get(
-        'https://covid19cubadata.github.io/data/covid19-cuba.json')
+        'https://covid19cubadata.github.io/data/covid19-cuba.json').content
     # cubadata = requests.get(
     #    'http://localhost:8000/utils/covid19-cuba.json').json()
+    cubadata = json.loads(cubadata)
 
     counter = 0
     cuba = {}
