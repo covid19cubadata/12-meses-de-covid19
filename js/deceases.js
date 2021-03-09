@@ -58,6 +58,8 @@ function getDeceasesData() {
             var deaths = values["total_deaths"];
             var morthality = deaths !== 0 ? (deaths / population ) * 10000 : 0;
             var fatality = (deaths !== 0) || (cases !== 0) ? (deaths / cases) * 100 : 0;
+            morthality = Math.round(morthality * 100)/100;
+            fatality = Math.round(fatality * 100)/100;
 
             if (!region.includes("OWID") && deaths != null && cases != null && deaths != 0) {
                 acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality, 'continent': continent })
@@ -74,17 +76,14 @@ function getDeceasesData() {
 
             data: {
                 datasets: [{
-                    label: 'Letalidad vs mortalidad por países',
                     data: allDeceasesData,
                     pointBackgroundColor: pointColor(allDeceasesData)
                 }]
             },
             options: {
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Letalidad vs mortalidad por países'
-                    }
+                title: {
+                    display: true,
+                    text: 'Letalidad vs mortalidad por países'
                 },
                 legend: {
                     display: true
@@ -222,7 +221,6 @@ function getDeceasesData() {
 
                 scatterChart.data = {
                     datasets: [{
-                        label: 'Letalidad vs mortalidad por países',
                         data: newPoints,
                         pointBackgroundColor: colors
                     }]
