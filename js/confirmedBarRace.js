@@ -18,7 +18,7 @@ regionColors = {
     'Isla de la Juventud': "#38b396"
 },
 startDate = '03/11/2020',
-endDate = '03/06/2021';
+endDate = '03/09/2021';
 
 JSC.fetch('data/province_confirmed.csv')
   .then(function(response) {
@@ -207,7 +207,7 @@ function animateChart() {
     }, frameDelay); 
     } 
 } 
-        
+
 function playPause(val, chrt) { 
     var c = chrt || chart; 
     if (val) { 
