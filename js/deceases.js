@@ -1,4 +1,4 @@
-var allDeceasesDataEnabled = false;
+var allDeceasesDataEnabled = true;
 var allDeceasesData = {};
 var minX = 1;
 var minY = 1;
@@ -18,23 +18,6 @@ var continentColours = {
     "America": americaColour,
     "Cuba": cubaColour
 }
-
-// function pointColor(points) {
-//     pointBackgroundColors = [];
-//     for (i = 0; i < points.length; i++) {
-//         if (points[i].name === 'Cuba') {
-//             pointBackgroundColors.push(cubaColour);
-//         } else {
-//             if (points[i].continent in Object.keys(continentColours)){
-
-//             }
-//                 default:
-//                     pointBackgroundColors.push(neutralColour);
-//             }
-//         }
-//     }
-//     return pointBackgroundColors;
-// }
 
 function getDeceasesData() {
 
@@ -87,9 +70,6 @@ function getDeceasesData() {
                     return {
                         data: allDeceasesData[key],
                         backgroundColor: continentColours[values[0].continent],
-                        //borderColor: pointColor(allDeceasesData[key]),
-                        //pointBackgroundColor: pointColor(value)
-                        //labelColors: [asiaColour],
                         label: key
                     };
                 })
@@ -225,41 +205,54 @@ function getDeceasesData() {
             }
         });
 
-        // $("#deceasesComparison").click(
-        //     function (evt) {
-        //         allDeceasesDataEnabled = !allDeceasesDataEnabled;
+        $("#deceasesZoomIn").click(
+            function(evt) {
+                if(allDeceasesDataEnabled){
+                    allDeceasesDataEnabled = !allDeceasesDataEnabled;
+                    var newPoints = {};
+                    
+                    for (key in allDeceasesData) {
+                        newPoints[key] = allDeceasesData[key].filter((x) => x.x < minX && x.y < minY);
+                    }
+            
+            
+                    scatterChart.data = {
+                        datasets: Object.keys(newPoints).map(function( key, index){
+                            var values = newPoints[key];
+                            return {
+                                data: values,
+                                backgroundColor: continentColours[values[0].continent],
+                                label: key
+                            };
+                        })
+                    }
+            
+                    scatterChart.update();
+                }
+            }
+        );
 
-        //         var newPoints = allDeceasesData;
+        $("#deceasesZoomOut").click(
+            function(evt){
+                if(!allDeceasesDataEnabled){
+                    allDeceasesDataEnabled = !allDeceasesDataEnabled;
 
-        //         if (allDeceasesDataEnabled) {
-        //             for (key in newPoints) {
-        //                 newPoints[key] = newPoints[key].filter((x) => x.x < minX && x.y < minY);
-        //             }
-        //         }
-
-        //         scatterChart.data = {
-        //             datasets: Object.keys(newPoints).map(function (key, index) {
-        //                 return {
-        //                     data: newPoints[key],
-        //                     labelColors: pointColor(newPoints[key]),
-        //                     //pointBackgroundColor: pointColor(value),
-        //                     label: key
-        //                 };
-        //             })
-        //         };
-
-        //         scatterChart.update();
-        //     }
-        // );
+                    scatterChart.data = {
+                        datasets: Object.keys(allDeceasesData).map(function( key, index){
+                            var values = allDeceasesData[key];
+                            return {
+                                data: values,
+                                backgroundColor: continentColours[values[0].continent],
+                                label: key
+                            };
+                        })
+                    }
+            
+                    scatterChart.update();
+                }
+            }
+        );
     });
 };
 
-function deceasesZoomIn(){
-    console.log("entro");
-}
-
-function deceasesZoomOut(){}
-
 getDeceasesData();
-
-
