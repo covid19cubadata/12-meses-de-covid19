@@ -22,6 +22,7 @@ def get_countries_incidence():
         for i in reader:
             iso_code = i[headers['iso_code']]
             population = i[headers['population']]
+            continent = i[headers['continent']]
             total_cases = i[headers['total_cases']]
             total_deaths = i[headers['total_deaths']]
             if not population and population != 0:
@@ -31,6 +32,7 @@ def get_countries_incidence():
                 data[name] = {
                     'population': int(float(population)),
                     'code': iso_code,
+                    'continent': continent
                 }
             data[name]['total_deaths'] = total_deaths
             data[name]['total_cases'] = total_cases
@@ -44,6 +46,8 @@ def get_countries_incidence():
         data['Timor-Leste'] = data['Timor']
         data['US'] = data['United States']
         data['Cuba']['population'] = 11209628
+        data['Cuba']['total_cases'] = 57607
+        data['Cuba']['total_deaths'] = 352
         countries = data
 
         with open('data/counties-codes.json', 'w') as f:
@@ -65,6 +69,7 @@ def get_countries_incidence():
                         j['code']] = {
                             'population': int(float(j['population'])),
                             'name': i,
+                            'continent': j['continent'],
                             'total_cases': j['total_cases'],
                             'total_deaths': j['total_deaths'],
                             'alpha2': alpha2
