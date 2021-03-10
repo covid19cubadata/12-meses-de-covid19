@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/chart.min.css">
   <link rel="stylesheet" href="css/leaflet.css" />
   <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css">
 </head>
 
 <body>
@@ -38,6 +39,17 @@
 
     <div class="deceasesComparisonDiv">
       <canvas id="deceasesComparison" width="150" height="80"></canvas>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col text-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn" onclick="deceasesZoomIn()"><i class="bi bi-zoom-in"></i></button>
+              <button type="button" class="btn" onclick="deceasesZoomOut()"><i class="bi bi-zoom-out"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
     <section id="scrolly">
       <figure>

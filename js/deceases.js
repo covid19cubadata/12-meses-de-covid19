@@ -254,6 +254,12 @@ function getDeceasesData() {
     });
 };
 
+function deceasesZoomIn(){
+    console.log("entro");
+}
+
+function deceasesZoomOut(){}
+
 getDeceasesData();
 
 
