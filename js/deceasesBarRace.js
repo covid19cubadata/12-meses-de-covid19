@@ -18,13 +18,23 @@ regionColors = {
     'Isla de la Juventud': "#38b396"
 },
 startDate = '03/11/2020',
-endDate = '03/06/2021';
+endDateD = '03/11/2020'
+
+function getDate(data){
+    var text = data.split(/\r\n|\n/);
+    var columns = text[0].split(',');
+    var text_date = columns[columns.length - 1]
+    var date = text_date.split("_")[0];
+    console.log(date);
+    return date;
+}
 
 JSC.fetch('data/province_deceases.csv')
   .then(function(response) {
       return response.text();
   }) 
-  .then(function(text) { 
+  .then(function(text) {
+      endDateD = getDate(text);
       var data = JSC.csv2Json(text); 
       chart_d = renderChart_d(data); 
   }) 
@@ -103,7 +113,7 @@ return JSC.chart(
             debounce: 20, 
             value: new Date(startDate).getTime(), 
             min: new Date(startDate).getTime(), 
-            max: new Date(endDate).getTime(), 
+            max: new Date(endDateD).getTime(), 
             events_change: function(val) { 
             // Update chart 
             moveSlider_d(val); 
@@ -113,7 +123,7 @@ return JSC.chart(
         },
         endLabel: { 
             type: 'label', 
-            label_text: new Date(endDate).getFullYear() + ''
+            label_text: new Date(endDateD).getFullYear() + ''
         }, 
         Pause: { 
             type: 'option', 
@@ -191,9 +201,9 @@ function animateChart_d() {
     timer = setTimeout(function() { 
         var dt = new Date(currentDate); 
         currentDate = dt.setDate(dt.getDate() + 1); 
-        if (currentDate >= new Date(endDate).getTime()) { 
+        if (currentDate >= new Date(endDateD).getTime()) { 
             clearInterval(timer); 
-        currentDate = endDate; 
+        currentDate = endDateD; 
         chart_d 
             .uiItems('slider') 
             .options({ 
