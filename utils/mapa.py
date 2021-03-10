@@ -46,6 +46,8 @@ def get_countries_incidence():
         data['Timor-Leste'] = data['Timor']
         data['US'] = data['United States']
         data['Cuba']['population'] = 11209628
+        data['Cuba']['total_cases'] = 57607
+        data['Cuba']['total_deaths'] = 352
         countries = data
 
         with open('data/counties-codes.json', 'w') as f:
