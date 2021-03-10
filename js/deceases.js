@@ -1,18 +1,22 @@
-var allDeceasesDataEnabled = false;
-var allDeceasesData = [];
-var minX = 0.00020
-var minY = 0.020
+var allDeceasesDataEnabled = true;
+var allDeceasesData = {};
+var minX = 1;
+var minY = 1;
+var cubaColour = "#eb3323";
+var americaColour = "#f7c88a";
+var africaColour = "#9be48b";
+var oceaniaColour = "#fffd92";
+var europeColour = "#d387e7";
+var asiaColour = "#8783e3";
+var neutralColour = "D1D2D4";
 
-function pointColor(points) {
-    pointBackgroundColors = [];
-    for (i = 0; i < points.length; i++) {
-        if (points[i].name !== 'Cuba') {
-            pointBackgroundColors.push("#4789cc");
-        } else {
-            pointBackgroundColors.push("#cf9494");
-        }
-    }
-    return pointBackgroundColors;
+var continentColours = {
+    "Africa" : africaColour,
+    "Asia": asiaColour,
+    "Europe": europeColour,
+    "Oceania": oceaniaColour,
+    "America": americaColour,
+    "Cuba": cubaColour
 }
 
 function getDeceasesData() {
@@ -25,13 +29,30 @@ function getDeceasesData() {
             var code = values["alpha2"];
             var name = values["name"];
             var population = values["population"];
+            var continent = values['continent'];
             var cases = values["total_cases"];
             var deaths = values["total_deaths"];
-            var morthality = deaths !== 0 ? deaths / population : 0;
-            var fatality = (deaths !== 0) || (cases !== 0) ? deaths / cases : 0;
+            var morthality = deaths !== 0 ? (deaths / population ) * 10000 : 0;
+            var fatality = (deaths !== 0) || (cases !== 0) ? (deaths / cases) * 100 : 0;
+            morthality = Math.round(morthality * 100)/100;
+            fatality = Math.round(fatality * 100)/100;
 
-            if (!region.includes("OWID") && deaths != null && cases != null) {
-                acc.push({ 'name': name, 'code': code, 'x': morthality, 'y': fatality })
+            if(continent === 'North America' || continent === 'South America'){
+                continent = 'America';
+            }
+
+            if(name === "Cuba"){
+                continent = "Cuba"
+            }
+
+            if (!region.includes("OWID") && deaths != null && cases != null && deaths != 0) {
+                var newData = { 'name': name, 'code': code, 'x': morthality, 'y': fatality, 'continent': continent };
+                if(!(continent in allDeceasesData)){
+                    allDeceasesData[continent] = [newData];
+                }
+                else{
+                    allDeceasesData[continent].push(newData);
+                }
             }
 
         }
@@ -44,18 +65,19 @@ function getDeceasesData() {
             type: 'scatter',
 
             data: {
-                datasets: [{
-                    label: 'Letalidad vs mortalidad por países',
-                    data: allDeceasesData,
-                    pointBackgroundColor: pointColor(allDeceasesData)
-                }]
+                datasets: Object.keys(allDeceasesData).map(function( key, index){
+                    var values = allDeceasesData[key];
+                    return {
+                        data: allDeceasesData[key],
+                        backgroundColor: continentColours[values[0].continent],
+                        label: key
+                    };
+                })
             },
             options: {
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Letalidad vs mortalidad por países'
-                    }
+                title: {
+                    display: true,
+                    text: 'Letalidad vs mortalidad por países'
                 },
                 legend: {
                     display: true
@@ -64,7 +86,7 @@ function getDeceasesData() {
                     xAxes: [{
                         scaleLabel: {
                             display: true,
-                            labelString: 'Mortalidad',
+                            labelString: 'Mortalidad ( % por millón de habitantes )',
                             type: 'linear',
                             position: 'bottom'
                           }
@@ -72,7 +94,7 @@ function getDeceasesData() {
                     yAxes: [{
                         scaleLabel: {
                           display: true,
-                          labelString: 'Letalidad'
+                          labelString: 'Letalidad ( % )'
                         }
                       }]
                 },
@@ -183,28 +205,54 @@ function getDeceasesData() {
             }
         });
 
-        $("#deceasesComparison").click(
-            function (evt) {
-                allDeceasesDataEnabled = !allDeceasesDataEnabled;
+        $("#deceasesZoomIn").click(
+            function(evt) {
+                if(allDeceasesDataEnabled){
+                    allDeceasesDataEnabled = !allDeceasesDataEnabled;
+                    var newPoints = {};
+                    
+                    for (key in allDeceasesData) {
+                        newPoints[key] = allDeceasesData[key].filter((x) => x.x < minX && x.y < minY);
+                    }
+            
+            
+                    scatterChart.data = {
+                        datasets: Object.keys(newPoints).map(function( key, index){
+                            var values = newPoints[key];
+                            return {
+                                data: values,
+                                backgroundColor: continentColours[values[0].continent],
+                                label: key
+                            };
+                        })
+                    }
+            
+                    scatterChart.update();
+                }
+            }
+        );
 
-                var newPoints = allDeceasesDataEnabled ? allDeceasesData.filter((x) => x.x < minX && x.y < minY) : allDeceasesData;
+        $("#deceasesZoomOut").click(
+            function(evt){
+                if(!allDeceasesDataEnabled){
+                    allDeceasesDataEnabled = !allDeceasesDataEnabled;
 
-                var colors = pointColor(newPoints);
-
-                scatterChart.data = {
-                    datasets: [{
-                        label: 'Letalidad vs mortalidad por países',
-                        data: newPoints,
-                        pointBackgroundColor: colors
-                    }]
-                };
-
-                scatterChart.update();
+                    scatterChart.data = {
+                        datasets: Object.keys(allDeceasesData).map(function( key, index){
+                            var values = allDeceasesData[key];
+                            return {
+                                data: values,
+                                backgroundColor: continentColours[values[0].continent],
+                                label: key
+                            };
+                        })
+                    }
+            
+                    scatterChart.update();
+                }
             }
         );
     });
 };
 
 getDeceasesData();
-
-
