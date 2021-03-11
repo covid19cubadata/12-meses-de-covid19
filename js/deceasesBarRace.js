@@ -72,8 +72,7 @@ return JSC.chart(
         position: 'center', 
         label: { 
         margin_bottom: 40, 
-        text: 
-            'Covid 19: Fallecidos'
+        text: ''
         } 
     }, 
     annotations: [ 
