@@ -101,7 +101,8 @@ figure {
   margin-bottom: 20px;
 }
 
-.image-block > img, #banner-block > img {
+.image-block > img,
+#banner-block > img {
   width: 100%;
 }
 
@@ -138,8 +139,18 @@ figure {
 #daily-acthome-info1,
 #daily-acthome-info,
 #daily-porciento-positivos,
-#asymcases-total-percent, 
-#importedPie, 
+#asymcases-total-percent,
+#importedPie,
 #sexPie {
   height: 400px;
+}
+
+.iframe-viewport-16x9 {
+  width: 95vw;
+  height: 53.43vw;
+}
+
+.iframe-viewport-other {
+  width: 68vw;
+  height: 58vw;
 }
