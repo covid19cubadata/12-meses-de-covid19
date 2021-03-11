@@ -1,163 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="max-age=0" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <title>12 Meses de Covid-19</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/c3.min.css" />
-    <link rel="stylesheet" href="css/chart.min.css" />
-    <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
-  </head>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="max-age=0" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <title>12 Meses de Covid-19</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/c3.min.css" />
-    <link rel="stylesheet" href="css/chart.min.css" />
-    <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>12 Meses de Covid-19</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/c3.min.css" />
+  <link rel="stylesheet" href="css/chart.min.css" />
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
+</head>
 
-  <body>
-    <main class="container-fluid">
-      <div id="banner-block">
-        <img src="images/banner.jpg" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>12 Meses de Covid-19</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/c3.min.css" />
+  <link rel="stylesheet" href="css/chart.min.css" />
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
+</head>
+
+<body>
+  <main class="container-fluid">
+    <div id="banner-block">
+      <img src="images/banner.jpg" alt="" />
+    </div>
+    <div class="text-block">
+      <p>
+        En diciembre de 2019 hubo un brote epidémico de una enfermedad de
+        causa desconocida en Wuhan, China. Ese fue el inicio conocido de lo
+        que semanas después fue declarado por la OMS como pandemia. La
+        enfermedad que se nombró COVID-19 y que es ocasionada por el virus
+        SARS-CoV-2, ya ha afectado a más de 116 millones de personas en 255
+        países y territorios provocando más de 2 millones y medio de muertes.
+      </p>
+      <p>
+        El 11 de marzo de 2020, cuando ya la enfermedad se había reportado en
+        más de cien territorios la Organización Mundial de la Salud la declaró como pandemia. Ese
+        mismo día, las autoridades del Ministerio de Salud Pública de Cuba
+        (MINSAP) dieron a conocer la presencia en territorio cubano de los
+        tres primeros casos positivos al SARS-CoV-2. Un año después, como el
+        resto del mundo, el país todavía lidia con la pandemia hasta ahora más
+        contundente del siglo XXI.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución por países de la tasa de incidencia semanal (por millón de
+        habitantes)
       </div>
-      <div class="text-block">
-        <p>
-          En diciembre de 2019 hubo un brote epidémico de una enfermedad de
-          causa desconocida en Wuhan, China. Ese fue el inicio conocido de lo
-          que semanas después fue declarado por la OMS como pandemia. La
-          enfermedad que se nombró COVID-19 y que es ocasionada por el virus
-          SARS-CoV-2, ya ha afectado a más de 116 millones de personas en 255
-          países y territorios provocando más de 2 millones y medio de muertes.
-        </p>
-        <p>
-          El 11 de marzo de 2020, cuando ya la enfermedad se había reportado en
-          más de cien territorios la Organización Mundial de la Salud la declaró
-          como pandemia. Ese mismo día, las autoridades del Ministerio de Salud
-          Pública de Cuba (MINSAP) dieron a conocer la presencia en territorio
-          cubano de los tres primeros casos positivos al SARS-CoV-2. Un año
-          después, como el resto del mundo, el país todavía lidia con la
-          pandemia hasta ahora más contundente del siglo XXI.
-        </p>
+      <div id="label-week-block" class="buttons-container mb-2">
+        <span id="label-week">Semana:</span> <span id="week"></span>
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución por países de la tasa de incidencia semanal (por millón de
-          habitantes)
-        </div>
-        <div id="label-week-block" class="buttons-container mb-2">
-          <span id="label-week">Semana:</span> <span id="week"></span>
-        </div>
-        <div id="world-map"></div>
-        <div class="buttons-container mt-2">
-          <button
-            onclick="$.slides.prev()"
-            class="control-button"
-            id="prev-control-btn"
-          >
-            <i class="bi bi-caret-left-square-fill" id="prev-control"></i>
-          </button>
-          <button
-            onclick="$.slides.pause()"
-            class="control-button"
-            id="pause-control-btn"
-          >
-            <i class="bi bi-pause-btn-fill" id="pause-control"></i>
-          </button>
-          <button
-            onclick="$.slides.play()"
-            class="control-button"
-            id="play-control-btn"
-          >
-            <i class="bi bi-play-btn-fill" id="play-control"></i>
-          </button>
-          <button
-            onclick="$.slides.stop()"
-            class="control-button"
-            id="stop-control-btn"
-          >
-            <i class="bi bi-stop-btn-fill" id="stop-control"></i>
-          </button>
-          <button
-            onclick="$.slides.next()"
-            class="control-button"
-            id="next-control-btn"
-          >
-            <i class="bi bi-caret-right-square-fill" id="next-control"></i>
-          </button>
-        </div>
+      <div id="world-map"></div>
+      <div class="buttons-container mt-2">
+        <button onclick="$.slides.prev()" class="control-button" id="prev-control-btn">
+          <i class="bi bi-caret-left-square-fill" id="prev-control"></i>
+        </button>
+        <button onclick="$.slides.pause()" class="control-button" id="pause-control-btn">
+          <i class="bi bi-pause-btn-fill" id="pause-control"></i>
+        </button>
+        <button onclick="$.slides.play()" class="control-button" id="play-control-btn">
+          <i class="bi bi-play-btn-fill" id="play-control"></i>
+        </button>
+        <button onclick="$.slides.stop()" class="control-button" id="stop-control-btn">
+          <i class="bi bi-stop-btn-fill" id="stop-control"></i>
+        </button>
+        <button onclick="$.slides.next()" class="control-button" id="next-control-btn">
+          <i class="bi bi-caret-right-square-fill" id="next-control"></i>
+        </button>
       </div>
-      <div class="text-block">
-        <p>
-          La experiencia de Cuba en el tratamiento de epidemias hacía que muchos
-          tuvieran las expectativas de conseguir una solución rápida. Sin
-          embargo, la Isla y sus habitantes han estado embarcados en una
-          intermitente travesía, plagada de alientos y desesperanzas. Un rumbo
-          que, con cifras e indicadores variables, han condicionado una
-          evolución irregular de la mayor crisis sanitaria de la Mayor de las
-          Antillas y el mundo en las últimas décadas.
-        </p>
-        <p>
-          Así, transcurrido un año de epidemia en la mayor de las Antillas, se
-          han confirmado, hasta el 9 de marzo de 2021, 58379 casos de los cuales
-          ya son negativos a la presencia del virus 53450 y, desafortunadamente,
-          han fallecido 357.
-        </p>
-        <p>
-          No obstante, no todos los indicadores de la epidemia en Cuba han
-          tenido notable variabilidad. Un ejemplo de ello ha sido la paridad de
-          valores entre los sexos. Las cantidades de mujeres y hombres
-          reportados como casos confirmados en el país durante la pandemia han
-          sido muy similares en el transcurso de la epidemia.
-        </p>
+    </div>
+    <div class="text-block">
+      <p>
+        La experiencia de Cuba en el tratamiento de epidemias hacía que muchos
+        tuvieran las expectativas de conseguir una solución rápida. Sin
+        embargo, la Isla y sus habitantes han estado embarcados en una
+        intermitente travesía, plagada de alientos y desesperanzas. Un rumbo
+        que, con cifras e indicadores variables, han condicionado una
+        evolución irregular de la mayor crisis sanitaria de la Mayor de las
+        Antillas y el mundo en las últimas décadas.
+      </p>
+      <p>
+        Así, transcurrido un año de epidemia en la mayor de las Antillas, se
+        han confirmado, hasta el 9 de marzo de 2021, 58379 casos de los cuales
+        ya son negativos a la presencia del virus 53450 y, desafortunadamente,
+        han fallecido 357.
+      </p>
+      <p>
+        No obstante, no todos los indicadores de la epidemia en Cuba han
+        tenido notable variabilidad. Un ejemplo de ello ha sido la paridad de
+        valores entre los sexos. Las cantidades de mujeres y hombres
+        reportados como casos confirmados en el país durante la pandemia han
+        sido muy similares en el transcurso de la epidemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución por sexo de los casos confirmados
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Distribución por sexo de los casos confirmados
-        </div>
-        <div class="sexPieDiv">
-          <div id="sexPie"></div>
-        </div>
-      </div>
-      <div class="text-block">
-        <p>
-          Otro indicador que ha tenido una cierta estabilidad en el tiempo ha
-          sido el relacionado con la cantidad de casos asintomáticos y de
-          personas que sí presentaron manifestaciones del nuevo coronavirus. El
-          elevado porciento de casos asintomáticos es una de las grandes
-          dificultades para poder contener la transmisión de esta enfermedad.
-        </p>
-        <p>
-          Luego de transcurridos dos meses y medio luego de detectados los
-          primeros casos, y de manera constante en el año de evolución de la
-          crisis sanitaria, la cantidad de individuos sin síntomas al momento de
-          la confirmación ha sido superior a la de aquellos que si los han
-          presentado.
-        </p>
+      <div class="sexPieDiv">
+        <div id="sexPie"></div>
       </div>
     </div>
     <div class="text-block">
@@ -180,267 +138,223 @@
       <div class="title-block center">
         Evolución de los pacientes sintomáticos/asintomáticos
       </div>
-      <div class="text-block">
-        <p>
-          Sin embargo, a partir del 4 de enero de 2021, cuando se alcanzó el
-          mayor porciento total de casos asintomáticos (65,3%), este valor se ha
-          ido reduciendo gradualmente. Ello ha coincidido con el periodo de
-          mayor incidencia de la enfermedad, lo que ha complejizado el rastreo,
-          detección y aislamiento de casos. Esto puede estar provocando que se
-          detecten menos positivos que antes en la etapa pre-sintomática de la
-          enfermedad.
-        </p>
+      <div id="asymcases-total-percent"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Sin embargo, a partir del 4 de enero de 2021, cuando se alcanzó el
+        mayor porciento total de casos asintomáticos (65,3%), este valor se ha
+        ido reduciendo gradualmente. Ello ha coincidido con el periodo de
+        mayor incidencia de la enfermedad, lo que ha complejizado el rastreo,
+        detección y aislamiento de casos. Esto puede estar provocando que se
+        detecten menos positivos que antes en la etapa pre-sintomática de la
+        enfermedad.
+      </p>
+    </div>
+    <div class="image-block">
+      <img src="images/nueva-normalidad.jpg" alt="" />
+    </div>
+    <div class="text-block">
+      <p>
+        Las fuentes de contagio en la Isla se manifestaron esencialmente de
+        dos formas. Por una parte, se debe hablar de quienes tuvieron la
+        fuente de infección en el exterior del país. Por otra, del contacto
+        dentro de la nación con personas ya contagiadas. Este grupo ha
+        aportado el mayor número de casos a lo largo de la evolución de la
+        pandemia en Cuba, con cifras superiores al 85% de los casos. Existe
+        también un número menor de enfermos a los que no se les ha
+        identificado el modo de contagio.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución de casos importados y no importados
       </div>
-      <div class="image-block">
-        <img src="images/nueva-normalidad.jpg" alt="" />
+      <div id="importedPie"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Los positivos con fuente de infección en el extranjero, aunque
+        presentan cifras inferiores a quienes contrajeron el virus dentro del
+        país, han tenido un gran impacto en el desarrollo de la epidemia en la
+        Isla.
+      </p>
+      <p>
+        La primera etapa de la epidemia, del 11 de marzo al 19 de julio, fue
+        provocada por casos provenientes del exterior. Es en este momento que
+        se decide cerrar las fronteras, lo que se hace efectivo el 24 de
+        marzo.
+      </p>
+      <p>
+        Con las fronteras cerradas, los importados apenas tuvieron incidencia
+        en la segunda ola de la enfermedad, que se ha enmarcado desde el 20 de
+        julio hasta el 19 de noviembre. Es en este periodo, con la apertura el
+        15 de noviembre de las operaciones regulares del Aeropuerto
+        Internacional José Martí, se abren totalmente las fronteras del país.
+      </p>
+      <p>
+        En la última etapa, el volumen de casos importados fue el detonante
+        que tiene al país en la etapa más crítica de la epidemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución del porciento diario de casos importados y no importados
       </div>
-      <div class="text-block">
-        <p>
-          Las fuentes de contagio en la Isla se manifestaron esencialmente de
-          dos formas. Por una parte, se debe hablar de quienes tuvieron la
-          fuente de infección en el exterior del país. Por otra, del contacto
-          dentro de la nación con personas ya contagiadas. Este grupo ha
-          aportado el mayor número de casos a lo largo de la evolución de la
-          pandemia en Cuba, con cifras superiores al 85% de los casos. Existe
-          también un número menor de enfermos a los que no se les ha
-          identificado el modo de contagio.
-        </p>
+      <div id="daily-acthome-info"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        El protocolo para los viajeros fue concebido para que quienes
+        arribaran al país se realizaran una prueba de diagnóstico PCR a su
+        llegada y una segunda cinco días después. Mientras no estuviera
+        disponible el resultado de la segunda el viajero debía estar aislado.
+      </p>
+      <p>
+        El incumplimiento de las medidas de aislamiento, así como las demoras
+        en los resultados de las pruebas, como principales razones, hizo que,
+        en los primeros momentos, se generara una transmisión provocada por
+        estos casos provenientes del exterior.
+      </p>
+      <p>
+        Ello llevó a que se establecieran nuevas medidas relacionadas con la
+        entrada de viajeros al país. A partir del 1ro de enero se redujo el
+        número de vuelos procedentes de Estados Unidos, México, Panamá,
+        Bahamas, Haití y República Dominicana. Luego, el 30 de enero se volvió
+        a limitar el número de vuelos de estos países a los cuales se
+        incorporaron otros.
+      </p>
+      <p>
+        Asimismo, a partir del 6 de enero se estableció como requisito
+        obligatorio para la entrada a Cuba de todos los viajeros
+        internacionales, la realización de una prueba PCR con resultado
+        negativo a COVID-19, con 72 horas de antelación de iniciado el viaje y
+        por un laboratorio certificado en el país de origen. Estas medidas
+        provocaron una casi inmediata reducción de casos con fuente de
+        infección en el extranjero, sin embargo no lograron contener el
+        incremento de la incidencia.
+      </p>
+      <p>
+        Una de las causas fue que, con el volumen de viajeros que ingresaron
+        al país y que, además, requerían la realización de dos pruebas PCR, la
+        gran mayoría de las pruebas realizadas en las semanas que siguieron a
+        la apertura del aeropuerto habanera, estuvieran en función del testeo
+        a viajeros y contactos de estos. Ello provocó que no se buscara lo
+        suficiente en otros segmentos de la población y así se generara una
+        transmisión que no fue detectada con la premura necesaria.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución de casos importados y casos activos desde el 15 de noviembre de 2020
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Distribución de casos importados y no importados
-        </div>
-        <div id="importedPie"></div>
+      <div id="daily-acthome-info1"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Otra de las medidas tomadas en ese momento fue aumentar el ritmo de
+        incremento de la capacidad de Pruebas de Diagnóstico por PCR en el
+        país. Para ello, la estrategia fue que, eventualmente, cada provincia,
+        incluyendo el municipio especial Isla de la Juventud, tuviera al menos
+        un laboratorio propio de Biología Molecular donde poder realizar las
+        pruebas PCR de su territorio. De esta manera, cada territorio podría
+        enfrentar las dinámicas internas de la enfermedad y su contagio, las
+        que se han comportado de manera irregular durante el año de pandemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución por provincias del número de casos confirmados
       </div>
-      <div class="text-block">
-        <p>
-          Los positivos con fuente de infección en el extranjero, aunque
-          presentan cifras inferiores a quienes contrajeron el virus dentro del
-          país, han tenido un gran impacto en el desarrollo de la epidemia en la
-          Isla.
-        </p>
-        <p>
-          La primera etapa de la epidemia, del 11 de marzo al 19 de julio, fue
-          provocada por casos provenientes del exterior. Es en este momento que
-          se decide cerrar las fronteras, lo que se hace efectivo el 24 de
-          marzo.
-        </p>
-        <p>
-          Con las fronteras cerradas, los importados apenas tuvieron incidencia
-          en la segunda ola de la enfermedad, que se ha enmarcado desde el 20 de
-          julio hasta el 19 de noviembre. Es en este periodo, con la apertura el
-          15 de noviembre de las operaciones regulares del Aeropuerto
-          Internacional José Martí, se abren totalmente las fronteras del país.
-        </p>
-        <p>
-          En la última etapa, el volumen de casos importados fue el detonante
-          que tiene al país en la etapa más crítica de la epidemia.
-        </p>
+      <div id="confirmed_bar_race"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        De esta manera, al inicio de la epidemia se trabajaba con tres
+        laboratorios de Biología Molecular en tres provincias y se realizaban
+        poco más de 100 pruebas diarias. Actualmente, se dispone de 22
+        laboratorios en diez provincias y se ha logrado realizar un máximo
+        diario de 20 mil 528 PCR. En las próximas semanas se concluirán los
+        laboratorios en aquellos territorios que aún no disponen de ellos, lo
+        cual permitirá también un mejor distribución geográfica de las pruebas
+        PCR que se realizan, por tanto, un mejor seguimiento de la epidemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución por provincias de las pruebas PCR
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución del porciento diario de casos importados y no importados
-        </div>
-        <div id="daily-acthome-info"></div>
+      <div id="pcr_treemap"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Este aumento de la capacidad de pruebas PCR y su regionalización
+        posibilitará un mejor seguimiento de uno de los indicadores más
+        relevantes para el seguimiento de la epidemia que es el porciento de
+        pruebas PCR que resultan positivas diariamente. La OMS ha establecido
+        el cinco por ciento como un umbral a partir del cual se puede denotar
+        una preocupación seria en la transmisión del virus. Sin embargo, para
+        que este indicador refleje sus valores con mayor certeza es necesario
+        que se tenga un patrón de pruebas realizadas que sea estable en el
+        tiempo y por regiones.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución diaria del porciento de positividad de pruebas PCR
       </div>
-      <div class="text-block">
-        <p>
-          El protocolo para los viajeros fue concebido para que quienes
-          arribaran al país se realizaran una prueba de diagnóstico PCR a su
-          llegada y una segunda cinco días después. Mientras no estuviera
-          disponible el resultado de la segunda el viajero debía estar aislado.
-        </p>
-        <p>
-          El incumplimiento de las medidas de aislamiento, así como las demoras
-          en los resultados de las pruebas, como principales razones, hizo que,
-          en los primeros momentos, se generara una transmisión provocada por
-          estos casos provenientes del exterior.
-        </p>
-        <p>
-          Ello llevó a que se establecieran nuevas medidas relacionadas con la
-          entrada de viajeros al país. A partir del 1ro de enero se redujo el
-          número de vuelos procedentes de Estados Unidos, México, Panamá,
-          Bahamas, Haití y República Dominicana. Luego, el 30 de enero se volvió
-          a limitar el número de vuelos de estos países a los cuales se
-          incorporaron otros.
-        </p>
-        <p>
-          Asimismo, a partir del 6 de enero se estableció como requisito
-          obligatorio para la entrada a Cuba de todos los viajeros
-          internacionales, la realización de una prueba PCR con resultado
-          negativo a COVID-19, con 72 horas de antelación de iniciado el viaje y
-          por un laboratorio certificado en el país de origen. Estas medidas
-          provocaron una casi inmediata reducción de casos con fuente de
-          infección en el extranjero, sin embargo no lograron contener el
-          incremento de la incidencia.
-        </p>
-        <p>
-          Una de las causas fue que, con el volumen de viajeros que ingresaron
-          al país y que, además, requerían la realización de dos pruebas PCR, la
-          gran mayoría de las pruebas realizadas en las semanas que siguieron a
-          la apertura del aeropuerto habanera, estuvieran en función del testeo
-          a viajeros y contactos de estos. Ello provocó que no se buscara lo
-          suficiente en otros segmentos de la población y así se generara una
-          transmisión que no fue detectada con la premura necesaria.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución de casos importados y casos activos desde el 15 de noviembre
-          de 2020
-        </div>
-        <div id="daily-acthome-info1"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          Otra de las medidas tomadas en ese momento fue aumentar el ritmo de
-          incremento de la capacidad de Pruebas de Diagnóstico por PCR en el
-          país. Para ello, la estrategia fue que, eventualmente, cada provincia,
-          incluyendo el municipio especial Isla de la Juventud, tuviera al menos
-          un laboratorio propio de Biología Molecular donde poder realizar las
-          pruebas PCR de su territorio. De esta manera, cada territorio podría
-          enfrentar las dinámicas internas de la enfermedad y su contagio, las
-          que se han comportado de manera irregular durante el año de pandemia.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución por provincias del número de casos confirmados
-        </div>
-        <div id="confirmed_bar_race"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          De esta manera, al inicio de la epidemia se trabajaba con tres
-          laboratorios de Biología Molecular en tres provincias y se realizaban
-          poco más de 100 pruebas diarias. Actualmente, se dispone de 22
-          laboratorios en diez provincias y se ha logrado realizar un máximo
-          diario de 20 mil 528 PCR. En las próximas semanas se concluirán los
-          laboratorios en aquellos territorios que aún no disponen de ellos, lo
-          cual permitirá también un mejor distribución geográfica de las pruebas
-          PCR que se realizan, por tanto, un mejor seguimiento de la epidemia.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Distribución por provincias de las pruebas PCR
-        </div>
-        <div id="pcr_treemap"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          Este aumento de la capacidad de pruebas PCR y su regionalización
-          posibilitará un mejor seguimiento de uno de los indicadores más
-          relevantes para el seguimiento de la epidemia que es el porciento de
-          pruebas PCR que resultan positivas diariamente. La OMS ha establecido
-          el cinco por ciento como un umbral a partir del cual se puede denotar
-          una preocupación seria en la transmisión del virus. Sin embargo, para
-          que este indicador refleje sus valores con mayor certeza es necesario
-          que se tenga un patrón de pruebas realizadas que sea estable en el
-          tiempo y por regiones.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución diaria del porciento de positividad de pruebas PCR
-        </div>
-        <div id="daily-porciento-positivos"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          Cuba, siguiendo este indicador, tuvo una alta transmisibilidad
-          detectada, superior al cinco por ciento de la enfermedad, en los
-          primeros días de la epidemia y ya no volvió a superar ese valor hasta
-          enero de este año. A partir de este momento, se ha mantenido oscilando
-          sobre ese valor reflejando el momento complicado que vive la epidemia
-          en el país.
-        </p>
-      </div>
-      <div class="image-block">
-        <img src="images/pcr.jpg" alt="" />
-      </div>
-      <div class="text-block">
-        <p>
-          Desde antes de la detección en Cuba de los primeros casos de la
-          COVID-19 el Minsap implementó acciones para la prevención y
-          tratamiento de la enfermedad en el país. A lo largo de la pandemia,
-          mientras se conocía más de la enfermedad y se desarrollaron
-          investigaciones y estudios clínicos, estos protocolos han ido
-          evolucionando. Actualmente se ejecuta una sexta versión y se trabaja
-          en la séptima.
-        </p>
-        <p>
-          En el diseño y ejecución de los protocolos han influido factores de
-          diversa índole, desde la concepción del sistema de salud pública
-          cubano, el conocimiento gradual del SARS-CoV-2, el anticipo al
-          tratamiento con el fin de evitar la gravedad, hasta las variables
-          sociológicas, por mencionar algunos.
-        </p>
-        <p>
-          La doctora Ileana Morales Suárez, directora nacional de Ciencia e
-          Innovación Tecnológica del Minsap, comentó en febrero, que los
-          primeros protocolos, del 1 al 3, evolucionaron muy rápido y estuvieron
-          activos por breves períodos de tiempo. En estas etapas tomaron en
-          cuentas las experiencias de otras naciones para la elaboración de
-          dichos protocolos.
-        </p>
-        <p>
-          Al principio de la pandemia se atendieron diariamente en las terapias
-          intensivas hasta un máximo del 25% de los pacientes activos, pues
-          estos eran muy pocos. Luego se estabilizó en valores inferiores 7,5%.
-          Por su parte, a partir de la quinta versión, este indicador no ha
-          superado el 4,34% y la mayoría de sus valores han sido inferiores
-          diariamente al 1,5%.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución del porciento diario pacientes en unidades de cuidados
-          intensivos
-        </div>
-        <div id="graves-percent-evol"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          Actualmente se implementa la sexta versión del protocolo. No obstante,
-          se conocen algunos detalles. Por ejemplo, la realización de tests de
-          antígenos para detectar positivos en momentos tempranos. En las
-          situaciones en que el paciente sea positivo a este examen, y en tanto
-          no se conozcan los resultados del PCR, se inicia el tratamiento con
-          Heberferon. Por otra parte, los sospechosos que presentan síntomas
-          reciben este tratamiento de igual modo junto a Itolizumab o Jusvinza.
-        </p>
-      </div>
-      <div class="visual-block">
-        Tabla widget de productos de la biotecnología cubana hasta protocolo 1.6
-      </div>
-      <div class="text-block">
-        <p>
-          Otros importantes cambios tienen que ver con las clasificaciones.
-          Actualmente se divide a los enfermos en asintomático, sintomático,
-          alto riesgo —que tiene mayor probabilidad de transitar a la gravedad—,
-          y el grave y crítico.
-        </p>
-        <p>
-          El protocolo hace énfasis en el tratamiento de estos últimos.
-          Asimismo, al paciente asintomático y sintomático leve se le ubica en
-          un tipo de centro, los sintomáticos moderados, los de riesgo y los
-          pacientes graves y críticos, en otro.
-        </p>
-        <p>
-          Como parte de los protocolos, la nación también utiliza los recursos
-          biotecnológicos para enfrentar la enfermedad. La presencia de
-          medicamentos creados en Cuba como los mencionados anteriormente se
-          dedican a garantizar los tratamientos. La Isla se encuentra en una
-          compleja situación económica agravada por las acciones de la
-          administración Trump, las que, entre otras, dificultan o impiden la
-          adquisición de insumos y medicinas.
-        </p>
-        <p>
-          En el ámbito profiláctico resaltan la Biomodulina T, el factor de
-          transferencia y las intervenciones con Nasalferón. Para fines
-          terapéuticos, se usan varias formulaciones de Interferón.
-        </p>
+      <div id="daily-porciento-positivos"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Cuba, siguiendo este indicador, tuvo una alta transmisibilidad
+        detectada, superior al cinco por ciento de la enfermedad, en los
+        primeros días de la epidemia y ya no volvió a superar ese valor hasta
+        enero de este año. A partir de este momento, se ha mantenido oscilando
+        sobre ese valor reflejando el momento complicado que vive la epidemia
+        en el país.
+      </p>
+    </div>
+    <div class="image-block">
+      <img src="images/pcr.jpg" alt="" />
+    </div>
+    <div class="text-block">
+      <p>
+        Desde antes de la detección en Cuba de los primeros casos de la
+        COVID-19 el Minsap implementó acciones para la prevención y
+        tratamiento de la enfermedad en el país. A lo largo de la pandemia,
+        mientras se conocía más de la enfermedad y se desarrollaron
+        investigaciones y estudios clínicos, estos protocolos han ido
+        evolucionando. Actualmente se ejecuta una sexta versión y se trabaja
+        en la séptima.
+      </p>
+      <p>
+        En el diseño y ejecución de los protocolos han influido factores de
+        diversa índole, desde la concepción del sistema de salud pública
+        cubano, el conocimiento gradual del SARS-CoV-2, el anticipo al
+        tratamiento con el fin de evitar la gravedad, hasta las variables
+        sociológicas, por mencionar algunos.
+      </p>
+      <p>
+        La doctora Ileana Morales Suárez, directora nacional de Ciencia e
+        Innovación Tecnológica del Minsap, comentó en febrero, que los
+        primeros protocolos, del 1 al 3, evolucionaron muy rápido y estuvieron
+        activos por breves períodos de tiempo. En estas etapas tomaron en
+        cuentas las experiencias de otras naciones para la elaboración de
+        dichos protocolos.
+      </p>
+      <p>
+        Al principio de la pandemia se atendieron diariamente en las terapias
+        intensivas hasta un máximo del 25% de los pacientes activos, pues
+        estos eran muy pocos. Luego se estabilizó en valores inferiores 7,5%.
+        Por su parte, a partir de la quinta versión, este indicador no ha
+        superado el 4,34% y la mayoría de sus valores han sido inferiores
+        diariamente al 1,5%.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución del porciento diario pacientes en unidades de cuidados intensivos
       </div>
       <div id="graves-percent-evol"></div>
     </div>
@@ -575,51 +489,33 @@
           </div>
         </div>
       </div>
-      <div class="text-block">
-        <p>
-          Asimismo, el fallecimiento de personas no ha tenido un comportamiento
-          uniforme durante la epidemia en el país. En el 2020, desde el 11 de
-          marzo hasta el 31 de diciembre, fallecieron 146 personas mientras que
-          en lo que ha transcurrido de 2021 han fallecido K personas.
-        </p>
+    </div>
+    <div class="text-block">
+      <p>
+        Asimismo, el fallecimiento de personas no ha tenido un comportamiento
+        uniforme durante la epidemia en el país. En el 2020, desde el 11 de
+        marzo hasta el 31 de diciembre, fallecieron 146 personas mientras que
+        en lo que ha transcurrido de 2021 han fallecido K personas.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución por provincias del número de personas fallecidas
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución por provincias del número de personas fallecidas
-        </div>
-        <div id="deceases_bar_race"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          Sin embargo en el 2020 hubo 12056 casos confirmados por C en el 2021.
-          O sea, con el aumento de la incidencia ha aumentado la mortalidad,
-          pero ha disminuido la letalidad. Es decir, es menor la proporción de
-          las muertes respecto al número de casos positivos reportados en 2021
-          en comparación a 2020.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">Evolución del número de fallecidos</div>
-        <div id="daily-deads-info"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          El reto actual que tiene el sistema médico cubano es el disminuir al
-          máximo la mortalidad en un escenario de alta incidencia. Para ello se
-          debe trabajar en optimizar los tiempos que van desde la identificación
-          de los síntomas, la hospitalización del paciente, así como su
-          tratamiento apegado a los protocolos.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        <div class="casesUCIDiv">
-          <div
-            id="casesUCI"
-            style="max-width: 550px; height: 300px; margin: 2px auto"
-          ></div>
-        </div>
-        <br />
+      <div id="deceases_bar_race"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Sin embargo en el 2020 hubo 12056 casos confirmados por C en el 2021.
+        O sea, con el aumento de la incidencia ha aumentado la mortalidad,
+        pero ha disminuido la letalidad. Es decir, es menor la proporción de
+        las muertes respecto al número de casos positivos reportados en 2021
+        en comparación a 2020.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución del número de fallecidos
       </div>
       <div id="daily-deads-info"></div>
     </div>
@@ -697,7 +593,7 @@
       </p>
     </div>
     <div class="visual-block center">
-      <iframe class="iframe-viewport-other" src="https://www.youtube.com/embed/ro5uJ1vJeh8" frameborder="0"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ro5uJ1vJeh8" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
@@ -715,41 +611,37 @@
       </p>
     </div>
 
-      <div class="image-block">
-        <img src="images/vacunas.jpg" alt="" />
-      </div>
-      <div class="text-block">
-        <p>
-          Actualmente Cuba se encuentra desarrollando cinco candidatos
-          vacunales. Se trata de Soberana 01, Soberana 01A (Soberana Plus),
-          Soberana 02, Mambisa y Abdala. Las tres primeras tienen el liderazgo
-          del Instituto Finlay y el resto del Centro de Ingeniería Genética y
-          Biotecnología, aunque intervienen otras entidades.
-        </p>
-        <p>
-          Soberana 02 ya comenzó la tercera fase de los ensayos clínicos, con un
-          alcance de 44 mil diez sujetos en La Habana. Se han dispuesto 40
-          vacunatorios en 38 sitios clínicos de seis municipios.
-        </p>
-        <p>
-          Mientras, Abdala casi concluye su segunda etapa de ensayos clínicos en
-          Santiago de Cuba. La documentación para la fase III de sus estudios
-          clínicos ya fue entregada a la autoridad reguladora y aspira a
-          iniciarlos durante marzo de 2021 en la propia Santiago y en
-          Guantánamo. Por su parte, Soberana 01, que fue el candidato vacunal
-          que primero comenzó estudios clínicos está pronto a realizar sus
-          ensayos de fase II en la central provincia de Cienfuegos.
-        </p>
-      </div>
-      <div class="visual-block center">
-        <iframe
-          class="iframe-viewport-16x9"
-          src="https://www.youtube.com/embed/14PPGsPF_bg"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+    <div class="image-block">
+      <img src="images/vacunas.jpg" alt="" />
+    </div>
+    <div class="text-block">
+      <p>
+        Actualmente Cuba se encuentra desarrollando cinco candidatos
+        vacunales. Se trata de Soberana 01, Soberana 01A (Soberana Plus),
+        Soberana 02, Mambisa y Abdala. Las tres primeras tienen el liderazgo
+        del Instituto Finlay y el resto del Centro de Ingeniería Genética y
+        Biotecnología, aunque intervienen otras entidades.
+      </p>
+      <p>
+        Soberana 02 ya comenzó la tercera fase de los ensayos clínicos, con un
+        alcance de 44 mil diez sujetos en La Habana. Se han dispuesto 40
+        vacunatorios en 38 sitios clínicos de seis municipios.
+      </p>
+      <p>
+        Mientras, Abdala casi concluye su segunda etapa de ensayos clínicos en
+        Santiago de Cuba. La documentación para la fase III de sus estudios
+        clínicos ya fue entregada a la autoridad reguladora y aspira a
+        iniciarlos durante marzo de 2021 en la propia Santiago y en
+        Guantánamo. Por su parte, Soberana 01, que fue el candidato vacunal
+        que primero comenzó estudios clínicos está pronto a realizar sus
+        ensayos de fase II en la central provincia de Cienfuegos.
+      </p>
+    </div>
+    <div class="visual-block center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/14PPGsPF_bg" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 
     <div class="text-block">
       <p>
@@ -773,36 +665,36 @@
                   <p class="card-text" id="Fecha"></p>
                 </div>
               </div>
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Diarios</h5>
-                    <p class="card-text" id="Diarios"></p>
-                  </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Diarios</h5>
+                  <p class="card-text" id="Diarios"></p>
                 </div>
               </div>
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Activos</h5>
-                    <p class="card-text" id="Activos"></p>
-                  </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Activos</h5>
+                  <p class="card-text" id="Activos"></p>
                 </div>
               </div>
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Acumulados</h5>
-                    <p class="card-text" id="Acumulados"></p>
-                  </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Acumulados</h5>
+                  <p class="card-text" id="Acumulados"></p>
                 </div>
               </div>
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Fallecidos</h5>
-                    <p class="card-text" id="Fallecidos"></p>
-                  </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Fallecidos</h5>
+                  <p class="card-text" id="Fallecidos"></p>
                 </div>
               </div>
             </div>
@@ -1331,1905 +1223,20 @@
       </section>
     </div>
 
-            <div
-              class="step 2020/03/12"
-              style="height: 1px; background-color: transparent"
-              data-step="2"
-            ></div>
-            <div
-              class="step 2020/03/13"
-              style="height: 1px; background-color: transparent"
-              data-step="3"
-            ></div>
-            <div
-              class="step 2020/03/14"
-              style="height: 1px; background-color: transparent"
-              data-step="4"
-            ></div>
-            <div
-              class="step 2020/03/15"
-              style="height: 1px; background-color: transparent"
-              data-step="5"
-            ></div>
-            <div
-              class="step 2020/03/16"
-              style="height: 1px; background-color: transparent"
-              data-step="6"
-            ></div>
-            <div
-              class="step 2020/03/17"
-              style="height: 1px; background-color: transparent"
-              data-step="7"
-            ></div>
-            <div
-              class="step 2020/03/18 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="8"
-            >
-              <p class="step-title">2020/03/18</p>
-            </div>
-
-            <div
-              class="step 2020/03/19"
-              style="height: 1px; background-color: transparent"
-              data-step="9"
-            ></div>
-            <div
-              class="step 2020/03/20"
-              style="height: 1px; background-color: transparent"
-              data-step="10"
-            ></div>
-            <div
-              class="step 2020/03/21"
-              style="height: 1px; background-color: transparent"
-              data-step="11"
-            ></div>
-            <div
-              class="step 2020/03/22"
-              style="height: 1px; background-color: transparent"
-              data-step="12"
-            ></div>
-            <div
-              class="step 2020/03/23 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="13"
-            >
-              <p class="step-title">2020/03/23</p>
-            </div>
-
-            <div
-              class="step 2020/03/24"
-              style="height: 1px; background-color: transparent"
-              data-step="14"
-            ></div>
-            <div
-              class="step 2020/03/25"
-              style="height: 1px; background-color: transparent"
-              data-step="15"
-            ></div>
-            <div
-              class="step 2020/03/26"
-              style="height: 1px; background-color: transparent"
-              data-step="16"
-            ></div>
-            <div
-              class="step 2020/03/27"
-              style="height: 1px; background-color: transparent"
-              data-step="17"
-            ></div>
-            <div
-              class="step 2020/03/28"
-              style="height: 1px; background-color: transparent"
-              data-step="18"
-            ></div>
-            <div
-              class="step 2020/03/29"
-              style="height: 1px; background-color: transparent"
-              data-step="19"
-            ></div>
-            <div
-              class="step 2020/03/30"
-              style="height: 1px; background-color: transparent"
-              data-step="20"
-            ></div>
-            <div
-              class="step 2020/03/31"
-              style="height: 1px; background-color: transparent"
-              data-step="21"
-            ></div>
-            <div
-              class="step 2020/04/01"
-              style="height: 1px; background-color: transparent"
-              data-step="22"
-            ></div>
-            <div
-              class="step 2020/04/02"
-              style="height: 1px; background-color: transparent"
-              data-step="23"
-            ></div>
-            <div
-              class="step 2020/04/03 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="24"
-            >
-              <p class="step-title">2020/04/03</p>
-            </div>
-
-            <div
-              class="step 2020/04/04"
-              style="height: 1px; background-color: transparent"
-              data-step="25"
-            ></div>
-            <div
-              class="step 2020/04/05"
-              style="height: 1px; background-color: transparent"
-              data-step="26"
-            ></div>
-            <div
-              class="step 2020/04/06"
-              style="height: 1px; background-color: transparent"
-              data-step="27"
-            ></div>
-            <div
-              class="step 2020/04/07"
-              style="height: 1px; background-color: transparent"
-              data-step="28"
-            ></div>
-            <div
-              class="step 2020/04/08"
-              style="height: 1px; background-color: transparent"
-              data-step="29"
-            ></div>
-            <div
-              class="step 2020/04/09"
-              style="height: 1px; background-color: transparent"
-              data-step="30"
-            ></div>
-            <div
-              class="step 2020/04/10"
-              style="height: 1px; background-color: transparent"
-              data-step="31"
-            ></div>
-            <div
-              class="step 2020/04/11"
-              style="height: 1px; background-color: transparent"
-              data-step="32"
-            ></div>
-            <div
-              class="step 2020/04/12"
-              style="height: 1px; background-color: transparent"
-              data-step="33"
-            ></div>
-            <div
-              class="step 2020/04/13"
-              style="height: 1px; background-color: transparent"
-              data-step="34"
-            ></div>
-            <div
-              class="step 2020/04/14"
-              style="height: 1px; background-color: transparent"
-              data-step="35"
-            ></div>
-            <div
-              class="step 2020/04/15"
-              style="height: 1px; background-color: transparent"
-              data-step="36"
-            ></div>
-            <div
-              class="step 2020/04/16 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="37"
-            >
-              <p class="step-title">2020/04/16</p>
-            </div>
-
-            <div
-              class="step 2020/04/17"
-              style="height: 1px; background-color: transparent"
-              data-step="38"
-            ></div>
-            <div
-              class="step 2020/04/18"
-              style="height: 1px; background-color: transparent"
-              data-step="39"
-            ></div>
-            <div
-              class="step 2020/04/19"
-              style="height: 1px; background-color: transparent"
-              data-step="40"
-            ></div>
-            <div
-              class="step 2020/04/20"
-              style="height: 1px; background-color: transparent"
-              data-step="41"
-            ></div>
-            <div
-              class="step 2020/04/21"
-              style="height: 1px; background-color: transparent"
-              data-step="42"
-            ></div>
-            <div
-              class="step 2020/04/22"
-              style="height: 1px; background-color: transparent"
-              data-step="43"
-            ></div>
-            <div
-              class="step 2020/04/23"
-              style="height: 1px; background-color: transparent"
-              data-step="44"
-            ></div>
-            <div
-              class="step 2020/04/24 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="45"
-            >
-              <p class="step-title">2020/04/24</p>
-            </div>
-
-            <div
-              class="step 2020/04/25"
-              style="height: 1px; background-color: transparent"
-              data-step="46"
-            ></div>
-            <div
-              class="step 2020/04/26"
-              style="height: 1px; background-color: transparent"
-              data-step="47"
-            ></div>
-            <div
-              class="step 2020/04/27"
-              style="height: 1px; background-color: transparent"
-              data-step="48"
-            ></div>
-            <div
-              class="step 2020/04/28"
-              style="height: 1px; background-color: transparent"
-              data-step="49"
-            ></div>
-            <div
-              class="step 2020/04/29"
-              style="height: 1px; background-color: transparent"
-              data-step="50"
-            ></div>
-            <div
-              class="step 2020/04/30"
-              style="height: 1px; background-color: transparent"
-              data-step="51"
-            ></div>
-            <div
-              class="step 2020/05/01"
-              style="height: 1px; background-color: transparent"
-              data-step="52"
-            ></div>
-            <div
-              class="step 2020/05/02"
-              style="height: 1px; background-color: transparent"
-              data-step="53"
-            ></div>
-            <div
-              class="step 2020/05/03"
-              style="height: 1px; background-color: transparent"
-              data-step="54"
-            ></div>
-            <div
-              class="step 2020/05/04 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="55"
-            >
-              <p class="step-title">2020/05/04</p>
-            </div>
-
-            <div
-              class="step 2020/05/05"
-              style="height: 1px; background-color: transparent"
-              data-step="56"
-            ></div>
-            <div
-              class="step 2020/05/06"
-              style="height: 1px; background-color: transparent"
-              data-step="57"
-            ></div>
-            <div
-              class="step 2020/05/07"
-              style="height: 1px; background-color: transparent"
-              data-step="58"
-            ></div>
-            <div
-              class="step 2020/05/08"
-              style="height: 1px; background-color: transparent"
-              data-step="59"
-            ></div>
-            <div
-              class="step 2020/05/09"
-              style="height: 1px; background-color: transparent"
-              data-step="60"
-            ></div>
-            <div
-              class="step 2020/05/10"
-              style="height: 1px; background-color: transparent"
-              data-step="61"
-            ></div>
-            <div
-              class="step 2020/05/11 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="62"
-            >
-              <p class="step-title">2020/05/11</p>
-            </div>
-
-            <div
-              class="step 2020/05/12"
-              style="height: 1px; background-color: transparent"
-              data-step="63"
-            ></div>
-            <div
-              class="step 2020/05/13"
-              style="height: 1px; background-color: transparent"
-              data-step="64"
-            ></div>
-            <div
-              class="step 2020/05/14"
-              style="height: 1px; background-color: transparent"
-              data-step="65"
-            ></div>
-            <div
-              class="step 2020/05/15"
-              style="height: 1px; background-color: transparent"
-              data-step="66"
-            ></div>
-            <div
-              class="step 2020/05/16"
-              style="height: 1px; background-color: transparent"
-              data-step="67"
-            ></div>
-            <div
-              class="step 2020/05/17"
-              style="height: 1px; background-color: transparent"
-              data-step="68"
-            ></div>
-            <div
-              class="step 2020/05/18"
-              style="height: 1px; background-color: transparent"
-              data-step="69"
-            ></div>
-            <div
-              class="step 2020/05/19"
-              style="height: 1px; background-color: transparent"
-              data-step="70"
-            ></div>
-            <div
-              class="step 2020/05/20"
-              style="height: 1px; background-color: transparent"
-              data-step="71"
-            ></div>
-            <div
-              class="step 2020/05/21"
-              style="height: 1px; background-color: transparent"
-              data-step="72"
-            ></div>
-            <div
-              class="step 2020/05/22"
-              style="height: 1px; background-color: transparent"
-              data-step="73"
-            ></div>
-            <div
-              class="step 2020/05/23"
-              style="height: 1px; background-color: transparent"
-              data-step="74"
-            ></div>
-            <div
-              class="step 2020/05/24"
-              style="height: 1px; background-color: transparent"
-              data-step="75"
-            ></div>
-            <div
-              class="step 2020/05/25"
-              style="height: 1px; background-color: transparent"
-              data-step="76"
-            ></div>
-            <div
-              class="step 2020/05/26"
-              style="height: 1px; background-color: transparent"
-              data-step="77"
-            ></div>
-            <div
-              class="step 2020/05/27"
-              style="height: 1px; background-color: transparent"
-              data-step="78"
-            ></div>
-            <div
-              class="step 2020/05/28"
-              style="height: 1px; background-color: transparent"
-              data-step="79"
-            ></div>
-            <div
-              class="step 2020/05/29"
-              style="height: 1px; background-color: transparent"
-              data-step="80"
-            ></div>
-            <div
-              class="step 2020/05/30"
-              style="height: 1px; background-color: transparent"
-              data-step="81"
-            ></div>
-            <div
-              class="step 2020/05/31"
-              style="height: 1px; background-color: transparent"
-              data-step="82"
-            ></div>
-            <div
-              class="step 2020/06/01"
-              style="height: 1px; background-color: transparent"
-              data-step="83"
-            ></div>
-            <div
-              class="step 2020/06/02"
-              style="height: 1px; background-color: transparent"
-              data-step="84"
-            ></div>
-            <div
-              class="step 2020/06/03"
-              style="height: 1px; background-color: transparent"
-              data-step="85"
-            ></div>
-            <div
-              class="step 2020/06/04"
-              style="height: 1px; background-color: transparent"
-              data-step="86"
-            ></div>
-            <div
-              class="step 2020/06/05"
-              style="height: 1px; background-color: transparent"
-              data-step="87"
-            ></div>
-            <div
-              class="step 2020/06/06"
-              style="height: 1px; background-color: transparent"
-              data-step="88"
-            ></div>
-            <div
-              class="step 2020/06/07"
-              style="height: 1px; background-color: transparent"
-              data-step="89"
-            ></div>
-            <div
-              class="step 2020/06/08"
-              style="height: 1px; background-color: transparent"
-              data-step="90"
-            ></div>
-            <div
-              class="step 2020/06/09"
-              style="height: 1px; background-color: transparent"
-              data-step="91"
-            ></div>
-            <div
-              class="step 2020/06/10"
-              style="height: 1px; background-color: transparent"
-              data-step="92"
-            ></div>
-            <div
-              class="step 2020/06/11"
-              style="height: 1px; background-color: transparent"
-              data-step="93"
-            ></div>
-            <div
-              class="step 2020/06/12"
-              style="height: 1px; background-color: transparent"
-              data-step="94"
-            ></div>
-            <div
-              class="step 2020/06/13"
-              style="height: 1px; background-color: transparent"
-              data-step="95"
-            ></div>
-            <div
-              class="step 2020/06/14"
-              style="height: 1px; background-color: transparent"
-              data-step="96"
-            ></div>
-            <div
-              class="step 2020/06/15"
-              style="height: 1px; background-color: transparent"
-              data-step="97"
-            ></div>
-            <div
-              class="step 2020/06/16"
-              style="height: 1px; background-color: transparent"
-              data-step="98"
-            ></div>
-            <div
-              class="step 2020/06/17"
-              style="height: 1px; background-color: transparent"
-              data-step="99"
-            ></div>
-            <div
-              class="step 2020/06/18"
-              style="height: 1px; background-color: transparent"
-              data-step="100"
-            ></div>
-            <div
-              class="step 2020/06/19"
-              style="height: 1px; background-color: transparent"
-              data-step="101"
-            ></div>
-            <div
-              class="step 2020/06/20"
-              style="height: 1px; background-color: transparent"
-              data-step="102"
-            ></div>
-            <div
-              class="step 2020/06/21"
-              style="height: 1px; background-color: transparent"
-              data-step="103"
-            ></div>
-            <div
-              class="step 2020/06/22"
-              style="height: 1px; background-color: transparent"
-              data-step="104"
-            ></div>
-            <div
-              class="step 2020/06/23"
-              style="height: 1px; background-color: transparent"
-              data-step="105"
-            ></div>
-            <div
-              class="step 2020/06/24"
-              style="height: 1px; background-color: transparent"
-              data-step="106"
-            ></div>
-            <div
-              class="step 2020/06/25"
-              style="height: 1px; background-color: transparent"
-              data-step="107"
-            ></div>
-            <div
-              class="step 2020/06/26"
-              style="height: 1px; background-color: transparent"
-              data-step="108"
-            ></div>
-            <div
-              class="step 2020/06/27"
-              style="height: 1px; background-color: transparent"
-              data-step="109"
-            ></div>
-            <div
-              class="step 2020/06/28"
-              style="height: 1px; background-color: transparent"
-              data-step="110"
-            ></div>
-            <div
-              class="step 2020/06/29"
-              style="height: 1px; background-color: transparent"
-              data-step="111"
-            ></div>
-            <div
-              class="step 2020/06/30"
-              style="height: 1px; background-color: transparent"
-              data-step="112"
-            ></div>
-            <div
-              class="step 2020/07/01"
-              style="height: 1px; background-color: transparent"
-              data-step="113"
-            ></div>
-            <div
-              class="step 2020/07/02"
-              style="height: 1px; background-color: transparent"
-              data-step="114"
-            ></div>
-            <div
-              class="step 2020/07/03"
-              style="height: 1px; background-color: transparent"
-              data-step="115"
-            ></div>
-            <div
-              class="step 2020/07/04"
-              style="height: 1px; background-color: transparent"
-              data-step="116"
-            ></div>
-            <div
-              class="step 2020/07/05"
-              style="height: 1px; background-color: transparent"
-              data-step="117"
-            ></div>
-            <div
-              class="step 2020/07/06"
-              style="height: 1px; background-color: transparent"
-              data-step="118"
-            ></div>
-            <div
-              class="step 2020/07/07"
-              style="height: 1px; background-color: transparent"
-              data-step="119"
-            ></div>
-            <div
-              class="step 2020/07/08"
-              style="height: 1px; background-color: transparent"
-              data-step="120"
-            ></div>
-            <div
-              class="step 2020/07/09"
-              style="height: 1px; background-color: transparent"
-              data-step="121"
-            ></div>
-            <div
-              class="step 2020/07/10"
-              style="height: 1px; background-color: transparent"
-              data-step="122"
-            ></div>
-            <div
-              class="step 2020/07/11"
-              style="height: 1px; background-color: transparent"
-              data-step="123"
-            ></div>
-            <div
-              class="step 2020/07/12"
-              style="height: 1px; background-color: transparent"
-              data-step="124"
-            ></div>
-            <div
-              class="step 2020/07/13"
-              style="height: 1px; background-color: transparent"
-              data-step="125"
-            ></div>
-            <div
-              class="step 2020/07/14"
-              style="height: 1px; background-color: transparent"
-              data-step="126"
-            ></div>
-            <div
-              class="step 2020/07/15"
-              style="height: 1px; background-color: transparent"
-              data-step="127"
-            ></div>
-            <div
-              class="step 2020/07/16"
-              style="height: 1px; background-color: transparent"
-              data-step="128"
-            ></div>
-            <div
-              class="step 2020/07/17"
-              style="height: 1px; background-color: transparent"
-              data-step="129"
-            ></div>
-            <div
-              class="step 2020/07/18"
-              style="height: 1px; background-color: transparent"
-              data-step="130"
-            ></div>
-            <div
-              class="step 2020/07/19 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="131"
-            >
-              <p class="step-title">2020/07/19</p>
-            </div>
-
-            <div
-              class="step 2020/07/20"
-              style="height: 1px; background-color: transparent"
-              data-step="132"
-            ></div>
-            <div
-              class="step 2020/07/21"
-              style="height: 1px; background-color: transparent"
-              data-step="133"
-            ></div>
-            <div
-              class="step 2020/07/22"
-              style="height: 1px; background-color: transparent"
-              data-step="134"
-            ></div>
-            <div
-              class="step 2020/07/23"
-              style="height: 1px; background-color: transparent"
-              data-step="135"
-            ></div>
-            <div
-              class="step 2020/07/24"
-              style="height: 1px; background-color: transparent"
-              data-step="136"
-            ></div>
-            <div
-              class="step 2020/07/25"
-              style="height: 1px; background-color: transparent"
-              data-step="137"
-            ></div>
-            <div
-              class="step 2020/07/26"
-              style="height: 1px; background-color: transparent"
-              data-step="138"
-            ></div>
-            <div
-              class="step 2020/07/27"
-              style="height: 1px; background-color: transparent"
-              data-step="139"
-            ></div>
-            <div
-              class="step 2020/07/28"
-              style="height: 1px; background-color: transparent"
-              data-step="140"
-            ></div>
-            <div
-              class="step 2020/07/29"
-              style="height: 1px; background-color: transparent"
-              data-step="141"
-            ></div>
-            <div
-              class="step 2020/07/30"
-              style="height: 1px; background-color: transparent"
-              data-step="142"
-            ></div>
-            <div
-              class="step 2020/07/31"
-              style="height: 1px; background-color: transparent"
-              data-step="143"
-            ></div>
-            <div
-              class="step 2020/08/01"
-              style="height: 1px; background-color: transparent"
-              data-step="144"
-            ></div>
-            <div
-              class="step 2020/08/02"
-              style="height: 1px; background-color: transparent"
-              data-step="145"
-            ></div>
-            <div
-              class="step 2020/08/03"
-              style="height: 1px; background-color: transparent"
-              data-step="146"
-            ></div>
-            <div
-              class="step 2020/08/04"
-              style="height: 1px; background-color: transparent"
-              data-step="147"
-            ></div>
-            <div
-              class="step 2020/08/05"
-              style="height: 1px; background-color: transparent"
-              data-step="148"
-            ></div>
-            <div
-              class="step 2020/08/06"
-              style="height: 1px; background-color: transparent"
-              data-step="149"
-            ></div>
-            <div
-              class="step 2020/08/07"
-              style="height: 1px; background-color: transparent"
-              data-step="150"
-            ></div>
-            <div
-              class="step 2020/08/08"
-              style="height: 1px; background-color: transparent"
-              data-step="151"
-            ></div>
-            <div
-              class="step 2020/08/09"
-              style="height: 1px; background-color: transparent"
-              data-step="152"
-            ></div>
-            <div
-              class="step 2020/08/10"
-              style="height: 1px; background-color: transparent"
-              data-step="153"
-            ></div>
-            <div
-              class="step 2020/08/11"
-              style="height: 1px; background-color: transparent"
-              data-step="154"
-            ></div>
-            <div
-              class="step 2020/08/12"
-              style="height: 1px; background-color: transparent"
-              data-step="155"
-            ></div>
-            <div
-              class="step 2020/08/13"
-              style="height: 1px; background-color: transparent"
-              data-step="156"
-            ></div>
-            <div
-              class="step 2020/08/14"
-              style="height: 1px; background-color: transparent"
-              data-step="157"
-            ></div>
-            <div
-              class="step 2020/08/15"
-              style="height: 1px; background-color: transparent"
-              data-step="158"
-            ></div>
-            <div
-              class="step 2020/08/16"
-              style="height: 1px; background-color: transparent"
-              data-step="159"
-            ></div>
-            <div
-              class="step 2020/08/17"
-              style="height: 1px; background-color: transparent"
-              data-step="160"
-            ></div>
-            <div
-              class="step 2020/08/18"
-              style="height: 1px; background-color: transparent"
-              data-step="161"
-            ></div>
-            <div
-              class="step 2020/08/19"
-              style="height: 1px; background-color: transparent"
-              data-step="162"
-            ></div>
-            <div
-              class="step 2020/08/20"
-              style="height: 1px; background-color: transparent"
-              data-step="163"
-            ></div>
-            <div
-              class="step 2020/08/21"
-              style="height: 1px; background-color: transparent"
-              data-step="164"
-            ></div>
-            <div
-              class="step 2020/08/22"
-              style="height: 1px; background-color: transparent"
-              data-step="165"
-            ></div>
-            <div
-              class="step 2020/08/23"
-              style="height: 1px; background-color: transparent"
-              data-step="166"
-            ></div>
-            <div
-              class="step 2020/08/24"
-              style="height: 1px; background-color: transparent"
-              data-step="167"
-            ></div>
-            <div
-              class="step 2020/08/25"
-              style="height: 1px; background-color: transparent"
-              data-step="168"
-            ></div>
-            <div
-              class="step 2020/08/26"
-              style="height: 1px; background-color: transparent"
-              data-step="169"
-            ></div>
-            <div
-              class="step 2020/08/27"
-              style="height: 1px; background-color: transparent"
-              data-step="170"
-            ></div>
-            <div
-              class="step 2020/08/28"
-              style="height: 1px; background-color: transparent"
-              data-step="171"
-            ></div>
-            <div
-              class="step 2020/08/29"
-              style="height: 1px; background-color: transparent"
-              data-step="172"
-            ></div>
-            <div
-              class="step 2020/08/30"
-              style="height: 1px; background-color: transparent"
-              data-step="173"
-            ></div>
-            <div
-              class="step 2020/08/31"
-              style="height: 1px; background-color: transparent"
-              data-step="174"
-            ></div>
-            <div
-              class="step 2020/09/01"
-              style="height: 1px; background-color: transparent"
-              data-step="175"
-            ></div>
-            <div
-              class="step 2020/09/02"
-              style="height: 1px; background-color: transparent"
-              data-step="176"
-            ></div>
-            <div
-              class="step 2020/09/03 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="177"
-            >
-              <p class="step-title">2020/09/03</p>
-            </div>
-
-            <div
-              class="step 2020/09/04"
-              style="height: 1px; background-color: transparent"
-              data-step="178"
-            ></div>
-            <div
-              class="step 2020/09/05"
-              style="height: 1px; background-color: transparent"
-              data-step="179"
-            ></div>
-            <div
-              class="step 2020/09/06"
-              style="height: 1px; background-color: transparent"
-              data-step="180"
-            ></div>
-            <div
-              class="step 2020/09/07"
-              style="height: 1px; background-color: transparent"
-              data-step="181"
-            ></div>
-            <div
-              class="step 2020/09/08"
-              style="height: 1px; background-color: transparent"
-              data-step="182"
-            ></div>
-            <div
-              class="step 2020/09/09"
-              style="height: 1px; background-color: transparent"
-              data-step="183"
-            ></div>
-            <div
-              class="step 2020/09/10"
-              style="height: 1px; background-color: transparent"
-              data-step="184"
-            ></div>
-            <div
-              class="step 2020/09/11"
-              style="height: 1px; background-color: transparent"
-              data-step="185"
-            ></div>
-            <div
-              class="step 2020/09/12"
-              style="height: 1px; background-color: transparent"
-              data-step="186"
-            ></div>
-            <div
-              class="step 2020/09/13"
-              style="height: 1px; background-color: transparent"
-              data-step="187"
-            ></div>
-            <div
-              class="step 2020/09/14"
-              style="height: 1px; background-color: transparent"
-              data-step="188"
-            ></div>
-            <div
-              class="step 2020/09/15"
-              style="height: 1px; background-color: transparent"
-              data-step="189"
-            ></div>
-            <div
-              class="step 2020/09/16"
-              style="height: 1px; background-color: transparent"
-              data-step="190"
-            ></div>
-            <div
-              class="step 2020/09/17"
-              style="height: 1px; background-color: transparent"
-              data-step="191"
-            ></div>
-            <div
-              class="step 2020/09/18"
-              style="height: 1px; background-color: transparent"
-              data-step="192"
-            ></div>
-            <div
-              class="step 2020/09/19"
-              style="height: 1px; background-color: transparent"
-              data-step="193"
-            ></div>
-            <div
-              class="step 2020/09/20"
-              style="height: 1px; background-color: transparent"
-              data-step="194"
-            ></div>
-            <div
-              class="step 2020/09/21"
-              style="height: 1px; background-color: transparent"
-              data-step="195"
-            ></div>
-            <div
-              class="step 2020/09/22"
-              style="height: 1px; background-color: transparent"
-              data-step="196"
-            ></div>
-            <div
-              class="step 2020/09/23"
-              style="height: 1px; background-color: transparent"
-              data-step="197"
-            ></div>
-            <div
-              class="step 2020/09/24"
-              style="height: 1px; background-color: transparent"
-              data-step="198"
-            ></div>
-            <div
-              class="step 2020/09/25"
-              style="height: 1px; background-color: transparent"
-              data-step="199"
-            ></div>
-            <div
-              class="step 2020/09/26"
-              style="height: 1px; background-color: transparent"
-              data-step="200"
-            ></div>
-            <div
-              class="step 2020/09/27"
-              style="height: 1px; background-color: transparent"
-              data-step="201"
-            ></div>
-            <div
-              class="step 2020/09/28"
-              style="height: 1px; background-color: transparent"
-              data-step="202"
-            ></div>
-            <div
-              class="step 2020/09/29"
-              style="height: 1px; background-color: transparent"
-              data-step="203"
-            ></div>
-            <div
-              class="step 2020/09/30"
-              style="height: 1px; background-color: transparent"
-              data-step="204"
-            ></div>
-            <div
-              class="step 2020/10/01"
-              style="height: 1px; background-color: transparent"
-              data-step="205"
-            ></div>
-            <div
-              class="step 2020/10/02"
-              style="height: 1px; background-color: transparent"
-              data-step="206"
-            ></div>
-            <div
-              class="step 2020/10/03"
-              style="height: 1px; background-color: transparent"
-              data-step="207"
-            ></div>
-            <div
-              class="step 2020/10/04"
-              style="height: 1px; background-color: transparent"
-              data-step="208"
-            ></div>
-            <div
-              class="step 2020/10/05"
-              style="height: 1px; background-color: transparent"
-              data-step="209"
-            ></div>
-            <div
-              class="step 2020/10/06"
-              style="height: 1px; background-color: transparent"
-              data-step="210"
-            ></div>
-            <div
-              class="step 2020/10/07"
-              style="height: 1px; background-color: transparent"
-              data-step="211"
-            ></div>
-            <div
-              class="step 2020/10/08"
-              style="height: 1px; background-color: transparent"
-              data-step="212"
-            ></div>
-            <div
-              class="step 2020/10/09"
-              style="height: 1px; background-color: transparent"
-              data-step="213"
-            ></div>
-            <div
-              class="step 2020/10/10"
-              style="height: 1px; background-color: transparent"
-              data-step="214"
-            ></div>
-            <div
-              class="step 2020/10/11"
-              style="height: 1px; background-color: transparent"
-              data-step="215"
-            ></div>
-            <div
-              class="step 2020/10/12"
-              style="height: 1px; background-color: transparent"
-              data-step="216"
-            ></div>
-            <div
-              class="step 2020/10/13"
-              style="height: 1px; background-color: transparent"
-              data-step="217"
-            ></div>
-            <div
-              class="step 2020/10/14"
-              style="height: 1px; background-color: transparent"
-              data-step="218"
-            ></div>
-            <div
-              class="step 2020/10/15"
-              style="height: 1px; background-color: transparent"
-              data-step="219"
-            ></div>
-            <div
-              class="step 2020/10/16"
-              style="height: 1px; background-color: transparent"
-              data-step="220"
-            ></div>
-            <div
-              class="step 2020/10/17"
-              style="height: 1px; background-color: transparent"
-              data-step="221"
-            ></div>
-            <div
-              class="step 2020/10/18"
-              style="height: 1px; background-color: transparent"
-              data-step="222"
-            ></div>
-            <div
-              class="step 2020/10/19"
-              style="height: 1px; background-color: transparent"
-              data-step="223"
-            ></div>
-            <div
-              class="step 2020/10/20"
-              style="height: 1px; background-color: transparent"
-              data-step="224"
-            ></div>
-            <div
-              class="step 2020/10/21"
-              style="height: 1px; background-color: transparent"
-              data-step="225"
-            ></div>
-            <div
-              class="step 2020/10/22"
-              style="height: 1px; background-color: transparent"
-              data-step="226"
-            ></div>
-            <div
-              class="step 2020/10/23"
-              style="height: 1px; background-color: transparent"
-              data-step="227"
-            ></div>
-            <div
-              class="step 2020/10/24"
-              style="height: 1px; background-color: transparent"
-              data-step="228"
-            ></div>
-            <div
-              class="step 2020/10/25"
-              style="height: 1px; background-color: transparent"
-              data-step="229"
-            ></div>
-            <div
-              class="step 2020/10/26"
-              style="height: 1px; background-color: transparent"
-              data-step="230"
-            ></div>
-            <div
-              class="step 2020/10/27"
-              style="height: 1px; background-color: transparent"
-              data-step="231"
-            ></div>
-            <div
-              class="step 2020/10/28"
-              style="height: 1px; background-color: transparent"
-              data-step="232"
-            ></div>
-            <div
-              class="step 2020/10/29"
-              style="height: 1px; background-color: transparent"
-              data-step="233"
-            ></div>
-            <div
-              class="step 2020/10/30"
-              style="height: 1px; background-color: transparent"
-              data-step="234"
-            ></div>
-            <div
-              class="step 2020/10/31"
-              style="height: 1px; background-color: transparent"
-              data-step="235"
-            ></div>
-            <div
-              class="step 2020/11/01"
-              style="height: 1px; background-color: transparent"
-              data-step="236"
-            ></div>
-            <div
-              class="step 2020/11/02"
-              style="height: 1px; background-color: transparent"
-              data-step="237"
-            ></div>
-            <div
-              class="step 2020/11/03 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="238"
-            >
-              <p class="step-title">2020/11/03</p>
-            </div>
-
-            <div
-              class="step 2020/11/04"
-              style="height: 1px; background-color: transparent"
-              data-step="239"
-            ></div>
-            <div
-              class="step 2020/11/05"
-              style="height: 1px; background-color: transparent"
-              data-step="240"
-            ></div>
-            <div
-              class="step 2020/11/06"
-              style="height: 1px; background-color: transparent"
-              data-step="241"
-            ></div>
-            <div
-              class="step 2020/11/07"
-              style="height: 1px; background-color: transparent"
-              data-step="242"
-            ></div>
-            <div
-              class="step 2020/11/08"
-              style="height: 1px; background-color: transparent"
-              data-step="243"
-            ></div>
-            <div
-              class="step 2020/11/09"
-              style="height: 1px; background-color: transparent"
-              data-step="244"
-            ></div>
-            <div
-              class="step 2020/11/10"
-              style="height: 1px; background-color: transparent"
-              data-step="245"
-            ></div>
-            <div
-              class="step 2020/11/11"
-              style="height: 1px; background-color: transparent"
-              data-step="246"
-            ></div>
-            <div
-              class="step 2020/11/12"
-              style="height: 1px; background-color: transparent"
-              data-step="247"
-            ></div>
-            <div
-              class="step 2020/11/13"
-              style="height: 1px; background-color: transparent"
-              data-step="248"
-            ></div>
-            <div
-              class="step 2020/11/14"
-              style="height: 1px; background-color: transparent"
-              data-step="249"
-            ></div>
-            <div
-              class="step 2020/11/15"
-              style="height: 1px; background-color: transparent"
-              data-step="250"
-            ></div>
-            <div
-              class="step 2020/11/16"
-              style="height: 1px; background-color: transparent"
-              data-step="251"
-            ></div>
-            <div
-              class="step 2020/11/17"
-              style="height: 1px; background-color: transparent"
-              data-step="252"
-            ></div>
-            <div
-              class="step 2020/11/18"
-              style="height: 1px; background-color: transparent"
-              data-step="253"
-            ></div>
-            <div
-              class="step 2020/11/19 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="254"
-            >
-              <p class="step-title">2020/11/19</p>
-            </div>
-
-            <div
-              class="step 2020/11/20"
-              style="height: 1px; background-color: transparent"
-              data-step="255"
-            ></div>
-            <div
-              class="step 2020/11/21"
-              style="height: 1px; background-color: transparent"
-              data-step="256"
-            ></div>
-            <div
-              class="step 2020/11/22"
-              style="height: 1px; background-color: transparent"
-              data-step="257"
-            ></div>
-            <div
-              class="step 2020/11/23"
-              style="height: 1px; background-color: transparent"
-              data-step="258"
-            ></div>
-            <div
-              class="step 2020/11/24"
-              style="height: 1px; background-color: transparent"
-              data-step="259"
-            ></div>
-            <div
-              class="step 2020/11/25"
-              style="height: 1px; background-color: transparent"
-              data-step="260"
-            ></div>
-            <div
-              class="step 2020/11/26"
-              style="height: 1px; background-color: transparent"
-              data-step="261"
-            ></div>
-            <div
-              class="step 2020/11/27"
-              style="height: 1px; background-color: transparent"
-              data-step="262"
-            ></div>
-            <div
-              class="step 2020/11/28"
-              style="height: 1px; background-color: transparent"
-              data-step="263"
-            ></div>
-            <div
-              class="step 2020/11/29"
-              style="height: 1px; background-color: transparent"
-              data-step="264"
-            ></div>
-            <div
-              class="step 2020/11/30"
-              style="height: 1px; background-color: transparent"
-              data-step="265"
-            ></div>
-            <div
-              class="step 2020/12/01"
-              style="height: 1px; background-color: transparent"
-              data-step="266"
-            ></div>
-            <div
-              class="step 2020/12/02"
-              style="height: 1px; background-color: transparent"
-              data-step="267"
-            ></div>
-            <div
-              class="step 2020/12/03"
-              style="height: 1px; background-color: transparent"
-              data-step="268"
-            ></div>
-            <div
-              class="step 2020/12/04"
-              style="height: 1px; background-color: transparent"
-              data-step="269"
-            ></div>
-            <div
-              class="step 2020/12/05"
-              style="height: 1px; background-color: transparent"
-              data-step="270"
-            ></div>
-            <div
-              class="step 2020/12/06"
-              style="height: 1px; background-color: transparent"
-              data-step="271"
-            ></div>
-            <div
-              class="step 2020/12/07"
-              style="height: 1px; background-color: transparent"
-              data-step="272"
-            ></div>
-            <div
-              class="step 2020/12/08"
-              style="height: 1px; background-color: transparent"
-              data-step="273"
-            ></div>
-            <div
-              class="step 2020/12/09"
-              style="height: 1px; background-color: transparent"
-              data-step="274"
-            ></div>
-            <div
-              class="step 2020/12/10"
-              style="height: 1px; background-color: transparent"
-              data-step="275"
-            ></div>
-            <div
-              class="step 2020/12/11"
-              style="height: 1px; background-color: transparent"
-              data-step="276"
-            ></div>
-            <div
-              class="step 2020/12/12"
-              style="height: 1px; background-color: transparent"
-              data-step="277"
-            ></div>
-            <div
-              class="step 2020/12/13"
-              style="height: 1px; background-color: transparent"
-              data-step="278"
-            ></div>
-            <div
-              class="step 2020/12/14"
-              style="height: 1px; background-color: transparent"
-              data-step="279"
-            ></div>
-            <div
-              class="step 2020/12/15"
-              style="height: 1px; background-color: transparent"
-              data-step="280"
-            ></div>
-            <div
-              class="step 2020/12/16"
-              style="height: 1px; background-color: transparent"
-              data-step="281"
-            ></div>
-            <div
-              class="step 2020/12/17"
-              style="height: 1px; background-color: transparent"
-              data-step="282"
-            ></div>
-            <div
-              class="step 2020/12/18"
-              style="height: 1px; background-color: transparent"
-              data-step="283"
-            ></div>
-            <div
-              class="step 2020/12/19"
-              style="height: 1px; background-color: transparent"
-              data-step="284"
-            ></div>
-            <div
-              class="step 2020/12/20"
-              style="height: 1px; background-color: transparent"
-              data-step="285"
-            ></div>
-            <div
-              class="step 2020/12/21"
-              style="height: 1px; background-color: transparent"
-              data-step="286"
-            ></div>
-            <div
-              class="step 2020/12/22"
-              style="height: 1px; background-color: transparent"
-              data-step="287"
-            ></div>
-            <div
-              class="step 2020/12/23"
-              style="height: 1px; background-color: transparent"
-              data-step="288"
-            ></div>
-            <div
-              class="step 2020/12/24"
-              style="height: 1px; background-color: transparent"
-              data-step="289"
-            ></div>
-            <div
-              class="step 2020/12/25"
-              style="height: 1px; background-color: transparent"
-              data-step="290"
-            ></div>
-            <div
-              class="step 2020/12/26"
-              style="height: 1px; background-color: transparent"
-              data-step="291"
-            ></div>
-            <div
-              class="step 2020/12/27"
-              style="height: 1px; background-color: transparent"
-              data-step="292"
-            ></div>
-            <div
-              class="step 2020/12/28"
-              style="height: 1px; background-color: transparent"
-              data-step="293"
-            ></div>
-            <div
-              class="step 2020/12/29"
-              style="height: 1px; background-color: transparent"
-              data-step="294"
-            ></div>
-            <div
-              class="step 2020/12/30"
-              style="height: 1px; background-color: transparent"
-              data-step="295"
-            ></div>
-            <div
-              class="step 2020/12/31"
-              style="height: 1px; background-color: transparent"
-              data-step="296"
-            ></div>
-            <div
-              class="step 2021/01/01"
-              style="height: 1px; background-color: transparent"
-              data-step="297"
-            ></div>
-            <div
-              class="step 2021/01/02"
-              style="height: 1px; background-color: transparent"
-              data-step="298"
-            ></div>
-            <div
-              class="step 2021/01/03"
-              style="height: 1px; background-color: transparent"
-              data-step="299"
-            ></div>
-            <div
-              class="step 2021/01/04 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="300"
-            >
-              <p class="step-title">2021/01/04</p>
-            </div>
-
-            <div
-              class="step 2021/01/05"
-              style="height: 1px; background-color: transparent"
-              data-step="301"
-            ></div>
-            <div
-              class="step 2021/01/06"
-              style="height: 1px; background-color: transparent"
-              data-step="302"
-            ></div>
-            <div
-              class="step 2021/01/07"
-              style="height: 1px; background-color: transparent"
-              data-step="303"
-            ></div>
-            <div
-              class="step 2021/01/08 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="304"
-            >
-              <p class="step-title">2021/01/08</p>
-            </div>
-
-            <div
-              class="step 2021/01/09"
-              style="height: 1px; background-color: transparent"
-              data-step="305"
-            ></div>
-            <div
-              class="step 2021/01/10"
-              style="height: 1px; background-color: transparent"
-              data-step="306"
-            ></div>
-            <div
-              class="step 2021/01/11"
-              style="height: 1px; background-color: transparent"
-              data-step="307"
-            ></div>
-            <div
-              class="step 2021/01/12"
-              style="height: 1px; background-color: transparent"
-              data-step="308"
-            ></div>
-            <div
-              class="step 2021/01/13"
-              style="height: 1px; background-color: transparent"
-              data-step="309"
-            ></div>
-            <div
-              class="step 2021/01/14"
-              style="height: 1px; background-color: transparent"
-              data-step="310"
-            ></div>
-            <div
-              class="step 2021/01/15"
-              style="height: 1px; background-color: transparent"
-              data-step="311"
-            ></div>
-            <div
-              class="step 2021/01/16"
-              style="height: 1px; background-color: transparent"
-              data-step="312"
-            ></div>
-            <div
-              class="step 2021/01/17"
-              style="height: 1px; background-color: transparent"
-              data-step="313"
-            ></div>
-            <div
-              class="step 2021/01/18"
-              style="height: 1px; background-color: transparent"
-              data-step="314"
-            ></div>
-            <div
-              class="step 2021/01/19"
-              style="height: 1px; background-color: transparent"
-              data-step="315"
-            ></div>
-            <div
-              class="step 2021/01/20"
-              style="height: 1px; background-color: transparent"
-              data-step="316"
-            ></div>
-            <div
-              class="step 2021/01/21"
-              style="height: 1px; background-color: transparent"
-              data-step="317"
-            ></div>
-            <div
-              class="step 2021/01/22"
-              style="height: 1px; background-color: transparent"
-              data-step="318"
-            ></div>
-            <div
-              class="step 2021/01/23"
-              style="height: 1px; background-color: transparent"
-              data-step="319"
-            ></div>
-            <div
-              class="step 2021/01/24"
-              style="height: 1px; background-color: transparent"
-              data-step="320"
-            ></div>
-            <div
-              class="step 2021/01/25"
-              style="height: 1px; background-color: transparent"
-              data-step="321"
-            ></div>
-            <div
-              class="step 2021/01/26"
-              style="height: 1px; background-color: transparent"
-              data-step="322"
-            ></div>
-            <div
-              class="step 2021/01/27"
-              style="height: 1px; background-color: transparent"
-              data-step="323"
-            ></div>
-            <div
-              class="step 2021/01/28"
-              style="height: 1px; background-color: transparent"
-              data-step="324"
-            ></div>
-            <div
-              class="step 2021/01/29"
-              style="height: 1px; background-color: transparent"
-              data-step="325"
-            ></div>
-            <div
-              class="step 2021/01/30"
-              style="height: 1px; background-color: transparent"
-              data-step="326"
-            ></div>
-            <div
-              class="step 2021/01/31"
-              style="height: 1px; background-color: transparent"
-              data-step="327"
-            ></div>
-            <div
-              class="step 2021/02/01"
-              style="height: 1px; background-color: transparent"
-              data-step="328"
-            ></div>
-            <div
-              class="step 2021/02/02 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="329"
-            >
-              <p class="step-title">2021/02/02</p>
-            </div>
-
-            <div
-              class="step 2021/02/02"
-              style="height: 1px; background-color: transparent"
-              data-step="329"
-            ></div>
-            <div
-              class="step 2021/02/03"
-              style="height: 1px; background-color: transparent"
-              data-step="330"
-            ></div>
-            <div
-              class="step 2021/02/04"
-              style="height: 1px; background-color: transparent"
-              data-step="331"
-            ></div>
-            <div
-              class="step 2021/02/05"
-              style="height: 1px; background-color: transparent"
-              data-step="332"
-            ></div>
-            <div
-              class="step 2021/02/06 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="333"
-            >
-              <p class="step-title">2021/02/06</p>
-            </div>
-
-            <div
-              class="step 2021/02/07"
-              style="height: 1px; background-color: transparent"
-              data-step="334"
-            ></div>
-            <div
-              class="step 2021/02/08 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="335"
-            >
-              <p class="step-title">2021/02/08</p>
-            </div>
-
-            <div
-              class="step 2021/02/09"
-              style="height: 1px; background-color: transparent"
-              data-step="336"
-            ></div>
-            <div
-              class="step 2021/02/10 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="337"
-            >
-              <p class="step-title">2021/02/10</p>
-            </div>
-
-            <div
-              class="step 2021/02/11"
-              style="height: 1px; background-color: transparent"
-              data-step="338"
-            ></div>
-            <div
-              class="step 2021/02/12"
-              style="height: 1px; background-color: transparent"
-              data-step="339"
-            ></div>
-            <div
-              class="step 2021/02/13"
-              style="height: 1px; background-color: transparent"
-              data-step="340"
-            ></div>
-            <div
-              class="step 2021/02/14"
-              style="height: 1px; background-color: transparent"
-              data-step="341"
-            ></div>
-            <div
-              class="step 2021/02/15"
-              style="height: 1px; background-color: transparent"
-              data-step="342"
-            ></div>
-            <div
-              class="step 2021/02/16"
-              style="height: 1px; background-color: transparent"
-              data-step="343"
-            ></div>
-            <div
-              class="step 2021/02/17"
-              style="height: 1px; background-color: transparent"
-              data-step="344"
-            ></div>
-            <div
-              class="step 2021/02/18"
-              style="height: 1px; background-color: transparent"
-              data-step="345"
-            ></div>
-            <div
-              class="step 2021/02/19"
-              style="height: 1px; background-color: transparent"
-              data-step="346"
-            ></div>
-            <div
-              class="step 2021/02/20"
-              style="height: 1px; background-color: transparent"
-              data-step="347"
-            ></div>
-            <div
-              class="step 2021/02/21"
-              style="height: 1px; background-color: transparent"
-              data-step="348"
-            ></div>
-            <div
-              class="step 2021/02/22"
-              style="height: 1px; background-color: transparent"
-              data-step="349"
-            ></div>
-            <div
-              class="step 2021/02/23"
-              style="height: 1px; background-color: transparent"
-              data-step="350"
-            ></div>
-            <div
-              class="step 2021/02/24"
-              style="height: 1px; background-color: transparent"
-              data-step="351"
-            ></div>
-            <div
-              class="step 2021/02/25"
-              style="height: 1px; background-color: transparent"
-              data-step="352"
-            ></div>
-            <div
-              class="step 2021/02/26"
-              style="height: 1px; background-color: transparent"
-              data-step="353"
-            ></div>
-            <div
-              class="step 2021/02/27"
-              style="height: 1px; background-color: transparent"
-              data-step="354"
-            ></div>
-            <div
-              class="step 2021/02/28"
-              style="height: 1px; background-color: transparent"
-              data-step="355"
-            ></div>
-            <div
-              class="step 2021/03/01"
-              style="height: 1px; background-color: transparent"
-              data-step="356"
-            ></div>
-            <div
-              class="step 2021/03/02"
-              style="height: 1px; background-color: transparent"
-              data-step="357"
-            ></div>
-            <div
-              class="step 2021/03/03"
-              style="height: 1px; background-color: transparent"
-              data-step="358"
-            ></div>
-            <div
-              class="step 2021/03/04"
-              style="height: 1px; background-color: transparent"
-              data-step="359"
-            ></div>
-            <div
-              class="step 2021/03/05"
-              style="height: 1px; background-color: transparent"
-              data-step="360"
-            ></div>
-            <div
-              class="step 2021/03/06"
-              style="height: 1px; background-color: transparent"
-              data-step="361"
-            ></div>
-            <div
-              class="step 2021/03/07 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="362"
-            >
-              <p class="step-title">2021/03/07</p>
-            </div>
-
-            <div
-              class="step 2021/03/08"
-              style="height: 1px; background-color: transparent"
-              data-step="363"
-            ></div>
-            <div
-              class="step 2021/03/09"
-              style="height: 1px; background-color: transparent"
-              data-step="364"
-            ></div>
-            <div
-              class="step 2021/03/10 col-lg-6 offset-lg-6"
-              style="height: 500px"
-              data-step="365"
-            >
-              <p class="step-title">2021/03/10</p>
-            </div>
-          </article>
-        </section>
-      </div>
-
-      <div id="credits-block">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        creditos
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
-    </main>
+    <div id="credits-block">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      creditos
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </main>
 
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="js/leaflet.js"></script>

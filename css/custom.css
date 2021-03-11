@@ -101,8 +101,7 @@ figure {
   margin-bottom: 20px;
 }
 
-.image-block > img,
-#banner-block > img {
+.image-block > img, #banner-block > img {
   width: 100%;
 }
 
@@ -140,101 +139,101 @@ figure {
 #daily-acthome-info1,
 #daily-acthome-info,
 #daily-porciento-positivos,
-#asymcases-total-percent,
-#importedPie,
+#asymcases-total-percent, 
+#importedPie, 
 #sexPie {
   height: 400px;
 }
 
 .center {
-  text-align: center;
+	text-align: center;
 }
 
 .escenario {
-  text-align: center;
-  font-weight: bold;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 15px;
 }
 
 .comunidad {
-  color: #00afff;
+	color: #00AFFF;
 }
 
 .aislamiento {
-  color: #005778;
+	color: #005778;
 }
 
 .hospital {
-  color: #1c1340;
+	color: #1C1340;
 }
 .med {
-  background-color: silver;
-  color: #ffffff;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  font-size: 15px;
+	background-color: silver;
+	color: #FFFFFF;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 15px;
 }
 
 #protocolos-legend {
-  margin-top: 15px;
-  text-align: center;
+	margin-top: 15px;
+	text-align: center;
 }
 
-.new {
+.new  {
   border-bottom-style: solid;
-  border-color: #b11116;
+  border-color: #B11116;
   border-left-style: solid;
   border-right-style: solid;
   border-top-style: solid;
   border-width: 2px;
 }
 .nacional {
-  background-color: #d0797c;
+	background-color: #D0797C;
 }
 
 .producido {
-  background-color: #1a8323;
+	background-color: #1A8323;
 }
 
 .importado {
-  background-color: #ca9f31;
+	background-color: #CA9F31;
 }
 
 .tnacional {
-  color: #d0797c;
+	color: #D0797C;
 }
 
 .tproducido {
-  color: #1a8323;
+	color: #1A8323;
 }
 
 .timportado {
-  color: #ca9f31;
+	color: #CA9F31;
 }
 
 .tnone {
-  color: #ffffff;
+	color: #FFFFFF;
 }
 
 .selection {
-  color: silver;
+	color: silver;
 }
 
 .protocol-text {
-  font-size: 17px;
+	font-size: 17px;
 }
 
 #protocolos-resp-cont {
-  margin-left: -15px;
+	margin-left: -15px;
 }
 
 #protocolos-resp {
-  margin: 0 auto;
-  width: 310px;
+   margin: 0 auto;
+   width: 310px; 
 }
 
 .navbar {
@@ -254,16 +253,6 @@ figure {
   color: #1c1340 !important;
 }
 
-.iframe-viewport-16x9 {
-  width: 90vw;
-  height: 50.56vw;
-}
-
-.iframe-viewport-other {
-  width: 63vw;
-  height: 54vw;
-}
-
 .step-text {
   font-size: 22px;
   padding-left: 30px;
@@ -276,3 +265,4 @@ figure {
   min-height: 200px;
   padding-bottom: 30px;
 }
+
