@@ -9,3 +9,5 @@ utils/covid19-cuba.json
 
 utils/barRace/data/covid19-cuba.json
 utils/barRace/data/covid19-fallecidos.json
+utils/barRace/data/province_confirmed.csv
+utils/barRace/data/province_deceases.csv
