@@ -201,9 +201,9 @@ function updateWeek() {
 }
 
 $.when(
-  $.getJSON('/data/incidences-per-day.json'),
-  $.getJSON('/data/codes-countries.json'),
-  $.getJSON('/data/countries.geojson')
+  $.getJSON('data/incidences-per-day.json'),
+  $.getJSON('data/codes-countries.json'),
+  $.getJSON('data/countries.geojson')
 ).done(function (incidences_per_day, codes, json) {
   incidences = incidences_per_day[0];
   codes_countries = codes[0];
