@@ -11,6 +11,8 @@
 
 .control-button {
   margin-left: 8px;
+  background: transparent;
+  border: 0;
 }
 
 .control-button > .bi {
