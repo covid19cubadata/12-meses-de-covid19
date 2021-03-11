@@ -1,8 +1,8 @@
 var maleCases = ['Hombres', 30102];
 var femaleCases = ['Mujeres', 28277];
 var casesColors = {
-    'Hombres': '#B01E22',
-    'Mujeres': '#1C1340'
+    'Hombres': '#1C1340',
+    'Mujeres': '#B01E22'
 };
 
 function buildSexsPie() {

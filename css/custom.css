@@ -30,7 +30,7 @@
 
 #scrolly {
   position: relative;
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
   padding: 1rem;
 }
 
@@ -62,16 +62,17 @@ figure {
   margin-bottom: 0;
 }
 
-.step.is-active p {
-  background-color: goldenrod;
-  color: #3b3b3b;
+.step.is-active .step-title {
+  background-color: #1c1340;
+  color: #ffffff;
 }
 
-.step p {
+.step .step-title {
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: #3b3b3b;
+  color: #ffffff;
+  background-color: #939393;
 }
 
 .text-block {
@@ -132,6 +133,10 @@ figure {
   margin-top: 10px;
 }
 
+#daily-deads-info,
+#graves-percent-evol,
+#daily-acthome-info1,
+#daily-acthome-info,
 #daily-porciento-positivos,
 #asymcases-total-percent, 
 #importedPie, 
