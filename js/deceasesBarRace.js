@@ -131,8 +131,8 @@ return JSC.chart(
             // Lock width so that it doesnt change when changing between Play and Pause 
             width: 50, 
             margin: [6, 6, 6, 16], 
-            icon_name: 'system/default/pause', 
-            label_text: 'Pause', 
+            label_text: 'Play', 
+            icon_name: 'system/default/play',
             events_change: function(val) { 
             playPause_d(!stopped); 
             } 
@@ -142,7 +142,7 @@ return JSC.chart(
     }, 
     function(c) { 
     // Start the animation once the chart is rendered. 
-    playPause_d(false, c); 
+    playPause_d(true, c); 
     } 
 ); 
 

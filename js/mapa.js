@@ -27,7 +27,7 @@ $.slides = {
   total: 0,
   data: {},
   timer: 500,
-  isPaused: false,
+  isPaused: true,
   begin_date: '',
   end_date: '',
   _load: () => {
@@ -37,6 +37,7 @@ $.slides = {
       '/'
     );
     $.slides.end_date = incidences[$.slides.slide].end_date.replace('-', '/');
+    update_controls();
     updateMap();
     updateWeek();
   },
@@ -45,18 +46,24 @@ $.slides = {
     $.slides.total = incidences.length;
     $.slides._load();
   },
+  stop: () => {
+    $.slides.isPaused = true;
+    setTimeout(() => {
+      $.slides.init();
+    }, $.slides.timer);
+  },
   next: () => {
     if ($.slides.slide < $.slides.total - 1) {
       $.slides.slide += 1;
       $.slides._load();
-      console.log(`slide: ${$.slides.slide}`);
+      //console.log(`slide: ${$.slides.slide}`);
     }
   },
   prev: () => {
     if ($.slides.slide > 0) {
       $.slides.slide -= 1;
       $.slides._load();
-      console.log(`slide: ${$.slides.slide}`);
+      //console.log(`slide: ${$.slides.slide}`);
     }
   },
   start: () => {
@@ -68,9 +75,9 @@ $.slides = {
     }, $.slides.timer);
   },
   play: () => {
+    $.slides.isPaused = false;
     setTimeout(() => {
       if ($.slides.isPaused) {
-        $.slides.isPaused = false;
         return;
       }
       if ($.slides.slide < $.slides.total) {
@@ -81,8 +88,75 @@ $.slides = {
   },
   pause: () => {
     $.slides.isPaused = true;
+    update_controls();
   },
 };
+
+function update_controls() {
+  if (
+    $.slides.slide === 0 &&
+    $('#prev-control').hasClass('bi-caret-left-square-fill')
+  ) {
+    $('#prev-control').toggleClass(
+      'bi-caret-left-square-fill bi-caret-left-square'
+    );
+    $('#prev-control-btn').prop('disabled', true);
+  } else if (
+    $('#prev-control').hasClass('bi-caret-left-square') &&
+    $.slides.slide > 0
+  ) {
+    $('#prev-control').toggleClass(
+      'bi-caret-left-square bi-caret-left-square-fill'
+    );
+    $('#prev-control-btn').prop('disabled', false);
+  }
+
+  if (
+    $.slides.slide === $.slides.total - 1 &&
+    $('#next-control').hasClass('bi-caret-right-square-fill')
+  ) {
+    $('#next-control').toggleClass(
+      'bi-caret-right-square-fill bi-caret-right-square'
+    );
+    $('#next-control-btn').prop('disabled', true);
+  } else if (
+    $('#next-control').hasClass('bi-caret-right-square') &&
+    $.slides.slide < $.slides.total - 1
+  ) {
+    $('#next-control').toggleClass(
+      'bi-caret-right-square bi-caret-right-square-fill'
+    );
+    $('#next-control-btn').prop('disabled', false);
+  }
+
+  if ($.slides.isPaused) {
+    if ($('#pause-control').hasClass('bi-pause-btn-fill')) {
+      $('#pause-control').toggleClass('bi-pause-btn-fill bi-pause-btn');
+      $('#pause-control-btn').prop('disabled', true);
+    }
+    if ($('#stop-control').hasClass('bi-stop-btn-fill')) {
+      $('#stop-control').toggleClass('bi-stop-btn-fill bi-stop-btn');
+      $('#stop-control-btn').prop('disabled', true);
+    }
+    if ($('#play-control').hasClass('bi-play-btn')) {
+      $('#play-control').toggleClass('bi-play-btn bi-play-btn-fill');
+      $('#play-control-btn').prop('disabled', false);
+    }
+  } else {
+    if ($('#pause-control').hasClass('bi-pause-btn')) {
+      $('#pause-control').toggleClass('bi-pause-btn bi-pause-btn-fill');
+      $('#pause-control-btn').prop('disabled', false);
+    }
+    if ($('#stop-control').hasClass('bi-stop-btn')) {
+      $('#stop-control').toggleClass('bi-stop-btn bi-stop-btn-fill');
+      $('#stop-control-btn').prop('disabled', false);
+    }
+    if ($('#play-control').hasClass('bi-play-btn-fill')) {
+      $('#play-control').toggleClass('bi-play-btn-fill bi-play-btn');
+      $('#play-control-btn').prop('disabled', true);
+    }
+  }
+}
 
 function logx(base, x) {
   return base === 10 ? Math.log10(x) : Math.log10(x) / Math.log10(base);
@@ -127,15 +201,13 @@ function updateWeek() {
 }
 
 $.when(
-  $.getJSON('/data/incidences-per-day.json'),
-  $.getJSON('/data/codes-countries.json'),
-  $.getJSON('/data/countries.geojson')
+  $.getJSON('data/incidences-per-day.json'),
+  $.getJSON('data/codes-countries.json'),
+  $.getJSON('data/countries.geojson')
 ).done(function (incidences_per_day, codes, json) {
   incidences = incidences_per_day[0];
   codes_countries = codes[0];
   $.slides.init();
-  //$.slides.slide = 50;
-  //$.slides._load();
   geojson = L.geoJSON(json[0], { style: styleMap });
   geojson.bindTooltip(
     (layer) => {

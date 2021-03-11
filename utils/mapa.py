@@ -11,7 +11,7 @@ import requests  # noqa We are just importing this to prove the dependency insta
 def get_countries_incidence():
     if not os.path.exists('data/counties-codes.json'):
         data2 = requests.get(
-            'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
+           'https://covid.ourworldindata.org/data/owid-covid-data.csv').content
         # data2 = requests.get(
         #     'http://localhost:8000/utils/owid-covid-data.csv').content
         data2 = io.StringIO(data2.decode('utf8'))
@@ -57,8 +57,8 @@ def get_countries_incidence():
 
         with open('data/alpha3_to_alpha2.json', 'r') as r:
             dicc = json.load(r)
-        
-            for i,j in countries.items():
+
+            for i, j in countries.items():
                 alpha2 = ""
                 try:
                     alpha2 = dicc[j['code'].lower()]
@@ -73,7 +73,7 @@ def get_countries_incidence():
                             'total_cases': j['total_cases'],
                             'total_deaths': j['total_deaths'],
                             'alpha2': alpha2
-                        }
+                    }
 
         with open('data/codes-countries.json', 'w') as f:
             json.dump(code_countries, f, indent=1)
@@ -81,9 +81,9 @@ def get_countries_incidence():
         countries = json.load(open('data/counties-codes.json'))
 
     cubadata = requests.get(
-        'https://covid19cubadata.github.io/data/covid19-cuba.json').content
+       'https://covid19cubadata.github.io/data/covid19-cuba.json').content
     # cubadata = requests.get(
-    #    'http://localhost:8000/utils/covid19-cuba.json').json()
+    #     'http://localhost:8000/utils/covid19-cuba.json').content
     cubadata = json.loads(cubadata)
 
     counter = 0
@@ -94,7 +94,7 @@ def get_countries_incidence():
         cuba["-".join(map(lambda x: str(int(x)), i['fecha'].split('/')))] = count
 
     data = requests.get(
-        'https://pomber.github.io/covid19/timeseries.json').json()
+       'https://pomber.github.io/covid19/timeseries.json').json()
     # data = json.load(open('utils/timeseries.json'))
 
     cubaupdated = []
@@ -118,7 +118,16 @@ def get_countries_incidence():
         code = countries[country]['code']
         for n, i in enumerate(map(lambda x: x['confirmed'], confirmeds)):
             if n % 7 == 0:
-                incidence = (i-confirmed)*10**5/population
+                incidence = (i-confirmed)*10**6/population
+                if incidence < 0:
+                    print('Inconsistent data')
+                    print(country)
+                    print(confirmeds[n-7])
+                    print(confirmeds[n])
+                    print('confirmed: ', confirmed)
+                    print('value: ', i)
+                    print('n: ', n)
+                    print('')
                 confirmed = i
                 incidences[code].append(incidence)
 
