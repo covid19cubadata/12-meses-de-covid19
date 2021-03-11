@@ -1,751 +1,652 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="max-age=0" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <title>12 Meses de Covid-19</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/c3.min.css" />
-    <link rel="stylesheet" href="css/chart.min.css" />
-    <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
-  </head>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="max-age=0" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <title>12 Meses de Covid-19</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/c3.min.css" />
-    <link rel="stylesheet" href="css/chart.min.css" />
-    <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>12 Meses de Covid-19</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/c3.min.css" />
+  <link rel="stylesheet" href="css/chart.min.css" />
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
+</head>
 
-  <body>
-    <main class="container-fluid">
-      <div id="banner-block">
-        <img src="images/banner.jpg" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>12 Meses de Covid-19</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/c3.min.css" />
+  <link rel="stylesheet" href="css/chart.min.css" />
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
+</head>
+
+<body>
+  <main class="container-fluid">
+    <div id="banner-block">
+      <img src="images/banner.jpg" alt="" />
+    </div>
+    <div class="text-block">
+      <p>
+        En diciembre de 2019 hubo un brote epidémico de una enfermedad de
+        causa desconocida en Wuhan, China. Ese fue el inicio conocido de lo
+        que semanas después fue declarado por la OMS como pandemia. La
+        enfermedad que se nombró COVID-19 y que es ocasionada por el virus
+        SARS-CoV-2, ya ha afectado a más de 116 millones de personas en 255
+        países y territorios provocando más de 2 millones y medio de muertes.
+      </p>
+      <p>
+        El 11 de marzo de 2020, cuando ya la enfermedad se había reportado en
+        más de cien territorios la OMS declaró a la OMS como pandemia. Ese
+        mismo día, las autoridades del Ministerio de Salud Pública de Cuba
+        (MINSAP) dieron a conocer la presencia en territorio cubano de los
+        tres primeros casos positivos al SARS-CoV-2. Un año después, como el
+        resto del mundo, el país todavía lidia con la pandemia hasta ahora más
+        contundente del siglo XXI.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución por países de la tasa de incidencia semanal (por millón de
+        habitantes)
       </div>
-      <div class="text-block">
-        <p>
-          En diciembre de 2019 hubo un brote epidémico de una enfermedad de
-          causa desconocida en Wuhan, China. Ese fue el inicio conocido de lo
-          que semanas después fue declarado por la OMS como pandemia. La
-          enfermedad que se nombró COVID-19 y que es ocasionada por el virus
-          SARS-CoV-2, ya ha afectado a más de 116 millones de personas en 255
-          países y territorios provocando más de 2 millones y medio de muertes.
-        </p>
-        <p>
-          El 11 de marzo de 2020, cuando ya la enfermedad se había reportado en
-          más de cien territorios la OMS declaró a la OMS como pandemia. Ese
-          mismo día, las autoridades del Ministerio de Salud Pública de Cuba
-          (MINSAP) dieron a conocer la presencia en territorio cubano de los
-          tres primeros casos positivos al SARS-CoV-2. Un año después, como el
-          resto del mundo, el país todavía lidia con la pandemia hasta ahora más
-          contundente del siglo XXI.
-        </p>
+      <div id="label-week-block" class="buttons-container mb-2">
+        <span id="label-week">Semana:</span> <span id="week"></span>
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución por países de la tasa de incidencia semanal (por millón de
-          habitantes)
-        </div>
-        <div id="label-week-block" class="buttons-container mb-2">
-          <span id="label-week">Semana:</span> <span id="week"></span>
-        </div>
-        <div id="world-map"></div>
-        <div class="buttons-container mt-2">
-          <button
-            onclick="$.slides.prev()"
-            class="control-button"
-            id="prev-control-btn"
-          >
-            <i class="bi bi-caret-left-square-fill" id="prev-control"></i>
-          </button>
-          <button
-            onclick="$.slides.pause()"
-            class="control-button"
-            id="pause-control-btn"
-          >
-            <i class="bi bi-pause-btn-fill" id="pause-control"></i>
-          </button>
-          <button
-            onclick="$.slides.play()"
-            class="control-button"
-            id="play-control-btn"
-          >
-            <i class="bi bi-play-btn-fill" id="play-control"></i>
-          </button>
-          <button
-            onclick="$.slides.stop()"
-            class="control-button"
-            id="stop-control-btn"
-          >
-            <i class="bi bi-stop-btn-fill" id="stop-control"></i>
-          </button>
-          <button
-            onclick="$.slides.next()"
-            class="control-button"
-            id="next-control-btn"
-          >
-            <i class="bi bi-caret-right-square-fill" id="next-control"></i>
-          </button>
-        </div>
+      <div id="world-map"></div>
+      <div class="buttons-container mt-2">
+        <button onclick="$.slides.prev()" class="control-button" id="prev-control-btn">
+          <i class="bi bi-caret-left-square-fill" id="prev-control"></i>
+        </button>
+        <button onclick="$.slides.pause()" class="control-button" id="pause-control-btn">
+          <i class="bi bi-pause-btn-fill" id="pause-control"></i>
+        </button>
+        <button onclick="$.slides.play()" class="control-button" id="play-control-btn">
+          <i class="bi bi-play-btn-fill" id="play-control"></i>
+        </button>
+        <button onclick="$.slides.stop()" class="control-button" id="stop-control-btn">
+          <i class="bi bi-stop-btn-fill" id="stop-control"></i>
+        </button>
+        <button onclick="$.slides.next()" class="control-button" id="next-control-btn">
+          <i class="bi bi-caret-right-square-fill" id="next-control"></i>
+        </button>
       </div>
-      <div class="text-block">
-        <p>
-          La experiencia de Cuba en el tratamiento de epidemias hacía que muchos
-          tuvieran las expectativas de conseguir una solución rápida. Sin
-          embargo, la Isla y sus habitantes han estado embarcados en una
-          intermitente travesía, plagada de alientos y desesperanzas. Un rumbo
-          que, con cifras e indicadores variables, han condicionado una
-          evolución irregular de la mayor crisis sanitaria de la Mayor de las
-          Antillas y el mundo en las últimas décadas.
-        </p>
-        <p>
-          Así, transcurrido un año de epidemia en la mayor de las Antillas, se
-          han confirmado, hasta el 9 de marzo de 2021, 58379 casos de los cuales
-          ya son negativos a la presencia del virus 53450 y, desafortunadamente,
-          han fallecido 357.
-        </p>
-        <p>
-          No obstante, no todos los indicadores de la epidemia en Cuba han
-          tenido notable variabilidad. Un ejemplo de ello ha sido la paridad de
-          valores entre los sexos. Las cantidades de mujeres y hombres
-          reportados como casos confirmados en el país durante la pandemia han
-          sido muy similares en el transcurso de la epidemia.
-        </p>
+    </div>
+    <div class="text-block">
+      <p>
+        La experiencia de Cuba en el tratamiento de epidemias hacía que muchos
+        tuvieran las expectativas de conseguir una solución rápida. Sin
+        embargo, la Isla y sus habitantes han estado embarcados en una
+        intermitente travesía, plagada de alientos y desesperanzas. Un rumbo
+        que, con cifras e indicadores variables, han condicionado una
+        evolución irregular de la mayor crisis sanitaria de la Mayor de las
+        Antillas y el mundo en las últimas décadas.
+      </p>
+      <p>
+        Así, transcurrido un año de epidemia en la mayor de las Antillas, se
+        han confirmado, hasta el 9 de marzo de 2021, 58379 casos de los cuales
+        ya son negativos a la presencia del virus 53450 y, desafortunadamente,
+        han fallecido 357.
+      </p>
+      <p>
+        No obstante, no todos los indicadores de la epidemia en Cuba han
+        tenido notable variabilidad. Un ejemplo de ello ha sido la paridad de
+        valores entre los sexos. Las cantidades de mujeres y hombres
+        reportados como casos confirmados en el país durante la pandemia han
+        sido muy similares en el transcurso de la epidemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución por sexo de los casos confirmados
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Distribución por sexo de los casos confirmados
-        </div>
-        <div class="sexPieDiv">
-          <div id="sexPie"></div>
-        </div>
+      <div class="sexPieDiv">
+        <div id="sexPie"></div>
       </div>
-      <div class="text-block">
-        <p>
-          Otro indicador que ha tenido una cierta estabilidad en el tiempo ha
-          sido el relacionado con la cantidad de casos asintomáticos y de
-          personas que sí presentaron manifestaciones del nuevo coronavirus. El
-          elevado porciento de casos asintomáticos es una de las grandes
-          dificultades para poder contener la transmisión de esta enfermedad.
-        </p>
-        <p>
-          Luego de transcurridos dos meses y medio luego de detectados los
-          primeros casos, y de manera constante en el año de evolución de la
-          crisis sanitaria, la cantidad de individuos sin síntomas al momento de
-          la confirmación ha sido superior a la de aquellos que si los han
-          presentado.
-        </p>
+    </div>
+    <div class="text-block">
+      <p>
+        Otro indicador que ha tenido una cierta estabilidad en el tiempo ha
+        sido el relacionado con la cantidad de casos asintomáticos y de
+        personas que sí presentaron manifestaciones del nuevo coronavirus. El
+        elevado porciento de casos asintomáticos es una de las grandes
+        dificultades para poder contener la transmisión de esta enfermedad.
+      </p>
+      <p>
+        Luego de transcurridos dos meses y medio luego de detectados los
+        primeros casos, y de manera constante en el año de evolución de la
+        crisis sanitaria, la cantidad de individuos sin síntomas al momento de
+        la confirmación ha sido superior a la de aquellos que si los han
+        presentado.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolucón de los pacientes sintomáticos/asintomáticos
       </div>
-      <div class="visual-block">
-        <br />
-        Gráfico de asintomáticos
-        <br />
+      <div id="asymcases-total-percent"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Sin embargo, a partir del 4 de enero de 2021, cuando se alcanzó el
+        mayor porciento total de casos asintomáticos (65,3%), este valor se ha
+        ido reduciendo gradualmente. Ello ha coincidido con el periodo de
+        mayor incidencia de la enfermedad, lo que ha complejizado el rastreo,
+        detección y aislamiento de casos. Esto puede estar provocando que se
+        detecten menos positivos que antes en la etapa pre-sintomática de la
+        enfermedad.
+      </p>
+      <p>
+        Las fuentes de contagio en la Isla se manifestaron esencialmente de
+        dos formas. Por una parte, se debe hablar de quienes tuvieron la
+        fuente de infección en el exterior del país. Por otra, del contacto
+        dentro de la nación con personas ya contagiadas. Este grupo ha
+        aportado el mayor número de casos a lo largo de la evolución de la
+        pandemia en Cuba, con cifras superiores al 85% de los casos. Existe
+        también un número menor de enfermos a los que no se les ha
+        identificado el modo de contagio.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución de casos importados y no importados
       </div>
-      <div class="text-block">
-        <p>
-          Sin embargo, a partir del 4 de enero de 2021, cuando se alcanzó el
-          mayor porciento total de casos asintomáticos (65,3%), este valor se ha
-          ido reduciendo gradualmente. Ello ha coincidido con el periodo de
-          mayor incidencia de la enfermedad, lo que ha complejizado el rastreo,
-          detección y aislamiento de casos. Esto puede estar provocando que se
-          detecten menos positivos que antes en la etapa pre-sintomática de la
-          enfermedad.
-        </p>
-        <p>
-          Las fuentes de contagio en la Isla se manifestaron esencialmente de
-          dos formas. Por una parte, se debe hablar de quienes tuvieron la
-          fuente de infección en el exterior del país. Por otra, del contacto
-          dentro de la nación con personas ya contagiadas. Este grupo ha
-          aportado el mayor número de casos a lo largo de la evolución de la
-          pandemia en Cuba, con cifras superiores al 85% de los casos. Existe
-          también un número menor de enfermos a los que no se les ha
-          identificado el modo de contagio.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        <div class="card-deck">
+      <div id="importedPie"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Los positivos con fuente de infección en el extranjero, aunque
+        presentan cifras inferiores a quienes contrajeron el virus dentro del
+        país, han tenido un gran impacto en el desarrollo de la epidemia en la
+        Isla.
+      </p>
+      <p>
+        La primera etapa de la epidemia, del 11 de marzo al 19 de julio, fue
+        provocada por casos provenientes del exterior. Es en este momento que
+        se decide cerrar las fronteras, lo que se hace efectivo el 24 de
+        marzo.
+      </p>
+      <p>
+        Con las fronteras cerradas, los importados apenas tuvieron incidencia
+        en la segunda ola de la enfermedad, que se ha enmarcado desde el 20 de
+        julio hasta el 19 de noviembre. Es en este periodo, con la apertura el
+        15 de noviembre de las operaciones regulares del Aeropuerto
+        Internacional José Martí, se abren totalmente las fronteras del país.
+      </p>
+      <p>
+        En la última etapa, el volumen de casos importados fue el detonante
+        que tiene al país en la etapa más crítica de la epidemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      <div class="card-deck">
           <section id="acthome" class="card common-bg ">
               <div class="card-header">Evoluci&oacute;n por d&iacute;as de casos importados y no importados</div>
               <div class="card-body">
                   <div id="daily-acthome-info"></div>
               </div>
           </section>
+      <br />
+    </div>
+    <div class="text-block">
+      <p>
+        El protocolo para los viajeros fue concebido para que quienes
+        arribaran al país se realizaran una prueba de diagnóstico PCR a su
+        llegada y una segunda cinco días después. Mientras no estuviera
+        disponible el resultado de la segunda el viajero debía estar aislado.
+      </p>
+      <p>
+        El incumplimiento de las medidas de aislamiento, así como las demoras
+        en los resultados de las pruebas, como principales razones, hizo que,
+        en los primeros momentos, se generara una transmisión provocada por
+        estos casos provenientes del exterior.
+      </p>
+      <p>
+        Ello llevó a que se establecieran nuevas medidas relacionadas con la
+        entrada de viajeros al país. A partir del 1ro de enero se redujo el
+        número de vuelos procedentes de Estados Unidos, México, Panamá,
+        Bahamas, Haití y República Dominicana. Luego, el 30 de enero se volvió
+        a limitar el número de vuelos de estos países a los cuales se
+        incorporaron otros.
+      </p>
+      <p>
+        Asimismo, a partir del 6 de enero se estableció como requisito
+        obligatorio para la entrada a Cuba de todos los viajeros
+        internacionales, la realización de una prueba PCR con resultado
+        negativo a COVID-19, con 72 horas de antelación de iniciado el viaje y
+        por un laboratorio certificado en el país de origen. Estas medidas
+        provocaron una casi inmediata reducción de casos con fuente de
+        infección en el extranjero, sin embargo no lograron contener el
+        incremento de la incidencia.
+      </p>
+      <p>
+        Una de las causas fue que, con el volumen de viajeros que ingresaron
+        al país y que, además, requerían la realización de dos pruebas PCR, la
+        gran mayoría de las pruebas realizadas en las semanas que siguieron a
+        la apertura del aeropuerto habanera, estuvieran en función del testeo
+        a viajeros y contactos de estos. Ello provocó que no se buscara lo
+        suficiente en otros segmentos de la población y así se generara una
+        transmisión que no fue detectada con la premura necesaria.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      Gráfico que cruce reducción de casos importados con incremento de la
+      curva activa.
+      <br />
+    </div>
+    <div class="text-block">
+      <p>
+        Otra de las medidas tomadas en ese momento fue aumentar el ritmo de
+        incremento de la capacidad de Pruebas de Diagnóstico por PCR en el
+        país. Para ello, la estrategia fue que, eventualmente, cada provincia,
+        incluyendo el municipio especial Isla de la Juventud, tuviera al menos
+        un laboratorio propio de Biología Molecular donde poder realizar las
+        pruebas PCR de su territorio. De esta manera, cada territorio podría
+        enfrentar las dinámicas internas de la enfermedad y su contagio, las
+        que se han comportado de manera irregular durante el año de pandemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución por provincias del número de casos confirmados
       </div>
-        <br />
+      <div id="confirmed_bar_race"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        De esta manera, al inicio de la epidemia se trabajaba con tres
+        laboratorios de Biología Molecular en tres provincias y se realizaban
+        poco más de 100 pruebas diarias. Actualmente, se dispone de 22
+        laboratorios en diez provincias y se ha logrado realizar un máximo
+        diario de 20 mil 528 PCR. En las próximas semanas se concluirán los
+        laboratorios en aquellos territorios que aún no disponen de ellos, lo
+        cual permitirá también un mejor distribución geográfica de las pruebas
+        PCR que se realizan, por tanto, un mejor seguimiento de la epidemia.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución por provincias de las pruebas PCR
       </div>
-      <div class="text-block">
-        <p>
-          Los positivos con fuente de infección en el extranjero, aunque
-          presentan cifras inferiores a quienes contrajeron el virus dentro del
-          país, han tenido un gran impacto en el desarrollo de la epidemia en la
-          Isla.
-        </p>
-        <p>
-          La primera etapa de la epidemia, del 11 de marzo al 19 de julio, fue
-          provocada por casos provenientes del exterior. Es en este momento que
-          se decide cerrar las fronteras, lo que se hace efectivo el 24 de
-          marzo.
-        </p>
-        <p>
-          Con las fronteras cerradas, los importados apenas tuvieron incidencia
-          en la segunda ola de la enfermedad, que se ha enmarcado desde el 20 de
-          julio hasta el 19 de noviembre. Es en este periodo, con la apertura el
-          15 de noviembre de las operaciones regulares del Aeropuerto
-          Internacional José Martí, se abren totalmente las fronteras del país.
-        </p>
-        <p>
-          En la última etapa, el volumen de casos importados fue el detonante
-          que tiene al país en la etapa más crítica de la epidemia.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        Gráfico con evolución de casos importados y no importados y medidas en
-        fronteras
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          El protocolo para los viajeros fue concebido para que quienes
-          arribaran al país se realizaran una prueba de diagnóstico PCR a su
-          llegada y una segunda cinco días después. Mientras no estuviera
-          disponible el resultado de la segunda el viajero debía estar aislado.
-        </p>
-        <p>
-          El incumplimiento de las medidas de aislamiento, así como las demoras
-          en los resultados de las pruebas, como principales razones, hizo que,
-          en los primeros momentos, se generara una transmisión provocada por
-          estos casos provenientes del exterior.
-        </p>
-        <p>
-          Ello llevó a que se establecieran nuevas medidas relacionadas con la
-          entrada de viajeros al país. A partir del 1ro de enero se redujo el
-          número de vuelos procedentes de Estados Unidos, México, Panamá,
-          Bahamas, Haití y República Dominicana. Luego, el 30 de enero se volvió
-          a limitar el número de vuelos de estos países a los cuales se
-          incorporaron otros.
-        </p>
-        <p>
-          Asimismo, a partir del 6 de enero se estableció como requisito
-          obligatorio para la entrada a Cuba de todos los viajeros
-          internacionales, la realización de una prueba PCR con resultado
-          negativo a COVID-19, con 72 horas de antelación de iniciado el viaje y
-          por un laboratorio certificado en el país de origen. Estas medidas
-          provocaron una casi inmediata reducción de casos con fuente de
-          infección en el extranjero, sin embargo no lograron contener el
-          incremento de la incidencia.
-        </p>
-        <p>
-          Una de las causas fue que, con el volumen de viajeros que ingresaron
-          al país y que, además, requerían la realización de dos pruebas PCR, la
-          gran mayoría de las pruebas realizadas en las semanas que siguieron a
-          la apertura del aeropuerto habanera, estuvieran en función del testeo
-          a viajeros y contactos de estos. Ello provocó que no se buscara lo
-          suficiente en otros segmentos de la población y así se generara una
-          transmisión que no fue detectada con la premura necesaria.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        Gráfico que cruce reducción de casos importados con incremento de la
-        curva activa.
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Otra de las medidas tomadas en ese momento fue aumentar el ritmo de
-          incremento de la capacidad de Pruebas de Diagnóstico por PCR en el
-          país. Para ello, la estrategia fue que, eventualmente, cada provincia,
-          incluyendo el municipio especial Isla de la Juventud, tuviera al menos
-          un laboratorio propio de Biología Molecular donde poder realizar las
-          pruebas PCR de su territorio. De esta manera, cada territorio podría
-          enfrentar las dinámicas internas de la enfermedad y su contagio, las
-          que se han comportado de manera irregular durante el año de pandemia.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución por provincias del número de casos confirmados
-        </div>
-        <div id="confirmed_bar_race"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          De esta manera, al inicio de la epidemia se trabajaba con tres
-          laboratorios de Biología Molecular en tres provincias y se realizaban
-          poco más de 100 pruebas diarias. Actualmente, se dispone de 22
-          laboratorios en diez provincias y se ha logrado realizar un máximo
-          diario de 20 mil 528 PCR. En las próximas semanas se concluirán los
-          laboratorios en aquellos territorios que aún no disponen de ellos, lo
-          cual permitirá también un mejor distribución geográfica de las pruebas
-          PCR que se realizan, por tanto, un mejor seguimiento de la epidemia.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        <div id="pcr_treemap"></div>
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Este aumento de la capacidad de pruebas PCR y su regionalización
-          posibilitará un mejor seguimiento de uno de los indicadores más
-          relevantes para el seguimiento de la epidemia que es el porciento de
-          pruebas PCR que resultan positivas diariamente. La OMS ha establecido
-          el cinco por ciento como un umbral a partir del cual se puede denotar
-          una preocupación seria en la transmisión del virus. Sin embargo, para
-          que este indicador refleje sus valores con mayor certeza es necesario
-          que se tenga un patrón de pruebas realizadas que sea estable en el
-          tiempo y por regiones.
-        </p>
-        <p>
-          Cuba, siguiendo este indicador, tuvo una alta transmisibilidad
-          detectada, superior al cinco por ciento de la enfermedad, en los
-          primeros días de la epidemia y ya no volvió a superar ese valor hasta
-          enero de este año. A partir de este momento, se ha mantenido oscilando
-          sobre ese valor reflejando el momento complicado que vive la epidemia
-          en el país.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        Gráfico de positividade PCR por tres días promedio.
-        <br />
-      </div>
-      <div class="image-bloc">
-        <br />
-        IMAGEN de CAMBIO bloque
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Desde antes de la detección en Cuba de los primeros casos de la
-          COVID-19 el Minsap implementó acciones para la prevención y
-          tratamiento de la enfermedad en el país. A lo largo de la pandemia,
-          mientras se conocía más de la enfermedad y se desarrollaron
-          investigaciones y estudios clínicos, estos protocolos han ido
-          evolucionando. Actualmente se ejecuta una sexta versión y se trabaja
-          en la séptima.
-        </p>
-        <p>
-          En el diseño y ejecución de los protocolos han influido factores de
-          diversa índole, desde la concepción del sistema de salud pública
-          cubano, el conocimiento gradual del SARS-CoV-2, el anticipo al
-          tratamiento con el fin de evitar la gravedad, hasta las variables
-          sociológicas, por mencionar algunos.
-        </p>
-        <p>
-          La doctora Ileana Morales Suárez, directora nacional de Ciencia e
-          Innovación Tecnológica del Minsap, comentó en febrero, que los
-          primeros protocolos, del 1 al 3, evolucionaron muy rápido y estuvieron
-          activos por breves períodos de tiempo. En estas etapas tomaron en
-          cuentas las experiencias de otras naciones para la elaboración de
-          dichos protocolos.
-        </p>
-        <p>
-          Al principio de la pandemia se atendieron diariamente en las terapias
-          intensivas hasta un máximo del 25% de los pacientes activos, pues
-          estos eran muy pocos. Luego se estabilizó en valores inferiores 7,5%.
-          Por su parte, a partir de la quinta versión, este indicador no ha
-          superado el 4,34% y la mayoría de sus valores han sido inferiores
-          diariamente al 1,5%.
-        </p>
-      </div>
-      <div class="visual-block">
-        Gráfico de % de pacientes diarios en unidades de cuidados intensivos.
-      </div>
-      <div class="text-block">
-        <p>
-          Actualmente se implementa la sexta versión del protocolo. No obstante,
-          se conocen algunos detalles. Por ejemplo, la realización de tests de
-          antígenos para detectar positivos en momentos tempranos. En las
-          situaciones en que el paciente sea positivo a este examen, y en tanto
-          no se conozcan los resultados del PCR, se inicia el tratamiento con
-          Heberferon. Por otra parte, los sospechosos que presentan síntomas
-          reciben este tratamiento de igual modo junto a Itolizumab o Jusvinza.
-        </p>
-      </div>
-      <div class="visual-block">
-        Tabla widget de productos de la biotecnología cubana hasta protocolo 1.6
-      </div>
-      <div class="text-block">
-        <p>
-          Otros importantes cambios tienen que ver con las clasificaciones.
-          Actualmente se divide a los enfermos en asintomático, sintomático,
-          alto riesgo —que tiene mayor probabilidad de transitar a la gravedad—,
-          y el grave y crítico.
-        </p>
-        <p>
-          El protocolo hace énfasis en el tratamiento de estos últimos.
-          Asimismo, al paciente asintomático y sintomático leve se le ubica en
-          un tipo de centro, los sintomáticos moderados, los de riesgo y los
-          pacientes graves y críticos, en otro.
-        </p>
-        <p>
-          Como parte de los protocolos, la nación también utiliza los recursos
-          biotecnológicos para enfrentar la enfermedad. La presencia de
-          medicamentos creados en Cuba como los mencionados anteriormente se
-          dedican a garantizar los tratamientos. La Isla se encuentra en una
-          compleja situación económica agravada por las acciones de la
-          administración Trump, las que, entre otras, dificultan o impiden la
-          adquisición de insumos y medicinas.
-        </p>
-        <p>
-          En el ámbito profiláctico resaltan la Biomodulina T, el factor de
-          transferencia y las intervenciones con Nasalferón. Para fines
-          terapéuticos, se usan varias formulaciones de Interferón.
-        </p>
-        <p>
-          Sobre el tratamiento a graves y críticos, la Dra. C. Tania Crombet
-          Ramos, directora de Investigaciones Clínicas del Centro de Inmunología
-          Molecular, explicó que se han creado salas de vigilancia intensiva,
-          con el objetivo de adelantarse y anticipar qué paciente puede hacer
-          una evolución tórpida. A estos, se les suministra, entre otros
-          medicamentos, moléculas antiinflamatorias: Jusvinza e Itolizumab.
-        </p>
-      </div>
-      <div class="visual-block">
-        <a
-          class="spreaker-player"
-          href="https://www.spreaker.com/user/juventudtecnica/bauta-a-cal-y-canto"
-          data-resource="episode_id=40117821"
-          data-theme="light"
-          data-autoplay="false"
-          data-playlist="false"
-          data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/ea1a8ec3df58e6232da31404194472da.jpg"
-          data-width="100%"
-          data-height="400px"
-          >Escucha"Bauta a cal y canto" en Spreaker.</a
-        >
-        <script async src="https://widget.spreaker.com/widgets.js"></script>
-      </div>
-      <div class="text-block">
-        <p>
-          Según reporta la especialista, la primera de ella influyó en la
-          disminución de pacientes que pasan a graves y críticos, con una alta
-          tasa de recuperación. La segunda se ha consolidado en pacientes de
-          alto riesgo moderados y en el grave, en Cuba y en miles de enfermos en
-          la India.
-        </p>
-      </div>
-      <div class="image-block">IMAGEN CAMBIO BLOQUE</div>
-      <div class="text-block">
-        <p>
-          El primer fallecimiento por causa de la COVID-19 en Cuba se informó el
-          18 de marzo de 2020. Uno de los turistas italianos reportados como
-          primeros casos positivos de la enfermedad en el país murió ese día en
-          el Instituto de Medicina Tropical Pedro Kourí (IPK), luego de haber
-          sido reportado de crítico. Desde esa fecha hasta la actualidad han
-          fallecido en el país X personas para una letalidad de de L% y una
-          mortalidad de M casos por millón de habitantes.
-        </p>
-        <p>
-          Los protocolos de actuación cubanos han permitido que el país esté
-          entre las naciones con mejores indicadores en cuanto a letalidad y
-          mortalidad de la enfermedad.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">Letalidad y Mortalidad por países</div>
-        <div class="deceasesComparisonDiv">
-          <canvas id="deceasesComparison" width="150" height="80"></canvas>
-          <div class="container mt-3">
-            <div class="row">
-              <div class="col text-center">
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button id="deceasesZoomIn" type="button" class="btn">
-                    <i class="bi bi-zoom-in"></i>
-                  </button>
-                  <button id="deceasesZoomOut" type="button" class="btn">
-                    <i class="bi bi-zoom-out"></i>
-                  </button>
-                </div>
+      <div id="pcr_treemap"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Este aumento de la capacidad de pruebas PCR y su regionalización
+        posibilitará un mejor seguimiento de uno de los indicadores más
+        relevantes para el seguimiento de la epidemia que es el porciento de
+        pruebas PCR que resultan positivas diariamente. La OMS ha establecido
+        el cinco por ciento como un umbral a partir del cual se puede denotar
+        una preocupación seria en la transmisión del virus. Sin embargo, para
+        que este indicador refleje sus valores con mayor certeza es necesario
+        que se tenga un patrón de pruebas realizadas que sea estable en el
+        tiempo y por regiones.
+      </p>
+      <p>
+        Cuba, siguiendo este indicador, tuvo una alta transmisibilidad
+        detectada, superior al cinco por ciento de la enfermedad, en los
+        primeros días de la epidemia y ya no volvió a superar ese valor hasta
+        enero de este año. A partir de este momento, se ha mantenido oscilando
+        sobre ese valor reflejando el momento complicado que vive la epidemia
+        en el país.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      Gráfico de positividade PCR por tres días promedio.
+      <br />
+    </div>
+    <div class="image-block">
+      <img src="images/pcr.jpg" alt="">
+    </div>
+    <div class="text-block">
+      <p>
+        Desde antes de la detección en Cuba de los primeros casos de la
+        COVID-19 el Minsap implementó acciones para la prevención y
+        tratamiento de la enfermedad en el país. A lo largo de la pandemia,
+        mientras se conocía más de la enfermedad y se desarrollaron
+        investigaciones y estudios clínicos, estos protocolos han ido
+        evolucionando. Actualmente se ejecuta una sexta versión y se trabaja
+        en la séptima.
+      </p>
+      <p>
+        En el diseño y ejecución de los protocolos han influido factores de
+        diversa índole, desde la concepción del sistema de salud pública
+        cubano, el conocimiento gradual del SARS-CoV-2, el anticipo al
+        tratamiento con el fin de evitar la gravedad, hasta las variables
+        sociológicas, por mencionar algunos.
+      </p>
+      <p>
+        La doctora Ileana Morales Suárez, directora nacional de Ciencia e
+        Innovación Tecnológica del Minsap, comentó en febrero, que los
+        primeros protocolos, del 1 al 3, evolucionaron muy rápido y estuvieron
+        activos por breves períodos de tiempo. En estas etapas tomaron en
+        cuentas las experiencias de otras naciones para la elaboración de
+        dichos protocolos.
+      </p>
+      <p>
+        Al principio de la pandemia se atendieron diariamente en las terapias
+        intensivas hasta un máximo del 25% de los pacientes activos, pues
+        estos eran muy pocos. Luego se estabilizó en valores inferiores 7,5%.
+        Por su parte, a partir de la quinta versión, este indicador no ha
+        superado el 4,34% y la mayoría de sus valores han sido inferiores
+        diariamente al 1,5%.
+      </p>
+    </div>
+    <div class="visual-block">
+      Gráfico de % de pacientes diarios en unidades de cuidados intensivos.
+    </div>
+    <div class="text-block">
+      <p>
+        Actualmente se implementa la sexta versión del protocolo. No obstante,
+        se conocen algunos detalles. Por ejemplo, la realización de tests de
+        antígenos para detectar positivos en momentos tempranos. En las
+        situaciones en que el paciente sea positivo a este examen, y en tanto
+        no se conozcan los resultados del PCR, se inicia el tratamiento con
+        Heberferon. Por otra parte, los sospechosos que presentan síntomas
+        reciben este tratamiento de igual modo junto a Itolizumab o Jusvinza.
+      </p>
+    </div>
+    <div class="visual-block">
+      Tabla widget de productos de la biotecnología cubana hasta protocolo 1.6
+    </div>
+    <div class="text-block">
+      <p>
+        Otros importantes cambios tienen que ver con las clasificaciones.
+        Actualmente se divide a los enfermos en asintomático, sintomático,
+        alto riesgo —que tiene mayor probabilidad de transitar a la gravedad—,
+        y el grave y crítico.
+      </p>
+      <p>
+        El protocolo hace énfasis en el tratamiento de estos últimos.
+        Asimismo, al paciente asintomático y sintomático leve se le ubica en
+        un tipo de centro, los sintomáticos moderados, los de riesgo y los
+        pacientes graves y críticos, en otro.
+      </p>
+      <p>
+        Como parte de los protocolos, la nación también utiliza los recursos
+        biotecnológicos para enfrentar la enfermedad. La presencia de
+        medicamentos creados en Cuba como los mencionados anteriormente se
+        dedican a garantizar los tratamientos. La Isla se encuentra en una
+        compleja situación económica agravada por las acciones de la
+        administración Trump, las que, entre otras, dificultan o impiden la
+        adquisición de insumos y medicinas.
+      </p>
+      <p>
+        En el ámbito profiláctico resaltan la Biomodulina T, el factor de
+        transferencia y las intervenciones con Nasalferón. Para fines
+        terapéuticos, se usan varias formulaciones de Interferón.
+      </p>
+      <p>
+        Sobre el tratamiento a graves y críticos, la Dra. C. Tania Crombet
+        Ramos, directora de Investigaciones Clínicas del Centro de Inmunología
+        Molecular, explicó que se han creado salas de vigilancia intensiva,
+        con el objetivo de adelantarse y anticipar qué paciente puede hacer
+        una evolución tórpida. A estos, se les suministra, entre otros
+        medicamentos, moléculas antiinflamatorias: Jusvinza e Itolizumab.
+      </p>
+    </div>
+    <div class="visual-block">
+      <a class="spreaker-player" href="https://www.spreaker.com/user/juventudtecnica/bauta-a-cal-y-canto"
+        data-resource="episode_id=40117821" data-theme="light" data-autoplay="false" data-playlist="false"
+        data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/ea1a8ec3df58e6232da31404194472da.jpg"
+        data-width="100%" data-height="400px">Escucha"Bauta a cal y canto" en Spreaker.</a>
+      <script async src="https://widget.spreaker.com/widgets.js"></script>
+    </div>
+    <div class="text-block">
+      <p>
+        Según reporta la especialista, la primera de ella influyó en la
+        disminución de pacientes que pasan a graves y críticos, con una alta
+        tasa de recuperación. La segunda se ha consolidado en pacientes de
+        alto riesgo moderados y en el grave, en Cuba y en miles de enfermos en
+        la India.
+      </p>
+    </div>
+    <div class="image-block">
+      <img src="images/personal.jpg" alt="">
+    </div>
+    <div class="text-block">
+      <p>
+        El primer fallecimiento por causa de la COVID-19 en Cuba se informó el
+        18 de marzo de 2020. Uno de los turistas italianos reportados como
+        primeros casos positivos de la enfermedad en el país murió ese día en
+        el Instituto de Medicina Tropical Pedro Kourí (IPK), luego de haber
+        sido reportado de crítico. Desde esa fecha hasta la actualidad han
+        fallecido en el país X personas para una letalidad de de L% y una
+        mortalidad de M casos por millón de habitantes.
+      </p>
+      <p>
+        Los protocolos de actuación cubanos han permitido que el país esté
+        entre las naciones con mejores indicadores en cuanto a letalidad y
+        mortalidad de la enfermedad.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">Letalidad y Mortalidad por países</div>
+      <div class="deceasesComparisonDiv">
+        <canvas id="deceasesComparison" width="150" height="80"></canvas>
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col text-center">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button id="deceasesZoomIn" type="button" class="btn">
+                  <i class="bi bi-zoom-in"></i>
+                </button>
+                <button id="deceasesZoomOut" type="button" class="btn">
+                  <i class="bi bi-zoom-out"></i>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-block">
-        <p>
-          Asimismo, el fallecimiento de personas no ha tenido un comportamiento
-          uniforme durante la epidemia en el país. En el 2020, desde el 11 de
-          marzo hasta el 31 de diciembre, fallecieron 146 personas mientras que
-          en lo que ha transcurrido de 2021 han fallecido K personas.
-        </p>
+    </div>
+    <div class="text-block">
+      <p>
+        Asimismo, el fallecimiento de personas no ha tenido un comportamiento
+        uniforme durante la epidemia en el país. En el 2020, desde el 11 de
+        marzo hasta el 31 de diciembre, fallecieron 146 personas mientras que
+        en lo que ha transcurrido de 2021 han fallecido K personas.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución por provincias del número de personas fallecidas
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolución por provincias del número de personas fallecidas
-        </div>
-        <div id="deceases_bar_race"></div>
-      </div>
-      <div class="text-block">
-        <p>
-          Sin embargo en el 2020 hubo 12056 casos confirmados por C en el 2021.
-          O sea, con el aumento de la incidencia ha aumentado la mortalidad,
-          pero ha disminuido la letalidad. Es decir, es menor la proporción de
-          las muertes respecto al número de casos positivos reportados en 2021
-          en comparación a 2020.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        Gráfico de evolución de fallecidos
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          El reto actual que tiene el sistema médico cubano es el disminuir al
-          máximo la mortalidad en un escenario de alta incidencia. Para ello se
-          debe trabajar en optimizar los tiempos que van desde la identificación
-          de los síntomas, la hospitalización del paciente, así como su
-          tratamiento apegado a los protocolos.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        Gráfico de los tiempos
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Igualmente, es esencial la correcta identificación de las condiciones
-          de riesgo de cada paciente. Para ello es importante tener en cuenta
-          distintos elementos que van desde la edad y el sexo, hasta las
-          distintas comorbilidades que pueda poseer cada paciente.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        pequeño scrolly telling
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Asimismo, es relevante disminuir el número de pacientes que entran las
-          unidades de cuidados intensivos. Estos pacientes requieren una
-          atención constante y especializada y mientras mayor sea el número de
-          pacientes disminuyen gradualmente las condiciones de atención.
-        </p>
-      </div>
-      <div class="visual-block">
-        <br />
-        Gráfico de muertes diarios combinados con pacientes en cuidados
-        intensivos
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Padecer la enfermedad también acarrea al paciente varias secuelas.
-          Existen afectaciones de tipo renal, cardiovascular e inflamatorias
-          pulmonares. Además, pacientes críticos han tenido alteraciones de la
-          coagulación que pueden inducir procesos trombóticos, aunque aún no se
-          sabe cuanto tiempo dura ese efecto Asimismo, la Dra. Ileana Morales,
-          Directora Nacional de Ciencia e Investigación Tecnológica del MINSAP,
-          expresó que las investigaciones revelan que las secuelas no distinguen
-          edad, ni sexo. Hay asintomáticos que han tenido clínico negativo pero
-          con hallazgos importantes de lesiones pulmonares, hepáticas y renales.
-        </p>
-      </div>
-      <div class="visual-block">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ro5uJ1vJeh8"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div class="image-block">
-        <br />
-        CAMBIO DE BLOQIE
-        <br />
-      </div>
-      <div class="text-block">
-        <p>
-          Actualmente Cuba se encuentra desarrollando cinco candidatos
-          vacunales. Se trata de Soberana 01, Soberana 01A (Soberana Plus),
-          Soberana 02, Mambisa y Abdala. Las tres primeras tienen el liderazgo
-          del Instituto Finlay y el resto del Centro de Ingeniería Genética y
-          Biotecnología, aunque intervienen otras entidades.
-        </p>
-        <p>
-          Soberana 02 ya comenzó la tercera fase de los ensayos clínicos, con un
-          alcance de 44 mil diez sujetos en La Habana. Se han dispuesto 40
-          vacunatorios en 38 sitios clínicos de seis municipios.
-        </p>
-        <p>
-          Mientras, Abdala casi concluye su segunda etapa de ensayos clínicos en
-          Santiago de Cuba. La documentación para la fase III de sus estudios
-          clínicos ya fue entregada a la autoridad reguladora y aspira a
-          iniciarlos durante marzo de 2021 en la propia Santiago y en
-          Guantánamo. Por su parte, Soberana 01, que fue el candidato vacunal
-          que primero comenzó estudios clínicos está pronto a realizar sus
-          ensayos de fase II en la central provincia de Cienfuegos.
-        </p>
-      </div>
+      <div id="deceases_bar_race"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Sin embargo en el 2020 hubo 12056 casos confirmados por C en el 2021.
+        O sea, con el aumento de la incidencia ha aumentado la mortalidad,
+        pero ha disminuido la letalidad. Es decir, es menor la proporción de
+        las muertes respecto al número de casos positivos reportados en 2021
+        en comparación a 2020.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      Gráfico de evolución de fallecidos
+      <br />
+    </div>
+    <div class="text-block">
+      <p>
+        El reto actual que tiene el sistema médico cubano es el disminuir al
+        máximo la mortalidad en un escenario de alta incidencia. Para ello se
+        debe trabajar en optimizar los tiempos que van desde la identificación
+        de los síntomas, la hospitalización del paciente, así como su
+        tratamiento apegado a los protocolos.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      Gráfico de los tiempos
+      <br />
+    </div>
+    <div class="text-block">
+      <p>
+        Igualmente, es esencial la correcta identificación de las condiciones
+        de riesgo de cada paciente. Para ello es importante tener en cuenta
+        distintos elementos que van desde la edad y el sexo, hasta las
+        distintas comorbilidades que pueda poseer cada paciente.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      pequeño scrolly telling
+      <br />
+    </div>
+    <div class="text-block">
+      <p>
+        Asimismo, es relevante disminuir el número de pacientes que entran las
+        unidades de cuidados intensivos. Estos pacientes requieren una
+        atención constante y especializada y mientras mayor sea el número de
+        pacientes disminuyen gradualmente las condiciones de atención.
+      </p>
+    </div>
+    <div class="visual-block">
+      <br />
+      Gráfico de muertes diarios combinados con pacientes en cuidados
+      intensivos
+      <br />
+    </div>
+    <div class="text-block">
+      <p>
+        Padecer la enfermedad también acarrea al paciente varias secuelas.
+        Existen afectaciones de tipo renal, cardiovascular e inflamatorias
+        pulmonares. Además, pacientes críticos han tenido alteraciones de la
+        coagulación que pueden inducir procesos trombóticos, aunque aún no se
+        sabe cuanto tiempo dura ese efecto Asimismo, la Dra. Ileana Morales,
+        Directora Nacional de Ciencia e Investigación Tecnológica del MINSAP,
+        expresó que las investigaciones revelan que las secuelas no distinguen
+        edad, ni sexo. Hay asintomáticos que han tenido clínico negativo pero
+        con hallazgos importantes de lesiones pulmonares, hepáticas y renales.
+      </p>
+    </div>
+    <div class="visual-block center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ro5uJ1vJeh8" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="image-block">
+      <img src="images/vacunas.jpg" alt="">
+    </div>
+    <div class="text-block">
+      <p>
+        Actualmente Cuba se encuentra desarrollando cinco candidatos
+        vacunales. Se trata de Soberana 01, Soberana 01A (Soberana Plus),
+        Soberana 02, Mambisa y Abdala. Las tres primeras tienen el liderazgo
+        del Instituto Finlay y el resto del Centro de Ingeniería Genética y
+        Biotecnología, aunque intervienen otras entidades.
+      </p>
+      <p>
+        Soberana 02 ya comenzó la tercera fase de los ensayos clínicos, con un
+        alcance de 44 mil diez sujetos en La Habana. Se han dispuesto 40
+        vacunatorios en 38 sitios clínicos de seis municipios.
+      </p>
+      <p>
+        Mientras, Abdala casi concluye su segunda etapa de ensayos clínicos en
+        Santiago de Cuba. La documentación para la fase III de sus estudios
+        clínicos ya fue entregada a la autoridad reguladora y aspira a
+        iniciarlos durante marzo de 2021 en la propia Santiago y en
+        Guantánamo. Por su parte, Soberana 01, que fue el candidato vacunal
+        que primero comenzó estudios clínicos está pronto a realizar sus
+        ensayos de fase II en la central provincia de Cienfuegos.
+      </p>
+    </div>
+    <div class="visual-block center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/14PPGsPF_bg" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 
-      <div class="visual-block">
-        <section id="scrolly">
-          <figure>
-            <canvas id="canvas"></canvas>
-            <div class="text-center m-2" id="legends"></div>
-          </figure>
-          <article>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="1"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="2"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="3"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="4"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="5"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="6"
-            ></div>
-            <div class="step" style="height: 700px" data-step="7">
-              <p>STEP 7</p>
-            </div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="8"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="9"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="10"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="11"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="12"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="13"
-            ></div>
-            <div class="step" style="height: 900px" data-step="14">
-              <p>STEP 14</p>
-            </div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="15"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="16"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="17"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="18"
-            ></div>
-            <div
-              class="step"
-              style="height: 20px; background-color: transparent"
-              data-step="19"
-            ></div>
-          </article>
-        </section>
-      </div>
+    <div class="visual-block">
+      <section id="scrolly">
+        <figure>
+          <canvas id="canvas"></canvas>
+          <div class="text-center m-2" id="legends"></div>
+        </figure>
+        <article>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="1"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="2"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="3"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="4"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="5"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="6"></div>
+          <div class="step" style="height: 700px" data-step="7">
+            <p>STEP 7</p>
+          </div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="8"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="9"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="10"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="11"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="12"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="13"></div>
+          <div class="step" style="height: 900px" data-step="14">
+            <p>STEP 14</p>
+          </div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="15"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="16"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="17"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="18"></div>
+          <div class="step" style="height: 20px; background-color: transparent" data-step="19"></div>
+        </article>
+      </section>
+    </div>
 
-      <div id="credits-block">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        creditos
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
-    </main>
+    <div id="credits-block">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      creditos
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </main>
 
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/leaflet.js"></script>
-    <script type="text/javascript" src="js/jscharting.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/d3.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/c3.min.js"></script>
-    <script type="text/javascript" src="js/intersection-observer.js"></script>
-    <script type="text/javascript" src="js/stickyfill.min.js"></script>
-    <script type="text/javascript" src="js/scrollama.min.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/chart.min.js"></script>
-    <script type="text/javascript" src="js/utils.js"></script>
-    <script type="text/javascript" src="js/mapa.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-    <script type="text/javascript" src="js/deceases.js"></script>
-    <script type="text/javascript" src="js/confirmedBarRace.js"></script>
-    <script type="text/javascript" src="js/deceasesBarRace.js"></script>
-    <script type="text/javascript" src="js/pcrTreemap.js"></script>
-    <script type="text/javascript" src="js/sex-pie.js"></script>
-    <script type="text/javascript" src="js/foreignvsnatives.js"></script>
-  </body>
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/leaflet.js"></script>
+  <script type="text/javascript" src="js/jscharting.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/d3.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/c3.min.js"></script>
+  <script type="text/javascript" src="js/intersection-observer.js"></script>
+  <script type="text/javascript" src="js/stickyfill.min.js"></script>
+  <script type="text/javascript" src="js/scrollama.min.js"></script>
+  <script type="text/javascript" src="js/moment.min.js"></script>
+  <script type="text/javascript" src="js/chart.min.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/mapa.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/deceases.js"></script>
+  <script type="text/javascript" src="js/confirmedBarRace.js"></script>
+  <script type="text/javascript" src="js/deceasesBarRace.js"></script>
+  <script type="text/javascript" src="js/pcrTreemap.js"></script>
+  <script type="text/javascript" src="js/sex-pie.js"></script>
+  <script type="text/javascript" src="js/importados-no-importados.js"></script>
+  <script type="text/javascript" src="js/asintomaticos.js"></script>
+  <script type="text/javascript" src="js/foreignvsnatives.js"></script>
+</body>
+
 </html>
