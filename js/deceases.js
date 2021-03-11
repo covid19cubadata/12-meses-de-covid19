@@ -69,7 +69,7 @@ function getDeceasesData() {
             },
             options: {
                 title: {
-                    display: true,
+                    display: false,
                     text: 'Letalidad vs mortalidad por países'
                 },
                 legend: {
