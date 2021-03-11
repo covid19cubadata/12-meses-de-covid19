@@ -1,6 +1,6 @@
 var allDeceasesDataEnabled = true;
 var allDeceasesData = {};
-var minX = 10;
+var minX = 100;
 var minY = 1;
 var cubaColour = "#eb3323";
 var americaColour = "#f7c88a";
@@ -32,13 +32,17 @@ function getDeceasesData() {
             var continent = values['continent'];
             var cases = values["total_cases"];
             var deaths = values["total_deaths"];
-            var morthality = deaths !== 0 ? (deaths / population ) * 1000000 : 0;
+            var morthality = deaths !== 0 ? (deaths * 1000000 / population )  : 0;
             var fatality = (deaths !== 0) || (cases !== 0) ? (deaths / cases) * 100 : 0;
             morthality = Math.round(morthality * 100)/100;
             fatality = Math.round(fatality * 100)/100;
 
             if(continent === 'North America' || continent === 'South America'){
                 continent = 'America';
+            }
+
+            if(name === 'Yemen'){
+                return;
             }
 
             if(name === "Cuba"){

@@ -15,6 +15,11 @@
   border: 0;
 }
 
+.control-button > .bi {
+  color: rgb(114, 114, 114);
+  font-size: 24px;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -90,7 +95,12 @@ figure {
   margin-bottom: 30px;
 }
 
-#banner-block > img{
+.image-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-block > img, #banner-block > img {
   width: 100%;
 }
 
@@ -104,10 +114,12 @@ figure {
   color: #1c1340;
 }
 
-#deceases_bar_race, #confirmed_bar_race, #pcr_treemap {
+#deceases_bar_race,
+#confirmed_bar_race,
+#pcr_treemap {
   width: 100%;
   height: 500px;
-  margin: 0px auto
+  margin: 0px auto;
 }
 
 #label-week {
@@ -118,4 +130,11 @@ figure {
 #label-week-block {
   font-size: 20px;
   margin-top: 10px;
+}
+
+#daily-porciento-positivos,
+#asymcases-total-percent, 
+#importedPie, 
+#sexPie {
+  height: 400px;
 }
