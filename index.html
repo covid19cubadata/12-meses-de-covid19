@@ -136,7 +136,7 @@
     </div>
     <div class="visual-block">
       <div class="title-block center">
-        Evolucón de los pacientes sintomáticos/asintomáticos
+        Evolución de los pacientes sintomáticos/asintomáticos
       </div>
       <div id="asymcases-total-percent"></div>
     </div>
@@ -370,7 +370,33 @@
       </p>
     </div>
     <div class="visual-block">
-      Tabla widget de productos de la biotecnología cubana hasta protocolo 1.6
+      <div class="title-block center">
+        Evolución de los elementos principales de los protocolos de actuación en los distintos escenarios
+      </div>
+      <div class="card-body">
+        <div class="center protocol-text">Seleccione el protocolo:</div>
+        
+        <div class="center protocol-text" id="slider-cont">
+            <span id="slider-min">1</span> <span><input type="range" min="1" max="6" value="1" class="slider" id="slider"></span> <span id="slider-max">1</span> 
+        </div>
+        <div class="center protocol-text">
+          <span id="date"></span> Protocolo de actuación - Versión <span id="slider-value">1</span> 
+        </div>
+        <div id="protocolost" class="d-none d-lg-block">
+        </div>					
+        <div id="protocolos-resp-cont" class="d-lg-none">
+          <div id="protocolos-resp"></div>
+        </div>
+        <div id="protocolos-legend" >
+          <div class="row">
+            <div class="col-lg-3"><i class="bi bi-square-fill tnacional"></i> Creación nacional</div>
+            <div class="col-lg-3"><i class="bi bi-square-fill tproducido"></i> Producido en el país</div>
+            <div class="col-lg-3"><i class="bi bi-square-fill timportado"></i> Producto importado</div>
+            <div class="col-lg-3"><i class="bi bi-square-fill tnone new"></i> Actualización</div>
+          </div>
+        </div>
+      </div>
+
     </div>
     <div class="text-block">
       <p>
@@ -502,11 +528,12 @@
       </p>
     </div>
     <div class="visual-block">
-      <br />
-      <div class="casesUCIDiv">
-        <div id="casesUCI" style="max-width: 550px; height: 300px; margin: 2px auto"></div>
+      <div class="title-block center">
+        Tiempos de evolución de los pacientes sintomáticos desde el 15 de noviembre al 22 de febrero
       </div>
-      <br />
+      <div class="casesUCIDiv">
+        <div id="casesUCI" ></div>
+      </div>
     </div>
     <div class="text-block">
       <p>
@@ -517,11 +544,31 @@
       </p>
     </div>
     <div class="visual-block">
-      <div id="comorbilidad"></div>
-        <div id="comorbilidad2"></div>
-      <br />
-      pequeño scrolly telling
-      <br />
+      <div class="title-block center">
+        Distribución por sexo y edad de los pacientes fallecidos
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div id="sexDeceasedPie"></div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div id="deceasedAgeRange"></div>    
+        </div>
+      </div>
+    </div>
+
+    <div class="visual-block">
+      <div class="title-block center">
+        Comorbilidades más comunes y su distribución por cantidad en los pacientes fallecidos
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div id="comorbilidad2"></div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div id="comorbilidad"></div>    
+        </div>
+      </div>
     </div>
     <div class="text-block">
       <p>
@@ -1084,5 +1131,7 @@
   <script type="text/javascript" src="js/deceases-sex.js"></script>
   <script type="text/javascript" src="js/uci.js"></script>
   <script type="text/javascript" src="js/fallecidos.js"></script>
+  <script type="text/javascript" src="js/comorbilidad.js"></script>
+  <script type="text/javascript" src="js/protocols.js"></script>
 </body>
 </html>
