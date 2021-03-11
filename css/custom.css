@@ -1,0 +1,121 @@
+#world-map {
+  background-color: #ffffff;
+  min-height: 500px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.control-button {
+  margin-left: 8px;
+  background: transparent;
+  border: 0;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+#scrolly {
+  position: relative;
+  background-color: #f3f3f3;
+  padding: 1rem;
+}
+
+article {
+  position: relative;
+  padding: 0;
+  /* max-width: 20rem; */
+  margin: 0 auto;
+}
+
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  /* background-color: #8a8a8a; */
+  z-index: 0;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step.is-active p {
+  background-color: goldenrod;
+  color: #3b3b3b;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #3b3b3b;
+}
+
+.text-block {
+  font-size: 20px;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visual-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner-block {
+  margin-bottom: 30px;
+}
+
+#banner-block > img{
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.title-block {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #1c1340;
+}
+
+#deceases_bar_race, #confirmed_bar_race, #pcr_treemap {
+  width: 100%;
+  height: 500px;
+  margin: 0px auto
+}
+
+#label-week {
+  font-weight: bolder;
+  color: #1c1340;
+}
+
+#label-week-block {
+  font-size: 20px;
+  margin-top: 10px;
+}
