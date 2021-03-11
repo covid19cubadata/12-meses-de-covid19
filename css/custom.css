@@ -275,3 +275,13 @@ figure {
   padding: 30px;
   font-size: 20px;
 }
+
+.iframe-viewport-16x9 {
+  width: 78vw;
+  height: 43.86vw;
+}
+
+.iframe-viewport-other {
+  width: 68vw;
+  height: 58vw;
+}
