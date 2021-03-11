@@ -25,7 +25,7 @@ function getDate(data){
     var columns = text[0].split(',');
     var text_date = columns[columns.length - 1]
     var date = text_date.split("_")[0];
-    console.log(date);
+    //console.log(date);
     return date1;
 }
 
@@ -107,7 +107,7 @@ return JSC.chart(
         }, 
         slider: { 
             type: 'range', 
-            width: 600, 
+            width: parseInt(window.screen.width*(3/8)), 
             // Reduce chart update frequency to smooth slider action. 
             debounce: 20, 
             value: new Date(startDate).getTime(), 
@@ -244,12 +244,12 @@ function playPause(val, chrt) {
 
 function formatAnnotation(dt) { 
     var year = dt.getFullYear();
-    var options = {year: "numeric", month: "short", day: "numeric"};
+    var options = {year: "numeric", month: "numeric", day: "numeric"};
     var day = dt.toLocaleDateString("es-ES", options); 
     return ( 
-    '<span style="font-size:20px; font-weight:bold; width:160px">' + day +
+    '<span style="font-size:18px; font-weight:bold">' + day +
     '</span><br>' +
-    '<br>Casos confirmados:<br><span align="center" style="font-size:24px; font-weight:bold; width:180px">{%sum:n0}</span>'
+    '<br>Confirmados:<br><span style="font-size:22px; font-weight:bold">{%sum:n0}</span>'
     ); 
 } 
 }

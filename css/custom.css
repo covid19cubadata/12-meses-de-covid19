@@ -267,17 +267,6 @@ figure {
   padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
-.iframe-viewport-16x9 {
-  width: 76vw;
-  height: 42.74vw;
-}
-
-.iframe-viewport-other {
-  width: 68vw;
-  height: 58vw;
-}
-=======
 #credits-block {
   min-height: 500px;
   background-color: #1c1340;
@@ -286,4 +275,3 @@ figure {
   padding: 30px;
   font-size: 20px;
 }
->>>>>>> bdeae1eadcaaa054c9ff20befa8b15568f2a0f66
