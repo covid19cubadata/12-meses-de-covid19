@@ -11,6 +11,8 @@
 
 .control-button {
   margin-left: 8px;
+  background: transparent;
+  border: 0;
 }
 
 .mb-2 {
@@ -22,49 +24,49 @@
 }
 
 #scrolly {
-    position: relative;
-    background-color: #f3f3f3;
-    padding: 1rem;
+  position: relative;
+  background-color: #f3f3f3;
+  padding: 1rem;
 }
 
 article {
-    position: relative;
-    padding: 0;
-    /* max-width: 20rem; */
-    margin: 0 auto;
+  position: relative;
+  padding: 0;
+  /* max-width: 20rem; */
+  margin: 0 auto;
 }
 
 figure {
-    position: -webkit-sticky;
-    position: sticky;
-    width: 100%;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    /* background-color: #8a8a8a; */
-    z-index: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  /* background-color: #8a8a8a; */
+  z-index: 0;
 }
 
 .step {
-    margin: 0 auto 2rem auto;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 auto 2rem auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .step:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .step.is-active p {
-    background-color: goldenrod;
-    color: #3b3b3b;
+  background-color: goldenrod;
+  color: #3b3b3b;
 }
 
 .step p {
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-    background-color: #3b3b3b;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #3b3b3b;
 }
 
 .text-block {
