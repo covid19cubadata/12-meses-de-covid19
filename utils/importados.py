@@ -4,10 +4,10 @@ import requests
 
 
 def gen_imported():
-    # cubadata = requests.get(
-    #     'https://covid19cubadata.github.io/data/covid19-cuba.json').content
     cubadata = requests.get(
-        'http://localhost:8000/utils/covid19-cuba.json').content
+        'https://covid19cubadata.github.io/data/covid19-cuba.json').content
+    # cubadata = requests.get(
+    #     'http://localhost:8000/utils/covid19-cuba.json').content
     cubadata = json.loads(cubadata)
 
     dates = []

@@ -14,7 +14,7 @@ def getForeignVsNativesData():
             result = {}
 
             for day in source['casos']['dias'].keys():
-                date = source['casos']['dias'][day]['fecha']
+                date = source['casos']['dias'][day]['fecha'][5:]
                 try:                   
                     cu = 0
                     foreign = 0
