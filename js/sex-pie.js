@@ -6,8 +6,7 @@ var casesColors = {
 };
 
 function buildSexsPie() {
-    // var sexPieCtx = document.getElementById('sexPie').getContext('2d');
-    var sexPie = c3.generate({
+    c3.generate({
         bindto: '#sexPie',
         data: {
             type: 'pie',
