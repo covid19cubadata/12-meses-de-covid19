@@ -107,3 +107,13 @@ figure {
   height: 500px;
   margin: 0px auto
 }
+
+#label-week {
+  font-weight: bolder;
+  color: #1c1340;
+}
+
+#label-week-block {
+  font-size: 20px;
+  margin-top: 10px;
+}
