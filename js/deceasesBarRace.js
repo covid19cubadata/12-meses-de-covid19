@@ -26,7 +26,6 @@ function getDate(data){
     var text_date = columns[columns.length - 1]
     var date = text_date.split("_")[0];
     //console.log(date);
-    console.log(window.screen.width);
     return date;
 }
 
