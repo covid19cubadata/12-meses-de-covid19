@@ -66,3 +66,28 @@ figure {
     font-size: 1.5rem;
     background-color: #3b3b3b;
 }
+
+.text-block {
+  font-size: 20px;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visual-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner-block {
+  margin-bottom: 30px;
+}
+
+#banner-block > img{
+  width: 100%;
+}
