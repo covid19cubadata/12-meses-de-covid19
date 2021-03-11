@@ -65,14 +65,7 @@ function getDeceasesData() {
             type: 'scatter',
 
             data: {
-                datasets: Object.keys(allDeceasesData).map(function( key, index){
-                    var values = allDeceasesData[key];
-                    return {
-                        data: allDeceasesData[key],
-                        backgroundColor: continentColours[values[0].continent],
-                        label: key
-                    };
-                })
+                datasets: buildDataset(allDeceasesData)
             },
             options: {
                 title: {
@@ -158,15 +151,15 @@ function getDeceasesData() {
 
                             innerHtml += '</thead><tbody>';
 
-                            bodyLines.forEach(function (body, i) {
-                                var colors = tooltipModel.labelColors[i];
-                                var style = 'background:' + colors.backgroundColor;
-                                style += '; border-color:' + colors.borderColor;
-                                style += '; border-width: 2px';
-                                var span = '<span style="' + style + '"></span>';
-                                innerHtml += '<tr><td>' + span + 'Letalidad: ' + body[0] + '</td></tr>';
-                                innerHtml += '<tr><td>' + span + 'Mortalidad: ' + body[1] + '</td></tr>';
-                            });
+                            var body = bodyLines[0];
+                            var colors = tooltipModel.labelColors[0];
+                            var style = 'background:' + colors.backgroundColor;
+                            style += '; border-color:' + colors.borderColor;
+                            style += '; border-width: 2px';
+                            var span = '<span style="' + style + '"></span>';
+                            innerHtml += '<tr><td>' + span + 'Letalidad: ' + body[0] + '</td></tr>';
+                            innerHtml += '<tr><td>' + span + 'Mortalidad: ' + body[1] + '</td></tr>';
+                            
                             innerHtml += '</tbody>';
 
                             var tableRoot = tooltipEl.querySelector('table');
@@ -217,14 +210,7 @@ function getDeceasesData() {
             
             
                     scatterChart.data = {
-                        datasets: Object.keys(newPoints).map(function( key, index){
-                            var values = newPoints[key];
-                            return {
-                                data: values,
-                                backgroundColor: continentColours[values[0].continent],
-                                label: key
-                            };
-                        })
+                        datasets: buildDataset(newPoints)
                     }
             
                     scatterChart.update();
@@ -238,14 +224,7 @@ function getDeceasesData() {
                     allDeceasesDataEnabled = !allDeceasesDataEnabled;
 
                     scatterChart.data = {
-                        datasets: Object.keys(allDeceasesData).map(function( key, index){
-                            var values = allDeceasesData[key];
-                            return {
-                                data: values,
-                                backgroundColor: continentColours[values[0].continent],
-                                label: key
-                            };
-                        })
+                        datasets: buildDataset(allDeceasesData)
                     }
             
                     scatterChart.update();
@@ -254,5 +233,27 @@ function getDeceasesData() {
         );
     });
 };
+
+function buildDataset(data){
+    return Object.keys(data).map(function( key, index){
+        var values = data[key];
+        if(key === 'Cuba'){
+            return {
+                data: data[key],
+                backgroundColor: continentColours[values[0].continent],
+                label: key,
+                pointHoverRadius: 12,
+                pointRadius: 6
+            };
+        }
+        return {
+            data: data[key],
+            backgroundColor: continentColours[values[0].continent],
+            label: key,
+            pointRadius: 2,
+            pointHoverRadius: 7
+        };
+    })
+}
 
 getDeceasesData();
