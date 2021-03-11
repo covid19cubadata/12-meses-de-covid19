@@ -95,7 +95,12 @@ figure {
   margin-bottom: 30px;
 }
 
-#banner-block > img {
+.image-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-block > img, #banner-block > img {
   width: 100%;
 }
 
@@ -127,6 +132,6 @@ figure {
   margin-top: 10px;
 }
 
-#sexPie {
+#importedPie, #sexPie {
   height: 400px;
 }
