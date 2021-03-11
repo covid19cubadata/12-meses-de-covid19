@@ -1,8 +1,8 @@
 var noimportedCases = ['Casos No Importados', 53493];
 var importedCases = ['Casos Importados', 4886];
 var casesColors = {
-    'Casos Importados': '#B01E22',
-    'Casos No Importados': '#1C1340'
+    'Casos Importados': '#1C1340',
+    'Casos No Importados': '#B01E22'
 };
 
 function buildImportedPie() {
