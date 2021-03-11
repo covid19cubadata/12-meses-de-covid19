@@ -5,13 +5,8 @@ var comorbilidad = [
   ['Enfermedad Pulmonar', 56],
   ['Insuficiencia Renal Crónica', 43],
   ['Obesidad', 25],
-<<<<<<< HEAD
-  ['demencia senil', 21],
-  ['Enfermedad Cerebrovascular', 21],
-=======
   ['Demencia Senil', 21],
   ['Enfermedad Cerebro Vascular', 21],
->>>>>>> bdeae1eadcaaa054c9ff20befa8b15568f2a0f66
 ];
 
 var mrange = ['Enfermedades'];
