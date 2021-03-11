@@ -64,6 +64,19 @@ function getForeignAndNaviteData() {
                     position: 'outer-middle'
                 }
             },
+            grid: {
+                x: {
+                    lines: [
+                        { 'value': '03/24', 'text': 'Cierre de fronteras' },
+                        { 'value': '10/12', 'text': 'Apertura de aeropuertos fuera de La Habana' },
+                        { 'value': '11/15', 'text': 'Apertura del Aeropuerto Internacional José Martí'},
+                        { 'value': '01/01', 'text': 'Limitación de vuelos'},
+                        { 'value': '01/10', 'text': 'Exigencia de PCR a la entrada al país'},
+                        { 'value': '01/30', 'text': 'Nueva limitación de vuelos'}
+
+                    ]
+                }
+            },
             tooltip: {
                 contents: function (d, defaultTitleFormat, defaultValueFormat, color) {
                     var $$ = this, config = $$.config,
