@@ -72,8 +72,7 @@ return JSC.chart(
         position: 'center', 
         label: { 
         margin_bottom: 40, 
-        text: 
-            'Covid 19: Casos confirmados'
+        text: ''
         } 
     }, 
     annotations: [ 
@@ -108,7 +107,7 @@ return JSC.chart(
         }, 
         slider: { 
             type: 'range', 
-            width: 300, 
+            width: 600, 
             // Reduce chart update frequency to smooth slider action. 
             debounce: 20, 
             value: new Date(startDate).getTime(), 
