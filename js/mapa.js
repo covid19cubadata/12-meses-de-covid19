@@ -56,15 +56,14 @@ $.slides = {
     if ($.slides.slide < $.slides.total - 1) {
       $.slides.slide += 1;
       $.slides._load();
-      console.log(`slide: ${$.slides.slide}`);
+      //console.log(`slide: ${$.slides.slide}`);
     }
   },
   prev: () => {
-    console.log(`click prev`);
     if ($.slides.slide > 0) {
       $.slides.slide -= 1;
       $.slides._load();
-      console.log(`slide: ${$.slides.slide}`);
+      //console.log(`slide: ${$.slides.slide}`);
     }
   },
   start: () => {
@@ -76,9 +75,9 @@ $.slides = {
     }, $.slides.timer);
   },
   play: () => {
+    $.slides.isPaused = false;
     setTimeout(() => {
       if ($.slides.isPaused) {
-        $.slides.isPaused = false;
         return;
       }
       if ($.slides.slide < $.slides.total) {
@@ -89,6 +88,7 @@ $.slides = {
   },
   pause: () => {
     $.slides.isPaused = true;
+    update_controls();
   },
 };
 
