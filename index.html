@@ -20,8 +20,8 @@
 
 <body>
   <main class="container-fluid">
-    <div id="banner-bloc">
-      banner
+    <div id="banner-block">
+      <img src="images/banner.jpg" alt="">
     </div>
     <div class="text-block">
       <p>
@@ -30,9 +30,18 @@
         COVID-19 y que es ocasionada por el virus SARS-CoV-2, ya ha afectado a más de 116 millones de personas en 255
         países y territorios provocando más de 2 millones y medio de muertes.
       </p>
+      <p>
+        El 11 de marzo de 2020, cuando ya la enfermedad se había reportado en más de cien territorios la OMS declaró a
+        la OMS como pandemia. Ese mismo día, las autoridades del Ministerio de Salud Pública de Cuba (MINSAP) dieron a
+        conocer la presencia en territorio cubano de los tres primeros casos positivos al SARS-CoV-2. Un año después,
+        como el resto del mundo, el país todavía lidia con la pandemia hasta ahora más contundente del siglo XXI.
+      </p>
     </div>
     <div class="visual-block">
-      <div class="buttons-container mb-2"><span id="week"></span></div>
+      <div class="title-block center">
+        Evolución por países de la tasa de incidencia semanal (por millón de habitantes)
+      </div>
+      <div id="label-week-block" class="buttons-container mb-2"><span id=label-week>Semana:</span> <span id="week"></span></div>
       <div id="world-map"></div>
       <div class="buttons-container mt-2">
         <button onclick="$.slides.prev()" class="control-button">anterior</button>
@@ -47,12 +56,6 @@
       </div>
     </div>
     <div class="text-block">
-      <p>
-        El 11 de marzo de 2020, cuando ya la enfermedad se había reportado en más de cien territorios la OMS declaró a
-        la OMS como pandemia. Ese mismo día, las autoridades del Ministerio de Salud Pública de Cuba (MINSAP) dieron a
-        conocer la presencia en territorio cubano de los tres primeros casos positivos al SARS-CoV-2. Un año después,
-        como el resto del mundo, el país todavía lidia con la pandemia hasta ahora más contundente del siglo XXI.
-      </p>
       <p>
         La experiencia de Cuba en el tratamiento de epidemias hacía que muchos tuvieran las expectativas de conseguir
         una solución rápida. Sin embargo, la Isla y sus habitantes han estado embarcados en una intermitente travesía,
@@ -72,7 +75,9 @@
     </div>
     <div class="visual-block">
       <br>
-      GRAFICO SEXOS
+      <div class="sexPieDiv">
+        <canvas id="sexPie" style="max-width: 400px;height: 300px;margin: 2px auto"></canvas>
+      </div>
       <br>
     </div>
     <div class="text-block">
@@ -186,7 +191,10 @@
       </p>
     </div>
     <div class="visual-block">
-      <div id="confirmed_bar_race" style="max-width: 600px;height: 480px;margin: 2px auto"></div>
+      <div class="title-block center">
+        Evolución por provincias del número de casos confirmados
+      </div>
+      <div id="confirmed_bar_race"></div>
     </div>
     <div class="text-block">
       <p>
@@ -199,7 +207,7 @@
     </div>
     <div class="visual-block">
       <br>
-      TREE MAP PCR
+      <div id="pcr_treemap"></div>
       <br>
     </div>
     <div class="text-block">
@@ -285,13 +293,6 @@
         garantizar los tratamientos. La Isla se encuentra en una compleja situación económica agravada por las acciones
         de la administración Trump, las que, entre otras, dificultan o impiden la adquisición de insumos y medicinas.
       </p>
-    </div>
-    <div class="visual-block">
-      <br>
-      VIDEO ILEANA
-      <br>
-    </div>
-    <div class="text-block">
       <p>
         En el ámbito profiláctico resaltan la Biomodulina T, el factor de transferencia y las intervenciones con
         Nasalferón. Para fines
@@ -336,6 +337,9 @@
       </p>
     </div>
     <div class="visual-block">
+      <div class="title-block center">
+        Letalidad y Mortalidad por países
+      </div>
       <div class="deceasesComparisonDiv">
         <canvas id="deceasesComparison" width="150" height="80"></canvas>
         <div class="container mt-3">
@@ -358,7 +362,10 @@
       </p>
     </div>
     <div class="visual-block">
-      <div id="deceases_bar_race" style="max-width: 600px;height: 480px;margin: 2px auto"></div>
+      <div class="title-block center">
+        Evolución por provincias del número de personas fallecidas
+      </div>
+      <div id="deceases_bar_race"></div>
     </div>
     <div class="text-block">
       <p>
@@ -420,12 +427,14 @@
       </p>
     </div>
     <div class="visual-block">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ro5uJ1vJeh8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ro5uJ1vJeh8" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
     <div class="image-block">
-        <br>
-        CAMBIO DE BLOQIE
-        <br>
+      <br>
+      CAMBIO DE BLOQIE
+      <br>
     </div>
     <div class="text-block">
       <p>
@@ -493,9 +502,6 @@
       <br>
       <br>
     </div>
-    <br>
-    <div id="pcr_treemap" style="max-width: 740px;height: 400px;margin: 0px auto"></div>
-    <br>
   </main>
 
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -516,6 +522,7 @@
   <script type="text/javascript" src="js/confirmedBarRace.js"></script>
   <script type="text/javascript" src="js/deceasesBarRace.js"></script>
   <script type="text/javascript" src="js/pcrTreemap.js"></script>
+  <script type="text/javascript" src="js/sex-pie.js"></script>
 </body>
 
 </html>
