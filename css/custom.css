@@ -266,3 +266,11 @@ figure {
   padding-bottom: 30px;
 }
 
+#credits-block {
+  min-height: 500px;
+  background-color: #1c1340;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
