@@ -133,6 +133,7 @@ figure {
   margin-top: 10px;
 }
 
+#casesUCI,
 #daily-deads-info,
 #graves-percent-evol,
 #daily-acthome-info1,
@@ -143,3 +144,125 @@ figure {
 #sexPie {
   height: 400px;
 }
+
+.center {
+	text-align: center;
+}
+
+.escenario {
+	text-align: center;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 15px;
+}
+
+.comunidad {
+	color: #00AFFF;
+}
+
+.aislamiento {
+	color: #005778;
+}
+
+.hospital {
+	color: #1C1340;
+}
+.med {
+	background-color: silver;
+	color: #FFFFFF;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 15px;
+}
+
+#protocolos-legend {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.new  {
+  border-bottom-style: solid;
+  border-color: #B11116;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 2px;
+}
+.nacional {
+	background-color: #D0797C;
+}
+
+.producido {
+	background-color: #1A8323;
+}
+
+.importado {
+	background-color: #CA9F31;
+}
+
+.tnacional {
+	color: #D0797C;
+}
+
+.tproducido {
+	color: #1A8323;
+}
+
+.timportado {
+	color: #CA9F31;
+}
+
+.tnone {
+	color: #FFFFFF;
+}
+
+.selection {
+	color: silver;
+}
+
+.protocol-text {
+	font-size: 17px;
+}
+
+#protocolos-resp-cont {
+	margin-left: -15px;
+}
+
+#protocolos-resp {
+   margin: 0 auto;
+   width: 310px; 
+}
+
+.navbar {
+  padding: 0 1rem 0 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar a.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar a.nav-link:hover {
+  color: #1c1340 !important;
+}
+
+.step-text {
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  color: #000;
+}
+
+.steper {
+  min-height: 200px;
+  padding-bottom: 30px;
+}
+
