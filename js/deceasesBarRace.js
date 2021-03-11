@@ -244,12 +244,12 @@ function playPause_d(val, chrt) {
 
 function formatAnnotation_d(dt) { 
     var year = dt.getFullYear();
-    var options = {year: "numeric", month: "short", day: "numeric"};
+    var options = {year: "numeric", month: "numeric", day: "numeric"};
     var day = dt.toLocaleDateString("es-ES", options); 
     return ( 
-    '<span style="font-size:20px; font-weight:bold; width:160px">' + day +
+    '<span style="font-size:18px; font-weight:bold">' + day +
     '</span><br>' +
-    '<br>Fallecidos:<br><span align="center" style="font-size:24px; font-weight:bold; width:180px">{%sum:n0}</span>'
+    '<br>Fallecidos:<br><span style="font-size:22px; font-weight:bold">{%sum:n0}</span>'
     ); 
 } 
 }
