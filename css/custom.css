@@ -133,7 +133,10 @@ figure {
   margin-top: 10px;
 }
 
+#daily-deads-info,
+#graves-percent-evol,
 #daily-acthome-info1,
+#daily-acthome-info,
 #daily-porciento-positivos,
 #asymcases-total-percent, 
 #importedPie, 
