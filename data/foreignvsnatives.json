@@ -3,8 +3,20 @@
         "not imported": 0,
         "imported": 3
     },
+    "2020/03/12": {
+        "not imported": 0,
+        "imported": 0
+    },
     "2020/03/13": {
         "not imported": 1,
+        "imported": 0
+    },
+    "2020/03/14": {
+        "not imported": 0,
+        "imported": 0
+    },
+    "2020/03/15": {
+        "not imported": 0,
         "imported": 0
     },
     "2020/03/16": {
@@ -12,108 +24,108 @@
         "imported": 0
     },
     "2020/03/17": {
-        "not imported": 2,
-        "imported": 0
+        "not imported": 1,
+        "imported": 1
     },
     "2020/03/18": {
-        "not imported": 2,
-        "imported": 2
+        "not imported": 0,
+        "imported": 4
     },
     "2020/03/19": {
+        "not imported": 0,
+        "imported": 5
+    },
+    "2020/03/20": {
+        "not imported": 0,
+        "imported": 9
+    },
+    "2020/03/21": {
+        "not imported": 2,
+        "imported": 8
+    },
+    "2020/03/22": {
         "not imported": 1,
         "imported": 4
     },
-    "2020/03/20": {
-        "not imported": 6,
-        "imported": 3
-    },
-    "2020/03/21": {
-        "not imported": 7,
-        "imported": 3
-    },
-    "2020/03/22": {
-        "not imported": 3,
-        "imported": 2
-    },
     "2020/03/23": {
-        "not imported": 7,
-        "imported": 1
+        "not imported": 0,
+        "imported": 8
     },
     "2020/03/24": {
-        "not imported": 5,
-        "imported": 4
+        "not imported": 1,
+        "imported": 8
     },
     "2020/03/25": {
-        "not imported": 9,
-        "imported": 1
+        "not imported": 4,
+        "imported": 6
     },
     "2020/03/26": {
-        "not imported": 12,
-        "imported": 1
+        "not imported": 5,
+        "imported": 8
     },
     "2020/03/27": {
-        "not imported": 39,
-        "imported": 0
+        "not imported": 17,
+        "imported": 22
     },
     "2020/03/28": {
-        "not imported": 20,
-        "imported": 0
+        "not imported": 8,
+        "imported": 12
     },
     "2020/03/29": {
-        "not imported": 29,
-        "imported": 2
+        "not imported": 22,
+        "imported": 9
     },
     "2020/03/30": {
-        "not imported": 14,
-        "imported": 2
+        "not imported": 8,
+        "imported": 8
     },
     "2020/03/31": {
-        "not imported": 25,
-        "imported": 1
+        "not imported": 16,
+        "imported": 10
     },
     "2020/04/01": {
-        "not imported": 20,
-        "imported": 1
+        "not imported": 19,
+        "imported": 2
     },
     "2020/04/02": {
-        "not imported": 35,
-        "imported": 1
+        "not imported": 31,
+        "imported": 5
     },
     "2020/04/03": {
-        "not imported": 18,
-        "imported": 1
+        "not imported": 17,
+        "imported": 2
     },
     "2020/04/04": {
-        "not imported": 32,
-        "imported": 0
+        "not imported": 27,
+        "imported": 5
     },
     "2020/04/05": {
         "not imported": 29,
         "imported": 1
     },
     "2020/04/06": {
-        "not imported": 46,
-        "imported": 0
-    },
-    "2020/04/07": {
-        "not imported": 60,
+        "not imported": 45,
         "imported": 1
     },
-    "2020/04/08": {
+    "2020/04/07": {
         "not imported": 56,
-        "imported": 2
+        "imported": 5
+    },
+    "2020/04/08": {
+        "not imported": 54,
+        "imported": 4
     },
     "2020/04/09": {
         "not imported": 49,
         "imported": 0
     },
     "2020/04/10": {
-        "not imported": 55,
-        "imported": 1
+        "not imported": 54,
+        "imported": 2
     },
     "2020/04/11": {
-        "not imported": 49,
-        "imported": 0
+        "not imported": 48,
+        "imported": 1
     },
     "2020/04/12": {
         "not imported": 56,
@@ -124,8 +136,8 @@
         "imported": 0
     },
     "2020/04/14": {
-        "not imported": 47,
-        "imported": 1
+        "not imported": 48,
+        "imported": 0
     },
     "2020/04/15": {
         "not imported": 48,
@@ -144,8 +156,8 @@
         "imported": 0
     },
     "2020/04/19": {
-        "not imported": 51,
-        "imported": 1
+        "not imported": 52,
+        "imported": 0
     },
     "2020/04/20": {
         "not imported": 50,
@@ -200,16 +212,16 @@
         "imported": 0
     },
     "2020/05/03": {
-        "not imported": 19,
-        "imported": 0
+        "not imported": 18,
+        "imported": 1
     },
     "2020/05/04": {
         "not imported": 17,
         "imported": 0
     },
     "2020/05/05": {
-        "not imported": 18,
-        "imported": 0
+        "not imported": 15,
+        "imported": 3
     },
     "2020/05/06": {
         "not imported": 26,
@@ -220,8 +232,8 @@
         "imported": 0
     },
     "2020/05/08": {
-        "not imported": 13,
-        "imported": 0
+        "not imported": 12,
+        "imported": 1
     },
     "2020/05/09": {
         "not imported": 12,
@@ -236,8 +248,8 @@
         "imported": 0
     },
     "2020/05/12": {
-        "not imported": 6,
-        "imported": 0
+        "not imported": 5,
+        "imported": 1
     },
     "2020/05/13": {
         "not imported": 20,
@@ -280,8 +292,8 @@
         "imported": 0
     },
     "2020/05/23": {
-        "not imported": 10,
-        "imported": 0
+        "not imported": 9,
+        "imported": 1
     },
     "2020/05/24": {
         "not imported": 6,
@@ -308,8 +320,8 @@
         "imported": 0
     },
     "2020/05/30": {
-        "not imported": 20,
-        "imported": 0
+        "not imported": 19,
+        "imported": 1
     },
     "2020/05/31": {
         "not imported": 38,
@@ -332,28 +344,28 @@
         "imported": 0
     },
     "2020/06/05": {
-        "not imported": 40,
-        "imported": 0
+        "not imported": 16,
+        "imported": 24
     },
     "2020/06/06": {
         "not imported": 18,
         "imported": 0
     },
     "2020/06/07": {
-        "not imported": 9,
-        "imported": 0
+        "not imported": 8,
+        "imported": 1
     },
     "2020/06/08": {
-        "not imported": 5,
-        "imported": 0
+        "not imported": 4,
+        "imported": 1
     },
     "2020/06/09": {
-        "not imported": 6,
-        "imported": 0
+        "not imported": 5,
+        "imported": 1
     },
     "2020/06/10": {
-        "not imported": 8,
-        "imported": 0
+        "not imported": 7,
+        "imported": 1
     },
     "2020/06/11": {
         "not imported": 14,
@@ -364,24 +376,24 @@
         "imported": 0
     },
     "2020/06/13": {
-        "not imported": 10,
-        "imported": 0
+        "not imported": 9,
+        "imported": 1
     },
     "2020/06/14": {
         "not imported": 14,
         "imported": 0
     },
     "2020/06/15": {
-        "not imported": 10,
-        "imported": 1
+        "not imported": 11,
+        "imported": 0
     },
     "2020/06/16": {
         "not imported": 7,
         "imported": 0
     },
     "2020/06/17": {
-        "not imported": 15,
-        "imported": 0
+        "not imported": 14,
+        "imported": 1
     },
     "2020/06/18": {
         "not imported": 10,
@@ -416,8 +428,8 @@
         "imported": 0
     },
     "2020/06/26": {
-        "not imported": 5,
-        "imported": 0
+        "not imported": 4,
+        "imported": 1
     },
     "2020/06/27": {
         "not imported": 2,
@@ -432,8 +444,8 @@
         "imported": 0
     },
     "2020/06/30": {
-        "not imported": 7,
-        "imported": 0
+        "not imported": 6,
+        "imported": 1
     },
     "2020/07/01": {
         "not imported": 5,
@@ -472,16 +484,16 @@
         "imported": 0
     },
     "2020/07/10": {
-        "not imported": 7,
-        "imported": 0
+        "not imported": 3,
+        "imported": 4
     },
     "2020/07/11": {
         "not imported": 6,
         "imported": 0
     },
     "2020/07/12": {
-        "not imported": 2,
-        "imported": 0
+        "not imported": 1,
+        "imported": 1
     },
     "2020/07/13": {
         "not imported": 4,
@@ -504,12 +516,16 @@
         "imported": 0
     },
     "2020/07/18": {
-        "not imported": 1,
+        "not imported": 0,
+        "imported": 1
+    },
+    "2020/07/19": {
+        "not imported": 0,
         "imported": 0
     },
     "2020/07/20": {
-        "not imported": 3,
-        "imported": 0
+        "not imported": 2,
+        "imported": 1
     },
     "2020/07/21": {
         "not imported": 13,
@@ -520,92 +536,92 @@
         "imported": 0
     },
     "2020/07/23": {
-        "not imported": 3,
-        "imported": 0
+        "not imported": 2,
+        "imported": 1
     },
     "2020/07/24": {
-        "not imported": 9,
-        "imported": 0
+        "not imported": 6,
+        "imported": 3
     },
     "2020/07/25": {
-        "not imported": 17,
-        "imported": 0
+        "not imported": 14,
+        "imported": 3
     },
     "2020/07/26": {
-        "not imported": 37,
-        "imported": 0
+        "not imported": 26,
+        "imported": 11
     },
     "2020/07/27": {
-        "not imported": 23,
-        "imported": 0
+        "not imported": 22,
+        "imported": 1
     },
     "2020/07/28": {
-        "not imported": 33,
-        "imported": 0
+        "not imported": 26,
+        "imported": 7
     },
     "2020/07/29": {
-        "not imported": 9,
-        "imported": 0
+        "not imported": 6,
+        "imported": 3
     },
     "2020/07/30": {
         "not imported": 11,
         "imported": 0
     },
     "2020/07/31": {
-        "not imported": 24,
-        "imported": 1
+        "not imported": 19,
+        "imported": 6
     },
     "2020/08/01": {
-        "not imported": 13,
-        "imported": 0
+        "not imported": 7,
+        "imported": 6
     },
     "2020/08/02": {
-        "not imported": 24,
-        "imported": 0
+        "not imported": 19,
+        "imported": 5
     },
     "2020/08/03": {
-        "not imported": 31,
-        "imported": 0
+        "not imported": 21,
+        "imported": 10
     },
     "2020/08/04": {
-        "not imported": 25,
-        "imported": 0
-    },
-    "2020/08/05": {
-        "not imported": 49,
-        "imported": 0
-    },
-    "2020/08/06": {
-        "not imported": 52,
+        "not imported": 23,
         "imported": 2
     },
+    "2020/08/05": {
+        "not imported": 43,
+        "imported": 6
+    },
+    "2020/08/06": {
+        "not imported": 48,
+        "imported": 6
+    },
     "2020/08/07": {
-        "not imported": 59,
-        "imported": 0
+        "not imported": 19,
+        "imported": 40
     },
     "2020/08/08": {
-        "not imported": 64,
-        "imported": 1
+        "not imported": 45,
+        "imported": 20
     },
     "2020/08/09": {
-        "not imported": 93,
-        "imported": 0
+        "not imported": 83,
+        "imported": 10
     },
     "2020/08/10": {
-        "not imported": 46,
-        "imported": 1
+        "not imported": 47,
+        "imported": 0
     },
     "2020/08/11": {
         "not imported": 35,
         "imported": 0
     },
     "2020/08/12": {
-        "not imported": 44,
-        "imported": 1
+        "not imported": 42,
+        "imported": 3
     },
     "2020/08/13": {
-        "not imported": 56,
-        "imported": 0
+        "not imported": 54,
+        "imported": 2
     },
     "2020/08/14": {
         "not imported": 60,
@@ -628,104 +644,104 @@
         "imported": 0
     },
     "2020/08/19": {
-        "not imported": 83,
-        "imported": 0
+        "not imported": 68,
+        "imported": 15
     },
     "2020/08/20": {
-        "not imported": 12,
-        "imported": 5
-    },
-    "2020/08/21": {
-        "not imported": 34,
-        "imported": 1
-    },
-    "2020/08/22": {
-        "not imported": 63,
+        "not imported": 15,
         "imported": 2
     },
-    "2020/08/23": {
+    "2020/08/21": {
         "not imported": 35,
         "imported": 0
     },
-    "2020/08/24": {
-        "not imported": 26,
+    "2020/08/22": {
+        "not imported": 64,
         "imported": 1
     },
-    "2020/08/25": {
-        "not imported": 14,
+    "2020/08/23": {
+        "not imported": 34,
         "imported": 1
+    },
+    "2020/08/24": {
+        "not imported": 27,
+        "imported": 0
+    },
+    "2020/08/25": {
+        "not imported": 15,
+        "imported": 0
     },
     "2020/08/26": {
         "not imported": 47,
         "imported": 0
     },
     "2020/08/27": {
-        "not imported": 60,
-        "imported": 0
+        "not imported": 43,
+        "imported": 17
     },
     "2020/08/28": {
-        "not imported": 59,
-        "imported": 0
+        "not imported": 49,
+        "imported": 10
     },
     "2020/08/29": {
         "not imported": 48,
         "imported": 0
     },
     "2020/08/30": {
-        "not imported": 59,
-        "imported": 0
+        "not imported": 58,
+        "imported": 1
     },
     "2020/08/31": {
         "not imported": 33,
         "imported": 0
     },
     "2020/09/01": {
-        "not imported": 60,
-        "imported": 1
+        "not imported": 61,
+        "imported": 0
     },
     "2020/09/02": {
-        "not imported": 87,
-        "imported": 1
+        "not imported": 88,
+        "imported": 0
     },
     "2020/09/03": {
-        "not imported": 52,
-        "imported": 0
+        "not imported": 28,
+        "imported": 24
     },
     "2020/09/04": {
-        "not imported": 32,
-        "imported": 0
+        "not imported": 31,
+        "imported": 1
     },
     "2020/09/05": {
-        "not imported": 11,
-        "imported": 0
+        "not imported": 10,
+        "imported": 1
     },
     "2020/09/06": {
         "not imported": 42,
         "imported": 1
     },
     "2020/09/07": {
-        "not imported": 25,
-        "imported": 0
+        "not imported": 24,
+        "imported": 1
     },
     "2020/09/08": {
         "not imported": 82,
         "imported": 0
     },
     "2020/09/09": {
-        "not imported": 92,
-        "imported": 0
+        "not imported": 91,
+        "imported": 1
     },
     "2020/09/10": {
-        "not imported": 42,
-        "imported": 0
+        "not imported": 41,
+        "imported": 1
     },
     "2020/09/11": {
-        "not imported": 60,
-        "imported": 0
+        "not imported": 56,
+        "imported": 4
     },
     "2020/09/12": {
-        "not imported": 30,
-        "imported": 1
+        "not imported": 31,
+        "imported": 0
     },
     "2020/09/13": {
         "not imported": 41,
@@ -736,48 +752,48 @@
         "imported": 0
     },
     "2020/09/15": {
-        "not imported": 50,
-        "imported": 23
-    },
-    "2020/09/16": {
-        "not imported": 56,
-        "imported": 1
-    },
-    "2020/09/17": {
-        "not imported": 71,
+        "not imported": 73,
         "imported": 0
     },
+    "2020/09/16": {
+        "not imported": 57,
+        "imported": 0
+    },
+    "2020/09/17": {
+        "not imported": 67,
+        "imported": 4
+    },
     "2020/09/18": {
-        "not imported": 48,
-        "imported": 3
+        "not imported": 51,
+        "imported": 0
     },
     "2020/09/19": {
         "not imported": 35,
         "imported": 1
     },
     "2020/09/20": {
-        "not imported": 48,
-        "imported": 2
+        "not imported": 50,
+        "imported": 0
     },
     "2020/09/21": {
-        "not imported": 73,
-        "imported": 8
+        "not imported": 81,
+        "imported": 0
     },
     "2020/09/22": {
         "not imported": 48,
         "imported": 0
     },
     "2020/09/23": {
-        "not imported": 40,
-        "imported": 0
+        "not imported": 39,
+        "imported": 1
     },
     "2020/09/24": {
         "not imported": 40,
         "imported": 0
     },
     "2020/09/25": {
-        "not imported": 58,
-        "imported": 4
+        "not imported": 62,
+        "imported": 0
     },
     "2020/09/26": {
         "not imported": 45,
@@ -800,12 +816,12 @@
         "imported": 1
     },
     "2020/10/01": {
-        "not imported": 44,
-        "imported": 4
+        "not imported": 48,
+        "imported": 0
     },
     "2020/10/02": {
-        "not imported": 62,
-        "imported": 0
+        "not imported": 60,
+        "imported": 2
     },
     "2020/10/03": {
         "not imported": 28,
@@ -828,16 +844,16 @@
         "imported": 0
     },
     "2020/10/08": {
-        "not imported": 24,
-        "imported": 2
+        "not imported": 25,
+        "imported": 1
     },
     "2020/10/09": {
         "not imported": 5,
         "imported": 0
     },
     "2020/10/10": {
-        "not imported": 30,
-        "imported": 0
+        "not imported": 22,
+        "imported": 8
     },
     "2020/10/11": {
         "not imported": 21,
@@ -856,8 +872,8 @@
         "imported": 0
     },
     "2020/10/15": {
-        "not imported": 56,
-        "imported": 0
+        "not imported": 46,
+        "imported": 10
     },
     "2020/10/16": {
         "not imported": 52,
@@ -868,8 +884,8 @@
         "imported": 0
     },
     "2020/10/18": {
-        "not imported": 38,
-        "imported": 0
+        "not imported": 37,
+        "imported": 1
     },
     "2020/10/19": {
         "not imported": 47,
@@ -888,555 +904,555 @@
         "imported": 0
     },
     "2020/10/23": {
-        "not imported": 38,
-        "imported": 17
+        "not imported": 39,
+        "imported": 16
     },
     "2020/10/24": {
         "not imported": 28,
         "imported": 4
     },
     "2020/10/25": {
-        "not imported": 29,
-        "imported": 0
+        "not imported": 27,
+        "imported": 2
     },
     "2020/10/26": {
-        "not imported": 83,
-        "imported": 0
+        "not imported": 81,
+        "imported": 2
     },
     "2020/10/27": {
-        "not imported": 47,
-        "imported": 2
+        "not imported": 46,
+        "imported": 3
     },
     "2020/10/28": {
         "not imported": 31,
         "imported": 8
     },
     "2020/10/29": {
-        "not imported": 35,
-        "imported": 0
+        "not imported": 34,
+        "imported": 1
     },
     "2020/10/30": {
-        "not imported": 86,
-        "imported": 0
+        "not imported": 83,
+        "imported": 3
     },
     "2020/10/31": {
-        "not imported": 47,
-        "imported": 1
+        "not imported": 42,
+        "imported": 6
     },
     "2020/11/01": {
         "not imported": 35,
         "imported": 0
     },
     "2020/11/02": {
-        "not imported": 65,
-        "imported": 0
+        "not imported": 47,
+        "imported": 18
     },
     "2020/11/03": {
-        "not imported": 109,
-        "imported": 0
+        "not imported": 73,
+        "imported": 36
     },
     "2020/11/04": {
         "not imported": 40,
         "imported": 0
     },
     "2020/11/05": {
-        "not imported": 33,
-        "imported": 11
+        "not imported": 27,
+        "imported": 17
     },
     "2020/11/06": {
-        "not imported": 37,
-        "imported": 2
-    },
-    "2020/11/07": {
-        "not imported": 30,
-        "imported": 0
-    },
-    "2020/11/08": {
-        "not imported": 52,
-        "imported": 0
-    },
-    "2020/11/09": {
-        "not imported": 42,
-        "imported": 1
-    },
-    "2020/11/10": {
-        "not imported": 37,
-        "imported": 0
-    },
-    "2020/11/11": {
-        "not imported": 42,
-        "imported": 16
-    },
-    "2020/11/12": {
-        "not imported": 44,
-        "imported": 10
-    },
-    "2020/11/13": {
-        "not imported": 27,
-        "imported": 0
-    },
-    "2020/11/14": {
-        "not imported": 22,
-        "imported": 0
-    },
-    "2020/11/15": {
-        "not imported": 49,
-        "imported": 0
-    },
-    "2020/11/16": {
-        "not imported": 27,
-        "imported": 1
-    },
-    "2020/11/17": {
-        "not imported": 30,
+        "not imported": 32,
         "imported": 7
     },
-    "2020/11/18": {
-        "not imported": 21,
-        "imported": 0
+    "2020/11/07": {
+        "not imported": 28,
+        "imported": 2
     },
-    "2020/11/19": {
-        "not imported": 32,
-        "imported": 6
+    "2020/11/08": {
+        "not imported": 50,
+        "imported": 2
     },
-    "2020/11/20": {
-        "not imported": 30,
-        "imported": 5
+    "2020/11/09": {
+        "not imported": 41,
+        "imported": 2
     },
-    "2020/11/21": {
-        "not imported": 43,
-        "imported": 5
+    "2020/11/10": {
+        "not imported": 35,
+        "imported": 2
     },
-    "2020/11/22": {
+    "2020/11/11": {
         "not imported": 33,
-        "imported": 0
+        "imported": 25
     },
-    "2020/11/23": {
-        "not imported": 66,
+    "2020/11/12": {
+        "not imported": 39,
+        "imported": 15
+    },
+    "2020/11/13": {
+        "not imported": 22,
         "imported": 5
     },
-    "2020/11/24": {
-        "not imported": 73,
+    "2020/11/14": {
+        "not imported": 19,
         "imported": 3
     },
-    "2020/11/25": {
+    "2020/11/15": {
         "not imported": 47,
         "imported": 2
     },
-    "2020/11/26": {
-        "not imported": 28,
+    "2020/11/16": {
+        "not imported": 26,
+        "imported": 2
+    },
+    "2020/11/17": {
+        "not imported": 19,
+        "imported": 18
+    },
+    "2020/11/18": {
+        "not imported": 14,
         "imported": 7
     },
+    "2020/11/19": {
+        "not imported": 18,
+        "imported": 20
+    },
+    "2020/11/20": {
+        "not imported": 13,
+        "imported": 22
+    },
+    "2020/11/21": {
+        "not imported": 20,
+        "imported": 28
+    },
+    "2020/11/22": {
+        "not imported": 21,
+        "imported": 12
+    },
+    "2020/11/23": {
+        "not imported": 42,
+        "imported": 29
+    },
+    "2020/11/24": {
+        "not imported": 60,
+        "imported": 16
+    },
+    "2020/11/25": {
+        "not imported": 20,
+        "imported": 29
+    },
+    "2020/11/26": {
+        "not imported": 7,
+        "imported": 28
+    },
     "2020/11/27": {
-        "not imported": 59,
-        "imported": 4
+        "not imported": 33,
+        "imported": 30
     },
     "2020/11/28": {
-        "not imported": 56,
-        "imported": 4
+        "not imported": 27,
+        "imported": 33
     },
     "2020/11/29": {
-        "not imported": 48,
-        "imported": 3
+        "not imported": 27,
+        "imported": 24
     },
     "2020/11/30": {
-        "not imported": 96,
-        "imported": 1
+        "not imported": 52,
+        "imported": 45
     },
     "2020/12/01": {
-        "not imported": 65,
-        "imported": 10
+        "not imported": 30,
+        "imported": 45
     },
     "2020/12/02": {
-        "not imported": 71,
-        "imported": 4
+        "not imported": 49,
+        "imported": 26
     },
     "2020/12/03": {
-        "not imported": 73,
-        "imported": 6
+        "not imported": 51,
+        "imported": 28
     },
     "2020/12/04": {
-        "not imported": 100,
-        "imported": 4
+        "not imported": 62,
+        "imported": 42
     },
     "2020/12/05": {
-        "not imported": 63,
-        "imported": 5
+        "not imported": 27,
+        "imported": 41
     },
     "2020/12/06": {
-        "not imported": 119,
-        "imported": 5
+        "not imported": 74,
+        "imported": 50
     },
     "2020/12/07": {
-        "not imported": 74,
-        "imported": 2
+        "not imported": 41,
+        "imported": 35
     },
     "2020/12/08": {
-        "not imported": 119,
-        "imported": 5
+        "not imported": 83,
+        "imported": 41
     },
     "2020/12/09": {
-        "not imported": 75,
-        "imported": 0
+        "not imported": 45,
+        "imported": 30
     },
     "2020/12/10": {
-        "not imported": 80,
-        "imported": 6
+        "not imported": 55,
+        "imported": 31
     },
     "2020/12/11": {
-        "not imported": 78,
-        "imported": 9
+        "not imported": 39,
+        "imported": 48
     },
     "2020/12/12": {
-        "not imported": 60,
-        "imported": 9
+        "not imported": 29,
+        "imported": 40
     },
     "2020/12/13": {
-        "not imported": 67,
-        "imported": 2
+        "not imported": 33,
+        "imported": 36
     },
     "2020/12/14": {
-        "not imported": 94,
-        "imported": 2
+        "not imported": 59,
+        "imported": 37
     },
     "2020/12/15": {
-        "not imported": 82,
-        "imported": 1
+        "not imported": 36,
+        "imported": 47
     },
     "2020/12/16": {
-        "not imported": 92,
-        "imported": 8
+        "not imported": 50,
+        "imported": 50
     },
     "2020/12/17": {
-        "not imported": 121,
-        "imported": 1
+        "not imported": 55,
+        "imported": 67
     },
     "2020/12/18": {
-        "not imported": 125,
-        "imported": 6
+        "not imported": 69,
+        "imported": 62
     },
     "2020/12/19": {
-        "not imported": 99,
-        "imported": 4
+        "not imported": 55,
+        "imported": 48
     },
     "2020/12/20": {
-        "not imported": 110,
-        "imported": 5
+        "not imported": 63,
+        "imported": 52
     },
     "2020/12/21": {
-        "not imported": 139,
-        "imported": 3
+        "not imported": 78,
+        "imported": 64
     },
     "2020/12/22": {
-        "not imported": 113,
-        "imported": 3
+        "not imported": 36,
+        "imported": 80
     },
     "2020/12/23": {
-        "not imported": 217,
-        "imported": 0
+        "not imported": 116,
+        "imported": 101
     },
     "2020/12/24": {
-        "not imported": 183,
-        "imported": 0
+        "not imported": 93,
+        "imported": 90
     },
     "2020/12/25": {
-        "not imported": 138,
-        "imported": 0
+        "not imported": 68,
+        "imported": 70
     },
     "2020/12/26": {
-        "not imported": 167,
-        "imported": 0
+        "not imported": 77,
+        "imported": 90
     },
     "2020/12/27": {
-        "not imported": 229,
-        "imported": 0
+        "not imported": 93,
+        "imported": 136
     },
     "2020/12/28": {
-        "not imported": 167,
-        "imported": 0
+        "not imported": 79,
+        "imported": 88
     },
     "2020/12/29": {
-        "not imported": 86,
-        "imported": 0
+        "not imported": 38,
+        "imported": 48
     },
     "2020/12/30": {
-        "not imported": 176,
-        "imported": 0
+        "not imported": 96,
+        "imported": 80
     },
     "2020/12/31": {
-        "not imported": 193,
-        "imported": 0
+        "not imported": 106,
+        "imported": 87
     },
     "2021/01/01": {
-        "not imported": 169,
-        "imported": 0
+        "not imported": 82,
+        "imported": 87
     },
     "2021/01/02": {
-        "not imported": 199,
-        "imported": 0
+        "not imported": 105,
+        "imported": 94
     },
     "2021/01/03": {
-        "not imported": 316,
-        "imported": 0
+        "not imported": 191,
+        "imported": 125
     },
     "2021/01/04": {
-        "not imported": 224,
-        "imported": 0
+        "not imported": 124,
+        "imported": 100
     },
     "2021/01/05": {
-        "not imported": 201,
-        "imported": 0
+        "not imported": 136,
+        "imported": 65
     },
     "2021/01/06": {
-        "not imported": 314,
-        "imported": 0
+        "not imported": 239,
+        "imported": 75
     },
     "2021/01/07": {
-        "not imported": 344,
-        "imported": 0
+        "not imported": 273,
+        "imported": 71
     },
     "2021/01/08": {
-        "not imported": 365,
-        "imported": 0
+        "not imported": 321,
+        "imported": 44
     },
     "2021/01/09": {
-        "not imported": 388,
-        "imported": 0
+        "not imported": 353,
+        "imported": 35
     },
     "2021/01/10": {
-        "not imported": 431,
-        "imported": 0
+        "not imported": 395,
+        "imported": 36
     },
     "2021/01/11": {
-        "not imported": 487,
-        "imported": 0
+        "not imported": 443,
+        "imported": 44
     },
     "2021/01/12": {
-        "not imported": 550,
-        "imported": 0
+        "not imported": 524,
+        "imported": 26
     },
     "2021/01/13": {
-        "not imported": 505,
-        "imported": 0
+        "not imported": 472,
+        "imported": 33
     },
     "2021/01/14": {
-        "not imported": 547,
-        "imported": 0
+        "not imported": 517,
+        "imported": 30
     },
     "2021/01/15": {
-        "not imported": 405,
-        "imported": 0
+        "not imported": 377,
+        "imported": 28
     },
     "2021/01/16": {
-        "not imported": 650,
-        "imported": 0
+        "not imported": 628,
+        "imported": 22
     },
     "2021/01/17": {
-        "not imported": 292,
-        "imported": 0
+        "not imported": 274,
+        "imported": 18
     },
     "2021/01/18": {
-        "not imported": 330,
-        "imported": 0
+        "not imported": 323,
+        "imported": 7
     },
     "2021/01/19": {
-        "not imported": 349,
-        "imported": 0
+        "not imported": 323,
+        "imported": 26
     },
     "2021/01/20": {
-        "not imported": 408,
-        "imported": 0
+        "not imported": 381,
+        "imported": 27
     },
     "2021/01/21": {
-        "not imported": 530,
-        "imported": 0
+        "not imported": 489,
+        "imported": 41
     },
     "2021/01/22": {
-        "not imported": 567,
-        "imported": 0
+        "not imported": 532,
+        "imported": 35
     },
     "2021/01/23": {
-        "not imported": 634,
-        "imported": 0
+        "not imported": 591,
+        "imported": 43
     },
     "2021/01/24": {
-        "not imported": 567,
-        "imported": 0
+        "not imported": 541,
+        "imported": 26
     },
     "2021/01/25": {
-        "not imported": 786,
-        "imported": 0
+        "not imported": 773,
+        "imported": 13
     },
     "2021/01/26": {
-        "not imported": 825,
-        "imported": 0
+        "not imported": 801,
+        "imported": 24
     },
     "2021/01/27": {
-        "not imported": 666,
-        "imported": 0
+        "not imported": 642,
+        "imported": 24
     },
     "2021/01/28": {
-        "not imported": 659,
-        "imported": 0
+        "not imported": 623,
+        "imported": 36
     },
     "2021/01/29": {
-        "not imported": 910,
-        "imported": 0
+        "not imported": 847,
+        "imported": 63
     },
     "2021/01/30": {
-        "not imported": 1012,
-        "imported": 0
+        "not imported": 978,
+        "imported": 34
     },
     "2021/01/31": {
-        "not imported": 906,
-        "imported": 0
+        "not imported": 889,
+        "imported": 17
     },
     "2021/02/01": {
-        "not imported": 1044,
-        "imported": 0
+        "not imported": 1022,
+        "imported": 22
     },
     "2021/02/02": {
-        "not imported": 893,
-        "imported": 0
+        "not imported": 859,
+        "imported": 34
     },
     "2021/02/03": {
-        "not imported": 816,
-        "imported": 0
+        "not imported": 793,
+        "imported": 23
     },
     "2021/02/04": {
-        "not imported": 845,
-        "imported": 0
+        "not imported": 819,
+        "imported": 26
     },
     "2021/02/05": {
-        "not imported": 821,
-        "imported": 0
+        "not imported": 785,
+        "imported": 36
     },
     "2021/02/06": {
-        "not imported": 820,
-        "imported": 0
+        "not imported": 809,
+        "imported": 11
     },
     "2021/02/07": {
-        "not imported": 653,
-        "imported": 0
+        "not imported": 640,
+        "imported": 13
     },
     "2021/02/08": {
-        "not imported": 580,
-        "imported": 0
+        "not imported": 562,
+        "imported": 18
     },
     "2021/02/09": {
-        "not imported": 858,
-        "imported": 0
+        "not imported": 850,
+        "imported": 8
     },
     "2021/02/10": {
-        "not imported": 850,
-        "imported": 0
+        "not imported": 830,
+        "imported": 20
     },
     "2021/02/11": {
-        "not imported": 823,
-        "imported": 0
+        "not imported": 797,
+        "imported": 26
     },
     "2021/02/12": {
-        "not imported": 888,
-        "imported": 0
+        "not imported": 863,
+        "imported": 25
     },
     "2021/02/13": {
-        "not imported": 806,
-        "imported": 0
+        "not imported": 784,
+        "imported": 22
     },
     "2021/02/14": {
-        "not imported": 715,
-        "imported": 0
+        "not imported": 702,
+        "imported": 13
     },
     "2021/02/15": {
-        "not imported": 937,
-        "imported": 0
+        "not imported": 904,
+        "imported": 33
     },
     "2021/02/16": {
-        "not imported": 824,
-        "imported": 0
+        "not imported": 805,
+        "imported": 19
     },
     "2021/02/17": {
-        "not imported": 923,
-        "imported": 0
+        "not imported": 887,
+        "imported": 36
     },
     "2021/02/18": {
-        "not imported": 859,
-        "imported": 0
+        "not imported": 828,
+        "imported": 31
     },
     "2021/02/19": {
-        "not imported": 937,
-        "imported": 0
+        "not imported": 895,
+        "imported": 42
     },
     "2021/02/20": {
-        "not imported": 1039,
-        "imported": 0
+        "not imported": 1009,
+        "imported": 30
     },
     "2021/02/21": {
-        "not imported": 838,
-        "imported": 0
+        "not imported": 815,
+        "imported": 23
     },
     "2021/02/22": {
-        "not imported": 836,
-        "imported": 0
+        "not imported": 823,
+        "imported": 13
     },
     "2021/02/23": {
-        "not imported": 699,
-        "imported": 0
+        "not imported": 685,
+        "imported": 14
     },
     "2021/02/24": {
-        "not imported": 670,
-        "imported": 0
+        "not imported": 656,
+        "imported": 14
     },
     "2021/02/25": {
-        "not imported": 875,
-        "imported": 0
+        "not imported": 854,
+        "imported": 21
     },
     "2021/02/26": {
-        "not imported": 720,
-        "imported": 0
+        "not imported": 703,
+        "imported": 17
     },
     "2021/02/27": {
-        "not imported": 618,
-        "imported": 0
+        "not imported": 592,
+        "imported": 26
     },
     "2021/02/28": {
-        "not imported": 811,
-        "imported": 0
+        "not imported": 804,
+        "imported": 7
     },
     "2021/03/01": {
-        "not imported": 997,
-        "imported": 0
+        "not imported": 968,
+        "imported": 29
     },
     "2021/03/02": {
-        "not imported": 914,
-        "imported": 0
+        "not imported": 895,
+        "imported": 19
     },
     "2021/03/03": {
-        "not imported": 807,
-        "imported": 0
+        "not imported": 805,
+        "imported": 2
     },
     "2021/03/04": {
-        "not imported": 777,
-        "imported": 0
+        "not imported": 770,
+        "imported": 7
     },
     "2021/03/05": {
-        "not imported": 750,
-        "imported": 0
+        "not imported": 721,
+        "imported": 29
     },
     "2021/03/06": {
-        "not imported": 858,
-        "imported": 0
+        "not imported": 847,
+        "imported": 11
     },
     "2021/03/07": {
-        "not imported": 873,
-        "imported": 0
+        "not imported": 851,
+        "imported": 22
     },
     "2021/03/08": {
-        "not imported": 1041,
-        "imported": 0
+        "not imported": 1032,
+        "imported": 9
     },
     "2021/03/09": {
-        "not imported": 772,
-        "imported": 0
+        "not imported": 764,
+        "imported": 8
     }
 }

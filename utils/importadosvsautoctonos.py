@@ -14,20 +14,20 @@ def getForeignVsNativesData():
             result = {}
 
             for day in source['casos']['dias'].keys():
+                date = source['casos']['dias'][day]['fecha']
                 try:                   
-                    date = source['casos']['dias'][day]['fecha']
-
                     cu = 0
                     foreign = 0
 
                     for patient in source['casos']['dias'][day]['diagnosticados']:
-                        if patient['pais'] == 'cu':
+                        if patient['contagio'] != 'importado':
                             cu += 1
                         else:
                             foreign += 1
                     
                     result[date] = { 'not imported': cu, 'imported': foreign }
                 except:
+                    result[date] = { 'not imported': 0, 'imported': 0 }
                     continue
             
             json.dump(result, w, indent=4)
