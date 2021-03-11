@@ -1,5 +1,5 @@
 c3.generate({
-  bindto: '#daily-acthome-info',
+  bindto: '#daily-acthome-info1',
   data: {
     x: datesImported[0],
     columns: [datesImported, dailyActive, dailyImported],
