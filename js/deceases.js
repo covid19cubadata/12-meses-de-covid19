@@ -1,6 +1,6 @@
 var allDeceasesDataEnabled = true;
 var allDeceasesData = {};
-var minX = 1;
+var minX = 10;
 var minY = 1;
 var cubaColour = "#eb3323";
 var americaColour = "#f7c88a";
@@ -32,7 +32,7 @@ function getDeceasesData() {
             var continent = values['continent'];
             var cases = values["total_cases"];
             var deaths = values["total_deaths"];
-            var morthality = deaths !== 0 ? (deaths / population ) * 10000 : 0;
+            var morthality = deaths !== 0 ? (deaths / population ) * 100000 : 0;
             var fatality = (deaths !== 0) || (cases !== 0) ? (deaths / cases) * 100 : 0;
             morthality = Math.round(morthality * 100)/100;
             fatality = Math.round(fatality * 100)/100;
@@ -79,7 +79,7 @@ function getDeceasesData() {
                     xAxes: [{
                         scaleLabel: {
                             display: true,
-                            labelString: 'Mortalidad ( % por millón de habitantes )',
+                            labelString: 'Mortalidad ( por millón de habitantes )',
                             type: 'linear',
                             position: 'bottom'
                           }
