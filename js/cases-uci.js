@@ -4,10 +4,10 @@ var timeInICU = ['data3', 0, 4.8, 3.1];
 var postICUTime = ['data4', 0, 4.2, 0];
 var showHospTime = true;
 var casesICUColors = {
-    'data1': '#80B6CD',
-    'data2': '#063FF1',
-    'data3': '#F13B06',
-    'data4': '#063FF1',
+    'data1': '#a5a6e9',
+    'data2': '#21238a',
+    'data3': '#ff3300',
+    'data4': '#21238a',
 };
 
 var casesUCICategories = [
