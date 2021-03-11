@@ -13,9 +13,8 @@ function buildSexsPie() {
         data: {
             datasets: [{
                 data: [maleCases, femaleCases],
-
+                backgroundColor: casesColors,
             }],
-            backgroundColor: casesColors,
             labels: [
                 'Hombres',
                 'Mujeres'
