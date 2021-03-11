@@ -25,7 +25,8 @@ function getDate(data){
     var columns = text[0].split(',');
     var text_date = columns[columns.length - 1]
     var date = text_date.split("_")[0];
-    console.log(date);
+    //console.log(date);
+    console.log(window.screen.width);
     return date;
 }
 
@@ -107,7 +108,7 @@ return JSC.chart(
         }, 
         slider: { 
             type: 'range', 
-            width: 600, 
+            width: parseInt(window.screen.width*(3/8)), 
             // Reduce chart update frequency to smooth slider action. 
             debounce: 20, 
             value: new Date(startDate).getTime(), 
