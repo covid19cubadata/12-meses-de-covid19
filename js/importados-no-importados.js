@@ -1,5 +1,5 @@
-var noimportedCases = ['Casos No Importados', 53493];
-var importedCases = ['Casos Importados', 4886];
+var noimportedCases = ['Casos No Importados', 54267];
+var importedCases = ['Casos Importados', 4890];
 var casesColors = {
     'Casos Importados': '#1C1340',
     'Casos No Importados': '#B01E22'

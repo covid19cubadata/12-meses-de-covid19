@@ -351,7 +351,8 @@ var ntest_days = [
     "03/06",
     "03/07",
     "03/08",
-    "03/09"
+    "03/09",
+    "03/10"
   ]
 
 var dailyPorcientoPositivo = [
@@ -707,7 +708,8 @@ var dailyPorcientoPositivo = [
     4.62,
     4.24,
     5.70,
-    4.13
+    4.13,
+    4.44
   ];
 
 let porciento = [
