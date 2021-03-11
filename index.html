@@ -159,11 +159,26 @@
           presentado.
         </p>
       </div>
-      <div class="visual-block">
-        <div class="title-block center">
-          Evolucón de los pacientes sintomáticos/asintomáticos
-        </div>
-        <div id="asymcases-total-percent"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Otro indicador que ha tenido una cierta estabilidad en el tiempo ha
+        sido el relacionado con la cantidad de casos asintomáticos y de
+        personas que sí presentaron manifestaciones del nuevo coronavirus. El
+        elevado porciento de casos asintomáticos es una de las grandes
+        dificultades para poder contener la transmisión de esta enfermedad.
+      </p>
+      <p>
+        Luego de transcurridos dos meses y medio luego de detectados los
+        primeros casos, y de manera constante en el año de evolución de la
+        crisis sanitaria, la cantidad de individuos sin síntomas al momento de
+        la confirmación ha sido superior a la de aquellos que si los han
+        presentado.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución de los pacientes sintomáticos/asintomáticos
       </div>
       <div class="text-block">
         <p>
@@ -427,72 +442,133 @@
           terapéuticos, se usan varias formulaciones de Interferón.
         </p>
       </div>
-      <div class="visual-block">
-        <a
-          class="spreaker-player"
-          href="https://www.spreaker.com/user/juventudtecnica/bauta-a-cal-y-canto"
-          data-resource="episode_id=40117821"
-          data-theme="light"
-          data-autoplay="false"
-          data-playlist="false"
-          data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/ea1a8ec3df58e6232da31404194472da.jpg"
-          data-width="100%"
-          data-height="400px"
-          >Escucha"Bauta a cal y canto" en Spreaker.</a
-        >
-        <script async src="https://widget.spreaker.com/widgets.js"></script>
+      <div id="graves-percent-evol"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        Actualmente se implementa la sexta versión del protocolo. No obstante,
+        se conocen algunos detalles. Por ejemplo, la realización de tests de
+        antígenos para detectar positivos en momentos tempranos. En las
+        situaciones en que el paciente sea positivo a este examen, y en tanto
+        no se conozcan los resultados del PCR, se inicia el tratamiento con
+        Heberferon. Por otra parte, los sospechosos que presentan síntomas
+        reciben este tratamiento de igual modo junto a Itolizumab o Jusvinza.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Evolución de los elementos principales de los protocolos de actuación en los distintos escenarios
       </div>
-      <div class="text-block">
-        <p>
-          Sobre el tratamiento a graves y críticos, la Dra. C. Tania Crombet
-          Ramos, directora de Investigaciones Clínicas del Centro de Inmunología
-          Molecular, explicó que se han creado salas de vigilancia intensiva,
-          con el objetivo de adelantarse y anticipar qué paciente puede hacer
-          una evolución tórpida. A estos, se les suministra, entre otros
-          medicamentos, moléculas antiinflamatorias: Jusvinza e Itolizumab.
-        </p>
-        <p>
-          Según reporta la especialista, la primera de ella influyó en la
-          disminución de pacientes que pasan a graves y críticos, con una alta
-          tasa de recuperación. La segunda se ha consolidado en pacientes de
-          alto riesgo moderados y en el grave, en Cuba y en miles de enfermos en
-          la India.
-        </p>
+      <div class="card-body">
+        <div class="center protocol-text">Seleccione el protocolo:</div>
+        
+        <div class="center protocol-text" id="slider-cont">
+            <span id="slider-min">1</span> <span><input type="range" min="1" max="6" value="1" class="slider" id="slider"></span> <span id="slider-max">1</span> 
+        </div>
+        <div class="center protocol-text">
+          <span id="date"></span> Protocolo de actuación - Versión <span id="slider-value">1</span> 
+        </div>
+        <div id="protocolost" class="d-none d-lg-block">
+        </div>					
+        <div id="protocolos-resp-cont" class="d-lg-none">
+          <div id="protocolos-resp"></div>
+        </div>
+        <div id="protocolos-legend" >
+          <div class="row">
+            <div class="col-lg-3"><i class="bi bi-square-fill tnacional"></i> Creación nacional</div>
+            <div class="col-lg-3"><i class="bi bi-square-fill tproducido"></i> Producido en el país</div>
+            <div class="col-lg-3"><i class="bi bi-square-fill timportado"></i> Producto importado</div>
+            <div class="col-lg-3"><i class="bi bi-square-fill tnone new"></i> Actualización</div>
+          </div>
+        </div>
       </div>
-      <div class="image-block">
-        <img src="images/personal.jpg" alt="" />
-      </div>
-      <div class="text-block">
-        <p>
-          El primer fallecimiento por causa de la COVID-19 en Cuba se informó el
-          18 de marzo de 2020. Uno de los turistas italianos reportados como
-          primeros casos positivos de la enfermedad en el país murió ese día en
-          el Instituto de Medicina Tropical Pedro Kourí (IPK), luego de haber
-          sido reportado de crítico. Desde esa fecha hasta la actualidad han
-          fallecido en el país X personas para una letalidad de de L% y una
-          mortalidad de M casos por millón de habitantes.
-        </p>
-        <p>
-          Los protocolos de actuación cubanos han permitido que el país esté
-          entre las naciones con mejores indicadores en cuanto a letalidad y
-          mortalidad de la enfermedad.
-        </p>
-      </div>
-      <div class="visual-block">
-        <div class="title-block center">Letalidad y Mortalidad por países</div>
-        <div class="deceasesComparisonDiv">
-          <canvas id="deceasesComparison" width="150" height="80"></canvas>
-          <div class="container mt-3">
-            <div class="row">
-              <div class="col text-center">
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button id="deceasesZoomIn" type="button" class="btn">
-                    <i class="bi bi-zoom-in"></i>
-                  </button>
-                  <button id="deceasesZoomOut" type="button" class="btn">
-                    <i class="bi bi-zoom-out"></i>
-                  </button>
-                </div>
+
+    </div>
+    <div class="text-block">
+      <p>
+        Otros importantes cambios tienen que ver con las clasificaciones.
+        Actualmente se divide a los enfermos en asintomático, sintomático,
+        alto riesgo —que tiene mayor probabilidad de transitar a la gravedad—,
+        y el grave y crítico.
+      </p>
+      <p>
+        El protocolo hace énfasis en el tratamiento de estos últimos.
+        Asimismo, al paciente asintomático y sintomático leve se le ubica en
+        un tipo de centro, los sintomáticos moderados, los de riesgo y los
+        pacientes graves y críticos, en otro.
+      </p>
+      <p>
+        Como parte de los protocolos, la nación también utiliza los recursos
+        biotecnológicos para enfrentar la enfermedad. La presencia de
+        medicamentos creados en Cuba como los mencionados anteriormente se
+        dedican a garantizar los tratamientos. La Isla se encuentra en una
+        compleja situación económica agravada por las acciones de la
+        administración Trump, las que, entre otras, dificultan o impiden la
+        adquisición de insumos y medicinas.
+      </p>
+      <p>
+        En el ámbito profiláctico resaltan la Biomodulina T, el factor de
+        transferencia y las intervenciones con Nasalferón. Para fines
+        terapéuticos, se usan varias formulaciones de Interferón.
+      </p>
+    </div>
+    <div class="visual-block">
+      <a class="spreaker-player" href="https://www.spreaker.com/user/juventudtecnica/bauta-a-cal-y-canto"
+        data-resource="episode_id=40117821" data-theme="light" data-autoplay="false" data-playlist="false"
+        data-cover="https://d3wo5wojvuv7l.cloudfront.net/images.spreaker.com/original/ea1a8ec3df58e6232da31404194472da.jpg"
+        data-width="100%" data-height="400px">Escucha"Bauta a cal y canto" en Spreaker.</a>
+      <script async src="https://widget.spreaker.com/widgets.js"></script>
+    </div>
+    <div class="text-block">
+      <p>
+        Sobre el tratamiento a graves y críticos, la Dra. C. Tania Crombet
+        Ramos, directora de Investigaciones Clínicas del Centro de Inmunología
+        Molecular, explicó que se han creado salas de vigilancia intensiva,
+        con el objetivo de adelantarse y anticipar qué paciente puede hacer
+        una evolución tórpida. A estos, se les suministra, entre otros
+        medicamentos, moléculas antiinflamatorias: Jusvinza e Itolizumab.
+      </p>
+      <p>
+        Según reporta la especialista, la primera de ella influyó en la
+        disminución de pacientes que pasan a graves y críticos, con una alta
+        tasa de recuperación. La segunda se ha consolidado en pacientes de
+        alto riesgo moderados y en el grave, en Cuba y en miles de enfermos en
+        la India.
+      </p>
+    </div>
+    <div class="image-block">
+      <img src="images/personal.jpg" alt="" />
+    </div>
+    <div class="text-block">
+      <p>
+        El primer fallecimiento por causa de la COVID-19 en Cuba se informó el
+        18 de marzo de 2020. Uno de los turistas italianos reportados como
+        primeros casos positivos de la enfermedad en el país murió ese día en
+        el Instituto de Medicina Tropical Pedro Kourí (IPK), luego de haber
+        sido reportado de crítico. Desde esa fecha hasta la actualidad han
+        fallecido en el país X personas para una letalidad de de L% y una
+        mortalidad de M casos por millón de habitantes.
+      </p>
+      <p>
+        Los protocolos de actuación cubanos han permitido que el país esté
+        entre las naciones con mejores indicadores en cuanto a letalidad y
+        mortalidad de la enfermedad.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">Letalidad y Mortalidad por países</div>
+      <div class="deceasesComparisonDiv">
+        <canvas id="deceasesComparison" width="150" height="80"></canvas>
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col text-center">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button id="deceasesZoomIn" type="button" class="btn">
+                  <i class="bi bi-zoom-in"></i>
+                </button>
+                <button id="deceasesZoomOut" type="button" class="btn">
+                  <i class="bi bi-zoom-out"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -544,51 +620,86 @@
         </div>
         <br />
       </div>
-      <div class="text-block">
-        <p>
-          Igualmente, es esencial la correcta identificación de las condiciones
-          de riesgo de cada paciente. Para ello es importante tener en cuenta
-          distintos elementos que van desde la edad y el sexo, hasta las
-          distintas comorbilidades que pueda poseer cada paciente.
-        </p>
+      <div id="daily-deads-info"></div>
+    </div>
+    <div class="text-block">
+      <p>
+        El reto actual que tiene el sistema médico cubano es el disminuir al
+        máximo la mortalidad en un escenario de alta incidencia. Para ello se
+        debe trabajar en optimizar los tiempos que van desde la identificación
+        de los síntomas, la hospitalización del paciente, así como su
+        tratamiento apegado a los protocolos.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Tiempos de evolución de los pacientes sintomáticos desde el 15 de noviembre al 22 de febrero
       </div>
-      <div class="visual-block">
-        <div id="comorbilidad"></div>
-        <div id="comorbilidad2"></div>
-        <br />
-        pequeño scrolly telling
-        <br />
+      <div class="casesUCIDiv">
+        <div id="casesUCI" ></div>
       </div>
-      <div class="text-block">
-        <p>
-          Asimismo, es relevante disminuir el número de pacientes que entran las
-          unidades de cuidados intensivos. Estos pacientes requieren una
-          atención constante y especializada y mientras mayor sea el número de
-          pacientes disminuyen gradualmente las condiciones de atención.
-        </p>
+    </div>
+    <div class="text-block">
+      <p>
+        Igualmente, es esencial la correcta identificación de las condiciones
+        de riesgo de cada paciente. Para ello es importante tener en cuenta
+        distintos elementos que van desde la edad y el sexo, hasta las
+        distintas comorbilidades que pueda poseer cada paciente.
+      </p>
+    </div>
+    <div class="visual-block">
+      <div class="title-block center">
+        Distribución por sexo y edad de los pacientes fallecidos
       </div>
-      <div class="visual-block center">
-        <iframe
-          class="iframe-viewport-other"
-          src="https://www.youtube.com/embed/ro5uJ1vJeh8"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div id="sexDeceasedPie"></div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div id="deceasedAgeRange"></div>    
+        </div>
       </div>
-      <div class="text-block">
-        <p>
-          Padecer la enfermedad también acarrea al paciente varias secuelas.
-          Existen afectaciones de tipo renal, cardiovascular e inflamatorias
-          pulmonares. Además, pacientes críticos han tenido alteraciones de la
-          coagulación que pueden inducir procesos trombóticos, aunque aún no se
-          sabe cuanto tiempo dura ese efecto Asimismo, la Dra. Ileana Morales,
-          Directora Nacional de Ciencia e Investigación Tecnológica del MINSAP,
-          expresó que las investigaciones revelan que las secuelas no distinguen
-          edad, ni sexo. Hay asintomáticos que han tenido clínico negativo pero
-          con hallazgos importantes de lesiones pulmonares, hepáticas y renales.
-        </p>
+    </div>
+
+    <div class="visual-block">
+      <div class="title-block center">
+        Comorbilidades más comunes y su distribución por cantidad en los pacientes fallecidos
       </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div id="comorbilidad2"></div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div id="comorbilidad"></div>    
+        </div>
+      </div>
+    </div>
+    <div class="text-block">
+      <p>
+        Asimismo, es relevante disminuir el número de pacientes que entran las
+        unidades de cuidados intensivos. Estos pacientes requieren una
+        atención constante y especializada y mientras mayor sea el número de
+        pacientes disminuyen gradualmente las condiciones de atención.
+      </p>
+    </div>
+    <div class="visual-block center">
+      <iframe class="iframe-viewport-other" src="https://www.youtube.com/embed/ro5uJ1vJeh8" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="text-block">
+      <p>
+        Padecer la enfermedad también acarrea al paciente varias secuelas.
+        Existen afectaciones de tipo renal, cardiovascular e inflamatorias
+        pulmonares. Además, pacientes críticos han tenido alteraciones de la
+        coagulación que pueden inducir procesos trombóticos, aunque aún no se
+        sabe cuanto tiempo dura ese efecto Asimismo, la Dra. Ileana Morales,
+        Directora Nacional de Ciencia e Investigación Tecnológica del MINSAP,
+        expresó que las investigaciones revelan que las secuelas no distinguen
+        edad, ni sexo. Hay asintomáticos que han tenido clínico negativo pero
+        con hallazgos importantes de lesiones pulmonares, hepáticas y renales.
+      </p>
+    </div>
 
       <div class="image-block">
         <img src="images/vacunas.jpg" alt="" />
@@ -2582,37 +2693,36 @@
       </div>
     </main>
 
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/leaflet.js"></script>
-    <script type="text/javascript" src="js/jscharting.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="js/d3.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="js/c3.min.js"></script>
-    <script type="text/javascript" src="js/intersection-observer.js"></script>
-    <script type="text/javascript" src="js/stickyfill.min.js"></script>
-    <script type="text/javascript" src="js/scrollama.min.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/chart.min.js"></script>
-    <script type="text/javascript" src="js/utils.js"></script>
-    <script type="text/javascript" src="js/mapa.js"></script>
-    <script type="text/javascript" src="js/scrollytelling_chart.js"></script>
-    <script type="text/javascript" src="js/scrollytelling.js"></script>
-    <script type="text/javascript" src="js/deceases.js"></script>
-    <script type="text/javascript" src="js/confirmedBarRace.js"></script>
-    <script type="text/javascript" src="js/deceasesBarRace.js"></script>
-    <script type="text/javascript" src="js/pcrTreemap.js"></script>
-    <script type="text/javascript" src="js/sex-pie.js"></script>
-    <script
-      type="text/javascript"
-      src="js/importados-no-importados.js"
-    ></script>
-    <script type="text/javascript" src="js/asintomaticos.js"></script>
-    <script type="text/javascript" src="js/foreignvsnatives.js"></script>
-    <script type="text/javascript" src="js/pcr-rate.js"></script>
-    <script type="text/javascript" src="js/cases-uci.js"></script>
-    <script type="text/javascript" src="js/importados.js"></script>
-    <script type="text/javascript" src="js/deceases-sex.js"></script>
-    <script type="text/javascript" src="js/uci.js"></script>
-    <script type="text/javascript" src="js/fallecidos.js"></script>
-  </body>
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/leaflet.js"></script>
+  <script type="text/javascript" src="js/jscharting.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/d3.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/c3.min.js"></script>
+  <script type="text/javascript" src="js/intersection-observer.js"></script>
+  <script type="text/javascript" src="js/stickyfill.min.js"></script>
+  <script type="text/javascript" src="js/scrollama.min.js"></script>
+  <script type="text/javascript" src="js/moment.min.js"></script>
+  <script type="text/javascript" src="js/chart.min.js"></script>
+  <script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/mapa.js"></script>
+  <script type="text/javascript" src="js/scrollytelling_chart.js"></script>
+  <script type="text/javascript" src="js/scrollytelling.js"></script>
+  <script type="text/javascript" src="js/deceases.js"></script>
+  <script type="text/javascript" src="js/confirmedBarRace.js"></script>
+  <script type="text/javascript" src="js/deceasesBarRace.js"></script>
+  <script type="text/javascript" src="js/pcrTreemap.js"></script>
+  <script type="text/javascript" src="js/sex-pie.js"></script>
+  <script type="text/javascript" src="js/importados-no-importados.js"></script>
+  <script type="text/javascript" src="js/asintomaticos.js"></script>
+  <script type="text/javascript" src="js/foreignvsnatives.js"></script>
+  <script type="text/javascript" src="js/pcr-rate.js"></script>
+  <script type="text/javascript" src="js/cases-uci.js"></script>
+  <script type="text/javascript" src="js/importados.js"></script>
+  <script type="text/javascript" src="js/deceases-sex.js"></script>
+  <script type="text/javascript" src="js/uci.js"></script>
+  <script type="text/javascript" src="js/fallecidos.js"></script>
+  <script type="text/javascript" src="js/comorbilidad.js"></script>
+  <script type="text/javascript" src="js/protocols.js"></script>
+</body>
 </html>
