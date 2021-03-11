@@ -4,42 +4,42 @@
   "code": "AFG",
   "continent": "Asia",
   "total_deaths": "2451.0",
-  "total_cases": "55876.0"
+  "total_cases": "55894.0"
  },
  "Africa": {
   "population": 1340598113,
   "code": "OWID_AFR",
   "continent": "",
-  "total_deaths": "106092.0",
-  "total_cases": "3973332.0"
+  "total_deaths": "106682.0",
+  "total_cases": "3991582.0"
  },
  "Albania": {
   "population": 2877800,
   "code": "ALB",
   "continent": "Europe",
-  "total_deaths": "1956.0",
-  "total_cases": "113580.0"
+  "total_deaths": "1986.0",
+  "total_cases": "114840.0"
  },
  "Algeria": {
   "population": 43851043,
   "code": "DZA",
   "continent": "Africa",
-  "total_deaths": "3018.0",
-  "total_cases": "114382.0"
+  "total_deaths": "3026.0",
+  "total_cases": "114681.0"
  },
  "Andorra": {
   "population": 77265,
   "code": "AND",
   "continent": "Europe",
   "total_deaths": "112.0",
-  "total_cases": "11069.0"
+  "total_cases": "11130.0"
  },
  "Angola": {
   "population": 32866268,
   "code": "AGO",
   "continent": "Africa",
-  "total_deaths": "515.0",
-  "total_cases": "21108.0"
+  "total_deaths": "516.0",
+  "total_cases": "21161.0"
  },
  "Anguilla": {
   "population": 15002,
@@ -52,106 +52,106 @@
   "population": 97928,
   "code": "ATG",
   "continent": "North America",
-  "total_deaths": "21.0",
-  "total_cases": "848.0"
+  "total_deaths": "23.0",
+  "total_cases": "882.0"
  },
  "Argentina": {
   "population": 45195777,
   "code": "ARG",
   "continent": "South America",
-  "total_deaths": "53121.0",
-  "total_cases": "2154694.0"
+  "total_deaths": "53359.0",
+  "total_cases": "2169694.0"
  },
  "Armenia": {
   "population": 2963234,
   "code": "ARM",
   "continent": "Asia",
-  "total_deaths": "3225.0",
-  "total_cases": "175016.0"
+  "total_deaths": "3237.0",
+  "total_cases": "175538.0"
  },
  "Asia": {
   "population": 4639847425,
   "code": "OWID_ASI",
   "continent": "",
-  "total_deaths": "405228.0",
-  "total_cases": "25644808.0"
+  "total_deaths": "406873.0",
+  "total_cases": "25817741.0"
  },
  "Australia": {
   "population": 25499881,
   "code": "AUS",
   "continent": "Oceania",
   "total_deaths": "909.0",
-  "total_cases": "29061.0"
+  "total_cases": "29090.0"
  },
  "Austria": {
   "population": 9006400,
   "code": "AUT",
   "continent": "Europe",
-  "total_deaths": "8732.0",
-  "total_cases": "476980.0"
+  "total_deaths": "8776.0",
+  "total_cases": "481919.0"
  },
  "Azerbaijan": {
   "population": 10139175,
   "code": "AZE",
   "continent": "Asia",
-  "total_deaths": "3247.0",
-  "total_cases": "236963.0"
+  "total_deaths": "3257.0",
+  "total_cases": "237775.0"
  },
  "Bahamas": {
   "population": 393248,
   "code": "BHS",
   "continent": "North America",
-  "total_deaths": "181.0",
-  "total_cases": "8600.0"
+  "total_deaths": "185.0",
+  "total_cases": "8642.0"
  },
  "Bahrain": {
   "population": 1701583,
   "code": "BHR",
   "continent": "Asia",
-  "total_deaths": "473.0",
-  "total_cases": "127255.0"
+  "total_deaths": "476.0",
+  "total_cases": "128428.0"
  },
  "Bangladesh": {
   "population": 164689383,
   "code": "BGD",
   "continent": "Asia",
-  "total_deaths": "8476.0",
-  "total_cases": "551175.0"
+  "total_deaths": "8496.0",
+  "total_cases": "553105.0"
  },
  "Barbados": {
   "population": 287371,
   "code": "BRB",
   "continent": "North America",
   "total_deaths": "37.0",
-  "total_cases": "3303.0"
+  "total_cases": "3353.0"
  },
  "Belarus": {
   "population": 9449321,
   "code": "BLR",
   "continent": "Europe",
-  "total_deaths": "2047.0",
-  "total_cases": "296441.0"
+  "total_deaths": "2063.0",
+  "total_cases": "298123.0"
  },
  "Belgium": {
   "population": 11589616,
   "code": "BEL",
   "continent": "Europe",
-  "total_deaths": "22292.0",
-  "total_cases": "789008.0"
+  "total_deaths": "22347.0",
+  "total_cases": "794605.0"
  },
  "Belize": {
   "population": 397621,
   "code": "BLZ",
   "continent": "North America",
-  "total_deaths": "315.0",
-  "total_cases": "12335.0"
+  "total_deaths": "316.0",
+  "total_cases": "12355.0"
  },
  "Benin": {
   "population": 12123198,
   "code": "BEN",
   "continent": "Africa",
   "total_deaths": "81.0",
-  "total_cases": "6338.0"
+  "total_cases": "6501.0"
  },
  "Bermuda": {
   "population": 62273,
@@ -171,15 +171,15 @@
   "population": 11673029,
   "code": "BOL",
   "continent": "South America",
-  "total_deaths": "11845.0",
-  "total_cases": "254736.0"
+  "total_deaths": "11884.0",
+  "total_cases": "256462.0"
  },
  "Bosnia and Herzegovina": {
   "population": 3280815,
   "code": "BIH",
   "continent": "Europe",
-  "total_deaths": "5297.0",
-  "total_cases": "137291.0"
+  "total_deaths": "5382.0",
+  "total_cases": "139652.0"
  },
  "Botswana": {
   "population": 2351625,
@@ -192,43 +192,43 @@
   "population": 212559409,
   "code": "BRA",
   "continent": "South America",
-  "total_deaths": "266398.0",
-  "total_cases": "11051665.0"
+  "total_deaths": "270656.0",
+  "total_cases": "11202305.0"
  },
  "Brunei": {
   "population": 437483,
   "code": "BRN",
   "continent": "Asia",
   "total_deaths": "3.0",
-  "total_cases": "190.0"
+  "total_cases": "192.0"
  },
  "Bulgaria": {
   "population": 6948445,
   "code": "BGR",
   "continent": "Europe",
-  "total_deaths": "10764.0",
-  "total_cases": "263303.0"
+  "total_deaths": "10999.0",
+  "total_cases": "269579.0"
  },
  "Burkina Faso": {
   "population": 20903278,
   "code": "BFA",
   "continent": "Africa",
   "total_deaths": "143.0",
-  "total_cases": "12181.0"
+  "total_cases": "12230.0"
  },
  "Burundi": {
   "population": 11890781,
   "code": "BDI",
   "continent": "Africa",
   "total_deaths": "3.0",
-  "total_cases": "2334.0"
+  "total_cases": "2369.0"
  },
  "Cambodia": {
   "population": 16718971,
   "code": "KHM",
   "continent": "Asia",
   "total_deaths": "",
-  "total_cases": "1011.0"
+  "total_cases": "1163.0"
  },
  "Cameroon": {
   "population": 26545864,
@@ -241,15 +241,15 @@
   "population": 37742157,
   "code": "CAN",
   "continent": "North America",
-  "total_deaths": "22271.0",
-  "total_cases": "896247.0"
+  "total_deaths": "22330.0",
+  "total_cases": "902234.0"
  },
  "Cape Verde": {
   "population": 555988,
   "code": "CPV",
   "continent": "Africa",
-  "total_deaths": "154.0",
-  "total_cases": "15806.0"
+  "total_deaths": "155.0",
+  "total_cases": "15892.0"
  },
  "Cayman Islands": {
   "population": 65720,
@@ -263,147 +263,147 @@
   "code": "CAF",
   "continent": "Africa",
   "total_deaths": "63.0",
-  "total_cases": "5021.0"
+  "total_cases": "5023.0"
  },
  "Chad": {
   "population": 16425859,
   "code": "TCD",
   "continent": "Africa",
-  "total_deaths": "146.0",
-  "total_cases": "4193.0"
+  "total_deaths": "149.0",
+  "total_cases": "4231.0"
  },
  "Chile": {
   "population": 19116209,
   "code": "CHL",
   "continent": "South America",
-  "total_deaths": "21163.0",
-  "total_cases": "860533.0"
+  "total_deaths": "21206.0",
+  "total_cases": "867949.0"
  },
  "China": {
   "population": 1439323774,
   "code": "CHN",
   "continent": "Asia",
-  "total_deaths": "4838.0",
-  "total_cases": "101149.0"
+  "total_deaths": "4839.0",
+  "total_cases": "101194.0"
  },
  "Colombia": {
   "population": 50882884,
   "code": "COL",
   "continent": "South America",
-  "total_deaths": "60598.0",
-  "total_cases": "2278861.0"
+  "total_deaths": "60773.0",
+  "total_cases": "2285960.0"
  },
  "Comoros": {
   "population": 869595,
   "code": "COM",
   "continent": "Africa",
   "total_deaths": "146.0",
-  "total_cases": "3606.0"
+  "total_cases": "3611.0"
  },
  "Congo": {
   "population": 5518092,
   "code": "COG",
   "continent": "Africa",
   "total_deaths": "131.0",
-  "total_cases": "9179.0"
+  "total_cases": "9329.0"
  },
  "Costa Rica": {
   "population": 5094114,
   "code": "CRI",
   "continent": "North America",
-  "total_deaths": "2833.0",
-  "total_cases": "206640.0"
+  "total_deaths": "2848.0",
+  "total_cases": "207832.0"
  },
  "Cote d'Ivoire": {
   "population": 26378275,
   "code": "CIV",
   "continent": "Africa",
-  "total_deaths": "204.0",
-  "total_cases": "35331.0"
+  "total_deaths": "206.0",
+  "total_cases": "36028.0"
  },
  "Croatia": {
   "population": 4105268,
   "code": "HRV",
   "continent": "Europe",
-  "total_deaths": "5609.0",
-  "total_cases": "246608.0"
+  "total_deaths": "5625.0",
+  "total_cases": "248061.0"
  },
  "Cuba": {
   "population": 11209628,
   "code": "CUB",
   "continent": "North America",
-  "total_deaths": "352.0",
-  "total_cases": "57607.0"
+  "total_deaths": 352,
+  "total_cases": 57607
  },
  "Cyprus": {
   "population": 875899,
   "code": "CYP",
   "continent": "Europe",
-  "total_deaths": "233.0",
-  "total_cases": "37230.0"
+  "total_deaths": "235.0",
+  "total_cases": "38065.0"
  },
  "Czechia": {
   "population": 10708982,
   "code": "CZE",
   "continent": "Europe",
-  "total_deaths": "21882.0",
-  "total_cases": "1325291.0"
+  "total_deaths": "22385.0",
+  "total_cases": "1351195.0"
  },
  "Democratic Republic of Congo": {
   "population": 89561404,
   "code": "COD",
   "continent": "Africa",
   "total_deaths": "712.0",
-  "total_cases": "26627.0"
+  "total_cases": "26738.0"
  },
  "Denmark": {
   "population": 5792203,
   "code": "DNK",
   "continent": "Europe",
-  "total_deaths": "2382.0",
-  "total_cases": "215955.0"
+  "total_deaths": "2383.0",
+  "total_cases": "218489.0"
  },
  "Djibouti": {
   "population": 988002,
   "code": "DJI",
   "continent": "Africa",
   "total_deaths": "63.0",
-  "total_cases": "6157.0"
+  "total_cases": "6227.0"
  },
  "Dominica": {
   "population": 71991,
   "code": "DMA",
   "continent": "North America",
   "total_deaths": "",
-  "total_cases": "144.0"
+  "total_cases": "151.0"
  },
  "Dominican Republic": {
   "population": 10847904,
   "code": "DOM",
   "continent": "North America",
-  "total_deaths": "3179.0",
-  "total_cases": "243526.0"
+  "total_deaths": "3198.0",
+  "total_cases": "244168.0"
  },
  "Ecuador": {
   "population": 17643060,
   "code": "ECU",
   "continent": "South America",
-  "total_deaths": "16043.0",
-  "total_cases": "294618.0"
+  "total_deaths": "16105.0",
+  "total_cases": "296841.0"
  },
  "Egypt": {
   "population": 102334403,
   "code": "EGY",
   "continent": "Africa",
-  "total_deaths": "11038.0",
-  "total_cases": "187094.0"
+  "total_deaths": "11128.0",
+  "total_cases": "188361.0"
  },
  "El Salvador": {
   "population": 6486201,
   "code": "SLV",
   "continent": "North America",
-  "total_deaths": "1915.0",
-  "total_cases": "60800.0"
+  "total_deaths": "1929.0",
+  "total_cases": "61677.0"
  },
  "Equatorial Guinea": {
   "population": 1402985,
@@ -417,42 +417,42 @@
   "code": "ERI",
   "continent": "Africa",
   "total_deaths": "7.0",
-  "total_cases": "2944.0"
+  "total_cases": "2988.0"
  },
  "Estonia": {
   "population": 1326539,
   "code": "EST",
   "continent": "Europe",
-  "total_deaths": "667.0",
-  "total_cases": "76183.0"
+  "total_deaths": "677.0",
+  "total_cases": "78973.0"
  },
  "Eswatini": {
   "population": 1160164,
   "code": "SWZ",
   "continent": "Africa",
   "total_deaths": "658.0",
-  "total_cases": "17188.0"
+  "total_cases": "17203.0"
  },
  "Ethiopia": {
   "population": 114963583,
   "code": "ETH",
   "continent": "Africa",
-  "total_deaths": "2442.0",
-  "total_cases": "167133.0"
+  "total_deaths": "2466.0",
+  "total_cases": "169878.0"
  },
  "Europe": {
   "population": 748680069,
   "code": "OWID_EUR",
   "continent": "",
-  "total_deaths": "839436.0",
-  "total_cases": "35413508.0"
+  "total_deaths": "846511.0",
+  "total_cases": "35765661.0"
  },
  "European Union": {
   "population": 444919060,
   "code": "OWID_EUN",
   "continent": "",
-  "total_deaths": "563095.0",
-  "total_cases": "23277322.0"
+  "total_deaths": "568326.0",
+  "total_cases": "23563841.0"
  },
  "Faeroe Islands": {
   "population": 48865,
@@ -479,22 +479,22 @@
   "population": 5540718,
   "code": "FIN",
   "continent": "Europe",
-  "total_deaths": "774.0",
-  "total_cases": "62522.0"
+  "total_deaths": "776.0",
+  "total_cases": "63889.0"
  },
  "France": {
   "population": 65273512,
   "code": "FRA",
   "continent": "Europe",
-  "total_deaths": "89090.0",
-  "total_cases": "3969612.0"
+  "total_deaths": "89707.0",
+  "total_cases": "4022429.0"
  },
  "Gabon": {
   "population": 2225728,
   "code": "GAB",
   "continent": "Africa",
-  "total_deaths": "91.0",
-  "total_cases": "16015.0"
+  "total_deaths": "93.0",
+  "total_cases": "16313.0"
  },
  "Gambia": {
   "population": 2416664,
@@ -507,22 +507,22 @@
   "population": 3989175,
   "code": "GEO",
   "continent": "Asia",
-  "total_deaths": "3591.0",
-  "total_cases": "272998.0"
+  "total_deaths": "3613.0",
+  "total_cases": "273650.0"
  },
  "Germany": {
   "population": 83783945,
   "code": "DEU",
   "continent": "Europe",
-  "total_deaths": "72236.0",
-  "total_cases": "2513784.0"
+  "total_deaths": "72858.0",
+  "total_cases": "2541781.0"
  },
  "Ghana": {
   "population": 31072945,
   "code": "GHA",
   "continent": "Africa",
-  "total_deaths": "647.0",
-  "total_cases": "86465.0"
+  "total_deaths": "656.0",
+  "total_cases": "86737.0"
  },
  "Gibraltar": {
   "population": 33691,
@@ -535,8 +535,8 @@
   "population": 10423056,
   "code": "GRC",
   "continent": "Europe",
-  "total_deaths": "6797.0",
-  "total_cases": "206281.0"
+  "total_deaths": "6886.0",
+  "total_cases": "212091.0"
  },
  "Greenland": {
   "population": 56772,
@@ -556,8 +556,8 @@
   "population": 17915567,
   "code": "GTM",
   "continent": "North America",
-  "total_deaths": "6479.0",
-  "total_cases": "178770.0"
+  "total_deaths": "6522.0",
+  "total_cases": "180393.0"
  },
  "Guernsey": {
   "population": 67052,
@@ -570,36 +570,36 @@
   "population": 13132792,
   "code": "GIN",
   "continent": "Africa",
-  "total_deaths": "97.0",
-  "total_cases": "16912.0"
+  "total_deaths": "101.0",
+  "total_cases": "17208.0"
  },
  "Guinea-Bissau": {
   "population": 1967998,
   "code": "GNB",
   "continent": "Africa",
-  "total_deaths": "49.0",
-  "total_cases": "3312.0"
+  "total_deaths": "51.0",
+  "total_cases": "3327.0"
  },
  "Guyana": {
   "population": 786559,
   "code": "GUY",
   "continent": "South America",
-  "total_deaths": "203.0",
-  "total_cases": "8814.0"
+  "total_deaths": "205.0",
+  "total_cases": "8928.0"
  },
  "Haiti": {
   "population": 11402533,
   "code": "HTI",
   "continent": "North America",
   "total_deaths": "251.0",
-  "total_cases": "12536.0"
+  "total_cases": "12594.0"
  },
  "Honduras": {
   "population": 9904608,
   "code": "HND",
   "continent": "North America",
-  "total_deaths": "4283.0",
-  "total_cases": "174243.0"
+  "total_deaths": "4301.0",
+  "total_cases": "175442.0"
  },
  "Hong Kong": {
   "population": 7496988,
@@ -612,50 +612,50 @@
   "population": 9660350,
   "code": "HUN",
   "continent": "Europe",
-  "total_deaths": "15988.0",
-  "total_cases": "468713.0"
+  "total_deaths": "16325.0",
+  "total_cases": "480860.0"
  },
  "Iceland": {
   "population": 341250,
   "code": "ISL",
   "continent": "Europe",
   "total_deaths": "29.0",
-  "total_cases": "6064.0"
+  "total_cases": "6069.0"
  },
  "India": {
   "population": 1380004385,
   "code": "IND",
   "continent": "Asia",
-  "total_deaths": "157930.0",
-  "total_cases": "11244786.0"
+  "total_deaths": "158189.0",
+  "total_cases": "11285561.0"
  },
  "Indonesia": {
   "population": 273523621,
   "code": "IDN",
   "continent": "Asia",
-  "total_deaths": "37547.0",
-  "total_cases": "1386556.0"
+  "total_deaths": "37932.0",
+  "total_cases": "1398578.0"
  },
  "Iran": {
   "population": 83992953,
   "code": "IRN",
   "continent": "Asia",
-  "total_deaths": "60786.0",
-  "total_cases": "1698005.0"
+  "total_deaths": "60928.0",
+  "total_cases": "1715162.0"
  },
  "Iraq": {
   "population": 40222503,
   "code": "IRQ",
   "continent": "Asia",
-  "total_deaths": "13596.0",
-  "total_cases": "731016.0"
+  "total_deaths": "13645.0",
+  "total_cases": "740472.0"
  },
  "Ireland": {
   "population": 4937796,
   "code": "IRL",
   "continent": "Europe",
-  "total_deaths": "4422.0",
-  "total_cases": "223651.0"
+  "total_deaths": "4499.0",
+  "total_cases": "224588.0"
  },
  "Isle of Man": {
   "population": 85032,
@@ -668,29 +668,29 @@
   "population": 8655541,
   "code": "ISR",
   "continent": "Asia",
-  "total_deaths": "5917.0",
-  "total_cases": "805116.0"
+  "total_deaths": "5950.0",
+  "total_cases": "811492.0"
  },
  "Italy": {
   "population": 60461828,
   "code": "ITA",
   "continent": "Europe",
-  "total_deaths": "100103.0",
-  "total_cases": "3081368.0"
+  "total_deaths": "100811.0",
+  "total_cases": "3123368.0"
  },
  "Jamaica": {
   "population": 2961161,
   "code": "JAM",
   "continent": "North America",
-  "total_deaths": "454.0",
-  "total_cases": "26904.0"
+  "total_deaths": "463.0",
+  "total_cases": "28273.0"
  },
  "Japan": {
   "population": 126476458,
   "code": "JPN",
   "continent": "Asia",
-  "total_deaths": "8301.0",
-  "total_cases": "439977.0"
+  "total_deaths": "8412.0",
+  "total_cases": "442411.0"
  },
  "Jersey": {
   "population": 101073,
@@ -703,43 +703,43 @@
   "population": 10203140,
   "code": "JOR",
   "continent": "Asia",
-  "total_deaths": "4987.0",
-  "total_cases": "435130.0"
+  "total_deaths": "5106.0",
+  "total_cases": "448851.0"
  },
  "Kazakhstan": {
   "population": 18776707,
   "code": "KAZ",
   "continent": "Asia",
-  "total_deaths": "3186.0",
-  "total_cases": "268902.0"
+  "total_deaths": "3190.0",
+  "total_cases": "270399.0"
  },
  "Kenya": {
   "population": 53771300,
   "code": "KEN",
   "continent": "Africa",
-  "total_deaths": "1879.0",
-  "total_cases": "109164.0"
+  "total_deaths": "1898.0",
+  "total_cases": "110356.0"
  },
  "Kosovo": {
   "population": 1932774,
   "code": "OWID_KOS",
   "continent": "Europe",
-  "total_deaths": "1655.0",
-  "total_cases": "73735.0"
+  "total_deaths": "1674.0",
+  "total_cases": "74708.0"
  },
  "Kuwait": {
   "population": 4270563,
   "code": "KWT",
   "continent": "Asia",
-  "total_deaths": "1133.0",
-  "total_cases": "201898.0"
+  "total_deaths": "1144.0",
+  "total_cases": "204388.0"
  },
  "Kyrgyzstan": {
   "population": 6524191,
   "code": "KGZ",
   "continent": "Asia",
-  "total_deaths": "1473.0",
-  "total_cases": "86583.0"
+  "total_deaths": "1476.0",
+  "total_cases": "86640.0"
  },
  "Laos": {
   "population": 7275556,
@@ -752,57 +752,57 @@
   "population": 1886202,
   "code": "LVA",
   "continent": "Europe",
-  "total_deaths": "1699.0",
-  "total_cases": "90525.0"
+  "total_deaths": "1726.0",
+  "total_cases": "91636.0"
  },
  "Lebanon": {
   "population": 6825442,
   "code": "LBN",
   "continent": "Asia",
-  "total_deaths": "5089.0",
-  "total_cases": "397887.0"
+  "total_deaths": "5180.0",
+  "total_cases": "405407.0"
  },
  "Lesotho": {
   "population": 2142252,
   "code": "LSO",
   "continent": "Africa",
-  "total_deaths": "308.0",
-  "total_cases": "10523.0"
+  "total_deaths": "309.0",
+  "total_cases": "10525.0"
  },
  "Liberia": {
   "population": 5057677,
   "code": "LBR",
   "continent": "Africa",
   "total_deaths": "85.0",
-  "total_cases": "2024.0"
+  "total_cases": "2026.0"
  },
  "Libya": {
   "population": 6871287,
   "code": "LBY",
   "continent": "Africa",
-  "total_deaths": "2288.0",
-  "total_cases": "139658.0"
+  "total_deaths": "2330.0",
+  "total_cases": "141598.0"
  },
  "Liechtenstein": {
   "population": 38137,
   "code": "LIE",
   "continent": "Europe",
-  "total_deaths": "54.0",
-  "total_cases": "2592.0"
+  "total_deaths": "55.0",
+  "total_cases": "2594.0"
  },
  "Lithuania": {
   "population": 2722291,
   "code": "LTU",
   "continent": "Europe",
-  "total_deaths": "3336.0",
-  "total_cases": "202430.0"
+  "total_deaths": "3351.0",
+  "total_cases": "203386.0"
  },
  "Luxembourg": {
   "population": 625976,
   "code": "LUX",
   "continent": "Europe",
-  "total_deaths": "663.0",
-  "total_cases": "56677.0"
+  "total_deaths": "673.0",
+  "total_cases": "57056.0"
  },
  "Macao": {
   "population": 649342,
@@ -822,36 +822,36 @@
   "population": 19129955,
   "code": "MWI",
   "continent": "Africa",
-  "total_deaths": "1070.0",
-  "total_cases": "32469.0"
+  "total_deaths": "1077.0",
+  "total_cases": "32614.0"
  },
  "Malaysia": {
   "population": 32365998,
   "code": "MYS",
   "continent": "Asia",
-  "total_deaths": "1177.0",
-  "total_cases": "314989.0"
+  "total_deaths": "1191.0",
+  "total_cases": "317717.0"
  },
  "Maldives": {
   "population": 540542,
   "code": "MDV",
   "continent": "Asia",
   "total_deaths": "64.0",
-  "total_cases": "20919.0"
+  "total_cases": "21144.0"
  },
  "Mali": {
   "population": 20250834,
   "code": "MLI",
   "continent": "Africa",
   "total_deaths": "358.0",
-  "total_cases": "8613.0"
+  "total_cases": "8710.0"
  },
  "Malta": {
   "population": 441539,
   "code": "MLT",
   "continent": "Europe",
-  "total_deaths": "334.0",
-  "total_cases": "24599.0"
+  "total_deaths": "337.0",
+  "total_cases": "25357.0"
  },
  "Marshall Islands": {
   "population": 59194,
@@ -865,7 +865,7 @@
   "code": "MRT",
   "continent": "Africa",
   "total_deaths": "442.0",
-  "total_cases": "17340.0"
+  "total_cases": "17385.0"
  },
  "Mauritius": {
   "population": 1271767,
@@ -878,8 +878,8 @@
   "population": 128932753,
   "code": "MEX",
   "continent": "North America",
-  "total_deaths": "190923.0",
-  "total_cases": "2130477.0"
+  "total_deaths": "192491.0",
+  "total_cases": "2144486.0"
  },
  "Micronesia (country)": {
   "population": 115021,
@@ -892,29 +892,29 @@
   "population": 4033963,
   "code": "MDA",
   "continent": "Europe",
-  "total_deaths": "4129.0",
-  "total_cases": "195602.0"
+  "total_deaths": "4183.0",
+  "total_cases": "198228.0"
  },
  "Monaco": {
   "population": 39244,
   "code": "MCO",
   "continent": "Europe",
   "total_deaths": "26.0",
-  "total_cases": "2028.0"
+  "total_cases": "2062.0"
  },
  "Mongolia": {
   "population": 3278292,
   "code": "MNG",
   "continent": "Asia",
   "total_deaths": "3.0",
-  "total_cases": "3372.0"
+  "total_cases": "3481.0"
  },
  "Montenegro": {
   "population": 628062,
   "code": "MNE",
   "continent": "Europe",
-  "total_deaths": "1085.0",
-  "total_cases": "80191.0"
+  "total_deaths": "1100.0",
+  "total_cases": "81457.0"
  },
  "Montserrat": {
   "population": 4999,
@@ -927,197 +927,197 @@
   "population": 36910558,
   "code": "MAR",
   "continent": "Africa",
-  "total_deaths": "8683.0",
-  "total_cases": "486325.0"
+  "total_deaths": "8705.0",
+  "total_cases": "487286.0"
  },
  "Mozambique": {
   "population": 31255435,
   "code": "MOZ",
   "continent": "Africa",
-  "total_deaths": "698.0",
-  "total_cases": "62703.0"
+  "total_deaths": "707.0",
+  "total_cases": "63174.0"
  },
  "Myanmar": {
   "population": 54409794,
   "code": "MMR",
   "continent": "Asia",
   "total_deaths": "3200.0",
-  "total_cases": "142045.0"
+  "total_cases": "142073.0"
  },
  "Namibia": {
   "population": 2540916,
   "code": "NAM",
   "continent": "Africa",
-  "total_deaths": "439.0",
-  "total_cases": "40187.0"
+  "total_deaths": "448.0",
+  "total_cases": "40451.0"
  },
  "Nepal": {
   "population": 29136808,
   "code": "NPL",
   "continent": "Asia",
-  "total_deaths": "3011.0",
-  "total_cases": "274810.0"
+  "total_deaths": "3012.0",
+  "total_cases": "274973.0"
  },
  "Netherlands": {
   "population": 17134873,
   "code": "NLD",
   "continent": "Europe",
-  "total_deaths": "15990.0",
-  "total_cases": "1139102.0"
+  "total_deaths": "16077.0",
+  "total_cases": "1148836.0"
  },
  "New Zealand": {
   "population": 4822233,
   "code": "NZL",
   "continent": "Oceania",
   "total_deaths": "26.0",
-  "total_cases": "2409.0"
+  "total_cases": "2416.0"
  },
  "Nicaragua": {
   "population": 6624554,
   "code": "NIC",
   "continent": "North America",
-  "total_deaths": "174.0",
-  "total_cases": "6489.0"
+  "total_deaths": "175.0",
+  "total_cases": "6537.0"
  },
  "Niger": {
   "population": 24206636,
   "code": "NER",
   "continent": "Africa",
-  "total_deaths": "177.0",
-  "total_cases": "4828.0"
+  "total_deaths": "179.0",
+  "total_cases": "4848.0"
  },
  "Nigeria": {
   "population": 206139587,
   "code": "NGA",
   "continent": "Africa",
-  "total_deaths": "1982.0",
-  "total_cases": "158906.0"
+  "total_deaths": "1993.0",
+  "total_cases": "159646.0"
  },
  "North America": {
   "population": 592072204,
   "code": "OWID_NAM",
   "continent": "",
-  "total_deaths": "765547.0",
-  "total_cases": "33415754.0"
+  "total_deaths": "770842.0",
+  "total_cases": "33561901.0"
  },
  "North Macedonia": {
   "population": 2083380,
   "code": "MKD",
   "continent": "Europe",
-  "total_deaths": "3206.0",
-  "total_cases": "107479.0"
+  "total_deaths": "3244.0",
+  "total_cases": "109262.0"
  },
  "Norway": {
   "population": 5421242,
   "code": "NOR",
   "continent": "Europe",
   "total_deaths": "632.0",
-  "total_cases": "75770.0"
+  "total_cases": "77169.0"
  },
  "Oceania": {
   "population": 42677809,
   "code": "OWID_OCE",
   "continent": "",
   "total_deaths": "953.0",
-  "total_cases": "33235.0"
+  "total_cases": "33342.0"
  },
  "Oman": {
   "population": 5106622,
   "code": "OMN",
   "continent": "Asia",
-  "total_deaths": "1594.0",
-  "total_cases": "144404.0"
+  "total_deaths": "1600.0",
+  "total_cases": "145257.0"
  },
  "Pakistan": {
   "population": 220892331,
   "code": "PAK",
   "continent": "Asia",
-  "total_deaths": "13281.0",
-  "total_cases": "593453.0"
+  "total_deaths": "13377.0",
+  "total_cases": "597497.0"
  },
  "Palestine": {
   "population": 5101416,
   "code": "PSE",
   "continent": "Asia",
-  "total_deaths": "2157.0",
-  "total_cases": "198554.0"
+  "total_deaths": "2193.0",
+  "total_cases": "202378.0"
  },
  "Panama": {
   "population": 4314768,
   "code": "PAN",
   "continent": "North America",
-  "total_deaths": "5934.0",
-  "total_cases": "345236.0"
+  "total_deaths": "5957.0",
+  "total_cases": "346301.0"
  },
  "Papua New Guinea": {
   "population": 8947027,
   "code": "PNG",
   "continent": "Oceania",
   "total_deaths": "16.0",
-  "total_cases": "1670.0"
+  "total_cases": "1741.0"
  },
  "Paraguay": {
   "population": 7132530,
   "code": "PRY",
   "continent": "South America",
-  "total_deaths": "3343.0",
-  "total_cases": "169860.0"
+  "total_deaths": "3387.0",
+  "total_cases": "174013.0"
  },
  "Peru": {
   "population": 32971846,
   "code": "PER",
   "continent": "South America",
-  "total_deaths": "47854.0",
-  "total_cases": "1371176.0"
+  "total_deaths": "48163.0",
+  "total_cases": "1380023.0"
  },
  "Philippines": {
   "population": 109581085,
   "code": "PHL",
   "continent": "Asia",
-  "total_deaths": "12521.0",
-  "total_cases": "597763.0"
+  "total_deaths": "12545.0",
+  "total_cases": "603308.0"
  },
  "Poland": {
   "population": 37846605,
   "code": "POL",
   "continent": "Europe",
-  "total_deaths": "45317.0",
-  "total_cases": "1801083.0"
+  "total_deaths": "45997.0",
+  "total_cases": "1828313.0"
  },
  "Portugal": {
   "population": 10196707,
   "code": "PRT",
   "continent": "Europe",
-  "total_deaths": "16565.0",
-  "total_cases": "810459.0"
+  "total_deaths": "16617.0",
+  "total_cases": "811948.0"
  },
  "Qatar": {
   "population": 2881060,
   "code": "QAT",
   "continent": "Asia",
-  "total_deaths": "263.0",
-  "total_cases": "167417.0"
+  "total_deaths": "264.0",
+  "total_cases": "168361.0"
  },
  "Romania": {
   "population": 19237682,
   "code": "ROU",
   "continent": "Europe",
-  "total_deaths": "20963.0",
-  "total_cases": "830563.0"
+  "total_deaths": "21156.0",
+  "total_cases": "840116.0"
  },
  "Russia": {
   "population": 145934460,
   "code": "RUS",
   "continent": "Europe",
-  "total_deaths": "87985.0",
-  "total_cases": "4284408.0"
+  "total_deaths": "88773.0",
+  "total_cases": "4302726.0"
  },
  "Rwanda": {
   "population": 12952209,
   "code": "RWA",
   "continent": "Africa",
-  "total_deaths": "268.0",
-  "total_cases": "19659.0"
+  "total_deaths": "271.0",
+  "total_cases": "19846.0"
  },
  "Saint Helena": {
   "population": 6071,
@@ -1137,15 +1137,15 @@
   "population": 183629,
   "code": "LCA",
   "continent": "North America",
-  "total_deaths": "46.0",
-  "total_cases": "3871.0"
+  "total_deaths": "47.0",
+  "total_cases": "3941.0"
  },
  "Saint Vincent and the Grenadines": {
   "population": 110947,
   "code": "VCT",
   "continent": "North America",
   "total_deaths": "8.0",
-  "total_cases": "1663.0"
+  "total_cases": "1670.0"
  },
  "Samoa": {
   "population": 198410,
@@ -1158,71 +1158,71 @@
   "population": 33938,
   "code": "SMR",
   "continent": "Europe",
-  "total_deaths": "76.0",
-  "total_cases": "3935.0"
+  "total_deaths": "77.0",
+  "total_cases": "4030.0"
  },
  "Sao Tome and Principe": {
   "population": 219161,
   "code": "STP",
   "continent": "Africa",
   "total_deaths": "32.0",
-  "total_cases": "1961.0"
+  "total_cases": "2010.0"
  },
  "Saudi Arabia": {
   "population": 34813867,
   "code": "SAU",
   "continent": "Asia",
-  "total_deaths": "6534.0",
-  "total_cases": "380182.0"
+  "total_deaths": "6545.0",
+  "total_cases": "380958.0"
  },
  "Senegal": {
   "population": 16743930,
   "code": "SEN",
   "continent": "Africa",
-  "total_deaths": "925.0",
-  "total_cases": "35959.0"
+  "total_deaths": "935.0",
+  "total_cases": "36195.0"
  },
  "Serbia": {
   "population": 6804596,
   "code": "SRB",
   "continent": "Europe",
-  "total_deaths": "4579.0",
-  "total_cases": "489530.0"
+  "total_deaths": "4620.0",
+  "total_cases": "498696.0"
  },
  "Seychelles": {
   "population": 98340,
   "code": "SYC",
   "continent": "Africa",
   "total_deaths": "15.0",
-  "total_cases": "3000.0"
+  "total_cases": "3032.0"
  },
  "Sierra Leone": {
   "population": 7976985,
   "code": "SLE",
   "continent": "Africa",
   "total_deaths": "79.0",
-  "total_cases": "3921.0"
+  "total_cases": "3928.0"
  },
  "Singapore": {
   "population": 5850343,
   "code": "SGP",
   "continent": "Asia",
   "total_deaths": "29.0",
-  "total_cases": "60046.0"
+  "total_cases": "60062.0"
  },
  "Slovakia": {
   "population": 5459643,
   "code": "SVK",
   "continent": "Europe",
-  "total_deaths": "7921.0",
-  "total_cases": "323786.0"
+  "total_deaths": "8146.0",
+  "total_cases": "329593.0"
  },
  "Slovenia": {
   "population": 2078932,
   "code": "SVN",
   "continent": "Europe",
-  "total_deaths": "3897.0",
-  "total_cases": "195678.0"
+  "total_deaths": "3908.0",
+  "total_cases": "197374.0"
  },
  "Solomon Islands": {
   "population": 686878,
@@ -1235,29 +1235,29 @@
   "population": 15893219,
   "code": "SOM",
   "continent": "Africa",
-  "total_deaths": "307.0",
-  "total_cases": "8438.0"
+  "total_deaths": "327.0",
+  "total_cases": "8713.0"
  },
  "South Africa": {
   "population": 59308690,
   "code": "ZAF",
   "continent": "Africa",
-  "total_deaths": "50803.0",
-  "total_cases": "1521706.0"
+  "total_deaths": "51015.0",
+  "total_cases": "1524174.0"
  },
  "South America": {
   "population": 430759772,
   "code": "OWID_SAM",
   "continent": "",
-  "total_deaths": "482792.0",
-  "total_cases": "18661411.0"
+  "total_deaths": "487990.0",
+  "total_cases": "18860970.0"
  },
  "South Korea": {
   "population": 51269183,
   "code": "KOR",
   "continent": "Asia",
-  "total_deaths": "1645.0",
-  "total_cases": "93263.0"
+  "total_deaths": "1652.0",
+  "total_cases": "94198.0"
  },
  "South Sudan": {
   "population": 11193729,
@@ -1270,57 +1270,57 @@
   "population": 46754783,
   "code": "ESP",
   "continent": "Europe",
-  "total_deaths": "71436.0",
-  "total_cases": "3160970.0"
+  "total_deaths": "71961.0",
+  "total_cases": "3178442.0"
  },
  "Sri Lanka": {
   "population": 21413250,
   "code": "LKA",
   "continent": "Asia",
-  "total_deaths": "507.0",
-  "total_cases": "86039.0"
+  "total_deaths": "511.0",
+  "total_cases": "86685.0"
  },
  "Sudan": {
   "population": 43849269,
   "code": "SDN",
   "continent": "Africa",
   "total_deaths": "1915.0",
-  "total_cases": "30540.0"
+  "total_cases": "30686.0"
  },
  "Suriname": {
   "population": 586634,
   "code": "SUR",
   "continent": "South America",
   "total_deaths": "175.0",
-  "total_cases": "8980.0"
+  "total_cases": "8990.0"
  },
  "Sweden": {
   "population": 10099270,
   "code": "SWE",
   "continent": "Europe",
-  "total_deaths": "13003.0",
-  "total_cases": "684961.0"
+  "total_deaths": "13088.0",
+  "total_cases": "701892.0"
  },
  "Switzerland": {
   "population": 8654618,
   "code": "CHE",
   "continent": "Europe",
-  "total_deaths": "10056.0",
-  "total_cases": "565034.0"
+  "total_deaths": "10082.0",
+  "total_cases": "567903.0"
  },
  "Syria": {
   "population": 17500657,
   "code": "SYR",
   "continent": "Asia",
-  "total_deaths": "1068.0",
-  "total_cases": "16042.0"
+  "total_deaths": "1079.0",
+  "total_cases": "16187.0"
  },
  "Taiwan": {
   "population": 23816775,
   "code": "TWN",
   "continent": "Asia",
   "total_deaths": "10.0",
-  "total_cases": "976.0"
+  "total_cases": "978.0"
  },
  "Tajikistan": {
   "population": 9537642,
@@ -1341,42 +1341,42 @@
   "code": "THA",
   "continent": "Asia",
   "total_deaths": "85.0",
-  "total_cases": "26441.0"
+  "total_cases": "26540.0"
  },
  "Timor": {
   "population": 1318442,
   "code": "TLS",
   "continent": "Asia",
   "total_deaths": "",
-  "total_cases": "129.0"
+  "total_cases": "145.0"
  },
  "Togo": {
   "population": 8278737,
   "code": "TGO",
   "continent": "Africa",
   "total_deaths": "92.0",
-  "total_cases": "7598.0"
+  "total_cases": "7737.0"
  },
  "Trinidad and Tobago": {
   "population": 1399491,
   "code": "TTO",
   "continent": "North America",
   "total_deaths": "140.0",
-  "total_cases": "7736.0"
+  "total_cases": "7743.0"
  },
  "Tunisia": {
   "population": 11818618,
   "code": "TUN",
   "continent": "Africa",
-  "total_deaths": "8225.0",
-  "total_cases": "238017.0"
+  "total_deaths": "8292.0",
+  "total_cases": "239368.0"
  },
  "Turkey": {
   "population": 84339067,
   "code": "TUR",
   "continent": "Asia",
-  "total_deaths": "29094.0",
-  "total_cases": "2793632.0"
+  "total_deaths": "29227.0",
+  "total_cases": "2821943.0"
  },
  "Turks and Caicos Islands": {
   "population": 38718,
@@ -1390,49 +1390,49 @@
   "code": "UGA",
   "continent": "Africa",
   "total_deaths": "334.0",
-  "total_cases": "40479.0"
+  "total_cases": "40520.0"
  },
  "Ukraine": {
   "population": 43733759,
   "code": "UKR",
   "continent": "Europe",
-  "total_deaths": "28616.0",
-  "total_cases": "1455421.0"
+  "total_deaths": "28925.0",
+  "total_cases": "1465265.0"
  },
  "United Arab Emirates": {
   "population": 9890400,
   "code": "ARE",
   "continent": "Asia",
-  "total_deaths": "1335.0",
-  "total_cases": "413332.0"
+  "total_deaths": "1353.0",
+  "total_cases": "417909.0"
  },
  "United Kingdom": {
   "population": 67886004,
   "code": "GBR",
   "continent": "Europe",
-  "total_deaths": "124801.0",
-  "total_cases": "4235989.0"
+  "total_deaths": "125222.0",
+  "total_cases": "4247879.0"
  },
  "United States": {
   "population": 331002647,
   "code": "USA",
   "continent": "North America",
-  "total_deaths": "525752.0",
-  "total_cases": "29038631.0"
+  "total_deaths": "529263.0",
+  "total_cases": "29154659.0"
  },
  "Uruguay": {
   "population": 3473727,
   "code": "URY",
   "continent": "South America",
-  "total_deaths": "658.0",
-  "total_cases": "64700.0"
+  "total_deaths": "678.0",
+  "total_cases": "66484.0"
  },
  "Uzbekistan": {
   "population": 33469199,
   "code": "UZB",
   "continent": "Asia",
   "total_deaths": "622.0",
-  "total_cases": "80219.0"
+  "total_cases": "80268.0"
  },
  "Vanuatu": {
   "population": 307150,
@@ -1452,64 +1452,64 @@
   "population": 28435943,
   "code": "VEN",
   "continent": "South America",
-  "total_deaths": "1391.0",
-  "total_cases": "142774.0"
+  "total_deaths": "1399.0",
+  "total_cases": "143321.0"
  },
  "Vietnam": {
   "population": 97338583,
   "code": "VNM",
   "continent": "Asia",
   "total_deaths": "35.0",
-  "total_cases": "2524.0"
+  "total_cases": "2529.0"
  },
  "World": {
   "population": 7794798729,
   "code": "OWID_WRL",
   "continent": "",
-  "total_deaths": "2600063.0",
-  "total_cases": "117142769.0"
+  "total_deaths": "2619866.0",
+  "total_cases": "118031918.0"
  },
  "Yemen": {
   "population": 29825968,
   "code": "YEM",
   "continent": "Asia",
-  "total_deaths": "653.0",
-  "total_cases": "2545.0"
+  "total_deaths": "661.0",
+  "total_cases": "2627.0"
  },
  "Zambia": {
   "population": 18383956,
   "code": "ZMB",
   "continent": "Africa",
-  "total_deaths": "1132.0",
-  "total_cases": "82655.0"
+  "total_deaths": "1140.0",
+  "total_cases": "83333.0"
  },
  "Zimbabwe": {
   "population": 14862927,
   "code": "ZWE",
   "continent": "Africa",
-  "total_deaths": "1487.0",
-  "total_cases": "36289.0"
+  "total_deaths": "1489.0",
+  "total_cases": "36341.0"
  },
  "Burma": {
   "population": 54409794,
   "code": "MMR",
   "continent": "Asia",
   "total_deaths": "3200.0",
-  "total_cases": "142045.0"
+  "total_cases": "142073.0"
  },
  "Cabo Verde": {
   "population": 555988,
   "code": "CPV",
   "continent": "Africa",
-  "total_deaths": "154.0",
-  "total_cases": "15806.0"
+  "total_deaths": "155.0",
+  "total_cases": "15892.0"
  },
  "Congo (Kinshasa)": {
   "population": 5518092,
   "code": "COG",
   "continent": "Africa",
   "total_deaths": "131.0",
-  "total_cases": "9179.0"
+  "total_cases": "9329.0"
  },
  "Holy See": {
   "population": 809,
@@ -1522,8 +1522,8 @@
   "population": 51269183,
   "code": "KOR",
   "continent": "Asia",
-  "total_deaths": "1645.0",
-  "total_cases": "93263.0"
+  "total_deaths": "1652.0",
+  "total_cases": "94198.0"
  },
  "Micronesia": {
   "population": 115021,
@@ -1537,20 +1537,20 @@
   "code": "TWN",
   "continent": "Asia",
   "total_deaths": "10.0",
-  "total_cases": "976.0"
+  "total_cases": "978.0"
  },
  "Timor-Leste": {
   "population": 1318442,
   "code": "TLS",
   "continent": "Asia",
   "total_deaths": "",
-  "total_cases": "129.0"
+  "total_cases": "145.0"
  },
  "US": {
   "population": 331002647,
   "code": "USA",
   "continent": "North America",
-  "total_deaths": "525752.0",
-  "total_cases": "29038631.0"
+  "total_deaths": "529263.0",
+  "total_cases": "29154659.0"
  }
 }
