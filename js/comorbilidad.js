@@ -1,12 +1,12 @@
 var comorbilidad = [
-  ['Hipertensión Arterial', 257],
-  ['Diabetes Mellitus', 128],
-  ['Cardiopatía Isquémica', 93],
+  ['Hipertensión Arterial', 266],
+  ['Diabetes Mellitus', 134],
+  ['Cardiopatía Isquémica', 97],
   ['Enfermedad Pulmonar', 56],
   ['Insuficiencia Renal Crónica', 43],
-  ['Obesidad', 24],
-  ['Enfermedad Cerebrovascular', 20],
-  ['Insuficiencia Cardiaca', 19],
+  ['Obesidad', 25],
+  ['Demencia Senil', 21],
+  ['Enfermedad Cerebro Vascular', 21],
 ];
 
 var mrange = ['Enfermedades'];
@@ -52,11 +52,11 @@ c3.generate({
 comorbiliadad2 = [
   ['Ninguna', 11],
   ['1 Enfermedad', 57],
-  ['2 Enfermedades', 101],
+  ['2 Enfermedades', 103],
   ['3 Enfermedades', 100],
-  ['4 Enfermedades', 63],
-  ['5 Enfermedades', 18],
-  ['6 Enfermedades', 2],
+  ['4 Enfermedades', 68],
+  ['5 Enfermedades', 19],
+  ['6 Enfermedades', 3],
 ];
 
 c3.generate({

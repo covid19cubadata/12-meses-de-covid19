@@ -1,6 +1,6 @@
-var deceasedMaleCases = ['male', 0, 0, 0, 2, 8, 25, 37, 57, 81, 0];
-var deceasedFemaleCases = ['female', 0, 0, 0, 2, 5, 17, 19, 41, 63, 0];
-var deceasedTotalCases = ['total', 0, 0, 0, 4, 13, 42, 56, 98, 144, 0]
+var deceasedMaleCases = ['male', 0, 0, 0, 2, 8, 25, 37, 57, 82, 0];
+var deceasedFemaleCases = ['female', 0, 0, 0, 2, 5, 17, 19, 41, 66, 0];
+var deceasedTotalCases = ['total', 0, 0, 0, 4, 13, 42, 56, 98, 148, 0]
 var deceasedUnknownCases = ['unknown', 0];
 var deceasedCasesColors = {
     male: '#1C1340',
