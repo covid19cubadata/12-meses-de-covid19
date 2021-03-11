@@ -107,7 +107,7 @@ return JSC.chart(
         }, 
         slider: { 
             type: 'range', 
-            width: 300, 
+            width: 600, 
             // Reduce chart update frequency to smooth slider action. 
             debounce: 20, 
             value: new Date(startDate).getTime(), 
