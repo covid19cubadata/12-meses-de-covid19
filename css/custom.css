@@ -263,3 +263,16 @@ figure {
   width: 63vw;
   height: 54vw;
 }
+
+.step-text {
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  color: #000;
+}
+
+.steper {
+  min-height: 200px;
+  padding-bottom: 30px;
+}
