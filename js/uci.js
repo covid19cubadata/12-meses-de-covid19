@@ -363,7 +363,8 @@ var dates = [
     "03/06",
     "03/07",
     "03/08",
-    "03/09"
+    "03/09",
+    "03/10"
   ];
 
 var percent_graves = [
@@ -731,7 +732,8 @@ var percent_graves = [
     1.53,
     1.55,
     1.48,
-    1.62
+    1.62,
+    1.72
   ];
 
 function buildUCIChart() {

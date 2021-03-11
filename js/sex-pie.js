@@ -1,5 +1,5 @@
-var maleCases = ['Hombres', 30102];
-var femaleCases = ['Mujeres', 28277];
+var maleCases = ['Hombres', 30481];
+var femaleCases = ['Mujeres', 28676];
 var casesColors = {
     'Hombres': '#1C1340',
     'Mujeres': '#B01E22'

@@ -363,7 +363,8 @@ var dates = [
     "03/06",
     "03/07",
     "03/08",
-    "03/09"
+    "03/09",
+    "03/10"
   ];
 
 var deadsSingle = [
@@ -731,7 +732,8 @@ var deadsSingle = [
     4,
     2,
     2,
-    5
+    5,
+    4
   ];
 
 var deadsSum = [
@@ -1099,7 +1101,8 @@ var deadsSum = [
     348,
     350,
     352,
-    357
+    357,
+    361
   ] ;
 
 function buildDeadChart() {
