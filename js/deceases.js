@@ -41,6 +41,10 @@ function getDeceasesData() {
                 continent = 'America';
             }
 
+            if(name === 'Yemen'){
+                return;
+            }
+
             if(name === "Cuba"){
                 continent = "Cuba"
             }
@@ -69,7 +73,7 @@ function getDeceasesData() {
             },
             options: {
                 title: {
-                    display: true,
+                    display: false,
                     text: 'Letalidad vs mortalidad por países'
                 },
                 legend: {
