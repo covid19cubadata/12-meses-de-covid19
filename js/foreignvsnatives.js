@@ -41,10 +41,9 @@ function getForeignAndNaviteData() {
                     percentImported
                 ],
                 type: 'area',
-                groups: [['Casos nacionales en el día', 'Casos importados en el día']],
                 colors: {
-                    'Casos no importados en el día': '#B01E22',
-                    'Casos importados en el día': '#1C1340'
+                    '% de casos importados en el día': '#1c1340',
+                    '% de casos no importados en el día': '#b01e22'
                 }
             },
             axis: {
