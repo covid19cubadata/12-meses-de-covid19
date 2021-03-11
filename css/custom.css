@@ -132,6 +132,8 @@ figure {
   margin-top: 10px;
 }
 
-#importedPie, #sexPie {
+#asymcases-total-percent, 
+#importedPie, 
+#sexPie {
   height: 400px;
 }
