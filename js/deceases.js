@@ -147,7 +147,7 @@ function getDeceasesData() {
 
                                 if(code !== undefined && code != "")
                                 {
-                                    innerHtml += `<tr><th><img src='/data/flags/${code}.png' class='icon' /> ` + title + '</th></tr>';
+                                    innerHtml += `<tr><th><img src='data/flags/${code}.png' class='icon' /> ` + title + '</th></tr>';
                                 }
                                 else{
                                     innerHtml += '<tr><th>' + title + '</th></tr>';
