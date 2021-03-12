@@ -288,3 +288,11 @@ figure {
 #legends {
   font-size: 14px;
 }
+
+.youtube-iframe {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70vw;
+  width: 100%;
+  height: calc(70vw * var(--aspect-ratio));
+}
