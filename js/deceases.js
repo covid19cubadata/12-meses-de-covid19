@@ -1,7 +1,8 @@
 var allDeceasesDataEnabled = true;
 var allDeceasesData = {};
-var minX = 100;
-var minY = 1;
+var allData = [];
+var minX = 500;
+var minY = 3;
 var cubaColour = "#eb3323";
 var americaColour = "#f7c88a";
 var africaColour = "#9be48b";
@@ -51,26 +52,30 @@ function getDeceasesData() {
 
             if (!region.includes("OWID") && deaths != null && cases != null && deaths != 0) {
                 var newData = { 'name': name, 'code': code, 'x': morthality, 'y': fatality, 'continent': continent };
-                if(!(continent in allDeceasesData)){
-                    allDeceasesData[continent] = [newData];
+                if(!(continent in acc)){
+                    acc[continent] = [newData];
                 }
                 else{
-                    allDeceasesData[continent].push(newData);
+                    acc[continent].push(newData);
                 }
             }
 
         }
 
-        Object.keys(data).forEach(key => filter(key, data[key], allDeceasesData));
+        var allData = {}
+
+        Object.keys(data).forEach(key => filter(key, data[key], allData));
+
+        allDeceasesData = {
+                datasets: buildDataset(allData)
+        }
 
         var ctx = document.getElementById('deceasesComparison');
 
         var scatterChart = new Chart(ctx, {
             type: 'scatter',
 
-            data: {
-                datasets: buildDataset(allDeceasesData)
-            },
+            data: allDeceasesData,
             options: {
                 title: {
                     display: false,
@@ -202,20 +207,15 @@ function getDeceasesData() {
             }
         });
 
+
         $("#deceasesZoomIn").click(
             function(evt) {
                 if(allDeceasesDataEnabled){
                     allDeceasesDataEnabled = !allDeceasesDataEnabled;
-                    var newPoints = {};
-                    
-                    for (key in allDeceasesData) {
-                        newPoints[key] = allDeceasesData[key].filter((x) => x.x < minX && x.y < minY);
-                    }
             
-            
-                    scatterChart.data = {
-                        datasets: buildDataset(newPoints)
-                    }
+                    allDeceasesData.datasets.forEach(function(dataset){
+                        dataset.data = allData[dataset.label].filter((x) => x.x < minX && x.y < minY);
+                    });
             
                     scatterChart.update();
                 }
@@ -227,9 +227,9 @@ function getDeceasesData() {
                 if(!allDeceasesDataEnabled){
                     allDeceasesDataEnabled = !allDeceasesDataEnabled;
 
-                    scatterChart.data = {
-                        datasets: buildDataset(allDeceasesData)
-                    }
+                    allDeceasesData.datasets.forEach(function(dataset){
+                        dataset.data = allData[dataset.label];
+                    });
             
                     scatterChart.update();
                 }
