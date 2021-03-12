@@ -94,7 +94,7 @@ class ScrollytellingChart {
                         left: 0,
                         right: 0,
                         top: 0,
-                        bottom: 65,
+                        bottom: 75,
                     }
                 },
                 maintainAspectRatio: false,

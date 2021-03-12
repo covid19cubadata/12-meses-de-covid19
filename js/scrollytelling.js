@@ -53,7 +53,7 @@ window.onload = async function () {
     window.addEventListener('resize', handleResize);
 
     function handleResize() {
-        var figureHeight = window.innerHeight * 0.85;
+        var figureHeight = window.innerHeight * 0.80;
         var figureMarginTop = (window.innerHeight - figureHeight) / 2;
         figure
             .style('height', figureHeight + 'px')
@@ -69,7 +69,7 @@ window.onload = async function () {
         let percent = response.index * 100 / $('.step').length;
         let legends = chart.goToPercent(percent);
         legends.forEach(item => {
-            d3.select(`#${item[0]}`).text(`${item[1]}`);
+            d3.select(`#${item[0]}`).text(`${item[0]}: ${item[1]}`);
         });
     }
 
