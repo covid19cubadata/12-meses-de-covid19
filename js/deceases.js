@@ -206,8 +206,6 @@ function getDeceasesData() {
                 }
             }
         });
-        
-        allDeceasesData = scatterChart.data;
 
 
         $("#deceasesZoomIn").click(
